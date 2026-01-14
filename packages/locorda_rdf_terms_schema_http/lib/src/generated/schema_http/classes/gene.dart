@@ -26,7 +26,7 @@ class SchemaHttpGene {
 
   /// IRI term for the Gene class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/Gene');
+  static const classIri = IriTerm('http://schema.org/Gene');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -35,9 +35,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// alternativeOf [Expects: http://schema.org/Gene]
   ///
@@ -45,7 +43,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Gene
   ///
-  static const alternativeOf = const IriTerm('http://schema.org/alternativeOf');
+  static const alternativeOf = IriTerm('http://schema.org/alternativeOf');
 
   /// associatedDisease [Expects: http://schema.org/MedicalCondition, http://schema.org/PropertyValue, http://schema.org/URL]
   ///
@@ -53,7 +51,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const associatedDisease = const IriTerm(
+  static const associatedDisease = IriTerm(
     'http://schema.org/associatedDisease',
   );
 
@@ -63,7 +61,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const bioChemInteraction = const IriTerm(
+  static const bioChemInteraction = IriTerm(
     'http://schema.org/bioChemInteraction',
   );
 
@@ -73,7 +71,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const bioChemSimilarity = const IriTerm(
+  static const bioChemSimilarity = IriTerm(
     'http://schema.org/bioChemSimilarity',
   );
 
@@ -83,9 +81,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const biologicalRole = const IriTerm(
-    'http://schema.org/biologicalRole',
-  );
+  static const biologicalRole = IriTerm('http://schema.org/biologicalRole');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -93,7 +89,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -103,7 +99,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Gene
   ///
-  static const expressedIn = const IriTerm('http://schema.org/expressedIn');
+  static const expressedIn = IriTerm('http://schema.org/expressedIn');
 
   /// hasBioPolymerSequence [Expects: http://schema.org/Text]
   ///
@@ -111,7 +107,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Gene, http://schema.org/Protein
   ///
-  static const hasBioPolymerSequence = const IriTerm(
+  static const hasBioPolymerSequence = IriTerm(
     'http://schema.org/hasBioPolymerSequence',
   );
 
@@ -121,7 +117,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const hasMolecularFunction = const IriTerm(
+  static const hasMolecularFunction = IriTerm(
     'http://schema.org/hasMolecularFunction',
   );
 
@@ -131,9 +127,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// isInvolvedInBiologicalProcess [Expects: http://schema.org/DefinedTerm, http://schema.org/PropertyValue, http://schema.org/URL]
   ///
@@ -141,7 +135,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const isInvolvedInBiologicalProcess = const IriTerm(
+  static const isInvolvedInBiologicalProcess = IriTerm(
     'http://schema.org/isInvolvedInBiologicalProcess',
   );
 
@@ -151,7 +145,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const isLocatedInSubcellularLocation = const IriTerm(
+  static const isLocatedInSubcellularLocation = IriTerm(
     'http://schema.org/isLocatedInSubcellularLocation',
   );
 
@@ -161,7 +155,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -169,9 +163,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -179,7 +171,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// taxonomicRange [Expects: http://schema.org/DefinedTerm, http://schema.org/Taxon, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -187,9 +179,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const taxonomicRange = const IriTerm(
-    'http://schema.org/taxonomicRange',
-  );
+  static const taxonomicRange = IriTerm('http://schema.org/taxonomicRange');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -197,7 +187,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -205,7 +195,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// encodesBioChemEntity [Expects: http://schema.org/BioChemEntity]
   ///
@@ -213,7 +203,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Gene
   ///
-  static const encodesBioChemEntity = const IriTerm(
+  static const encodesBioChemEntity = IriTerm(
     'http://schema.org/encodesBioChemEntity',
   );
 
@@ -223,7 +213,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
   /// hasBioChemEntityPart [Expects: http://schema.org/BioChemEntity]
   ///
@@ -231,7 +221,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const hasBioChemEntityPart = const IriTerm(
+  static const hasBioChemEntityPart = IriTerm(
     'http://schema.org/hasBioChemEntityPart',
   );
 
@@ -241,7 +231,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const isEncodedByBioChemEntity = const IriTerm(
+  static const isEncodedByBioChemEntity = IriTerm(
     'http://schema.org/isEncodedByBioChemEntity',
   );
 
@@ -251,7 +241,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const isPartOfBioChemEntity = const IriTerm(
+  static const isPartOfBioChemEntity = IriTerm(
     'http://schema.org/isPartOfBioChemEntity',
   );
 
@@ -261,9 +251,15 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -271,7 +267,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -279,7 +275,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// hasRepresentation [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -287,7 +283,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/BioChemEntity
   ///
-  static const hasRepresentation = const IriTerm(
+  static const hasRepresentation = IriTerm(
     'http://schema.org/hasRepresentation',
   );
 
@@ -297,7 +293,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -306,15 +302,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -322,7 +310,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -332,7 +320,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -342,7 +330,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -352,7 +340,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -362,7 +350,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -372,7 +360,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -382,7 +370,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -392,7 +380,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -402,7 +390,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -412,7 +400,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -422,7 +410,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -432,9 +420,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -442,7 +428,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -452,7 +438,7 @@ class SchemaHttpGene {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

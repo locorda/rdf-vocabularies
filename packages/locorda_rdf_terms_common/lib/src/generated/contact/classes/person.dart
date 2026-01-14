@@ -34,7 +34,7 @@ class ContactPerson {
 
   /// IRI term for the Person class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
+  static const classIri = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#Person',
   );
 
@@ -44,7 +44,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
-  static const emailAddress = const IriTerm(
+  static const emailAddress = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#emailAddress',
   );
 
@@ -54,7 +54,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
-  static const mailbox = const IriTerm(
+  static const mailbox = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#mailbox',
   );
 
@@ -64,7 +64,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
-  static const mailboxURI = const IriTerm(
+  static const mailboxURI = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#mailboxURI',
   );
 
@@ -74,7 +74,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -84,7 +84,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -94,7 +94,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -104,7 +104,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -114,7 +114,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -124,7 +124,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -134,7 +134,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -144,7 +144,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -154,7 +154,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -164,7 +164,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -174,7 +174,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -184,7 +184,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -194,7 +194,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -204,7 +204,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -214,9 +214,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -224,9 +222,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -234,7 +230,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -244,7 +240,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -254,18 +250,17 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
   /// mbox from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
-  /// A
-  /// personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.
+  /// A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMbox = const IriTerm('http://xmlns.com/foaf/0.1/mbox');
+  static const foafMbox = IriTerm('http://xmlns.com/foaf/0.1/mbox');
 
   /// mbox_sha1sum from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -273,7 +268,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMbox_sha1sum = const IriTerm(
+  static const foafMbox_sha1sum = IriTerm(
     'http://xmlns.com/foaf/0.1/mbox_sha1sum',
   );
 
@@ -283,7 +278,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafGender = const IriTerm('http://xmlns.com/foaf/0.1/gender');
+  static const foafGender = IriTerm('http://xmlns.com/foaf/0.1/gender');
 
   /// geekcode from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -291,9 +286,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafGeekcode = const IriTerm(
-    'http://xmlns.com/foaf/0.1/geekcode',
-  );
+  static const foafGeekcode = IriTerm('http://xmlns.com/foaf/0.1/geekcode');
 
   /// based_near from foaf vocabulary [Expects: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing]
   ///
@@ -301,9 +294,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
   ///
-  static const foafBased_near = const IriTerm(
-    'http://xmlns.com/foaf/0.1/based_near',
-  );
+  static const foafBased_near = IriTerm('http://xmlns.com/foaf/0.1/based_near');
 
   /// jabberID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -311,9 +302,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafJabberID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/jabberID',
-  );
+  static const foafJabberID = IriTerm('http://xmlns.com/foaf/0.1/jabberID');
 
   /// aimChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -321,9 +310,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAimChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/aimChatID',
-  );
+  static const foafAimChatID = IriTerm('http://xmlns.com/foaf/0.1/aimChatID');
 
   /// skypeID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -331,7 +318,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafSkypeID = const IriTerm('http://xmlns.com/foaf/0.1/skypeID');
+  static const foafSkypeID = IriTerm('http://xmlns.com/foaf/0.1/skypeID');
 
   /// icqChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -339,9 +326,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafIcqChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/icqChatID',
-  );
+  static const foafIcqChatID = IriTerm('http://xmlns.com/foaf/0.1/icqChatID');
 
   /// yahooChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -349,7 +334,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafYahooChatID = const IriTerm(
+  static const foafYahooChatID = IriTerm(
     'http://xmlns.com/foaf/0.1/yahooChatID',
   );
 
@@ -359,9 +344,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMsnChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/msnChatID',
-  );
+  static const foafMsnChatID = IriTerm('http://xmlns.com/foaf/0.1/msnChatID');
 
   /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -369,7 +352,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafName = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// firstName from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -377,9 +360,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafFirstName = const IriTerm(
-    'http://xmlns.com/foaf/0.1/firstName',
-  );
+  static const foafFirstName = IriTerm('http://xmlns.com/foaf/0.1/firstName');
 
   /// lastName from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -387,9 +368,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafLastName = const IriTerm(
-    'http://xmlns.com/foaf/0.1/lastName',
-  );
+  static const foafLastName = IriTerm('http://xmlns.com/foaf/0.1/lastName');
 
   /// surname from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -397,15 +376,15 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafSurname = const IriTerm('http://xmlns.com/foaf/0.1/surname');
+  static const foafSurname = IriTerm('http://xmlns.com/foaf/0.1/surname');
 
   /// family_name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
   /// The family name of some person.
   ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Person, http://xmlns.com/foaf/0.1/Person
+  /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafFamily_name = const IriTerm(
+  static const foafFamily_name = IriTerm(
     'http://xmlns.com/foaf/0.1/family_name',
   );
 
@@ -413,11 +392,9 @@ class ContactPerson {
   ///
   /// The family name of some person.
   ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Person, http://xmlns.com/foaf/0.1/Person
+  /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafFamilyName = const IriTerm(
-    'http://xmlns.com/foaf/0.1/familyName',
-  );
+  static const foafFamilyName = IriTerm('http://xmlns.com/foaf/0.1/familyName');
 
   /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -425,9 +402,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafHomepage = const IriTerm(
-    'http://xmlns.com/foaf/0.1/homepage',
-  );
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// weblog from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -435,7 +410,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafWeblog = const IriTerm('http://xmlns.com/foaf/0.1/weblog');
+  static const foafWeblog = IriTerm('http://xmlns.com/foaf/0.1/weblog');
 
   /// openid from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -443,7 +418,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafOpenid = const IriTerm('http://xmlns.com/foaf/0.1/openid');
+  static const foafOpenid = IriTerm('http://xmlns.com/foaf/0.1/openid');
 
   /// tipjar from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -451,7 +426,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafTipjar = const IriTerm('http://xmlns.com/foaf/0.1/tipjar');
+  static const foafTipjar = IriTerm('http://xmlns.com/foaf/0.1/tipjar');
 
   /// plan from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -459,7 +434,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafPlan = const IriTerm('http://xmlns.com/foaf/0.1/plan');
+  static const foafPlan = IriTerm('http://xmlns.com/foaf/0.1/plan');
 
   /// made from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -467,16 +442,15 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMade = const IriTerm('http://xmlns.com/foaf/0.1/made');
+  static const foafMade = IriTerm('http://xmlns.com/foaf/0.1/made');
 
   /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafMaker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// img from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -484,7 +458,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafImg = const IriTerm('http://xmlns.com/foaf/0.1/img');
+  static const foafImg = IriTerm('http://xmlns.com/foaf/0.1/img');
 
   /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -492,9 +466,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafDepiction = const IriTerm(
-    'http://xmlns.com/foaf/0.1/depiction',
-  );
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// myersBriggs from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -502,7 +474,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafMyersBriggs = const IriTerm(
+  static const foafMyersBriggs = IriTerm(
     'http://xmlns.com/foaf/0.1/myersBriggs',
   );
 
@@ -512,7 +484,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafWorkplaceHomepage = const IriTerm(
+  static const foafWorkplaceHomepage = IriTerm(
     'http://xmlns.com/foaf/0.1/workplaceHomepage',
   );
 
@@ -522,7 +494,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafWorkInfoHomepage = const IriTerm(
+  static const foafWorkInfoHomepage = IriTerm(
     'http://xmlns.com/foaf/0.1/workInfoHomepage',
   );
 
@@ -532,7 +504,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafSchoolHomepage = const IriTerm(
+  static const foafSchoolHomepage = IriTerm(
     'http://xmlns.com/foaf/0.1/schoolHomepage',
   );
 
@@ -542,7 +514,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafKnows = const IriTerm('http://xmlns.com/foaf/0.1/knows');
+  static const foafKnows = IriTerm('http://xmlns.com/foaf/0.1/knows');
 
   /// interest from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -550,9 +522,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafInterest = const IriTerm(
-    'http://xmlns.com/foaf/0.1/interest',
-  );
+  static const foafInterest = IriTerm('http://xmlns.com/foaf/0.1/interest');
 
   /// topic_interest from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -560,7 +530,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafTopic_interest = const IriTerm(
+  static const foafTopic_interest = IriTerm(
     'http://xmlns.com/foaf/0.1/topic_interest',
   );
 
@@ -570,7 +540,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafPublications = const IriTerm(
+  static const foafPublications = IriTerm(
     'http://xmlns.com/foaf/0.1/publications',
   );
 
@@ -580,7 +550,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafCurrentProject = const IriTerm(
+  static const foafCurrentProject = IriTerm(
     'http://xmlns.com/foaf/0.1/currentProject',
   );
 
@@ -590,7 +560,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Person
   ///
-  static const foafPastProject = const IriTerm(
+  static const foafPastProject = IriTerm(
     'http://xmlns.com/foaf/0.1/pastProject',
   );
 
@@ -600,9 +570,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafFundedBy = const IriTerm(
-    'http://xmlns.com/foaf/0.1/fundedBy',
-  );
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -610,7 +578,17 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafLogo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
 
   /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -618,7 +596,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafPage = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -626,7 +604,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafTheme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// account from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/OnlineAccount]
   ///
@@ -634,7 +612,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAccount = const IriTerm('http://xmlns.com/foaf/0.1/account');
+  static const foafAccount = IriTerm('http://xmlns.com/foaf/0.1/account');
 
   /// holdsAccount from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/OnlineAccount]
   ///
@@ -642,7 +620,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafHoldsAccount = const IriTerm(
+  static const foafHoldsAccount = IriTerm(
     'http://xmlns.com/foaf/0.1/holdsAccount',
   );
 
@@ -652,9 +630,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafBirthday = const IriTerm(
-    'http://xmlns.com/foaf/0.1/birthday',
-  );
+  static const foafBirthday = IriTerm('http://xmlns.com/foaf/0.1/birthday');
 
   /// age from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -662,7 +638,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAge = const IriTerm('http://xmlns.com/foaf/0.1/age');
+  static const foafAge = IriTerm('http://xmlns.com/foaf/0.1/age');
 
   /// status from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -670,7 +646,549 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafStatus = const IriTerm('http://xmlns.com/foaf/0.1/status');
+  static const foafStatus = IriTerm('http://xmlns.com/foaf/0.1/status');
+
+  /// activityIdeas from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to ideas for using a product or engaging in other forms of entertainment, particularly with children.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ActivityIdeas = IriTerm(
+    'https://ref.gs1.org/voc/activityIdeas',
+  );
+
+  /// allergenInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the allergen information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AllergenInfo = IriTerm(
+    'https://ref.gs1.org/voc/allergenInfo',
+  );
+
+  /// appDownload from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a related mobile app
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AppDownload = IriTerm('https://ref.gs1.org/voc/appDownload');
+
+  /// backgroundInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information typically from the owner of the identified entity about the creative background, thought leadership or influence of the identified entity. This may include the inspiration, innovation for a development process, literary approach or, the science or technology used.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BackgroundInfo = IriTerm(
+    'https://ref.gs1.org/voc/backgroundInfo',
+  );
+
+  /// brandHomepageClinical from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at clinical professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepageClinical = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepageClinical',
+  );
+
+  /// brandHomepagePatient from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at patients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepagePatient = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepagePatient',
+  );
+
+  /// careersInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about jobs, careers, or other employment opportunities associated to an organisation or location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CareersInfo = IriTerm('https://ref.gs1.org/voc/careersInfo');
+
+  /// certificationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to certification information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CertificationInfo = IriTerm(
+    'https://ref.gs1.org/voc/certificationInfo',
+  );
+
+  /// consumerHandlingStorageInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about safe handling and storage for consumer use.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ConsumerHandlingStorageInfo = IriTerm(
+    'https://ref.gs1.org/voc/consumerHandlingStorageInfo',
+  );
+
+  /// defaultLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLink = IriTerm('https://ref.gs1.org/voc/defaultLink');
+
+  /// defaultLinkMulti from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLinkMulti = IriTerm(
+    'https://ref.gs1.org/voc/defaultLinkMulti',
+  );
+
+  /// dpp from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a digital product passport.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Dpp = IriTerm('https://ref.gs1.org/voc/dpp');
+
+  /// eifu from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to electronic Instruction For Use instructions for Medical Devices.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Eifu = IriTerm('https://ref.gs1.org/voc/eifu');
+
+  /// epcis from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an EPCIS repository of visibility event data.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epcis = IriTerm('https://ref.gs1.org/voc/epcis');
+
+  /// epil from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an electronic patient information leaflet.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epil = IriTerm('https://ref.gs1.org/voc/epil');
+
+  /// eventsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1EventsInfo = IriTerm('https://ref.gs1.org/voc/eventsInfo');
+
+  /// faqs from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a set of frequently asked questions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Faqs = IriTerm('https://ref.gs1.org/voc/faqs');
+
+  /// handledBy from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HandledBy = IriTerm('https://ref.gs1.org/voc/handledBy');
+
+  /// hasRetailers from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a list of retailers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HasRetailers = IriTerm(
+    'https://ref.gs1.org/voc/hasRetailers',
+  );
+
+  /// homepage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Homepage = IriTerm('https://ref.gs1.org/voc/homepage');
+
+  /// ingredientsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to facts about ingredients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1IngredientsInfo = IriTerm(
+    'https://ref.gs1.org/voc/ingredientsInfo',
+  );
+
+  /// instructions from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to instructions, such as assembly instructions, usage tips etc.  It is not appropriate to use this link type for healthcare regulated content applications for which specific link types are available.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Instructions = IriTerm(
+    'https://ref.gs1.org/voc/instructions',
+  );
+
+  /// leaveReview from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link through which a review can be added.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LeaveReview = IriTerm('https://ref.gs1.org/voc/leaveReview');
+
+  /// linkType from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Provides a URL for related information or services. This is not expected to be used directly but provides a super property for all other link types in the GS1 ecosystem.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LinkType = IriTerm('https://ref.gs1.org/voc/linkType');
+
+  /// locationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LocationInfo = IriTerm(
+    'https://ref.gs1.org/voc/locationInfo',
+  );
+
+  /// logisticsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to B2B logistics information related to a physical location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LogisticsInfo = IriTerm(
+    'https://ref.gs1.org/voc/logisticsInfo',
+  );
+
+  /// loyaltyProgram from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about a loyalty program, including a member's current status and/or a registration option for new members
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LoyaltyProgram = IriTerm(
+    'https://ref.gs1.org/voc/loyaltyProgram',
+  );
+
+  /// masterData from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of structured master data for the entity. This is typically for B2B applications.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterData = IriTerm('https://ref.gs1.org/voc/masterData');
+
+  /// masterDataAvailableFor from gs1 vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// Links from a document, message or event to static data for specified identifiers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterDataAvailableFor = IriTerm(
+    'https://ref.gs1.org/voc/masterDataAvailableFor',
+  );
+
+  /// menuInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo .
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MenuInfo = IriTerm('https://ref.gs1.org/voc/menuInfo');
+
+  /// nutritionalInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to nutritional facts.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1NutritionalInfo = IriTerm(
+    'https://ref.gs1.org/voc/nutritionalInfo',
+  );
+
+  /// openingHoursInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to details on hours of operation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1OpeningHoursInfo = IriTerm(
+    'https://ref.gs1.org/voc/openingHoursInfo',
+  );
+
+  /// paymentLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a place where payments details are provided and/or payments can be made by the user.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PaymentLink = IriTerm('https://ref.gs1.org/voc/paymentLink');
+
+  /// pip from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Pip = IriTerm('https://ref.gs1.org/voc/pip');
+
+  /// promotion from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a promotion.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Promotion = IriTerm('https://ref.gs1.org/voc/promotion');
+
+  /// purchaseSuppliesOrAccessories from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about where supplies or accessories for the item can be purchased or ordered.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PurchaseSuppliesOrAccessories = IriTerm(
+    'https://ref.gs1.org/voc/purchaseSuppliesOrAccessories',
+  );
+
+  /// quickStartGuide from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the key features needed to be understood to begin using the item or interacting with something new.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1QuickStartGuide = IriTerm(
+    'https://ref.gs1.org/voc/quickStartGuide',
+  );
+
+  /// recallStatus from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about whether the product has been recalled or not, typically an API.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecallStatus = IriTerm(
+    'https://ref.gs1.org/voc/recallStatus',
+  );
+
+  /// recipeInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a recipe website.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecipeInfo = IriTerm('https://ref.gs1.org/voc/recipeInfo');
+
+  /// registerProduct from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry point for registering ownership of a product including for warranty purposes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegisterProduct = IriTerm(
+    'https://ref.gs1.org/voc/registerProduct',
+  );
+
+  /// registryEntry from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegistryEntry = IriTerm(
+    'https://ref.gs1.org/voc/registryEntry',
+  );
+
+  /// relatedImage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any image that depicts or relates to the identified entity (e.g., trade item, assets, business process, patient record, location, organisation, etc.)
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedImage = IriTerm(
+    'https://ref.gs1.org/voc/relatedImage',
+  );
+
+  /// relatedVideo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any video, or document that has an embedded video, that describes or relates to the identified item, organisation, or location in some way.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedVideo = IriTerm(
+    'https://ref.gs1.org/voc/relatedVideo',
+  );
+
+  /// reportFound from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a platform or service where users (company or a person) can report a found item associated with the identified entity (instance of an item). This link type is designed to assist in connecting the found item with its rightful owner or relevant authorities.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ReportFound = IriTerm('https://ref.gs1.org/voc/reportFound');
+
+  /// review from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to reviews.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Review = IriTerm('https://ref.gs1.org/voc/review');
+
+  /// safetyInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to safety information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SafetyInfo = IriTerm('https://ref.gs1.org/voc/safetyInfo');
+
+  /// scheduleTime from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ScheduleTime = IriTerm(
+    'https://ref.gs1.org/voc/scheduleTime',
+  );
+
+  /// serviceInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to service or maintenance instructions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ServiceInfo = IriTerm('https://ref.gs1.org/voc/serviceInfo');
+
+  /// smartLabel from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to the product's SmartLabel page.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SmartLabel = IriTerm('https://ref.gs1.org/voc/smartLabel');
+
+  /// smpc from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Smpc = IriTerm('https://ref.gs1.org/voc/smpc');
+
+  /// socialMedia from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a social media channel. The title will typically be replaced by the name of the channel.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SocialMedia = IriTerm('https://ref.gs1.org/voc/socialMedia');
+
+  /// statisticInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about statistics regarding an organisation, location, or other entity.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1StatisticInfo = IriTerm(
+    'https://ref.gs1.org/voc/statisticInfo',
+  );
+
+  /// subscribe from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a subscription form
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Subscribe = IriTerm('https://ref.gs1.org/voc/subscribe');
+
+  /// support from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of support such as a helpdesk, chat support, email etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Support = IriTerm('https://ref.gs1.org/voc/support');
+
+  /// sustainabilityInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information relating to sustainability and recycling requirements or processes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SustainabilityInfo = IriTerm(
+    'https://ref.gs1.org/voc/sustainabilityInfo',
+  );
+
+  /// traceability from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to traceability information (includes track and trace).  Traceability information may be provided for consumption by humans or computers. If the target is an EPCIS repository, use gs1:epcis instead.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Traceability = IriTerm(
+    'https://ref.gs1.org/voc/traceability',
+  );
+
+  /// tutorial from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a tutorial or set of tutorials, such as online classes, how-to videos etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Tutorial = IriTerm('https://ref.gs1.org/voc/tutorial');
+
+  /// userAgreement from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an agreement or waiver.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1UserAgreement = IriTerm(
+    'https://ref.gs1.org/voc/userAgreement',
+  );
+
+  /// verificationService from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a GS1 Lightweight Messaging Service for verifying the status of a product, organisation, or location and its identifier.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1VerificationService = IriTerm(
+    'https://ref.gs1.org/voc/verificationService',
+  );
+
+  /// whatsInTheBox from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of all the individual items in a packaged item.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1WhatsInTheBox = IriTerm(
+    'https://ref.gs1.org/voc/whatsInTheBox',
+  );
 
   /// masterWorkspace from pim vocabulary [Expects: http://www.w3.org/ns/pim/space#MasterWorkspace]
   ///
@@ -678,7 +1196,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const pimMasterWorkspace = const IriTerm(
+  static const pimMasterWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#masterWorkspace',
   );
 
@@ -688,7 +1206,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const pimPreferencesFile = const IriTerm(
+  static const pimPreferencesFile = IriTerm(
     'http://www.w3.org/ns/pim/space#preferencesFile',
   );
 
@@ -698,7 +1216,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAdditionalName = const IriTerm(
+  static const schemahttpAdditionalName = IriTerm(
     'http://schema.org/additionalName',
   );
 
@@ -709,7 +1227,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAdditionalType = const IriTerm(
+  static const schemahttpAdditionalType = IriTerm(
     'http://schema.org/additionalType',
   );
 
@@ -719,7 +1237,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/GeoCoordinates, http://schema.org/GeoShape, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpAddress = const IriTerm('http://schema.org/address');
+  static const schemahttpAddress = IriTerm('http://schema.org/address');
 
   /// affiliation from schemahttp vocabulary [Expects: http://schema.org/Organization]
   ///
@@ -727,9 +1245,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAffiliation = const IriTerm(
-    'http://schema.org/affiliation',
-  );
+  static const schemahttpAffiliation = IriTerm('http://schema.org/affiliation');
 
   /// agentInteractionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
@@ -737,7 +1253,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpAgentInteractionStatistic = const IriTerm(
+  static const schemahttpAgentInteractionStatistic = IriTerm(
     'http://schema.org/agentInteractionStatistic',
   );
 
@@ -747,7 +1263,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpAwards = const IriTerm('http://schema.org/awards');
+  static const schemahttpAwards = IriTerm('http://schema.org/awards');
 
   /// birthDate from schemahttp vocabulary [Expects: http://schema.org/Date]
   ///
@@ -755,9 +1271,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpBirthDate = const IriTerm(
-    'http://schema.org/birthDate',
-  );
+  static const schemahttpBirthDate = IriTerm('http://schema.org/birthDate');
 
   /// birthPlace from schemahttp vocabulary [Expects: http://schema.org/Place]
   ///
@@ -765,9 +1279,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpBirthPlace = const IriTerm(
-    'http://schema.org/birthPlace',
-  );
+  static const schemahttpBirthPlace = IriTerm('http://schema.org/birthPlace');
 
   /// brand from schemahttp vocabulary [Expects: http://schema.org/Brand, http://schema.org/Organization]
   ///
@@ -775,7 +1287,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpBrand = const IriTerm('http://schema.org/brand');
+  static const schemahttpBrand = IriTerm('http://schema.org/brand');
 
   /// callSign from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -783,7 +1295,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/Person, http://schema.org/Vehicle
   ///
-  static const schemahttpCallSign = const IriTerm('http://schema.org/callSign');
+  static const schemahttpCallSign = IriTerm('http://schema.org/callSign');
 
   /// children from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -791,7 +1303,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpChildren = const IriTerm('http://schema.org/children');
+  static const schemahttpChildren = IriTerm('http://schema.org/children');
 
   /// colleagues from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -799,9 +1311,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpColleagues = const IriTerm(
-    'http://schema.org/colleagues',
-  );
+  static const schemahttpColleagues = IriTerm('http://schema.org/colleagues');
 
   /// contactPoints from schemahttp vocabulary [Expects: http://schema.org/ContactPoint]
   ///
@@ -809,7 +1319,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpContactPoints = const IriTerm(
+  static const schemahttpContactPoints = IriTerm(
     'http://schema.org/contactPoints',
   );
 
@@ -819,9 +1329,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpDeathDate = const IriTerm(
-    'http://schema.org/deathDate',
-  );
+  static const schemahttpDeathDate = IriTerm('http://schema.org/deathDate');
 
   /// deathPlace from schemahttp vocabulary [Expects: http://schema.org/Place]
   ///
@@ -829,9 +1337,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpDeathPlace = const IriTerm(
-    'http://schema.org/deathPlace',
-  );
+  static const schemahttpDeathPlace = IriTerm('http://schema.org/deathPlace');
 
   /// disambiguatingDescription from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -839,7 +1345,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDisambiguatingDescription = const IriTerm(
+  static const schemahttpDisambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -849,7 +1355,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpDuns = const IriTerm('http://schema.org/duns');
+  static const schemahttpDuns = IriTerm('http://schema.org/duns');
 
   /// email from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -857,7 +1363,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpEmail = const IriTerm('http://schema.org/email');
+  static const schemahttpEmail = IriTerm('http://schema.org/email');
 
   /// familyName from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -865,9 +1371,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpFamilyName = const IriTerm(
-    'http://schema.org/familyName',
-  );
+  static const schemahttpFamilyName = IriTerm('http://schema.org/familyName');
 
   /// faxNumber from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -875,9 +1379,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpFaxNumber = const IriTerm(
-    'http://schema.org/faxNumber',
-  );
+  static const schemahttpFaxNumber = IriTerm('http://schema.org/faxNumber');
 
   /// follows from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -885,7 +1387,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpFollows = const IriTerm('http://schema.org/follows');
+  static const schemahttpFollows = IriTerm('http://schema.org/follows');
 
   /// funder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -893,7 +1395,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpFunder = const IriTerm('http://schema.org/funder');
+  static const schemahttpFunder = IriTerm('http://schema.org/funder');
 
   /// gender from schemahttp vocabulary [Expects: http://schema.org/GenderType, http://schema.org/Text]
   ///
@@ -901,7 +1403,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person, http://schema.org/SportsTeam
   ///
-  static const schemahttpGender = const IriTerm('http://schema.org/gender');
+  static const schemahttpGender = IriTerm('http://schema.org/gender');
 
   /// givenName from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -909,9 +1411,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpGivenName = const IriTerm(
-    'http://schema.org/givenName',
-  );
+  static const schemahttpGivenName = IriTerm('http://schema.org/givenName');
 
   /// globalLocationNumber from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -919,7 +1419,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpGlobalLocationNumber = const IriTerm(
+  static const schemahttpGlobalLocationNumber = IriTerm(
     'http://schema.org/globalLocationNumber',
   );
 
@@ -929,7 +1429,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpHasCertification = const IriTerm(
+  static const schemahttpHasCertification = IriTerm(
     'http://schema.org/hasCertification',
   );
 
@@ -939,7 +1439,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpHasCredential = const IriTerm(
+  static const schemahttpHasCredential = IriTerm(
     'http://schema.org/hasCredential',
   );
 
@@ -949,7 +1449,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHasOccupation = const IriTerm(
+  static const schemahttpHasOccupation = IriTerm(
     'http://schema.org/hasOccupation',
   );
 
@@ -959,7 +1459,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Service
   ///
-  static const schemahttpHasOfferCatalog = const IriTerm(
+  static const schemahttpHasOfferCatalog = IriTerm(
     'http://schema.org/hasOfferCatalog',
   );
 
@@ -969,7 +1469,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpHasPOS = const IriTerm('http://schema.org/hasPOS');
+  static const schemahttpHasPOS = IriTerm('http://schema.org/hasPOS');
 
   /// height from schemahttp vocabulary [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
@@ -977,7 +1477,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpHeight = const IriTerm('http://schema.org/height');
+  static const schemahttpHeight = IriTerm('http://schema.org/height');
 
   /// homeLocation from schemahttp vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
   ///
@@ -985,7 +1485,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHomeLocation = const IriTerm(
+  static const schemahttpHomeLocation = IriTerm(
     'http://schema.org/homeLocation',
   );
 
@@ -995,7 +1495,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHonorificPrefix = const IriTerm(
+  static const schemahttpHonorificPrefix = IriTerm(
     'http://schema.org/honorificPrefix',
   );
 
@@ -1005,7 +1505,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHonorificSuffix = const IriTerm(
+  static const schemahttpHonorificSuffix = IriTerm(
     'http://schema.org/honorificSuffix',
   );
 
@@ -1015,7 +1515,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpIsicV4 = const IriTerm('http://schema.org/isicV4');
+  static const schemahttpIsicV4 = IriTerm('http://schema.org/isicV4');
 
   /// jobTitle from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -1023,7 +1523,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpJobTitle = const IriTerm('http://schema.org/jobTitle');
+  static const schemahttpJobTitle = IriTerm('http://schema.org/jobTitle');
 
   /// knows from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1031,7 +1531,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpKnows = const IriTerm('http://schema.org/knows');
+  static const schemahttpKnows = IriTerm('http://schema.org/knows');
 
   /// knowsAbout from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
@@ -1039,9 +1539,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpKnowsAbout = const IriTerm(
-    'http://schema.org/knowsAbout',
-  );
+  static const schemahttpKnowsAbout = IriTerm('http://schema.org/knowsAbout');
 
   /// knowsLanguage from schemahttp vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -1049,9 +1547,17 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpKnowsLanguage = const IriTerm(
+  static const schemahttpKnowsLanguage = IriTerm(
     'http://schema.org/knowsLanguage',
   );
+
+  /// lifeEvent from schemahttp vocabulary [Expects: http://schema.org/Event]
+  ///
+  /// A life event like baptism, communions, Bar Mitzvahs, Aqiqah, Namakarana, Miyamairi, burial, ....
+  ///
+  /// Can be used on: http://schema.org/Person
+  ///
+  static const schemahttpLifeEvent = IriTerm('http://schema.org/lifeEvent');
 
   /// naics from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1059,7 +1565,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpNaics = const IriTerm('http://schema.org/naics');
+  static const schemahttpNaics = IriTerm('http://schema.org/naics');
 
   /// name from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1067,7 +1573,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpName = const IriTerm('http://schema.org/name');
+  static const schemahttpName = IriTerm('http://schema.org/name');
 
   /// nationality from schemahttp vocabulary [Expects: http://schema.org/Country]
   ///
@@ -1075,9 +1581,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpNationality = const IriTerm(
-    'http://schema.org/nationality',
-  );
+  static const schemahttpNationality = IriTerm('http://schema.org/nationality');
 
   /// netWorth from schemahttp vocabulary [Expects: http://schema.org/MonetaryAmount, http://schema.org/PriceSpecification]
   ///
@@ -1085,15 +1589,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpNetWorth = const IriTerm('http://schema.org/netWorth');
-
-  /// owns from schemahttp vocabulary [Expects: http://schema.org/OwnershipInfo, http://schema.org/Product]
-  ///
-  /// Products owned by the organization or person.
-  ///
-  /// Can be used on: http://schema.org/Organization, http://schema.org/Person
-  ///
-  static const schemahttpOwns = const IriTerm('http://schema.org/owns');
+  static const schemahttpNetWorth = IriTerm('http://schema.org/netWorth');
 
   /// parents from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1101,7 +1597,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpParents = const IriTerm('http://schema.org/parents');
+  static const schemahttpParents = IriTerm('http://schema.org/parents');
 
   /// performerIn from schemahttp vocabulary [Expects: http://schema.org/Event]
   ///
@@ -1109,9 +1605,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpPerformerIn = const IriTerm(
-    'http://schema.org/performerIn',
-  );
+  static const schemahttpPerformerIn = IriTerm('http://schema.org/performerIn');
 
   /// potentialAction from schemahttp vocabulary [Expects: http://schema.org/Action]
   ///
@@ -1119,7 +1613,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpPotentialAction = const IriTerm(
+  static const schemahttpPotentialAction = IriTerm(
     'http://schema.org/potentialAction',
   );
 
@@ -1132,7 +1626,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpPronouns = const IriTerm('http://schema.org/pronouns');
+  static const schemahttpPronouns = IriTerm('http://schema.org/pronouns');
 
   /// relatedTo from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1140,9 +1634,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpRelatedTo = const IriTerm(
-    'http://schema.org/relatedTo',
-  );
+  static const schemahttpRelatedTo = IriTerm('http://schema.org/relatedTo');
 
   /// sameAs from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -1150,7 +1642,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSameAs = const IriTerm('http://schema.org/sameAs');
+  static const schemahttpSameAs = IriTerm('http://schema.org/sameAs');
 
   /// seeks from schemahttp vocabulary [Expects: http://schema.org/Demand]
   ///
@@ -1158,7 +1650,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSeeks = const IriTerm('http://schema.org/seeks');
+  static const schemahttpSeeks = IriTerm('http://schema.org/seeks');
 
   /// siblings from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1166,7 +1658,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSiblings = const IriTerm('http://schema.org/siblings');
+  static const schemahttpSiblings = IriTerm('http://schema.org/siblings');
 
   /// skills from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -1174,7 +1666,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSkills = const IriTerm('http://schema.org/skills');
+  static const schemahttpSkills = IriTerm('http://schema.org/skills');
 
   /// spouse from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1182,7 +1674,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSpouse = const IriTerm('http://schema.org/spouse');
+  static const schemahttpSpouse = IriTerm('http://schema.org/spouse');
 
   /// taxID from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1190,7 +1682,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpTaxID = const IriTerm('http://schema.org/taxID');
+  static const schemahttpTaxID = IriTerm('http://schema.org/taxID');
 
   /// telephone from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1198,9 +1690,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpTelephone = const IriTerm(
-    'http://schema.org/telephone',
-  );
+  static const schemahttpTelephone = IriTerm('http://schema.org/telephone');
 
   /// url from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -1208,7 +1698,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpUrl = const IriTerm('http://schema.org/url');
+  static const schemahttpUrl = IriTerm('http://schema.org/url');
 
   /// vatID from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1216,7 +1706,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpVatID = const IriTerm('http://schema.org/vatID');
+  static const schemahttpVatID = IriTerm('http://schema.org/vatID');
 
   /// weight from schemahttp vocabulary [Expects: http://schema.org/Mass, http://schema.org/QuantitativeValue]
   ///
@@ -1224,7 +1714,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpWeight = const IriTerm('http://schema.org/weight');
+  static const schemahttpWeight = IriTerm('http://schema.org/weight');
 
   /// workLocation from schemahttp vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
   ///
@@ -1232,7 +1722,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpWorkLocation = const IriTerm(
+  static const schemahttpWorkLocation = IriTerm(
     'http://schema.org/workLocation',
   );
 
@@ -1242,7 +1732,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpWorksFor = const IriTerm('http://schema.org/worksFor');
+  static const schemahttpWorksFor = IriTerm('http://schema.org/worksFor');
 
   /// alternateName from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1250,7 +1740,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAlternateName = const IriTerm(
+  static const schemahttpAlternateName = IriTerm(
     'http://schema.org/alternateName',
   );
 
@@ -1260,7 +1750,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAlumniOf = const IriTerm('http://schema.org/alumniOf');
+  static const schemahttpAlumniOf = IriTerm('http://schema.org/alumniOf');
 
   /// award from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1268,7 +1758,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAward = const IriTerm('http://schema.org/award');
+  static const schemahttpAward = IriTerm('http://schema.org/award');
 
   /// colleague from schemahttp vocabulary [Expects: http://schema.org/Person, http://schema.org/URL]
   ///
@@ -1276,9 +1766,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpColleague = const IriTerm(
-    'http://schema.org/colleague',
-  );
+  static const schemahttpColleague = IriTerm('http://schema.org/colleague');
 
   /// contactPoint from schemahttp vocabulary [Expects: http://schema.org/ContactPoint]
   ///
@@ -1286,7 +1774,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/HealthInsurancePlan, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpContactPoint = const IriTerm(
+  static const schemahttpContactPoint = IriTerm(
     'http://schema.org/contactPoint',
   );
 
@@ -1296,7 +1784,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpFunding = const IriTerm('http://schema.org/funding');
+  static const schemahttpFunding = IriTerm('http://schema.org/funding');
 
   /// interactionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
@@ -1304,7 +1792,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpInteractionStatistic = const IriTerm(
+  static const schemahttpInteractionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
@@ -1314,7 +1802,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpMainEntityOfPage = const IriTerm(
+  static const schemahttpMainEntityOfPage = IriTerm(
     'http://schema.org/mainEntityOfPage',
   );
 
@@ -1324,9 +1812,23 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpMakesOffer = const IriTerm(
-    'http://schema.org/makesOffer',
-  );
+  static const schemahttpMakesOffer = IriTerm('http://schema.org/makesOffer');
+
+  /// owner from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const schemahttpOwner = IriTerm('http://schema.org/owner');
+
+  /// owns from schemahttp vocabulary [Expects: http://schema.org/Thing]
+  ///
+  /// Things owned by the organization or person.
+  ///
+  /// Can be used on: http://schema.org/Organization, http://schema.org/Person
+  ///
+  static const schemahttpOwns = IriTerm('http://schema.org/owns');
 
   /// parent from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1334,7 +1836,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpParent = const IriTerm('http://schema.org/parent');
+  static const schemahttpParent = IriTerm('http://schema.org/parent');
 
   /// sibling from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -1342,7 +1844,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSibling = const IriTerm('http://schema.org/sibling');
+  static const schemahttpSibling = IriTerm('http://schema.org/sibling');
 
   /// sponsor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1350,7 +1852,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSponsor = const IriTerm('http://schema.org/sponsor');
+  static const schemahttpSponsor = IriTerm('http://schema.org/sponsor');
 
   /// subjectOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -1358,9 +1860,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSubjectOf = const IriTerm(
-    'http://schema.org/subjectOf',
-  );
+  static const schemahttpSubjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// memberOf from schemahttp vocabulary [Expects: http://schema.org/MemberProgramTier, http://schema.org/Organization, http://schema.org/ProgramMembership]
   ///
@@ -1368,7 +1868,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpMemberOf = const IriTerm('http://schema.org/memberOf');
+  static const schemahttpMemberOf = IriTerm('http://schema.org/memberOf');
 
   /// description from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -1376,9 +1876,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDescription = const IriTerm(
-    'http://schema.org/description',
-  );
+  static const schemahttpDescription = IriTerm('http://schema.org/description');
 
   /// image from schemahttp vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -1386,7 +1884,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpImage = const IriTerm('http://schema.org/image');
+  static const schemahttpImage = IriTerm('http://schema.org/image');
 
   /// publishingPrinciples from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1397,7 +1895,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpPublishingPrinciples = const IriTerm(
+  static const schemahttpPublishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
@@ -1408,29 +1906,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpIdentifier = const IriTerm(
-    'http://schema.org/identifier',
-  );
-
-  /// interviewee from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
-  ///
-  /// An agent that is interviewed by another agent.
-  ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
-  ///
-  static const biboInterviewee = const IriTerm(
-    'http://purl.org/ontology/bibo/interviewee',
-  );
-
-  /// interviewer from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
-  ///
-  /// An agent that interview another agent.
-  ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
-  ///
-  static const biboInterviewer = const IriTerm(
-    'http://purl.org/ontology/bibo/interviewer',
-  );
+  static const schemahttpIdentifier = IriTerm('http://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1438,7 +1914,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 
@@ -1448,7 +1924,7 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const biboPrefixName = const IriTerm(
+  static const biboPrefixName = IriTerm(
     'http://purl.org/ontology/bibo/prefixName',
   );
 
@@ -1458,7 +1934,27 @@ class ContactPerson {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const biboSuffixName = const IriTerm(
+  static const biboSuffixName = IriTerm(
     'http://purl.org/ontology/bibo/suffixName',
+  );
+
+  /// interviewer from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that interview another agent.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const biboInterviewer = IriTerm(
+    'http://purl.org/ontology/bibo/interviewer',
+  );
+
+  /// interviewee from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that is interviewed by another agent.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const biboInterviewee = IriTerm(
+    'http://purl.org/ontology/bibo/interviewee',
   );
 }

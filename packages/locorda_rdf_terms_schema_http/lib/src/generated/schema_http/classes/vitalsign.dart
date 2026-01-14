@@ -29,7 +29,7 @@ class SchemaHttpVitalSign {
 
   /// IRI term for the VitalSign class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/VitalSign');
+  static const classIri = IriTerm('http://schema.org/VitalSign');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -38,9 +38,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// associatedAnatomy [Expects: http://schema.org/AnatomicalStructure, http://schema.org/AnatomicalSystem, http://schema.org/SuperficialAnatomy]
   ///
@@ -48,7 +46,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition, http://schema.org/PhysicalActivity
   ///
-  static const associatedAnatomy = const IriTerm(
+  static const associatedAnatomy = IriTerm(
     'http://schema.org/associatedAnatomy',
   );
 
@@ -58,7 +56,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const code = const IriTerm('http://schema.org/code');
+  static const code = IriTerm('http://schema.org/code');
 
   /// differentialDiagnosis [Expects: http://schema.org/DDxElement]
   ///
@@ -66,7 +64,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const differentialDiagnosis = const IriTerm(
+  static const differentialDiagnosis = IriTerm(
     'http://schema.org/differentialDiagnosis',
   );
 
@@ -76,7 +74,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -86,7 +84,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/DrugClass, http://schema.org/MedicalCondition, http://schema.org/Patient, http://schema.org/TherapeuticProcedure
   ///
-  static const drug = const IriTerm('http://schema.org/drug');
+  static const drug = IriTerm('http://schema.org/drug');
 
   /// epidemiology [Expects: http://schema.org/Text]
   ///
@@ -94,7 +92,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition, http://schema.org/PhysicalActivity
   ///
-  static const epidemiology = const IriTerm('http://schema.org/epidemiology');
+  static const epidemiology = IriTerm('http://schema.org/epidemiology');
 
   /// expectedPrognosis [Expects: http://schema.org/Text]
   ///
@@ -102,7 +100,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const expectedPrognosis = const IriTerm(
+  static const expectedPrognosis = IriTerm(
     'http://schema.org/expectedPrognosis',
   );
 
@@ -112,7 +110,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const guideline = const IriTerm('http://schema.org/guideline');
+  static const guideline = IriTerm('http://schema.org/guideline');
 
   /// identifyingExam [Expects: http://schema.org/PhysicalExam]
   ///
@@ -120,9 +118,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalSign
   ///
-  static const identifyingExam = const IriTerm(
-    'http://schema.org/identifyingExam',
-  );
+  static const identifyingExam = IriTerm('http://schema.org/identifyingExam');
 
   /// identifyingTest [Expects: http://schema.org/MedicalTest]
   ///
@@ -130,9 +126,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalSign
   ///
-  static const identifyingTest = const IriTerm(
-    'http://schema.org/identifyingTest',
-  );
+  static const identifyingTest = IriTerm('http://schema.org/identifyingTest');
 
   /// interactionCount
   ///
@@ -140,9 +134,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// legalStatus [Expects: http://schema.org/DrugLegalStatus, http://schema.org/MedicalEnumeration, http://schema.org/Text]
   ///
@@ -150,7 +142,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug, http://schema.org/MedicalEntity
   ///
-  static const legalStatus = const IriTerm('http://schema.org/legalStatus');
+  static const legalStatus = IriTerm('http://schema.org/legalStatus');
 
   /// medicineSystem [Expects: http://schema.org/MedicineSystem]
   ///
@@ -158,9 +150,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const medicineSystem = const IriTerm(
-    'http://schema.org/medicineSystem',
-  );
+  static const medicineSystem = IriTerm('http://schema.org/medicineSystem');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -168,7 +158,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// naturalProgression [Expects: http://schema.org/Text]
   ///
@@ -176,7 +166,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const naturalProgression = const IriTerm(
+  static const naturalProgression = IriTerm(
     'http://schema.org/naturalProgression',
   );
 
@@ -186,9 +176,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition, http://schema.org/PhysicalActivity
   ///
-  static const pathophysiology = const IriTerm(
-    'http://schema.org/pathophysiology',
-  );
+  static const pathophysiology = IriTerm('http://schema.org/pathophysiology');
 
   /// possibleComplication [Expects: http://schema.org/Text]
   ///
@@ -196,17 +184,17 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const possibleComplication = const IriTerm(
+  static const possibleComplication = IriTerm(
     'http://schema.org/possibleComplication',
   );
 
-  /// possibleTreatment [Expects: http://schema.org/MedicalTherapy]
+  /// possibleTreatment [Expects: http://schema.org/Drug, http://schema.org/DrugClass, http://schema.org/LifestyleModification, http://schema.org/MedicalTherapy]
   ///
   /// A possible treatment to address this condition, sign or symptom.
   ///
   /// Can be used on: http://schema.org/MedicalCondition, http://schema.org/MedicalSignOrSymptom
   ///
-  static const possibleTreatment = const IriTerm(
+  static const possibleTreatment = IriTerm(
     'http://schema.org/possibleTreatment',
   );
 
@@ -216,9 +204,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// primaryPrevention [Expects: http://schema.org/MedicalTherapy]
   ///
@@ -226,7 +212,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const primaryPrevention = const IriTerm(
+  static const primaryPrevention = IriTerm(
     'http://schema.org/primaryPrevention',
   );
 
@@ -236,7 +222,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const recognizingAuthority = const IriTerm(
+  static const recognizingAuthority = IriTerm(
     'http://schema.org/recognizingAuthority',
   );
 
@@ -246,7 +232,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const relevantSpecialty = const IriTerm(
+  static const relevantSpecialty = IriTerm(
     'http://schema.org/relevantSpecialty',
   );
 
@@ -256,7 +242,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const riskFactor = const IriTerm('http://schema.org/riskFactor');
+  static const riskFactor = IriTerm('http://schema.org/riskFactor');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -264,15 +250,15 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
-  /// secondaryPrevention [Expects: http://schema.org/MedicalTherapy]
+  /// secondaryPrevention [Expects: http://schema.org/Drug, http://schema.org/DrugClass, http://schema.org/LifestyleModification, http://schema.org/MedicalTherapy]
   ///
   /// A preventative therapy used to prevent reoccurrence of the medical condition after an initial episode of the condition.
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const secondaryPrevention = const IriTerm(
+  static const secondaryPrevention = IriTerm(
     'http://schema.org/secondaryPrevention',
   );
 
@@ -282,7 +268,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const signOrSymptom = const IriTerm('http://schema.org/signOrSymptom');
+  static const signOrSymptom = IriTerm('http://schema.org/signOrSymptom');
 
   /// stage [Expects: http://schema.org/MedicalConditionStage]
   ///
@@ -290,7 +276,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const stage = const IriTerm('http://schema.org/stage');
+  static const stage = IriTerm('http://schema.org/stage');
 
   /// status [Expects: http://schema.org/EventStatusType, http://schema.org/MedicalStudyStatus, http://schema.org/Text]
   ///
@@ -298,7 +284,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition, http://schema.org/MedicalProcedure, http://schema.org/MedicalStudy
   ///
-  static const status = const IriTerm('http://schema.org/status');
+  static const status = IriTerm('http://schema.org/status');
 
   /// study [Expects: http://schema.org/MedicalStudy]
   ///
@@ -306,7 +292,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const study = const IriTerm('http://schema.org/study');
+  static const study = IriTerm('http://schema.org/study');
 
   /// typicalTest [Expects: http://schema.org/MedicalTest]
   ///
@@ -314,7 +300,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/MedicalCondition
   ///
-  static const typicalTest = const IriTerm('http://schema.org/typicalTest');
+  static const typicalTest = IriTerm('http://schema.org/typicalTest');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -322,7 +308,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -330,7 +316,15 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
+
+  /// cause [Expects: http://schema.org/MedicalCause]
+  ///
+  /// The cause of a medical condition.
+  ///
+  /// Can be used on: http://schema.org/MedicalCondition
+  ///
+  static const cause = IriTerm('http://schema.org/cause');
 
   /// funding [Expects: http://schema.org/Grant]
   ///
@@ -338,7 +332,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -346,9 +340,15 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -356,7 +356,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -364,7 +364,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -372,7 +372,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -381,15 +381,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -397,7 +389,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -407,7 +399,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -417,7 +409,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -427,7 +419,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -437,7 +429,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -447,7 +439,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -457,7 +449,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -467,7 +459,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -477,7 +469,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -487,7 +479,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -497,7 +489,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -507,9 +499,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -517,7 +507,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -527,7 +517,7 @@ class SchemaHttpVitalSign {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

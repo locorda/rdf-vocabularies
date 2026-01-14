@@ -25,31 +25,31 @@ class VcardUniversalProperties {
   ///
   /// This object property has been mapped
   ///
-  static const adr = const IriTerm('http://www.w3.org/2006/vcard/ns#adr');
+  static const adr = IriTerm('http://www.w3.org/2006/vcard/ns#adr');
 
   /// agent
   ///
   /// This object property has been deprecated
   ///
-  static const agent = const IriTerm('http://www.w3.org/2006/vcard/ns#agent');
+  static const agent = IriTerm('http://www.w3.org/2006/vcard/ns#agent');
 
   /// email
   ///
   /// This object property has been mapped
   ///
-  static const email = const IriTerm('http://www.w3.org/2006/vcard/ns#email');
+  static const email = IriTerm('http://www.w3.org/2006/vcard/ns#email');
 
   /// geo
   ///
   /// This object property has been mapped
   ///
-  static const geo = const IriTerm('http://www.w3.org/2006/vcard/ns#geo');
+  static const geo = IriTerm('http://www.w3.org/2006/vcard/ns#geo');
 
   /// hasAdditionalName
   ///
   /// Used to support property parameters for the additional name data property
   ///
-  static const hasAdditionalName = const IriTerm(
+  static const hasAdditionalName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAdditionalName',
   );
 
@@ -57,7 +57,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the components of the delivery address for the object
   ///
-  static const hasAddress = const IriTerm(
+  static const hasAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAddress',
   );
 
@@ -65,7 +65,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the busy time associated with the object. (Was called FBURL in RFC6350)
   ///
-  static const hasCalendarBusy = const IriTerm(
+  static const hasCalendarBusy = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarBusy',
   );
 
@@ -73,7 +73,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the calendar associated with the object. (Was called CALURI in RFC6350)
   ///
-  static const hasCalendarLink = const IriTerm(
+  static const hasCalendarLink = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarLink',
   );
 
@@ -81,7 +81,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the calendar user address to which a scheduling request be sent for the object. (Was called CALADRURI in RFC6350)
   ///
-  static const hasCalendarRequest = const IriTerm(
+  static const hasCalendarRequest = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarRequest',
   );
 
@@ -89,7 +89,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the category data property
   ///
-  static const hasCategory = const IriTerm(
+  static const hasCategory = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCategory',
   );
 
@@ -97,7 +97,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the country name data property
   ///
-  static const hasCountryName = const IriTerm(
+  static const hasCountryName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCountryName',
   );
 
@@ -105,21 +105,19 @@ class VcardUniversalProperties {
   ///
   /// To specify the electronic mail address for communication with the object
   ///
-  static const hasEmail = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasEmail',
-  );
+  static const hasEmail = IriTerm('http://www.w3.org/2006/vcard/ns#hasEmail');
 
   /// hasFN
   ///
   /// Used to support property parameters for the formatted name data property
   ///
-  static const hasFN = const IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
+  static const hasFN = IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
 
   /// hasFamilyName
   ///
   /// Used to support property parameters for the family name data property
   ///
-  static const hasFamilyName = const IriTerm(
+  static const hasFamilyName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasFamilyName',
   );
 
@@ -127,21 +125,19 @@ class VcardUniversalProperties {
   ///
   /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
-  static const hasGender = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasGender',
-  );
+  static const hasGender = IriTerm('http://www.w3.org/2006/vcard/ns#hasGender');
 
   /// hasGeo
   ///
   /// To specify information related to the global positioning of the object. May also be used as a property parameter.
   ///
-  static const hasGeo = const IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
+  static const hasGeo = IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
 
   /// hasGivenName
   ///
   /// Used to support property parameters for the given name data property
   ///
-  static const hasGivenName = const IriTerm(
+  static const hasGivenName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasGivenName',
   );
 
@@ -149,7 +145,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the honorific prefix data property
   ///
-  static const hasHonorificPrefix = const IriTerm(
+  static const hasHonorificPrefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificPrefix',
   );
 
@@ -157,7 +153,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the honorific suffix data property
   ///
-  static const hasHonorificSuffix = const IriTerm(
+  static const hasHonorificSuffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificSuffix',
   );
 
@@ -165,7 +161,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the instant messaging and presence protocol communications with the object. (Was called IMPP in RFC6350)
   ///
-  static const hasInstantMessage = const IriTerm(
+  static const hasInstantMessage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasInstantMessage',
   );
 
@@ -173,13 +169,13 @@ class VcardUniversalProperties {
   ///
   /// To specify a public key or authentication certificate associated with the object
   ///
-  static const hasKey = const IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
+  static const hasKey = IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
 
   /// hasLanguage
   ///
   /// Used to support property parameters for the language data property
   ///
-  static const hasLanguage = const IriTerm(
+  static const hasLanguage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLanguage',
   );
 
@@ -187,7 +183,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the locality data property
   ///
-  static const hasLocality = const IriTerm(
+  static const hasLocality = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLocality',
   );
 
@@ -195,17 +191,13 @@ class VcardUniversalProperties {
   ///
   /// To specify a graphic image of a logo associated with the object
   ///
-  static const hasLogo = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasLogo',
-  );
+  static const hasLogo = IriTerm('http://www.w3.org/2006/vcard/ns#hasLogo');
 
   /// hasName [Expects: http://www.w3.org/2006/vcard/ns#Name]
   ///
   /// To specify the components of the name of the object
   ///
-  static const hasName = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasName',
-  );
+  static const hasName = IriTerm('http://www.w3.org/2006/vcard/ns#hasName');
 
   /// hasNickname
   ///
@@ -213,7 +205,7 @@ class VcardUniversalProperties {
   ///
   /// [See also](http://www.w3.org/2006/vcard/ns#nickname)
   ///
-  static const hasNickname = const IriTerm(
+  static const hasNickname = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasNickname',
   );
 
@@ -221,15 +213,13 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the note data property
   ///
-  static const hasNote = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasNote',
-  );
+  static const hasNote = IriTerm('http://www.w3.org/2006/vcard/ns#hasNote');
 
   /// hasOrganizationName
   ///
   /// Used to support property parameters for the organization name data property
   ///
-  static const hasOrganizationName = const IriTerm(
+  static const hasOrganizationName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationName',
   );
 
@@ -237,7 +227,7 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the organization unit name data property
   ///
-  static const hasOrganizationUnit = const IriTerm(
+  static const hasOrganizationUnit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationUnit',
   );
 
@@ -245,15 +235,13 @@ class VcardUniversalProperties {
   ///
   /// To specify an image or photograph information that annotates some aspect of the object
   ///
-  static const hasPhoto = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasPhoto',
-  );
+  static const hasPhoto = IriTerm('http://www.w3.org/2006/vcard/ns#hasPhoto');
 
   /// hasPostalCode
   ///
   /// Used to support property parameters for the postal code data property
   ///
-  static const hasPostalCode = const IriTerm(
+  static const hasPostalCode = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasPostalCode',
   );
 
@@ -261,15 +249,13 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the region data property
   ///
-  static const hasRegion = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRegion',
-  );
+  static const hasRegion = IriTerm('http://www.w3.org/2006/vcard/ns#hasRegion');
 
   /// hasRelated
   ///
   /// To specify a relationship between another entity and the entity represented by this object
   ///
-  static const hasRelated = const IriTerm(
+  static const hasRelated = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasRelated',
   );
 
@@ -277,31 +263,25 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the role data property
   ///
-  static const hasRole = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRole',
-  );
+  static const hasRole = IriTerm('http://www.w3.org/2006/vcard/ns#hasRole');
 
   /// hasSound
   ///
   /// To specify a digital sound content information that annotates some aspect of the object
   ///
-  static const hasSound = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSound',
-  );
+  static const hasSound = IriTerm('http://www.w3.org/2006/vcard/ns#hasSound');
 
   /// hasSource
   ///
   /// To identify the source of directory information of the object
   ///
-  static const hasSource = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSource',
-  );
+  static const hasSource = IriTerm('http://www.w3.org/2006/vcard/ns#hasSource');
 
   /// hasStreetAddress
   ///
   /// Used to support property parameters for the street address data property
   ///
-  static const hasStreetAddress = const IriTerm(
+  static const hasStreetAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasStreetAddress',
   );
 
@@ -309,7 +289,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the telephone number for telephony communication with the object
   ///
-  static const hasTelephone = const IriTerm(
+  static const hasTelephone = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasTelephone',
   );
 
@@ -317,83 +297,79 @@ class VcardUniversalProperties {
   ///
   /// Used to support property parameters for the title data property
   ///
-  static const hasTitle = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasTitle',
-  );
+  static const hasTitle = IriTerm('http://www.w3.org/2006/vcard/ns#hasTitle');
 
   /// hasUID
   ///
   /// To specify a value that represents a globally unique identifier corresponding to the object
   ///
-  static const hasUID = const IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
+  static const hasUID = IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
 
   /// hasURL
   ///
   /// To specify a uniform resource locator associated with the object
   ///
-  static const hasURL = const IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
+  static const hasURL = IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
 
   /// hasValue
   ///
   /// Used to indicate the resource value of an object property that requires property parameters
   ///
-  static const hasValue = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasValue',
-  );
+  static const hasValue = IriTerm('http://www.w3.org/2006/vcard/ns#hasValue');
 
   /// key
   ///
   /// This object property has been mapped
   ///
-  static const key = const IriTerm('http://www.w3.org/2006/vcard/ns#key');
+  static const key = IriTerm('http://www.w3.org/2006/vcard/ns#key');
 
   /// logo
   ///
   /// This object property has been mapped
   ///
-  static const logo = const IriTerm('http://www.w3.org/2006/vcard/ns#logo');
+  static const logo = IriTerm('http://www.w3.org/2006/vcard/ns#logo');
 
   /// n
   ///
   /// This object property has been mapped
   ///
-  static const n = const IriTerm('http://www.w3.org/2006/vcard/ns#n');
+  static const n = IriTerm('http://www.w3.org/2006/vcard/ns#n');
 
   /// org
   ///
   /// This object property has been mapped. Use the organization-name data property.
   ///
-  static const org = const IriTerm('http://www.w3.org/2006/vcard/ns#org');
+  static const org = IriTerm('http://www.w3.org/2006/vcard/ns#org');
 
   /// photo
   ///
   /// This object property has been mapped
   ///
-  static const photo = const IriTerm('http://www.w3.org/2006/vcard/ns#photo');
+  static const photo = IriTerm('http://www.w3.org/2006/vcard/ns#photo');
 
   /// sound
   ///
   /// This object property has been mapped
   ///
-  static const sound = const IriTerm('http://www.w3.org/2006/vcard/ns#sound');
+  static const sound = IriTerm('http://www.w3.org/2006/vcard/ns#sound');
 
   /// tel
   ///
   /// This object property has been mapped
   ///
-  static const tel = const IriTerm('http://www.w3.org/2006/vcard/ns#tel');
+  static const tel = IriTerm('http://www.w3.org/2006/vcard/ns#tel');
 
   /// url
   ///
   /// This object property has been mapped
   ///
-  static const url = const IriTerm('http://www.w3.org/2006/vcard/ns#url');
+  static const url = IriTerm('http://www.w3.org/2006/vcard/ns#url');
 
   /// additional_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The additional name associated with the object
   ///
-  static const additional_name = const IriTerm(
+  static const additional_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#additional-name',
   );
 
@@ -401,7 +377,7 @@ class VcardUniversalProperties {
   ///
   /// The date of marriage, or equivalent, of the object
   ///
-  static const anniversary = const IriTerm(
+  static const anniversary = IriTerm(
     'http://www.w3.org/2006/vcard/ns#anniversary',
   );
 
@@ -409,27 +385,25 @@ class VcardUniversalProperties {
   ///
   /// To specify the birth date of the object
   ///
-  static const bday = const IriTerm('http://www.w3.org/2006/vcard/ns#bday');
+  static const bday = IriTerm('http://www.w3.org/2006/vcard/ns#bday');
 
   /// category [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The category information about the object, also known as tags
   ///
-  static const category = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#category',
-  );
+  static const category = IriTerm('http://www.w3.org/2006/vcard/ns#category');
 
   /// class_
   ///
   /// This data property has been deprecated
   ///
-  static const class_ = const IriTerm('http://www.w3.org/2006/vcard/ns#class');
+  static const class_ = IriTerm('http://www.w3.org/2006/vcard/ns#class');
 
   /// country_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The country name associated with the address of the object
   ///
-  static const country_name = const IriTerm(
+  static const country_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#country-name',
   );
 
@@ -437,7 +411,7 @@ class VcardUniversalProperties {
   ///
   /// This data property has been deprecated
   ///
-  static const extended_address = const IriTerm(
+  static const extended_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#extended-address',
   );
 
@@ -445,7 +419,7 @@ class VcardUniversalProperties {
   ///
   /// The family name associated with the object
   ///
-  static const family_name = const IriTerm(
+  static const family_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#family-name',
   );
 
@@ -453,13 +427,13 @@ class VcardUniversalProperties {
   ///
   /// The formatted text corresponding to the name of the object
   ///
-  static const fn = const IriTerm('http://www.w3.org/2006/vcard/ns#fn');
+  static const fn = IriTerm('http://www.w3.org/2006/vcard/ns#fn');
 
   /// given_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The given name associated with the object
   ///
-  static const given_name = const IriTerm(
+  static const given_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#given-name',
   );
 
@@ -467,7 +441,7 @@ class VcardUniversalProperties {
   ///
   /// The honorific prefix of the name associated with the object
   ///
-  static const honorific_prefix = const IriTerm(
+  static const honorific_prefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-prefix',
   );
 
@@ -475,7 +449,7 @@ class VcardUniversalProperties {
   ///
   /// The honorific suffix of the name associated with the object
   ///
-  static const honorific_suffix = const IriTerm(
+  static const honorific_suffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-suffix',
   );
 
@@ -483,65 +457,55 @@ class VcardUniversalProperties {
   ///
   /// This data property has been deprecated
   ///
-  static const label = const IriTerm('http://www.w3.org/2006/vcard/ns#label');
+  static const label = IriTerm('http://www.w3.org/2006/vcard/ns#label');
 
   /// language
   ///
   /// To specify the language that may be used for contacting the object. May also be used as a property parameter.
   ///
-  static const language = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#language',
-  );
+  static const language = IriTerm('http://www.w3.org/2006/vcard/ns#language');
 
   /// latitude
   ///
   /// This data property has been deprecated. See hasGeo
   ///
-  static const latitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#latitude',
-  );
+  static const latitude = IriTerm('http://www.w3.org/2006/vcard/ns#latitude');
 
   /// locality [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The locality (e.g. city or town) associated with the address of the object
   ///
-  static const locality = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#locality',
-  );
+  static const locality = IriTerm('http://www.w3.org/2006/vcard/ns#locality');
 
   /// longitude
   ///
   /// This data property has been deprecated. See hasGeo
   ///
-  static const longitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#longitude',
-  );
+  static const longitude = IriTerm('http://www.w3.org/2006/vcard/ns#longitude');
 
   /// mailer
   ///
   /// This data property has been deprecated
   ///
-  static const mailer = const IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
+  static const mailer = IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
 
   /// nickname [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The nick name associated with the object
   ///
-  static const nickname = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#nickname',
-  );
+  static const nickname = IriTerm('http://www.w3.org/2006/vcard/ns#nickname');
 
   /// note [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// A note associated with the object
   ///
-  static const note = const IriTerm('http://www.w3.org/2006/vcard/ns#note');
+  static const note = IriTerm('http://www.w3.org/2006/vcard/ns#note');
 
   /// organization_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// To specify the organizational name associated with the object
   ///
-  static const organization_name = const IriTerm(
+  static const organization_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-name',
   );
 
@@ -549,7 +513,7 @@ class VcardUniversalProperties {
   ///
   /// To specify the organizational unit name associated with the object
   ///
-  static const organization_unit = const IriTerm(
+  static const organization_unit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-unit',
   );
 
@@ -557,7 +521,7 @@ class VcardUniversalProperties {
   ///
   /// This data property has been deprecated
   ///
-  static const post_office_box = const IriTerm(
+  static const post_office_box = IriTerm(
     'http://www.w3.org/2006/vcard/ns#post-office-box',
   );
 
@@ -565,7 +529,7 @@ class VcardUniversalProperties {
   ///
   /// The postal code associated with the address of the object
   ///
-  static const postal_code = const IriTerm(
+  static const postal_code = IriTerm(
     'http://www.w3.org/2006/vcard/ns#postal-code',
   );
 
@@ -573,31 +537,31 @@ class VcardUniversalProperties {
   ///
   /// To specify the identifier for the product that created the object
   ///
-  static const prodid = const IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
+  static const prodid = IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
 
   /// region [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// The region (e.g. state or province) associated with the address of the object
   ///
-  static const region = const IriTerm('http://www.w3.org/2006/vcard/ns#region');
+  static const region = IriTerm('http://www.w3.org/2006/vcard/ns#region');
 
   /// rev [Expects: http://www.w3.org/2001/XMLSchema#dateTime]
   ///
   /// To specify revision information about the object
   ///
-  static const rev = const IriTerm('http://www.w3.org/2006/vcard/ns#rev');
+  static const rev = IriTerm('http://www.w3.org/2006/vcard/ns#rev');
 
   /// role [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// To specify the function or part played in a particular situation by the object
   ///
-  static const role = const IriTerm('http://www.w3.org/2006/vcard/ns#role');
+  static const role = IriTerm('http://www.w3.org/2006/vcard/ns#role');
 
   /// sort_string [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// To specify the string to be used for national-language-specific sorting. Used as a property parameter only.
   ///
-  static const sort_string = const IriTerm(
+  static const sort_string = IriTerm(
     'http://www.w3.org/2006/vcard/ns#sort-string',
   );
 
@@ -605,7 +569,7 @@ class VcardUniversalProperties {
   ///
   /// The street address associated with the address of the object
   ///
-  static const street_address = const IriTerm(
+  static const street_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#street-address',
   );
 
@@ -613,17 +577,17 @@ class VcardUniversalProperties {
   ///
   /// To specify the position or job of the object
   ///
-  static const title = const IriTerm('http://www.w3.org/2006/vcard/ns#title');
+  static const title = IriTerm('http://www.w3.org/2006/vcard/ns#title');
 
   /// tz [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
   /// To indicate time zone information that is specific to the object. May also be used as a property parameter.
   ///
-  static const tz = const IriTerm('http://www.w3.org/2006/vcard/ns#tz');
+  static const tz = IriTerm('http://www.w3.org/2006/vcard/ns#tz');
 
   /// value
   ///
   /// Used to indicate the literal value of a data property that requires property parameters
   ///
-  static const value = const IriTerm('http://www.w3.org/2006/vcard/ns#value');
+  static const value = IriTerm('http://www.w3.org/2006/vcard/ns#value');
 }

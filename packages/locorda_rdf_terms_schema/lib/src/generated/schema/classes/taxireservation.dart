@@ -27,7 +27,7 @@ class SchemaTaxiReservation {
 
   /// IRI term for the TaxiReservation class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/TaxiReservation');
+  static const classIri = IriTerm('https://schema.org/TaxiReservation');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -36,9 +36,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// bookingAgent [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -46,7 +44,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const bookingAgent = const IriTerm('https://schema.org/bookingAgent');
+  static const bookingAgent = IriTerm('https://schema.org/bookingAgent');
 
   /// bookingTime [Expects: https://schema.org/DateTime]
   ///
@@ -54,7 +52,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const bookingTime = const IriTerm('https://schema.org/bookingTime');
+  static const bookingTime = IriTerm('https://schema.org/bookingTime');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -62,7 +60,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -72,7 +70,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -82,7 +80,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const modifiedTime = const IriTerm('https://schema.org/modifiedTime');
+  static const modifiedTime = IriTerm('https://schema.org/modifiedTime');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -90,7 +88,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// partySize [Expects: https://schema.org/Integer, https://schema.org/QuantitativeValue]
   ///
@@ -98,7 +96,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/FoodEstablishmentReservation, https://schema.org/TaxiReservation
   ///
-  static const partySize = const IriTerm('https://schema.org/partySize');
+  static const partySize = IriTerm('https://schema.org/partySize');
 
   /// pickupLocation [Expects: https://schema.org/Place]
   ///
@@ -106,9 +104,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/RentalCarReservation, https://schema.org/TaxiReservation
   ///
-  static const pickupLocation = const IriTerm(
-    'https://schema.org/pickupLocation',
-  );
+  static const pickupLocation = IriTerm('https://schema.org/pickupLocation');
 
   /// pickupTime [Expects: https://schema.org/DateTime]
   ///
@@ -116,7 +112,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/RentalCarReservation, https://schema.org/TaxiReservation
   ///
-  static const pickupTime = const IriTerm('https://schema.org/pickupTime');
+  static const pickupTime = IriTerm('https://schema.org/pickupTime');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -124,9 +120,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// priceCurrency [Expects: https://schema.org/Text]
   ///
@@ -134,9 +128,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/DonateAction, https://schema.org/Offer, https://schema.org/PriceSpecification, https://schema.org/Reservation, https://schema.org/Ticket, https://schema.org/TradeAction
   ///
-  static const priceCurrency = const IriTerm(
-    'https://schema.org/priceCurrency',
-  );
+  static const priceCurrency = IriTerm('https://schema.org/priceCurrency');
 
   /// programMembershipUsed [Expects: https://schema.org/ProgramMembership]
   ///
@@ -144,7 +136,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const programMembershipUsed = const IriTerm(
+  static const programMembershipUsed = IriTerm(
     'https://schema.org/programMembershipUsed',
   );
 
@@ -154,9 +146,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const reservationFor = const IriTerm(
-    'https://schema.org/reservationFor',
-  );
+  static const reservationFor = IriTerm('https://schema.org/reservationFor');
 
   /// reservationId [Expects: https://schema.org/Text]
   ///
@@ -164,9 +154,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const reservationId = const IriTerm(
-    'https://schema.org/reservationId',
-  );
+  static const reservationId = IriTerm('https://schema.org/reservationId');
 
   /// reservationStatus [Expects: https://schema.org/ReservationStatusType]
   ///
@@ -174,7 +162,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const reservationStatus = const IriTerm(
+  static const reservationStatus = IriTerm(
     'https://schema.org/reservationStatus',
   );
 
@@ -184,9 +172,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation
   ///
-  static const reservedTicket = const IriTerm(
-    'https://schema.org/reservedTicket',
-  );
+  static const reservedTicket = IriTerm('https://schema.org/reservedTicket');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -194,7 +180,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// totalPrice [Expects: https://schema.org/Number, https://schema.org/PriceSpecification, https://schema.org/Text]
   ///
@@ -202,7 +188,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation, https://schema.org/Ticket
   ///
-  static const totalPrice = const IriTerm('https://schema.org/totalPrice');
+  static const totalPrice = IriTerm('https://schema.org/totalPrice');
 
   /// underName [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -210,7 +196,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Reservation, https://schema.org/Ticket
   ///
-  static const underName = const IriTerm('https://schema.org/underName');
+  static const underName = IriTerm('https://schema.org/underName');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -218,7 +204,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -226,9 +212,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// broker [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -236,7 +220,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order, https://schema.org/Reservation, https://schema.org/Service
   ///
-  static const broker = const IriTerm('https://schema.org/broker');
+  static const broker = IriTerm('https://schema.org/broker');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -244,9 +228,17 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// provider [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -254,7 +246,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const provider = const IriTerm('https://schema.org/provider');
+  static const provider = IriTerm('https://schema.org/provider');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -262,7 +254,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -270,7 +262,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -278,7 +270,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -287,15 +279,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -303,7 +287,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -313,7 +297,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -323,7 +307,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -333,7 +317,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -343,7 +327,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -353,7 +337,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -363,7 +347,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -373,7 +357,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -383,7 +367,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -393,7 +377,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -403,7 +387,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -413,9 +397,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -423,7 +405,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -433,7 +415,7 @@ class SchemaTaxiReservation {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

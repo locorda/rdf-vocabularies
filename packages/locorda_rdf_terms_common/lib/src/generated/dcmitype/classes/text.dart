@@ -30,7 +30,7 @@ class DcmitypeText {
 
   /// IRI term for the Text class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://purl.org/dc/dcmitype/Text');
+  static const classIri = IriTerm('http://purl.org/dc/dcmitype/Text');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -38,7 +38,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -48,7 +48,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -58,7 +58,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -68,7 +68,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -78,7 +78,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -88,7 +88,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -98,7 +98,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -108,7 +108,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -118,7 +118,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -128,7 +128,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -138,7 +138,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -148,9 +148,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -158,7 +156,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -168,7 +166,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAbstract_ = const IriTerm('https://schema.org/abstract');
+  static const schemaAbstract_ = IriTerm('https://schema.org/abstract');
 
   /// accessMode from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -176,9 +174,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessMode = const IriTerm(
-    'https://schema.org/accessMode',
-  );
+  static const schemaAccessMode = IriTerm('https://schema.org/accessMode');
 
   /// accessModeSufficient from schema vocabulary [Expects: https://schema.org/ItemList]
   ///
@@ -186,7 +182,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessModeSufficient = const IriTerm(
+  static const schemaAccessModeSufficient = IriTerm(
     'https://schema.org/accessModeSufficient',
   );
 
@@ -196,7 +192,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityAPI = const IriTerm(
+  static const schemaAccessibilityAPI = IriTerm(
     'https://schema.org/accessibilityAPI',
   );
 
@@ -206,7 +202,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityControl = const IriTerm(
+  static const schemaAccessibilityControl = IriTerm(
     'https://schema.org/accessibilityControl',
   );
 
@@ -216,7 +212,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityFeature = const IriTerm(
+  static const schemaAccessibilityFeature = IriTerm(
     'https://schema.org/accessibilityFeature',
   );
 
@@ -226,7 +222,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityHazard = const IriTerm(
+  static const schemaAccessibilityHazard = IriTerm(
     'https://schema.org/accessibilityHazard',
   );
 
@@ -236,7 +232,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilitySummary = const IriTerm(
+  static const schemaAccessibilitySummary = IriTerm(
     'https://schema.org/accessibilitySummary',
   );
 
@@ -246,7 +242,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccountablePerson = const IriTerm(
+  static const schemaAccountablePerson = IriTerm(
     'https://schema.org/accountablePerson',
   );
 
@@ -256,7 +252,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAcquireLicensePage = const IriTerm(
+  static const schemaAcquireLicensePage = IriTerm(
     'https://schema.org/acquireLicensePage',
   );
 
@@ -267,7 +263,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAdditionalType = const IriTerm(
+  static const schemaAdditionalType = IriTerm(
     'https://schema.org/additionalType',
   );
 
@@ -277,7 +273,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAggregateRating = const IriTerm(
+  static const schemaAggregateRating = IriTerm(
     'https://schema.org/aggregateRating',
   );
 
@@ -287,7 +283,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAlternativeHeadline = const IriTerm(
+  static const schemaAlternativeHeadline = IriTerm(
     'https://schema.org/alternativeHeadline',
   );
 
@@ -297,9 +293,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaArchivedAt = const IriTerm(
-    'https://schema.org/archivedAt',
-  );
+  static const schemaArchivedAt = IriTerm('https://schema.org/archivedAt');
 
   /// assesses from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -307,7 +301,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const schemaAssesses = const IriTerm('https://schema.org/assesses');
+  static const schemaAssesses = IriTerm('https://schema.org/assesses');
 
   /// associatedArticle from schema vocabulary [Expects: https://schema.org/NewsArticle]
   ///
@@ -315,7 +309,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaAssociatedArticle = const IriTerm(
+  static const schemaAssociatedArticle = IriTerm(
     'https://schema.org/associatedArticle',
   );
 
@@ -325,7 +319,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/HyperToc, https://schema.org/HyperTocEntry
   ///
-  static const schemaAssociatedMedia = const IriTerm(
+  static const schemaAssociatedMedia = IriTerm(
     'https://schema.org/associatedMedia',
   );
 
@@ -335,7 +329,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAudio = const IriTerm('https://schema.org/audio');
+  static const schemaAudio = IriTerm('https://schema.org/audio');
 
   /// author from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -343,7 +337,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Rating
   ///
-  static const schemaAuthor = const IriTerm('https://schema.org/author');
+  static const schemaAuthor = IriTerm('https://schema.org/author');
 
   /// awards from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -351,7 +345,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const schemaAwards = const IriTerm('https://schema.org/awards');
+  static const schemaAwards = IriTerm('https://schema.org/awards');
 
   /// bitrate from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -359,7 +353,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaBitrate = const IriTerm('https://schema.org/bitrate');
+  static const schemaBitrate = IriTerm('https://schema.org/bitrate');
 
   /// character from schema vocabulary [Expects: https://schema.org/Person]
   ///
@@ -367,7 +361,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCharacter = const IriTerm('https://schema.org/character');
+  static const schemaCharacter = IriTerm('https://schema.org/character');
 
   /// citation from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Text]
   ///
@@ -375,7 +369,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCitation = const IriTerm('https://schema.org/citation');
+  static const schemaCitation = IriTerm('https://schema.org/citation');
 
   /// comment from schema vocabulary [Expects: https://schema.org/Comment]
   ///
@@ -383,7 +377,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/RsvpAction
   ///
-  static const schemaComment = const IriTerm('https://schema.org/comment');
+  static const schemaComment = IriTerm('https://schema.org/comment');
 
   /// commentCount from schema vocabulary [Expects: https://schema.org/Integer]
   ///
@@ -391,9 +385,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCommentCount = const IriTerm(
-    'https://schema.org/commentCount',
-  );
+  static const schemaCommentCount = IriTerm('https://schema.org/commentCount');
 
   /// conditionsOfAccess from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -401,7 +393,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaConditionsOfAccess = const IriTerm(
+  static const schemaConditionsOfAccess = IriTerm(
     'https://schema.org/conditionsOfAccess',
   );
 
@@ -411,7 +403,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentRating = const IriTerm(
+  static const schemaContentRating = IriTerm(
     'https://schema.org/contentRating',
   );
 
@@ -421,7 +413,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentReferenceTime = const IriTerm(
+  static const schemaContentReferenceTime = IriTerm(
     'https://schema.org/contentReferenceTime',
   );
 
@@ -431,9 +423,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaContentSize = const IriTerm(
-    'https://schema.org/contentSize',
-  );
+  static const schemaContentSize = IriTerm('https://schema.org/contentSize');
 
   /// contentUrl from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -441,9 +431,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaContentUrl = const IriTerm(
-    'https://schema.org/contentUrl',
-  );
+  static const schemaContentUrl = IriTerm('https://schema.org/contentUrl');
 
   /// contributor from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -451,9 +439,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaContributor = const IriTerm(
-    'https://schema.org/contributor',
-  );
+  static const schemaContributor = IriTerm('https://schema.org/contributor');
 
   /// copyrightHolder from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -461,7 +447,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightHolder = const IriTerm(
+  static const schemaCopyrightHolder = IriTerm(
     'https://schema.org/copyrightHolder',
   );
 
@@ -471,7 +457,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightNotice = const IriTerm(
+  static const schemaCopyrightNotice = IriTerm(
     'https://schema.org/copyrightNotice',
   );
 
@@ -481,7 +467,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightYear = const IriTerm(
+  static const schemaCopyrightYear = IriTerm(
     'https://schema.org/copyrightYear',
   );
 
@@ -491,9 +477,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCorrection = const IriTerm(
-    'https://schema.org/correction',
-  );
+  static const schemaCorrection = IriTerm('https://schema.org/correction');
 
   /// countryOfOrigin from schema vocabulary [Expects: https://schema.org/Country]
   ///
@@ -505,7 +489,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Movie, https://schema.org/Product, https://schema.org/TVEpisode, https://schema.org/TVSeason, https://schema.org/TVSeries
   ///
-  static const schemaCountryOfOrigin = const IriTerm(
+  static const schemaCountryOfOrigin = IriTerm(
     'https://schema.org/countryOfOrigin',
   );
 
@@ -515,7 +499,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCreativeWorkStatus = const IriTerm(
+  static const schemaCreativeWorkStatus = IriTerm(
     'https://schema.org/creativeWorkStatus',
   );
 
@@ -525,9 +509,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCreditText = const IriTerm(
-    'https://schema.org/creditText',
-  );
+  static const schemaCreditText = IriTerm('https://schema.org/creditText');
 
   /// dateModified from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -535,9 +517,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const schemaDateModified = const IriTerm(
-    'https://schema.org/dateModified',
-  );
+  static const schemaDateModified = IriTerm('https://schema.org/dateModified');
 
   /// datePublished from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -545,7 +525,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const schemaDatePublished = const IriTerm(
+  static const schemaDatePublished = IriTerm(
     'https://schema.org/datePublished',
   );
 
@@ -555,7 +535,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaDigitalSourceType = const IriTerm(
+  static const schemaDigitalSourceType = IriTerm(
     'https://schema.org/digitalSourceType',
   );
 
@@ -565,7 +545,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDisambiguatingDescription = const IriTerm(
+  static const schemaDisambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -575,8 +555,18 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaDiscussionUrl = const IriTerm(
+  static const schemaDiscussionUrl = IriTerm(
     'https://schema.org/discussionUrl',
+  );
+
+  /// displayLocation from schema vocabulary [Expects: https://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
+  ///
+  static const schemaDisplayLocation = IriTerm(
+    'https://schema.org/displayLocation',
   );
 
   /// editEIDR from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
@@ -590,7 +580,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEditEIDR = const IriTerm('https://schema.org/editEIDR');
+  static const schemaEditEIDR = IriTerm('https://schema.org/editEIDR');
 
   /// editor from schema vocabulary [Expects: https://schema.org/Person]
   ///
@@ -598,7 +588,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEditor = const IriTerm('https://schema.org/editor');
+  static const schemaEditor = IriTerm('https://schema.org/editor');
 
   /// educationalAlignment from schema vocabulary [Expects: https://schema.org/AlignmentObject]
   ///
@@ -608,7 +598,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaEducationalAlignment = const IriTerm(
+  static const schemaEducationalAlignment = IriTerm(
     'https://schema.org/educationalAlignment',
   );
 
@@ -618,7 +608,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/EducationalOccupationalCredential, https://schema.org/LearningResource
   ///
-  static const schemaEducationalLevel = const IriTerm(
+  static const schemaEducationalLevel = IriTerm(
     'https://schema.org/educationalLevel',
   );
 
@@ -628,7 +618,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaEducationalUse = const IriTerm(
+  static const schemaEducationalUse = IriTerm(
     'https://schema.org/educationalUse',
   );
 
@@ -638,7 +628,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaEmbedUrl = const IriTerm('https://schema.org/embedUrl');
+  static const schemaEmbedUrl = IriTerm('https://schema.org/embedUrl');
 
   /// encodings from schema vocabulary [Expects: https://schema.org/MediaObject]
   ///
@@ -646,7 +636,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEncodings = const IriTerm('https://schema.org/encodings');
+  static const schemaEncodings = IriTerm('https://schema.org/encodings');
 
   /// endTime from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -654,7 +644,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const schemaEndTime = const IriTerm('https://schema.org/endTime');
+  static const schemaEndTime = IriTerm('https://schema.org/endTime');
 
   /// expires from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -662,7 +652,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const schemaExpires = const IriTerm('https://schema.org/expires');
+  static const schemaExpires = IriTerm('https://schema.org/expires');
 
   /// fileFormat from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -670,9 +660,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaFileFormat = const IriTerm(
-    'https://schema.org/fileFormat',
-  );
+  static const schemaFileFormat = IriTerm('https://schema.org/fileFormat');
 
   /// funder from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -680,7 +668,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaFunder = const IriTerm('https://schema.org/funder');
+  static const schemaFunder = IriTerm('https://schema.org/funder');
 
   /// headline from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -688,7 +676,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaHeadline = const IriTerm('https://schema.org/headline');
+  static const schemaHeadline = IriTerm('https://schema.org/headline');
 
   /// height from schema vocabulary [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -696,7 +684,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Person, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const schemaHeight = const IriTerm('https://schema.org/height');
+  static const schemaHeight = IriTerm('https://schema.org/height');
 
   /// ineligibleRegion from schema vocabulary [Expects: https://schema.org/GeoShape, https://schema.org/Place, https://schema.org/Text]
   ///
@@ -705,7 +693,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/MediaObject, https://schema.org/Offer
   ///
-  static const schemaIneligibleRegion = const IriTerm(
+  static const schemaIneligibleRegion = IriTerm(
     'https://schema.org/ineligibleRegion',
   );
 
@@ -715,7 +703,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaInteractivityType = const IriTerm(
+  static const schemaInteractivityType = IriTerm(
     'https://schema.org/interactivityType',
   );
 
@@ -725,7 +713,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const schemaInterpretedAsClaim = const IriTerm(
+  static const schemaInterpretedAsClaim = IriTerm(
     'https://schema.org/interpretedAsClaim',
   );
 
@@ -735,9 +723,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsBasedOnUrl = const IriTerm(
-    'https://schema.org/isBasedOnUrl',
-  );
+  static const schemaIsBasedOnUrl = IriTerm('https://schema.org/isBasedOnUrl');
 
   /// isFamilyFriendly from schema vocabulary [Expects: https://schema.org/Boolean]
   ///
@@ -745,7 +731,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const schemaIsFamilyFriendly = const IriTerm(
+  static const schemaIsFamilyFriendly = IriTerm(
     'https://schema.org/isFamilyFriendly',
   );
 
@@ -755,7 +741,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const schemaKeywords = const IriTerm('https://schema.org/keywords');
+  static const schemaKeywords = IriTerm('https://schema.org/keywords');
 
   /// learningResourceType from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -763,7 +749,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaLearningResourceType = const IriTerm(
+  static const schemaLearningResourceType = IriTerm(
     'https://schema.org/learningResourceType',
   );
 
@@ -773,7 +759,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaLicense = const IriTerm('https://schema.org/license');
+  static const schemaLicense = IriTerm('https://schema.org/license');
 
   /// locationCreated from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -781,7 +767,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaLocationCreated = const IriTerm(
+  static const schemaLocationCreated = IriTerm(
     'https://schema.org/locationCreated',
   );
 
@@ -792,9 +778,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMaintainer = const IriTerm(
-    'https://schema.org/maintainer',
-  );
+  static const schemaMaintainer = IriTerm('https://schema.org/maintainer');
 
   /// materialExtent from schema vocabulary [Expects: https://schema.org/QuantitativeValue, https://schema.org/Text]
   ///
@@ -802,7 +786,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMaterialExtent = const IriTerm(
+  static const schemaMaterialExtent = IriTerm(
     'https://schema.org/materialExtent',
   );
 
@@ -812,7 +796,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMentions = const IriTerm('https://schema.org/mentions');
+  static const schemaMentions = IriTerm('https://schema.org/mentions');
 
   /// name from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -820,7 +804,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaName = const IriTerm('https://schema.org/name');
+  static const schemaName = IriTerm('https://schema.org/name');
 
   /// pattern from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -828,7 +812,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaPattern = const IriTerm('https://schema.org/pattern');
+  static const schemaPattern = IriTerm('https://schema.org/pattern');
 
   /// playerType from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -836,9 +820,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaPlayerType = const IriTerm(
-    'https://schema.org/playerType',
-  );
+  static const schemaPlayerType = IriTerm('https://schema.org/playerType');
 
   /// potentialAction from schema vocabulary [Expects: https://schema.org/Action]
   ///
@@ -846,7 +828,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaPotentialAction = const IriTerm(
+  static const schemaPotentialAction = IriTerm(
     'https://schema.org/potentialAction',
   );
 
@@ -856,7 +838,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaProducer = const IriTerm('https://schema.org/producer');
+  static const schemaProducer = IriTerm('https://schema.org/producer');
 
   /// productionCompany from schema vocabulary [Expects: https://schema.org/Organization]
   ///
@@ -864,7 +846,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGameSeries
   ///
-  static const schemaProductionCompany = const IriTerm(
+  static const schemaProductionCompany = IriTerm(
     'https://schema.org/productionCompany',
   );
 
@@ -874,9 +856,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaPublication = const IriTerm(
-    'https://schema.org/publication',
-  );
+  static const schemaPublication = IriTerm('https://schema.org/publication');
 
   /// publisher from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -884,7 +864,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/FinancialIncentive
   ///
-  static const schemaPublisher = const IriTerm('https://schema.org/publisher');
+  static const schemaPublisher = IriTerm('https://schema.org/publisher');
 
   /// publisherImprint from schema vocabulary [Expects: https://schema.org/Organization]
   ///
@@ -892,7 +872,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaPublisherImprint = const IriTerm(
+  static const schemaPublisherImprint = IriTerm(
     'https://schema.org/publisherImprint',
   );
 
@@ -902,7 +882,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaRegionsAllowed = const IriTerm(
+  static const schemaRegionsAllowed = IriTerm(
     'https://schema.org/regionsAllowed',
   );
 
@@ -912,7 +892,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaReleasedEvent = const IriTerm(
+  static const schemaReleasedEvent = IriTerm(
     'https://schema.org/releasedEvent',
   );
 
@@ -922,7 +902,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/MediaObject
   ///
-  static const schemaRequiresSubscription = const IriTerm(
+  static const schemaRequiresSubscription = IriTerm(
     'https://schema.org/requiresSubscription',
   );
 
@@ -932,7 +912,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const schemaReviews = const IriTerm('https://schema.org/reviews');
+  static const schemaReviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -940,7 +920,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSameAs = const IriTerm('https://schema.org/sameAs');
+  static const schemaSameAs = IriTerm('https://schema.org/sameAs');
 
   /// schemaVersion from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -949,7 +929,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSchemaVersion = const IriTerm(
+  static const schemaSchemaVersion = IriTerm(
     'https://schema.org/schemaVersion',
   );
 
@@ -959,7 +939,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdDatePublished = const IriTerm(
+  static const schemaSdDatePublished = IriTerm(
     'https://schema.org/sdDatePublished',
   );
 
@@ -969,7 +949,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdLicense = const IriTerm('https://schema.org/sdLicense');
+  static const schemaSdLicense = IriTerm('https://schema.org/sdLicense');
 
   /// sdPublisher from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -978,9 +958,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdPublisher = const IriTerm(
-    'https://schema.org/sdPublisher',
-  );
+  static const schemaSdPublisher = IriTerm('https://schema.org/sdPublisher');
 
   /// sha256 from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -988,7 +966,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaSha256 = const IriTerm('https://schema.org/sha256');
+  static const schemaSha256 = IriTerm('https://schema.org/sha256');
 
   /// size from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/QuantitativeValue, https://schema.org/SizeSpecification, https://schema.org/Text]
   ///
@@ -996,7 +974,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaSize = const IriTerm('https://schema.org/size');
+  static const schemaSize = IriTerm('https://schema.org/size');
 
   /// sourceOrganization from schema vocabulary [Expects: https://schema.org/Organization]
   ///
@@ -1004,7 +982,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSourceOrganization = const IriTerm(
+  static const schemaSourceOrganization = IriTerm(
     'https://schema.org/sourceOrganization',
   );
 
@@ -1015,7 +993,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSpatial = const IriTerm('https://schema.org/spatial');
+  static const schemaSpatial = IriTerm('https://schema.org/spatial');
 
   /// startTime from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -1023,7 +1001,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const schemaStartTime = const IriTerm('https://schema.org/startTime');
+  static const schemaStartTime = IriTerm('https://schema.org/startTime');
 
   /// teaches from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -1031,7 +1009,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const schemaTeaches = const IriTerm('https://schema.org/teaches');
+  static const schemaTeaches = IriTerm('https://schema.org/teaches');
 
   /// temporal from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Text]
   ///
@@ -1040,7 +1018,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTemporal = const IriTerm('https://schema.org/temporal');
+  static const schemaTemporal = IriTerm('https://schema.org/temporal');
 
   /// text from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1048,7 +1026,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaText = const IriTerm('https://schema.org/text');
+  static const schemaText = IriTerm('https://schema.org/text');
 
   /// thumbnail from schema vocabulary [Expects: https://schema.org/ImageObject]
   ///
@@ -1056,7 +1034,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaThumbnail = const IriTerm('https://schema.org/thumbnail');
+  static const schemaThumbnail = IriTerm('https://schema.org/thumbnail');
 
   /// thumbnailUrl from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -1064,9 +1042,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaThumbnailUrl = const IriTerm(
-    'https://schema.org/thumbnailUrl',
-  );
+  static const schemaThumbnailUrl = IriTerm('https://schema.org/thumbnailUrl');
 
   /// timeRequired from schema vocabulary [Expects: https://schema.org/Duration]
   ///
@@ -1074,9 +1050,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTimeRequired = const IriTerm(
-    'https://schema.org/timeRequired',
-  );
+  static const schemaTimeRequired = IriTerm('https://schema.org/timeRequired');
 
   /// translator from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1084,9 +1058,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaTranslator = const IriTerm(
-    'https://schema.org/translator',
-  );
+  static const schemaTranslator = IriTerm('https://schema.org/translator');
 
   /// typicalAgeRange from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1094,7 +1066,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaTypicalAgeRange = const IriTerm(
+  static const schemaTypicalAgeRange = IriTerm(
     'https://schema.org/typicalAgeRange',
   );
 
@@ -1104,9 +1076,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaUploadDate = const IriTerm(
-    'https://schema.org/uploadDate',
-  );
+  static const schemaUploadDate = IriTerm('https://schema.org/uploadDate');
 
   /// url from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -1114,7 +1084,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaUrl = const IriTerm('https://schema.org/url');
+  static const schemaUrl = IriTerm('https://schema.org/url');
 
   /// version from schema vocabulary [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -1122,7 +1092,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVersion = const IriTerm('https://schema.org/version');
+  static const schemaVersion = IriTerm('https://schema.org/version');
 
   /// video from schema vocabulary [Expects: https://schema.org/Clip, https://schema.org/VideoObject]
   ///
@@ -1130,7 +1100,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVideo = const IriTerm('https://schema.org/video');
+  static const schemaVideo = IriTerm('https://schema.org/video');
 
   /// width from schema vocabulary [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -1138,7 +1108,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const schemaWidth = const IriTerm('https://schema.org/width');
+  static const schemaWidth = IriTerm('https://schema.org/width');
 
   /// wordCount from schema vocabulary [Expects: https://schema.org/Integer]
   ///
@@ -1146,7 +1116,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Article, https://schema.org/CreativeWork
   ///
-  static const schemaWordCount = const IriTerm('https://schema.org/wordCount');
+  static const schemaWordCount = IriTerm('https://schema.org/wordCount');
 
   /// alternateName from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1154,7 +1124,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAlternateName = const IriTerm(
+  static const schemaAlternateName = IriTerm(
     'https://schema.org/alternateName',
   );
 
@@ -1164,7 +1134,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAudience = const IriTerm('https://schema.org/audience');
+  static const schemaAudience = IriTerm('https://schema.org/audience');
 
   /// award from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1172,7 +1142,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAward = const IriTerm('https://schema.org/award');
+  static const schemaAward = IriTerm('https://schema.org/award');
 
   /// contentLocation from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -1180,7 +1150,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentLocation = const IriTerm(
+  static const schemaContentLocation = IriTerm(
     'https://schema.org/contentLocation',
   );
 
@@ -1190,7 +1160,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/UserComments
   ///
-  static const schemaCreator = const IriTerm('https://schema.org/creator');
+  static const schemaCreator = IriTerm('https://schema.org/creator');
 
   /// dateCreated from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -1198,17 +1168,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const schemaDateCreated = const IriTerm(
-    'https://schema.org/dateCreated',
-  );
-
-  /// duration from schema vocabulary [Expects: https://schema.org/Duration, https://schema.org/QuantitativeValue]
-  ///
-  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
-  ///
-  /// Can be used on: https://schema.org/Audiobook, https://schema.org/Episode, https://schema.org/Event, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MusicRecording, https://schema.org/MusicRelease, https://schema.org/QuantitativeValueDistribution, https://schema.org/Schedule, https://schema.org/ServicePeriod
-  ///
-  static const schemaDuration = const IriTerm('https://schema.org/duration');
+  static const schemaDateCreated = IriTerm('https://schema.org/dateCreated');
 
   /// encodesCreativeWork from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1216,7 +1176,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const schemaEncodesCreativeWork = const IriTerm(
+  static const schemaEncodesCreativeWork = IriTerm(
     'https://schema.org/encodesCreativeWork',
   );
 
@@ -1230,7 +1190,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const schemaEncodingFormat = const IriTerm(
+  static const schemaEncodingFormat = IriTerm(
     'https://schema.org/encodingFormat',
   );
 
@@ -1240,7 +1200,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaExampleOfWork = const IriTerm(
+  static const schemaExampleOfWork = IriTerm(
     'https://schema.org/exampleOfWork',
   );
 
@@ -1250,15 +1210,15 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const schemaFunding = const IriTerm('https://schema.org/funding');
+  static const schemaFunding = IriTerm('https://schema.org/funding');
 
-  /// genre from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
+  /// genre from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: https://schema.org/BroadcastChannel, https://schema.org/CreativeWork, https://schema.org/MusicGroup
   ///
-  static const schemaGenre = const IriTerm('https://schema.org/genre');
+  static const schemaGenre = IriTerm('https://schema.org/genre');
 
   /// inLanguage from schema vocabulary [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -1266,9 +1226,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/BroadcastService, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LinkRole, https://schema.org/PronounceableText, https://schema.org/WriteAction
   ///
-  static const schemaInLanguage = const IriTerm(
-    'https://schema.org/inLanguage',
-  );
+  static const schemaInLanguage = IriTerm('https://schema.org/inLanguage');
 
   /// interactionStatistic from schema vocabulary [Expects: https://schema.org/InteractionCounter]
   ///
@@ -1276,7 +1234,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaInteractionStatistic = const IriTerm(
+  static const schemaInteractionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -1286,7 +1244,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const schemaIsAccessibleForFree = const IriTerm(
+  static const schemaIsAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -1296,7 +1254,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsBasedOn = const IriTerm('https://schema.org/isBasedOn');
+  static const schemaIsBasedOn = IriTerm('https://schema.org/isBasedOn');
 
   /// mainEntity from schema vocabulary [Expects: https://schema.org/Thing]
   ///
@@ -1304,9 +1262,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMainEntity = const IriTerm(
-    'https://schema.org/mainEntity',
-  );
+  static const schemaMainEntity = IriTerm('https://schema.org/mainEntity');
 
   /// mainEntityOfPage from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1314,7 +1270,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaMainEntityOfPage = const IriTerm(
+  static const schemaMainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -1325,7 +1281,15 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/AggregateOffer, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/Event, https://schema.org/MenuItem, https://schema.org/Product, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const schemaOffers = const IriTerm('https://schema.org/offers');
+  static const schemaOffers = IriTerm('https://schema.org/offers');
+
+  /// owner from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaOwner = IriTerm('https://schema.org/owner');
 
   /// provider from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1333,7 +1297,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const schemaProvider = const IriTerm('https://schema.org/provider');
+  static const schemaProvider = IriTerm('https://schema.org/provider');
 
   /// recordedAt from schema vocabulary [Expects: https://schema.org/Event]
   ///
@@ -1341,9 +1305,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaRecordedAt = const IriTerm(
-    'https://schema.org/recordedAt',
-  );
+  static const schemaRecordedAt = IriTerm('https://schema.org/recordedAt');
 
   /// review from schema vocabulary [Expects: https://schema.org/Review]
   ///
@@ -1351,7 +1313,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaReview = const IriTerm('https://schema.org/review');
+  static const schemaReview = IriTerm('https://schema.org/review');
 
   /// sponsor from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1359,7 +1321,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaSponsor = const IriTerm('https://schema.org/sponsor');
+  static const schemaSponsor = IriTerm('https://schema.org/sponsor');
 
   /// subjectOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -1367,7 +1329,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSubjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const schemaSubjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// temporalCoverage from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1379,7 +1341,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTemporalCoverage = const IriTerm(
+  static const schemaTemporalCoverage = IriTerm(
     'https://schema.org/temporalCoverage',
   );
 
@@ -1389,7 +1351,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTranslationOfWork = const IriTerm(
+  static const schemaTranslationOfWork = IriTerm(
     'https://schema.org/translationOfWork',
   );
 
@@ -1401,7 +1363,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaUsageInfo = const IriTerm('https://schema.org/usageInfo');
+  static const schemaUsageInfo = IriTerm('https://schema.org/usageInfo');
 
   /// workTranslation from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1409,17 +1371,17 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaWorkTranslation = const IriTerm(
+  static const schemaWorkTranslation = IriTerm(
     'https://schema.org/workTranslation',
   );
 
   /// about from schema vocabulary [Expects: https://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event
+  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/DefinedTerm, https://schema.org/DefinedTermSet, https://schema.org/Event
   ///
-  static const schemaAbout = const IriTerm('https://schema.org/about');
+  static const schemaAbout = IriTerm('https://schema.org/about');
 
   /// encoding from schema vocabulary [Expects: https://schema.org/MediaObject]
   ///
@@ -1427,7 +1389,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEncoding = const IriTerm('https://schema.org/encoding');
+  static const schemaEncoding = IriTerm('https://schema.org/encoding');
 
   /// material from schema vocabulary [Expects: https://schema.org/Product, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1435,7 +1397,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaMaterial = const IriTerm('https://schema.org/material');
+  static const schemaMaterial = IriTerm('https://schema.org/material');
 
   /// spatialCoverage from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -1445,9 +1407,17 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSpatialCoverage = const IriTerm(
+  static const schemaSpatialCoverage = IriTerm(
     'https://schema.org/spatialCoverage',
   );
+
+  /// duration from schema vocabulary [Expects: https://schema.org/Duration, https://schema.org/QuantitativeValue]
+  ///
+  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
+  ///
+  /// Can be used on: https://schema.org/Audiobook, https://schema.org/Episode, https://schema.org/Event, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MusicRecording, https://schema.org/MusicRelease, https://schema.org/QuantitativeValueDistribution, https://schema.org/Schedule, https://schema.org/ServicePeriod
+  ///
+  static const schemaDuration = IriTerm('https://schema.org/duration');
 
   /// workExample from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1455,9 +1425,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaWorkExample = const IriTerm(
-    'https://schema.org/workExample',
-  );
+  static const schemaWorkExample = IriTerm('https://schema.org/workExample');
 
   /// description from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -1465,9 +1433,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDescription = const IriTerm(
-    'https://schema.org/description',
-  );
+  static const schemaDescription = IriTerm('https://schema.org/description');
 
   /// image from schema vocabulary [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1475,7 +1441,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaImage = const IriTerm('https://schema.org/image');
+  static const schemaImage = IriTerm('https://schema.org/image');
 
   /// hasPart from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1483,7 +1449,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaHasPart = const IriTerm('https://schema.org/hasPart');
+  static const schemaHasPart = IriTerm('https://schema.org/hasPart');
 
   /// position from schema vocabulary [Expects: https://schema.org/Integer, https://schema.org/Text]
   ///
@@ -1491,7 +1457,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/ListItem
   ///
-  static const schemaPosition = const IriTerm('https://schema.org/position');
+  static const schemaPosition = IriTerm('https://schema.org/position');
 
   /// isPartOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1499,7 +1465,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsPartOf = const IriTerm('https://schema.org/isPartOf');
+  static const schemaIsPartOf = IriTerm('https://schema.org/isPartOf');
 
   /// publishingPrinciples from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1510,7 +1476,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaPublishingPrinciples = const IriTerm(
+  static const schemaPublishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -1521,9 +1487,7 @@ class DcmitypeText {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaIdentifier = const IriTerm(
-    'https://schema.org/identifier',
-  );
+  static const schemaIdentifier = IriTerm('https://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1531,7 +1495,7 @@ class DcmitypeText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

@@ -27,7 +27,7 @@ class SchemaGovernmentPermit {
 
   /// IRI term for the GovernmentPermit class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/GovernmentPermit');
+  static const classIri = IriTerm('https://schema.org/GovernmentPermit');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -36,9 +36,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -46,7 +44,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -56,7 +54,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -66,7 +64,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/Permit, https://schema.org/Ticket
   ///
-  static const issuedBy = const IriTerm('https://schema.org/issuedBy');
+  static const issuedBy = IriTerm('https://schema.org/issuedBy');
 
   /// issuedThrough [Expects: https://schema.org/Service]
   ///
@@ -74,9 +72,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Permit
   ///
-  static const issuedThrough = const IriTerm(
-    'https://schema.org/issuedThrough',
-  );
+  static const issuedThrough = IriTerm('https://schema.org/issuedThrough');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -84,7 +80,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// permitAudience [Expects: https://schema.org/Audience]
   ///
@@ -92,9 +88,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Permit
   ///
-  static const permitAudience = const IriTerm(
-    'https://schema.org/permitAudience',
-  );
+  static const permitAudience = IriTerm('https://schema.org/permitAudience');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -102,9 +96,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -112,7 +104,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -120,7 +112,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// validFor [Expects: https://schema.org/Duration]
   ///
@@ -128,7 +120,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
   ///
-  static const validFor = const IriTerm('https://schema.org/validFor');
+  static const validFor = IriTerm('https://schema.org/validFor');
 
   /// validFrom [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -136,7 +128,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/LocationFeatureSpecification, https://schema.org/MonetaryAmount, https://schema.org/Offer, https://schema.org/OpeningHoursSpecification, https://schema.org/Permit, https://schema.org/PriceSpecification
   ///
-  static const validFrom = const IriTerm('https://schema.org/validFrom');
+  static const validFrom = IriTerm('https://schema.org/validFrom');
 
   /// validIn [Expects: https://schema.org/AdministrativeArea]
   ///
@@ -144,7 +136,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
   ///
-  static const validIn = const IriTerm('https://schema.org/validIn');
+  static const validIn = IriTerm('https://schema.org/validIn');
 
   /// validUntil [Expects: https://schema.org/Date]
   ///
@@ -152,7 +144,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Permit
   ///
-  static const validUntil = const IriTerm('https://schema.org/validUntil');
+  static const validUntil = IriTerm('https://schema.org/validUntil');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -160,9 +152,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -170,9 +160,17 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -180,7 +178,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -188,7 +186,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -196,7 +194,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -205,15 +203,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -221,7 +211,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -231,7 +221,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -241,7 +231,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -251,7 +241,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -261,7 +251,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -271,7 +261,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -281,7 +271,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -291,7 +281,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -301,7 +291,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -311,7 +301,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -321,7 +311,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -331,9 +321,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -341,7 +329,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -351,7 +339,7 @@ class SchemaGovernmentPermit {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

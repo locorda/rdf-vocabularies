@@ -23,15 +23,13 @@ class Skos {
   ///
   ///
   ///
-  static const Concept = const IriTerm(
-    'http://www.w3.org/2004/02/skos/core#Concept',
-  );
+  static const Concept = IriTerm('http://www.w3.org/2004/02/skos/core#Concept');
 
   /// IRI for skos:ConceptScheme
   ///
   ///
   ///
-  static const ConceptScheme = const IriTerm(
+  static const ConceptScheme = IriTerm(
     'http://www.w3.org/2004/02/skos/core#ConceptScheme',
   );
 
@@ -39,7 +37,7 @@ class Skos {
   ///
   ///
   ///
-  static const Collection = const IriTerm(
+  static const Collection = IriTerm(
     'http://www.w3.org/2004/02/skos/core#Collection',
   );
 
@@ -47,7 +45,7 @@ class Skos {
   ///
   ///
   ///
-  static const OrderedCollection = const IriTerm(
+  static const OrderedCollection = IriTerm(
     'http://www.w3.org/2004/02/skos/core#OrderedCollection',
   );
 
@@ -57,7 +55,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const inScheme = const IriTerm(
+  static const inScheme = IriTerm(
     'http://www.w3.org/2004/02/skos/core#inScheme',
   );
 
@@ -67,7 +65,7 @@ class Skos {
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#ConceptScheme
   ///
-  static const hasTopConcept = const IriTerm(
+  static const hasTopConcept = IriTerm(
     'http://www.w3.org/2004/02/skos/core#hasTopConcept',
   );
 
@@ -77,7 +75,7 @@ class Skos {
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#Concept
   ///
-  static const topConceptOf = const IriTerm(
+  static const topConceptOf = IriTerm(
     'http://www.w3.org/2004/02/skos/core#topConceptOf',
   );
 
@@ -87,7 +85,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const prefLabel = const IriTerm(
+  static const prefLabel = IriTerm(
     'http://www.w3.org/2004/02/skos/core#prefLabel',
   );
 
@@ -97,7 +95,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const altLabel = const IriTerm(
+  static const altLabel = IriTerm(
     'http://www.w3.org/2004/02/skos/core#altLabel',
   );
 
@@ -107,7 +105,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hiddenLabel = const IriTerm(
+  static const hiddenLabel = IriTerm(
     'http://www.w3.org/2004/02/skos/core#hiddenLabel',
   );
 
@@ -117,7 +115,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const notation = const IriTerm(
+  static const notation = IriTerm(
     'http://www.w3.org/2004/02/skos/core#notation',
   );
 
@@ -127,7 +125,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const note = const IriTerm('http://www.w3.org/2004/02/skos/core#note');
+  static const note = IriTerm('http://www.w3.org/2004/02/skos/core#note');
 
   /// IRI for skos:changeNote
   ///
@@ -135,7 +133,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const changeNote = const IriTerm(
+  static const changeNote = IriTerm(
     'http://www.w3.org/2004/02/skos/core#changeNote',
   );
 
@@ -145,7 +143,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const definition = const IriTerm(
+  static const definition = IriTerm(
     'http://www.w3.org/2004/02/skos/core#definition',
   );
 
@@ -155,7 +153,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const editorialNote = const IriTerm(
+  static const editorialNote = IriTerm(
     'http://www.w3.org/2004/02/skos/core#editorialNote',
   );
 
@@ -165,9 +163,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const example = const IriTerm(
-    'http://www.w3.org/2004/02/skos/core#example',
-  );
+  static const example = IriTerm('http://www.w3.org/2004/02/skos/core#example');
 
   /// IRI for skos:historyNote
   ///
@@ -175,7 +171,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const historyNote = const IriTerm(
+  static const historyNote = IriTerm(
     'http://www.w3.org/2004/02/skos/core#historyNote',
   );
 
@@ -185,7 +181,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const scopeNote = const IriTerm(
+  static const scopeNote = IriTerm(
     'http://www.w3.org/2004/02/skos/core#scopeNote',
   );
 
@@ -195,7 +191,7 @@ class Skos {
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#Concept
   ///
-  static const semanticRelation = const IriTerm(
+  static const semanticRelation = IriTerm(
     'http://www.w3.org/2004/02/skos/core#semanticRelation',
   );
 
@@ -205,9 +201,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const broader = const IriTerm(
-    'http://www.w3.org/2004/02/skos/core#broader',
-  );
+  static const broader = IriTerm('http://www.w3.org/2004/02/skos/core#broader');
 
   /// IRI for skos:narrower
   ///
@@ -215,7 +209,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const narrower = const IriTerm(
+  static const narrower = IriTerm(
     'http://www.w3.org/2004/02/skos/core#narrower',
   );
 
@@ -225,9 +219,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const related = const IriTerm(
-    'http://www.w3.org/2004/02/skos/core#related',
-  );
+  static const related = IriTerm('http://www.w3.org/2004/02/skos/core#related');
 
   /// IRI for skos:broaderTransitive
   ///
@@ -235,7 +227,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const broaderTransitive = const IriTerm(
+  static const broaderTransitive = IriTerm(
     'http://www.w3.org/2004/02/skos/core#broaderTransitive',
   );
 
@@ -245,7 +237,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const narrowerTransitive = const IriTerm(
+  static const narrowerTransitive = IriTerm(
     'http://www.w3.org/2004/02/skos/core#narrowerTransitive',
   );
 
@@ -255,9 +247,7 @@ class Skos {
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#Collection
   ///
-  static const member = const IriTerm(
-    'http://www.w3.org/2004/02/skos/core#member',
-  );
+  static const member = IriTerm('http://www.w3.org/2004/02/skos/core#member');
 
   /// IRI for skos:memberList [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
   ///
@@ -265,7 +255,7 @@ class Skos {
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#OrderedCollection
   ///
-  static const memberList = const IriTerm(
+  static const memberList = IriTerm(
     'http://www.w3.org/2004/02/skos/core#memberList',
   );
 
@@ -275,7 +265,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const mappingRelation = const IriTerm(
+  static const mappingRelation = IriTerm(
     'http://www.w3.org/2004/02/skos/core#mappingRelation',
   );
 
@@ -285,7 +275,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const broadMatch = const IriTerm(
+  static const broadMatch = IriTerm(
     'http://www.w3.org/2004/02/skos/core#broadMatch',
   );
 
@@ -295,7 +285,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const narrowMatch = const IriTerm(
+  static const narrowMatch = IriTerm(
     'http://www.w3.org/2004/02/skos/core#narrowMatch',
   );
 
@@ -305,7 +295,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const relatedMatch = const IriTerm(
+  static const relatedMatch = IriTerm(
     'http://www.w3.org/2004/02/skos/core#relatedMatch',
   );
 
@@ -315,7 +305,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const exactMatch = const IriTerm(
+  static const exactMatch = IriTerm(
     'http://www.w3.org/2004/02/skos/core#exactMatch',
   );
 
@@ -325,7 +315,7 @@ class Skos {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const closeMatch = const IriTerm(
+  static const closeMatch = IriTerm(
     'http://www.w3.org/2004/02/skos/core#closeMatch',
   );
 }

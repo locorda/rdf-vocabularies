@@ -23,33 +23,31 @@ class Dcmitype {
   ///
   /// An aggregation of resources.
   ///
-  static const Collection = const IriTerm(
-    'http://purl.org/dc/dcmitype/Collection',
-  );
+  static const Collection = IriTerm('http://purl.org/dc/dcmitype/Collection');
 
   /// IRI for dcmitype:Dataset
   ///
   /// Data encoded in a defined structure.
   ///
-  static const Dataset = const IriTerm('http://purl.org/dc/dcmitype/Dataset');
+  static const Dataset = IriTerm('http://purl.org/dc/dcmitype/Dataset');
 
   /// IRI for dcmitype:Event
   ///
   /// A non-persistent, time-based occurrence.
   ///
-  static const Event = const IriTerm('http://purl.org/dc/dcmitype/Event');
+  static const Event = IriTerm('http://purl.org/dc/dcmitype/Event');
 
   /// IRI for dcmitype:Image
   ///
   /// A visual representation other than text.
   ///
-  static const Image = const IriTerm('http://purl.org/dc/dcmitype/Image');
+  static const Image = IriTerm('http://purl.org/dc/dcmitype/Image');
 
   /// IRI for dcmitype:InteractiveResource
   ///
   /// A resource requiring interaction from the user to be understood, executed, or experienced.
   ///
-  static const InteractiveResource = const IriTerm(
+  static const InteractiveResource = IriTerm(
     'http://purl.org/dc/dcmitype/InteractiveResource',
   );
 
@@ -57,15 +55,13 @@ class Dcmitype {
   ///
   /// A series of visual representations imparting an impression of motion when shown in succession.
   ///
-  static const MovingImage = const IriTerm(
-    'http://purl.org/dc/dcmitype/MovingImage',
-  );
+  static const MovingImage = IriTerm('http://purl.org/dc/dcmitype/MovingImage');
 
   /// IRI for dcmitype:PhysicalObject
   ///
   /// An inanimate, three-dimensional object or substance.
   ///
-  static const PhysicalObject = const IriTerm(
+  static const PhysicalObject = IriTerm(
     'http://purl.org/dc/dcmitype/PhysicalObject',
   );
 
@@ -73,31 +69,29 @@ class Dcmitype {
   ///
   /// A system that provides one or more functions.
   ///
-  static const Service = const IriTerm('http://purl.org/dc/dcmitype/Service');
+  static const Service = IriTerm('http://purl.org/dc/dcmitype/Service');
 
   /// IRI for dcmitype:Software
   ///
   /// A computer program in source or compiled form.
   ///
-  static const Software = const IriTerm('http://purl.org/dc/dcmitype/Software');
+  static const Software = IriTerm('http://purl.org/dc/dcmitype/Software');
 
   /// IRI for dcmitype:Sound
   ///
   /// A resource primarily intended to be heard.
   ///
-  static const Sound = const IriTerm('http://purl.org/dc/dcmitype/Sound');
+  static const Sound = IriTerm('http://purl.org/dc/dcmitype/Sound');
 
   /// IRI for dcmitype:StillImage
   ///
   /// A static visual representation.
   ///
-  static const StillImage = const IriTerm(
-    'http://purl.org/dc/dcmitype/StillImage',
-  );
+  static const StillImage = IriTerm('http://purl.org/dc/dcmitype/StillImage');
 
   /// IRI for dcmitype:Text
   ///
   /// A resource consisting primarily of words for reading.
   ///
-  static const Text = const IriTerm('http://purl.org/dc/dcmitype/Text');
+  static const Text = IriTerm('http://purl.org/dc/dcmitype/Text');
 }

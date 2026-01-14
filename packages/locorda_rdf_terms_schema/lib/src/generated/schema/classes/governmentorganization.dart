@@ -26,9 +26,7 @@ class SchemaGovernmentOrganization {
 
   /// IRI term for the GovernmentOrganization class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'https://schema.org/GovernmentOrganization',
-  );
+  static const classIri = IriTerm('https://schema.org/GovernmentOrganization');
 
   /// acceptedPaymentMethod [Expects: https://schema.org/LoanOrCredit, https://schema.org/PaymentMethod, https://schema.org/Text]
   ///
@@ -36,7 +34,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Organization
   ///
-  static const acceptedPaymentMethod = const IriTerm(
+  static const acceptedPaymentMethod = IriTerm(
     'https://schema.org/acceptedPaymentMethod',
   );
 
@@ -46,7 +44,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const actionableFeedbackPolicy = const IriTerm(
+  static const actionableFeedbackPolicy = IriTerm(
     'https://schema.org/actionableFeedbackPolicy',
   );
 
@@ -57,9 +55,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// address [Expects: https://schema.org/PostalAddress, https://schema.org/Text]
   ///
@@ -67,7 +63,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const address = const IriTerm('https://schema.org/address');
+  static const address = IriTerm('https://schema.org/address');
 
   /// agentInteractionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -75,7 +71,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const agentInteractionStatistic = const IriTerm(
+  static const agentInteractionStatistic = IriTerm(
     'https://schema.org/agentInteractionStatistic',
   );
 
@@ -85,9 +81,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// awards [Expects: https://schema.org/Text]
   ///
@@ -95,7 +89,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const awards = const IriTerm('https://schema.org/awards');
+  static const awards = IriTerm('https://schema.org/awards');
 
   /// brand [Expects: https://schema.org/Brand, https://schema.org/Organization]
   ///
@@ -103,7 +97,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const brand = const IriTerm('https://schema.org/brand');
+  static const brand = IriTerm('https://schema.org/brand');
 
   /// companyRegistration [Expects: https://schema.org/Certification]
   ///
@@ -111,7 +105,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const companyRegistration = const IriTerm(
+  static const companyRegistration = IriTerm(
     'https://schema.org/companyRegistration',
   );
 
@@ -121,9 +115,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const contactPoints = const IriTerm(
-    'https://schema.org/contactPoints',
-  );
+  static const contactPoints = IriTerm('https://schema.org/contactPoints');
 
   /// correctionsPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -131,7 +123,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const correctionsPolicy = const IriTerm(
+  static const correctionsPolicy = IriTerm(
     'https://schema.org/correctionsPolicy',
   );
 
@@ -141,7 +133,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const department = const IriTerm('https://schema.org/department');
+  static const department = IriTerm('https://schema.org/department');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -149,7 +141,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -159,9 +151,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const dissolutionDate = const IriTerm(
-    'https://schema.org/dissolutionDate',
-  );
+  static const dissolutionDate = IriTerm('https://schema.org/dissolutionDate');
 
   /// diversityPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -169,9 +159,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const diversityPolicy = const IriTerm(
-    'https://schema.org/diversityPolicy',
-  );
+  static const diversityPolicy = IriTerm('https://schema.org/diversityPolicy');
 
   /// diversityStaffingReport [Expects: https://schema.org/Article, https://schema.org/URL]
   ///
@@ -179,7 +167,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const diversityStaffingReport = const IriTerm(
+  static const diversityStaffingReport = IriTerm(
     'https://schema.org/diversityStaffingReport',
   );
 
@@ -189,7 +177,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const duns = const IriTerm('https://schema.org/duns');
+  static const duns = IriTerm('https://schema.org/duns');
 
   /// email [Expects: https://schema.org/Text]
   ///
@@ -197,7 +185,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const email = const IriTerm('https://schema.org/email');
+  static const email = IriTerm('https://schema.org/email');
 
   /// employees [Expects: https://schema.org/Person]
   ///
@@ -205,7 +193,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const employees = const IriTerm('https://schema.org/employees');
+  static const employees = IriTerm('https://schema.org/employees');
 
   /// ethicsPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -213,7 +201,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const ethicsPolicy = const IriTerm('https://schema.org/ethicsPolicy');
+  static const ethicsPolicy = IriTerm('https://schema.org/ethicsPolicy');
 
   /// events [Expects: https://schema.org/Event]
   ///
@@ -221,7 +209,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Place
   ///
-  static const events = const IriTerm('https://schema.org/events');
+  static const events = IriTerm('https://schema.org/events');
 
   /// faxNumber [Expects: https://schema.org/Text]
   ///
@@ -229,7 +217,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const faxNumber = const IriTerm('https://schema.org/faxNumber');
+  static const faxNumber = IriTerm('https://schema.org/faxNumber');
 
   /// founders [Expects: https://schema.org/Person]
   ///
@@ -237,7 +225,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const founders = const IriTerm('https://schema.org/founders');
+  static const founders = IriTerm('https://schema.org/founders');
 
   /// foundingDate [Expects: https://schema.org/Date]
   ///
@@ -245,7 +233,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const foundingDate = const IriTerm('https://schema.org/foundingDate');
+  static const foundingDate = IriTerm('https://schema.org/foundingDate');
 
   /// foundingLocation [Expects: https://schema.org/Place]
   ///
@@ -253,7 +241,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const foundingLocation = const IriTerm(
+  static const foundingLocation = IriTerm(
     'https://schema.org/foundingLocation',
   );
 
@@ -263,7 +251,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const funder = const IriTerm('https://schema.org/funder');
+  static const funder = IriTerm('https://schema.org/funder');
 
   /// globalLocationNumber [Expects: https://schema.org/Text]
   ///
@@ -271,7 +259,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const globalLocationNumber = const IriTerm(
+  static const globalLocationNumber = IriTerm(
     'https://schema.org/globalLocationNumber',
   );
 
@@ -281,7 +269,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
+  static const hasCertification = IriTerm(
     'https://schema.org/hasCertification',
   );
 
@@ -291,9 +279,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const hasCredential = const IriTerm(
-    'https://schema.org/hasCredential',
-  );
+  static const hasCredential = IriTerm('https://schema.org/hasCredential');
 
   /// hasGS1DigitalLink [Expects: https://schema.org/URL]
   ///
@@ -301,7 +287,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'https://schema.org/hasGS1DigitalLink',
   );
 
@@ -311,7 +297,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const hasMemberProgram = const IriTerm(
+  static const hasMemberProgram = IriTerm(
     'https://schema.org/hasMemberProgram',
   );
 
@@ -321,7 +307,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Product
   ///
-  static const hasMerchantReturnPolicy = const IriTerm(
+  static const hasMerchantReturnPolicy = IriTerm(
     'https://schema.org/hasMerchantReturnPolicy',
   );
 
@@ -331,9 +317,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Service
   ///
-  static const hasOfferCatalog = const IriTerm(
-    'https://schema.org/hasOfferCatalog',
-  );
+  static const hasOfferCatalog = IriTerm('https://schema.org/hasOfferCatalog');
 
   /// hasPOS [Expects: https://schema.org/Place]
   ///
@@ -341,7 +325,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const hasPOS = const IriTerm('https://schema.org/hasPOS');
+  static const hasPOS = IriTerm('https://schema.org/hasPOS');
 
   /// hasShippingService [Expects: https://schema.org/ShippingService]
   ///
@@ -349,7 +333,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/OfferShippingDetails, https://schema.org/Organization
   ///
-  static const hasShippingService = const IriTerm(
+  static const hasShippingService = IriTerm(
     'https://schema.org/hasShippingService',
   );
 
@@ -359,7 +343,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -369,7 +353,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const isicV4 = const IriTerm('https://schema.org/isicV4');
+  static const isicV4 = IriTerm('https://schema.org/isicV4');
 
   /// iso6523Code [Expects: https://schema.org/Text]
   ///
@@ -377,7 +361,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const iso6523Code = const IriTerm('https://schema.org/iso6523Code');
+  static const iso6523Code = IriTerm('https://schema.org/iso6523Code');
 
   /// keywords [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -385,7 +369,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// knowsAbout [Expects: https://schema.org/Text, https://schema.org/Thing, https://schema.org/URL]
   ///
@@ -393,7 +377,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const knowsAbout = const IriTerm('https://schema.org/knowsAbout');
+  static const knowsAbout = IriTerm('https://schema.org/knowsAbout');
 
   /// knowsLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -401,9 +385,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const knowsLanguage = const IriTerm(
-    'https://schema.org/knowsLanguage',
-  );
+  static const knowsLanguage = IriTerm('https://schema.org/knowsLanguage');
 
   /// legalAddress [Expects: https://schema.org/PostalAddress]
   ///
@@ -411,7 +393,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalAddress = const IriTerm('https://schema.org/legalAddress');
+  static const legalAddress = IriTerm('https://schema.org/legalAddress');
 
   /// legalName [Expects: https://schema.org/Text]
   ///
@@ -419,7 +401,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalName = const IriTerm('https://schema.org/legalName');
+  static const legalName = IriTerm('https://schema.org/legalName');
 
   /// legalRepresentative [Expects: https://schema.org/Person]
   ///
@@ -427,7 +409,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalRepresentative = const IriTerm(
+  static const legalRepresentative = IriTerm(
     'https://schema.org/legalRepresentative',
   );
 
@@ -437,7 +419,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const leiCode = const IriTerm('https://schema.org/leiCode');
+  static const leiCode = IriTerm('https://schema.org/leiCode');
 
   /// logo [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -445,7 +427,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Certification, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const logo = const IriTerm('https://schema.org/logo');
+  static const logo = IriTerm('https://schema.org/logo');
 
   /// members [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -453,7 +435,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/ProgramMembership
   ///
-  static const members = const IriTerm('https://schema.org/members');
+  static const members = IriTerm('https://schema.org/members');
 
   /// naics [Expects: https://schema.org/Text]
   ///
@@ -461,7 +443,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const naics = const IriTerm('https://schema.org/naics');
+  static const naics = IriTerm('https://schema.org/naics');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -469,7 +451,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// nonprofitStatus [Expects: https://schema.org/NonprofitType]
   ///
@@ -477,9 +459,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const nonprofitStatus = const IriTerm(
-    'https://schema.org/nonprofitStatus',
-  );
+  static const nonprofitStatus = IriTerm('https://schema.org/nonprofitStatus');
 
   /// numberOfEmployees [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -487,7 +467,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/BusinessAudience, https://schema.org/Organization
   ///
-  static const numberOfEmployees = const IriTerm(
+  static const numberOfEmployees = IriTerm(
     'https://schema.org/numberOfEmployees',
   );
 
@@ -497,17 +477,9 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const ownershipFundingInfo = const IriTerm(
+  static const ownershipFundingInfo = IriTerm(
     'https://schema.org/ownershipFundingInfo',
   );
-
-  /// owns [Expects: https://schema.org/OwnershipInfo, https://schema.org/Product]
-  ///
-  /// Products owned by the organization or person.
-  ///
-  /// Can be used on: https://schema.org/Organization, https://schema.org/Person
-  ///
-  static const owns = const IriTerm('https://schema.org/owns');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -515,9 +487,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// reviews [Expects: https://schema.org/Review]
   ///
@@ -525,7 +495,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -533,7 +503,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// seeks [Expects: https://schema.org/Demand]
   ///
@@ -541,7 +511,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const seeks = const IriTerm('https://schema.org/seeks');
+  static const seeks = IriTerm('https://schema.org/seeks');
 
   /// skills [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -549,7 +519,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/JobPosting, https://schema.org/Occupation, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const skills = const IriTerm('https://schema.org/skills');
+  static const skills = IriTerm('https://schema.org/skills');
 
   /// slogan [Expects: https://schema.org/Text]
   ///
@@ -557,7 +527,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const slogan = const IriTerm('https://schema.org/slogan');
+  static const slogan = IriTerm('https://schema.org/slogan');
 
   /// taxID [Expects: https://schema.org/Text]
   ///
@@ -565,7 +535,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const taxID = const IriTerm('https://schema.org/taxID');
+  static const taxID = IriTerm('https://schema.org/taxID');
 
   /// telephone [Expects: https://schema.org/Text]
   ///
@@ -573,7 +543,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const telephone = const IriTerm('https://schema.org/telephone');
+  static const telephone = IriTerm('https://schema.org/telephone');
 
   /// unnamedSourcesPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -581,7 +551,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const unnamedSourcesPolicy = const IriTerm(
+  static const unnamedSourcesPolicy = IriTerm(
     'https://schema.org/unnamedSourcesPolicy',
   );
 
@@ -591,7 +561,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// vatID [Expects: https://schema.org/Text]
   ///
@@ -599,7 +569,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const vatID = const IriTerm('https://schema.org/vatID');
+  static const vatID = IriTerm('https://schema.org/vatID');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -607,9 +577,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// alumni [Expects: https://schema.org/Person]
   ///
@@ -617,7 +585,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/EducationalOrganization, https://schema.org/Organization
   ///
-  static const alumni = const IriTerm('https://schema.org/alumni');
+  static const alumni = IriTerm('https://schema.org/alumni');
 
   /// award [Expects: https://schema.org/Text]
   ///
@@ -625,7 +593,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const award = const IriTerm('https://schema.org/award');
+  static const award = IriTerm('https://schema.org/award');
 
   /// contactPoint [Expects: https://schema.org/ContactPoint]
   ///
@@ -633,7 +601,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/HealthInsurancePlan, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const contactPoint = const IriTerm('https://schema.org/contactPoint');
+  static const contactPoint = IriTerm('https://schema.org/contactPoint');
 
   /// employee [Expects: https://schema.org/Person]
   ///
@@ -641,7 +609,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const employee = const IriTerm('https://schema.org/employee');
+  static const employee = IriTerm('https://schema.org/employee');
 
   /// event [Expects: https://schema.org/Event]
   ///
@@ -649,7 +617,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/InformAction, https://schema.org/InviteAction, https://schema.org/JoinAction, https://schema.org/LeaveAction, https://schema.org/Organization, https://schema.org/Place, https://schema.org/PlayAction
   ///
-  static const event = const IriTerm('https://schema.org/event');
+  static const event = IriTerm('https://schema.org/event');
 
   /// founder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -657,7 +625,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const founder = const IriTerm('https://schema.org/founder');
+  static const founder = IriTerm('https://schema.org/founder');
 
   /// funding [Expects: https://schema.org/Grant]
   ///
@@ -665,7 +633,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
   /// interactionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -673,7 +641,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -683,7 +651,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -693,7 +661,23 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const makesOffer = const IriTerm('https://schema.org/makesOffer');
+  static const makesOffer = IriTerm('https://schema.org/makesOffer');
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
+
+  /// owns [Expects: https://schema.org/Thing]
+  ///
+  /// Things owned by the organization or person.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Person
+  ///
+  static const owns = IriTerm('https://schema.org/owns');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -701,7 +685,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
   /// serviceArea [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place]
   ///
@@ -709,7 +693,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const serviceArea = const IriTerm('https://schema.org/serviceArea');
+  static const serviceArea = IriTerm('https://schema.org/serviceArea');
 
   /// sponsor [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -717,7 +701,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const sponsor = const IriTerm('https://schema.org/sponsor');
+  static const sponsor = IriTerm('https://schema.org/sponsor');
 
   /// subOrganization [Expects: https://schema.org/Organization]
   ///
@@ -725,9 +709,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const subOrganization = const IriTerm(
-    'https://schema.org/subOrganization',
-  );
+  static const subOrganization = IriTerm('https://schema.org/subOrganization');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -735,7 +717,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// memberOf [Expects: https://schema.org/MemberProgramTier, https://schema.org/Organization, https://schema.org/ProgramMembership]
   ///
@@ -743,7 +725,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const memberOf = const IriTerm('https://schema.org/memberOf');
+  static const memberOf = IriTerm('https://schema.org/memberOf');
 
   /// parentOrganization [Expects: https://schema.org/Organization]
   ///
@@ -751,7 +733,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const parentOrganization = const IriTerm(
+  static const parentOrganization = IriTerm(
     'https://schema.org/parentOrganization',
   );
 
@@ -761,7 +743,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const areaServed = const IriTerm('https://schema.org/areaServed');
+  static const areaServed = IriTerm('https://schema.org/areaServed');
 
   /// member [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -769,7 +751,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/ProgramMembership
   ///
-  static const member = const IriTerm('https://schema.org/member');
+  static const member = IriTerm('https://schema.org/member');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -777,7 +759,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -785,7 +767,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// publishingPrinciples [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -796,7 +778,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -806,7 +788,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/Event, https://schema.org/InteractionCounter, https://schema.org/Organization
   ///
-  static const location = const IriTerm('https://schema.org/location');
+  static const location = IriTerm('https://schema.org/location');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -815,15 +797,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -831,7 +805,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -841,7 +815,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -851,7 +825,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -861,7 +835,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -871,7 +845,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -881,7 +855,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -891,7 +865,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -901,7 +875,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -911,7 +885,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -921,7 +895,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -931,7 +905,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -941,9 +915,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -951,7 +923,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -961,7 +933,7 @@ class SchemaGovernmentOrganization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

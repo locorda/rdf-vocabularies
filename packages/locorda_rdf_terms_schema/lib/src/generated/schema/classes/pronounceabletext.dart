@@ -25,7 +25,7 @@ class SchemaPronounceableText {
 
   /// IRI term for the PronounceableText class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/PronounceableText');
+  static const classIri = IriTerm('https://schema.org/PronounceableText');
 
   /// interactionCount
   ///
@@ -33,7 +33,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -43,7 +43,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: https://schema.org/PronounceableText
   ///
-  static const phoneticText = const IriTerm('https://schema.org/phoneticText');
+  static const phoneticText = IriTerm('https://schema.org/phoneticText');
 
   /// speechToTextMarkup [Expects: https://schema.org/Text]
   ///
@@ -51,7 +51,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: https://schema.org/PronounceableText
   ///
-  static const speechToTextMarkup = const IriTerm(
+  static const speechToTextMarkup = IriTerm(
     'https://schema.org/speechToTextMarkup',
   );
 
@@ -61,7 +61,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: https://schema.org/PronounceableText
   ///
-  static const textValue = const IriTerm('https://schema.org/textValue');
+  static const textValue = IriTerm('https://schema.org/textValue');
 
   /// inLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -69,15 +69,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: https://schema.org/BroadcastService, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LinkRole, https://schema.org/PronounceableText, https://schema.org/WriteAction
   ///
-  static const inLanguage = const IriTerm('https://schema.org/inLanguage');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const inLanguage = IriTerm('https://schema.org/inLanguage');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -85,7 +77,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -95,7 +87,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -105,7 +97,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -115,7 +107,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -125,7 +117,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -135,7 +127,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -145,7 +137,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -155,7 +147,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -165,7 +157,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -175,7 +167,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -185,7 +177,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -195,9 +187,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -205,7 +195,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -215,7 +205,7 @@ class SchemaPronounceableText {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

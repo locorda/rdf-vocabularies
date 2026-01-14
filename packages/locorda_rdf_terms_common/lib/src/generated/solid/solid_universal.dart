@@ -25,37 +25,31 @@ class SolidUniversalProperties {
   ///
   /// A solid account belonging to an Agent.
   ///
-  static const account = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#account',
-  );
+  static const account = IriTerm('http://www.w3.org/ns/solid/terms#account');
 
   /// forClass
   ///
   /// A class that is used to map an listed or unlisted type index.
   ///
-  static const forClass = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#forClass',
-  );
+  static const forClass = IriTerm('http://www.w3.org/ns/solid/terms#forClass');
 
   /// inbox
   ///
   /// Deprecated pointer to a Linked Data Notifications inbox; please use http://www.w3.org/ns/ldp#inbox instead.
   ///
-  static const inbox = const IriTerm('http://www.w3.org/ns/solid/terms#inbox');
+  static const inbox = IriTerm('http://www.w3.org/ns/solid/terms#inbox');
 
   /// instance
   ///
   /// Maps a type to an individual resource, typically an index or a directory listing resource.
   ///
-  static const instance = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#instance',
-  );
+  static const instance = IriTerm('http://www.w3.org/ns/solid/terms#instance');
 
   /// instanceContainer
   ///
   /// Maps a type to a container which the client would have to list to get the instances of that type.
   ///
-  static const instanceContainer = const IriTerm(
+  static const instanceContainer = IriTerm(
     'http://www.w3.org/ns/solid/terms#instanceContainer',
   );
 
@@ -63,7 +57,7 @@ class SolidUniversalProperties {
   ///
   /// The login URI of a given server.
   ///
-  static const loginEndpoint = const IriTerm(
+  static const loginEndpoint = IriTerm(
     'http://www.w3.org/ns/solid/terms#loginEndpoint',
   );
 
@@ -71,7 +65,7 @@ class SolidUniversalProperties {
   ///
   /// The logout URI of a given server.
   ///
-  static const logoutEndpoint = const IriTerm(
+  static const logoutEndpoint = IriTerm(
     'http://www.w3.org/ns/solid/terms#logoutEndpoint',
   );
 
@@ -79,7 +73,7 @@ class SolidUniversalProperties {
   ///
   /// Notification resource for an inbox.
   ///
-  static const notification = const IriTerm(
+  static const notification = IriTerm(
     'http://www.w3.org/ns/solid/terms#notification',
   );
 
@@ -87,7 +81,7 @@ class SolidUniversalProperties {
   ///
   /// The preferred OpenID Connect issuer URI for a given WebID.
   ///
-  static const oidcIssuer = const IriTerm(
+  static const oidcIssuer = IriTerm(
     'http://www.w3.org/ns/solid/terms#oidcIssuer',
   );
 
@@ -95,13 +89,13 @@ class SolidUniversalProperties {
   ///
   /// A person or social entity that is considered to have control, rights, and responsibilities over a data storage.
   ///
-  static const owner = const IriTerm('http://www.w3.org/ns/solid/terms#owner');
+  static const owner = IriTerm('http://www.w3.org/ns/solid/terms#owner');
 
   /// privateTypeIndex [Expects: http://www.w3.org/ns/solid/terms#UnlistedDocument]
   ///
   /// Points to an unlisted type index resource.
   ///
-  static const privateTypeIndex = const IriTerm(
+  static const privateTypeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#privateTypeIndex',
   );
 
@@ -109,7 +103,7 @@ class SolidUniversalProperties {
   ///
   /// Points to a listed type index resource.
   ///
-  static const publicTypeIndex = const IriTerm(
+  static const publicTypeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#publicTypeIndex',
   );
 
@@ -117,7 +111,7 @@ class SolidUniversalProperties {
   ///
   /// Points to an unlisted label index resource.
   ///
-  static const privateLabelIndex = const IriTerm(
+  static const privateLabelIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#privateLabelIndex',
   );
 
@@ -127,7 +121,7 @@ class SolidUniversalProperties {
   ///
   /// [See also](https://solidproject.org/TR/2024/protocol-20240512#server-storage-description)
   ///
-  static const storageDescription = const IriTerm(
+  static const storageDescription = IriTerm(
     'http://www.w3.org/ns/solid/terms#storageDescription',
   );
 
@@ -135,7 +129,7 @@ class SolidUniversalProperties {
   ///
   /// Points to a TypeIndex resource.
   ///
-  static const typeIndex = const IriTerm(
+  static const typeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#typeIndex',
   );
 
@@ -143,7 +137,5 @@ class SolidUniversalProperties {
   ///
   /// Timeline for a given resource.
   ///
-  static const timeline = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#timeline',
-  );
+  static const timeline = IriTerm('http://www.w3.org/ns/solid/terms#timeline');
 }

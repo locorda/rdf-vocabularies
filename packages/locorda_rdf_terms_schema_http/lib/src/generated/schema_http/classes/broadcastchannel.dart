@@ -26,7 +26,7 @@ class SchemaHttpBroadcastChannel {
 
   /// IRI term for the BroadcastChannel class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/BroadcastChannel');
+  static const classIri = IriTerm('http://schema.org/BroadcastChannel');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -35,9 +35,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// broadcastChannelId [Expects: http://schema.org/Text]
   ///
@@ -45,7 +43,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/BroadcastChannel
   ///
-  static const broadcastChannelId = const IriTerm(
+  static const broadcastChannelId = IriTerm(
     'http://schema.org/broadcastChannelId',
   );
 
@@ -55,7 +53,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/BroadcastChannel, http://schema.org/BroadcastService
   ///
-  static const broadcastFrequency = const IriTerm(
+  static const broadcastFrequency = IriTerm(
     'http://schema.org/broadcastFrequency',
   );
 
@@ -65,7 +63,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/BroadcastChannel
   ///
-  static const broadcastServiceTier = const IriTerm(
+  static const broadcastServiceTier = IriTerm(
     'http://schema.org/broadcastServiceTier',
   );
 
@@ -75,7 +73,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -85,7 +83,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/BroadcastChannel
   ///
-  static const inBroadcastLineup = const IriTerm(
+  static const inBroadcastLineup = IriTerm(
     'http://schema.org/inBroadcastLineup',
   );
 
@@ -95,9 +93,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -105,7 +101,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -113,9 +109,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -123,7 +117,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -131,7 +125,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -139,15 +133,15 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
-  /// genre [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// genre [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: http://schema.org/BroadcastChannel, http://schema.org/CreativeWork, http://schema.org/MusicGroup
   ///
-  static const genre = const IriTerm('http://schema.org/genre');
+  static const genre = IriTerm('http://schema.org/genre');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -155,9 +149,15 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// providesBroadcastService [Expects: http://schema.org/BroadcastService]
   ///
@@ -165,7 +165,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/BroadcastChannel
   ///
-  static const providesBroadcastService = const IriTerm(
+  static const providesBroadcastService = IriTerm(
     'http://schema.org/providesBroadcastService',
   );
 
@@ -175,7 +175,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -183,7 +183,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -191,7 +191,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -200,15 +200,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -216,7 +208,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -226,7 +218,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -236,7 +228,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -246,7 +238,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -256,7 +248,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -266,7 +258,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -276,7 +268,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -286,7 +278,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -296,7 +288,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -306,7 +298,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -316,7 +308,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -326,9 +318,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -336,7 +326,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -346,7 +336,7 @@ class SchemaHttpBroadcastChannel {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

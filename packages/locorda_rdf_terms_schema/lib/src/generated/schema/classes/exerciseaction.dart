@@ -27,7 +27,7 @@ class SchemaExerciseAction {
 
   /// IRI term for the ExerciseAction class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/ExerciseAction');
+  static const classIri = IriTerm('https://schema.org/ExerciseAction');
 
   /// actionProcess [Expects: https://schema.org/HowTo]
   ///
@@ -35,9 +35,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const actionProcess = const IriTerm(
-    'https://schema.org/actionProcess',
-  );
+  static const actionProcess = IriTerm('https://schema.org/actionProcess');
 
   /// actionStatus [Expects: https://schema.org/ActionStatusType]
   ///
@@ -45,7 +43,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const actionStatus = const IriTerm('https://schema.org/actionStatus');
+  static const actionStatus = IriTerm('https://schema.org/actionStatus');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -54,9 +52,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// agent [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -64,7 +60,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const agent = const IriTerm('https://schema.org/agent');
+  static const agent = IriTerm('https://schema.org/agent');
 
   /// course [Expects: https://schema.org/Place]
   ///
@@ -72,7 +68,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const course = const IriTerm('https://schema.org/course');
+  static const course = IriTerm('https://schema.org/course');
 
   /// diet [Expects: https://schema.org/Diet]
   ///
@@ -80,7 +76,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const diet = const IriTerm('https://schema.org/diet');
+  static const diet = IriTerm('https://schema.org/diet');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -88,7 +84,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -98,7 +94,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction, https://schema.org/TravelAction
   ///
-  static const distance = const IriTerm('https://schema.org/distance');
+  static const distance = IriTerm('https://schema.org/distance');
 
   /// endTime [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -106,15 +102,15 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const endTime = const IriTerm('https://schema.org/endTime');
+  static const endTime = IriTerm('https://schema.org/endTime');
 
   /// error [Expects: https://schema.org/Thing]
   ///
-  /// For failed actions, more information on the cause of the failure.
+  /// For failed actions, more information on the cause of the failure. Consider using the Error type.
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const error = const IriTerm('https://schema.org/error');
+  static const error = IriTerm('https://schema.org/error');
 
   /// exercisePlan [Expects: https://schema.org/ExercisePlan]
   ///
@@ -122,7 +118,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const exercisePlan = const IriTerm('https://schema.org/exercisePlan');
+  static const exercisePlan = IriTerm('https://schema.org/exercisePlan');
 
   /// exerciseRelatedDiet [Expects: https://schema.org/Diet]
   ///
@@ -130,7 +126,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const exerciseRelatedDiet = const IriTerm(
+  static const exerciseRelatedDiet = IriTerm(
     'https://schema.org/exerciseRelatedDiet',
   );
 
@@ -140,7 +136,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction, https://schema.org/ExercisePlan
   ///
-  static const exerciseType = const IriTerm('https://schema.org/exerciseType');
+  static const exerciseType = IriTerm('https://schema.org/exerciseType');
 
   /// fromLocation [Expects: https://schema.org/Place]
   ///
@@ -148,7 +144,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction, https://schema.org/MoveAction, https://schema.org/TransferAction
   ///
-  static const fromLocation = const IriTerm('https://schema.org/fromLocation');
+  static const fromLocation = IriTerm('https://schema.org/fromLocation');
 
   /// interactionCount
   ///
@@ -156,7 +152,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -166,7 +162,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// opponent [Expects: https://schema.org/Person]
   ///
@@ -174,7 +170,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const opponent = const IriTerm('https://schema.org/opponent');
+  static const opponent = IriTerm('https://schema.org/opponent');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -182,9 +178,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -192,7 +186,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// sportsActivityLocation [Expects: https://schema.org/SportsActivityLocation]
   ///
@@ -200,7 +194,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const sportsActivityLocation = const IriTerm(
+  static const sportsActivityLocation = IriTerm(
     'https://schema.org/sportsActivityLocation',
   );
 
@@ -210,7 +204,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const sportsEvent = const IriTerm('https://schema.org/sportsEvent');
+  static const sportsEvent = IriTerm('https://schema.org/sportsEvent');
 
   /// sportsTeam [Expects: https://schema.org/SportsTeam]
   ///
@@ -218,7 +212,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const sportsTeam = const IriTerm('https://schema.org/sportsTeam');
+  static const sportsTeam = IriTerm('https://schema.org/sportsTeam');
 
   /// startTime [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -226,7 +220,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const startTime = const IriTerm('https://schema.org/startTime');
+  static const startTime = IriTerm('https://schema.org/startTime');
 
   /// target [Expects: https://schema.org/EntryPoint, https://schema.org/URL]
   ///
@@ -234,7 +228,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const target = const IriTerm('https://schema.org/target');
+  static const target = IriTerm('https://schema.org/target');
 
   /// toLocation [Expects: https://schema.org/Place]
   ///
@@ -242,7 +236,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction, https://schema.org/InsertAction, https://schema.org/MoveAction, https://schema.org/TransferAction
   ///
-  static const toLocation = const IriTerm('https://schema.org/toLocation');
+  static const toLocation = IriTerm('https://schema.org/toLocation');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -250,7 +244,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -258,9 +252,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// audience [Expects: https://schema.org/Audience]
   ///
@@ -268,7 +260,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const audience = const IriTerm('https://schema.org/audience');
+  static const audience = IriTerm('https://schema.org/audience');
 
   /// event [Expects: https://schema.org/Event]
   ///
@@ -276,7 +268,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/InformAction, https://schema.org/InviteAction, https://schema.org/JoinAction, https://schema.org/LeaveAction, https://schema.org/Organization, https://schema.org/Place, https://schema.org/PlayAction
   ///
-  static const event = const IriTerm('https://schema.org/event');
+  static const event = IriTerm('https://schema.org/event');
 
   /// exerciseCourse [Expects: https://schema.org/Place]
   ///
@@ -284,9 +276,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/ExerciseAction
   ///
-  static const exerciseCourse = const IriTerm(
-    'https://schema.org/exerciseCourse',
-  );
+  static const exerciseCourse = IriTerm('https://schema.org/exerciseCourse');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -294,9 +284,17 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// provider [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -304,7 +302,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const provider = const IriTerm('https://schema.org/provider');
+  static const provider = IriTerm('https://schema.org/provider');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -312,7 +310,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// result [Expects: https://schema.org/Thing]
   ///
@@ -320,7 +318,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const result = const IriTerm('https://schema.org/result');
+  static const result = IriTerm('https://schema.org/result');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -328,7 +326,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -336,7 +334,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// instrument [Expects: https://schema.org/Thing]
   ///
@@ -344,7 +342,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const instrument = const IriTerm('https://schema.org/instrument');
+  static const instrument = IriTerm('https://schema.org/instrument');
 
   /// object [Expects: https://schema.org/Thing]
   ///
@@ -352,7 +350,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const object = const IriTerm('https://schema.org/object');
+  static const object = IriTerm('https://schema.org/object');
 
   /// location [Expects: https://schema.org/Place, https://schema.org/PostalAddress, https://schema.org/Text, https://schema.org/VirtualLocation]
   ///
@@ -360,7 +358,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/Event, https://schema.org/InteractionCounter, https://schema.org/Organization
   ///
-  static const location = const IriTerm('https://schema.org/location');
+  static const location = IriTerm('https://schema.org/location');
 
   /// participant [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -368,7 +366,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Action
   ///
-  static const participant = const IriTerm('https://schema.org/participant');
+  static const participant = IriTerm('https://schema.org/participant');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -377,15 +375,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -393,7 +383,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -403,7 +393,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -413,7 +403,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -423,7 +413,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -433,7 +423,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -443,7 +433,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -453,7 +443,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -463,7 +453,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -473,7 +463,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -483,7 +473,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -493,7 +483,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -503,9 +493,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -513,7 +501,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -523,7 +511,7 @@ class SchemaExerciseAction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

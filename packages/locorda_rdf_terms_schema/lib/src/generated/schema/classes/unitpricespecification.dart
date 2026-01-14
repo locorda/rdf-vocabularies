@@ -28,9 +28,7 @@ class SchemaUnitPriceSpecification {
 
   /// IRI term for the UnitPriceSpecification class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'https://schema.org/UnitPriceSpecification',
-  );
+  static const classIri = IriTerm('https://schema.org/UnitPriceSpecification');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -39,9 +37,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// billingDuration [Expects: https://schema.org/Duration, https://schema.org/Number, https://schema.org/QuantitativeValue]
   ///
@@ -49,9 +45,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/UnitPriceSpecification
   ///
-  static const billingDuration = const IriTerm(
-    'https://schema.org/billingDuration',
-  );
+  static const billingDuration = IriTerm('https://schema.org/billingDuration');
 
   /// billingIncrement [Expects: https://schema.org/Number]
   ///
@@ -59,7 +53,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/UnitPriceSpecification
   ///
-  static const billingIncrement = const IriTerm(
+  static const billingIncrement = IriTerm(
     'https://schema.org/billingIncrement',
   );
 
@@ -69,7 +63,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/UnitPriceSpecification
   ///
-  static const billingStart = const IriTerm('https://schema.org/billingStart');
+  static const billingStart = IriTerm('https://schema.org/billingStart');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -77,7 +71,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -87,7 +81,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/PriceSpecification
   ///
-  static const eligibleQuantity = const IriTerm(
+  static const eligibleQuantity = IriTerm(
     'https://schema.org/eligibleQuantity',
   );
 
@@ -97,7 +91,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/PriceSpecification
   ///
-  static const eligibleTransactionVolume = const IriTerm(
+  static const eligibleTransactionVolume = IriTerm(
     'https://schema.org/eligibleTransactionVolume',
   );
 
@@ -107,7 +101,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -117,7 +111,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/PriceSpecification
   ///
-  static const maxPrice = const IriTerm('https://schema.org/maxPrice');
+  static const maxPrice = IriTerm('https://schema.org/maxPrice');
 
   /// membershipPointsEarned [Expects: https://schema.org/Number, https://schema.org/QuantitativeValue]
   ///
@@ -125,7 +119,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/MemberProgramTier, https://schema.org/PriceSpecification, https://schema.org/ProgramMembership
   ///
-  static const membershipPointsEarned = const IriTerm(
+  static const membershipPointsEarned = IriTerm(
     'https://schema.org/membershipPointsEarned',
   );
 
@@ -135,7 +129,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/PriceSpecification
   ///
-  static const minPrice = const IriTerm('https://schema.org/minPrice');
+  static const minPrice = IriTerm('https://schema.org/minPrice');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -143,7 +137,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -151,9 +145,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// price [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -162,7 +154,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/DonateAction, https://schema.org/Offer, https://schema.org/PriceSpecification, https://schema.org/TradeAction
   ///
-  static const price = const IriTerm('https://schema.org/price');
+  static const price = IriTerm('https://schema.org/price');
 
   /// priceComponentType [Expects: https://schema.org/PriceComponentTypeEnumeration]
   ///
@@ -170,7 +162,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/UnitPriceSpecification
   ///
-  static const priceComponentType = const IriTerm(
+  static const priceComponentType = IriTerm(
     'https://schema.org/priceComponentType',
   );
 
@@ -180,17 +172,15 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/DonateAction, https://schema.org/Offer, https://schema.org/PriceSpecification, https://schema.org/Reservation, https://schema.org/Ticket, https://schema.org/TradeAction
   ///
-  static const priceCurrency = const IriTerm(
-    'https://schema.org/priceCurrency',
-  );
+  static const priceCurrency = IriTerm('https://schema.org/priceCurrency');
 
   /// priceType [Expects: https://schema.org/PriceTypeEnumeration, https://schema.org/Text]
   ///
-  /// Defines the type of a price specified for an offered product, for example a list price, a (temporary) sale price or a manufacturer suggested retail price. If multiple prices are specified for an offer the {[priceType]} property can be used to identify the type of each such specified price. The value of priceType can be specified as a value from enumeration PriceTypeEnumeration or as a free form text string for price types that are not already predefined in PriceTypeEnumeration.
+  /// Defines the type of a price specified for an offered product, for example a list price, a (temporary) sale price or a manufacturer suggested retail price. If multiple prices are specified for an offer the {[priceType]} property can be used to identify the type of each such specified price. The value of priceType can be specified as a value from enumeration PriceTypeEnumeration or, a UN/EDIFACT 5387 code, or as a free form text string for price types that are not already predefined in PriceTypeEnumeration.
   ///
   /// Can be used on: https://schema.org/CompoundPriceSpecification, https://schema.org/UnitPriceSpecification
   ///
-  static const priceType = const IriTerm('https://schema.org/priceType');
+  static const priceType = IriTerm('https://schema.org/priceType');
 
   /// referenceQuantity [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -198,7 +188,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/UnitPriceSpecification
   ///
-  static const referenceQuantity = const IriTerm(
+  static const referenceQuantity = IriTerm(
     'https://schema.org/referenceQuantity',
   );
 
@@ -208,7 +198,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// unitCode [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -216,7 +206,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/PropertyValue, https://schema.org/QuantitativeValue, https://schema.org/TypeAndQuantityNode, https://schema.org/UnitPriceSpecification
   ///
-  static const unitCode = const IriTerm('https://schema.org/unitCode');
+  static const unitCode = IriTerm('https://schema.org/unitCode');
 
   /// unitText [Expects: https://schema.org/Text]
   ///
@@ -225,7 +215,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/PropertyValue, https://schema.org/QuantitativeValue, https://schema.org/TypeAndQuantityNode, https://schema.org/UnitPriceSpecification
   ///
-  static const unitText = const IriTerm('https://schema.org/unitText');
+  static const unitText = IriTerm('https://schema.org/unitText');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -233,7 +223,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// validForMemberTier [Expects: https://schema.org/MemberProgramTier]
   ///
@@ -241,7 +231,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/OfferShippingDetails, https://schema.org/PriceSpecification, https://schema.org/ShippingService
   ///
-  static const validForMemberTier = const IriTerm(
+  static const validForMemberTier = IriTerm(
     'https://schema.org/validForMemberTier',
   );
 
@@ -251,7 +241,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/LocationFeatureSpecification, https://schema.org/MonetaryAmount, https://schema.org/Offer, https://schema.org/OpeningHoursSpecification, https://schema.org/Permit, https://schema.org/PriceSpecification
   ///
-  static const validFrom = const IriTerm('https://schema.org/validFrom');
+  static const validFrom = IriTerm('https://schema.org/validFrom');
 
   /// validThrough [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -259,7 +249,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/JobPosting, https://schema.org/LocationFeatureSpecification, https://schema.org/MonetaryAmount, https://schema.org/Offer, https://schema.org/OpeningHoursSpecification, https://schema.org/PriceSpecification
   ///
-  static const validThrough = const IriTerm('https://schema.org/validThrough');
+  static const validThrough = IriTerm('https://schema.org/validThrough');
 
   /// valueAddedTaxIncluded [Expects: https://schema.org/Boolean]
   ///
@@ -267,7 +257,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/PriceSpecification
   ///
-  static const valueAddedTaxIncluded = const IriTerm(
+  static const valueAddedTaxIncluded = IriTerm(
     'https://schema.org/valueAddedTaxIncluded',
   );
 
@@ -277,9 +267,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -287,9 +275,17 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -297,7 +293,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -305,7 +301,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -313,7 +309,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -322,15 +318,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -338,7 +326,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -348,7 +336,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -358,7 +346,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -368,7 +356,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -378,7 +366,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -388,7 +376,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -398,7 +386,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -408,7 +396,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -418,7 +406,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -428,7 +416,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -438,7 +426,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -448,9 +436,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -458,7 +444,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -468,7 +454,7 @@ class SchemaUnitPriceSpecification {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

@@ -26,7 +26,7 @@ class PimPublicWorkspace {
 
   /// IRI term for the PublicWorkspace class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
+  static const classIri = IriTerm(
     'http://www.w3.org/ns/pim/space#PublicWorkspace',
   );
 
@@ -37,9 +37,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const storage = const IriTerm(
-    'http://www.w3.org/ns/pim/space#storage',
-  );
+  static const storage = IriTerm('http://www.w3.org/ns/pim/space#storage');
 
   /// uriPrefix
   ///
@@ -49,9 +47,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const uriPrefix = const IriTerm(
-    'http://www.w3.org/ns/pim/space#uriPrefix',
-  );
+  static const uriPrefix = IriTerm('http://www.w3.org/ns/pim/space#uriPrefix');
 
   /// workspace [Expects: http://www.w3.org/ns/pim/space#Workspace]
   ///
@@ -59,9 +55,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const workspace = const IriTerm(
-    'http://www.w3.org/ns/pim/space#workspace',
-  );
+  static const workspace = IriTerm('http://www.w3.org/ns/pim/space#workspace');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -69,7 +63,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -79,7 +73,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -89,7 +83,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -99,7 +93,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -109,7 +103,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -119,7 +113,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -129,7 +123,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -139,7 +133,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -149,7 +143,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -159,7 +153,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -169,7 +163,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -179,9 +173,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -189,7 +181,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -199,7 +191,7 @@ class PimPublicWorkspace {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

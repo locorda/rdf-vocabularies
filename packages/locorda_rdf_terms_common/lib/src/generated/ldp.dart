@@ -23,33 +23,31 @@ class Ldp {
   ///
   /// A HTTP-addressable resource whose lifecycle is managed by a LDP server.
   ///
-  static const Resource = const IriTerm('http://www.w3.org/ns/ldp#Resource');
+  static const Resource = IriTerm('http://www.w3.org/ns/ldp#Resource');
 
   /// IRI for ldp:RDFSource
   ///
   /// A Linked Data Platform Resource (LDPR) whose state is represented as RDF.
   ///
-  static const RDFSource = const IriTerm('http://www.w3.org/ns/ldp#RDFSource');
+  static const RDFSource = IriTerm('http://www.w3.org/ns/ldp#RDFSource');
 
   /// IRI for ldp:NonRDFSource
   ///
   /// A Linked Data Platform Resource (LDPR) whose state is NOT represented as RDF.
   ///
-  static const NonRDFSource = const IriTerm(
-    'http://www.w3.org/ns/ldp#NonRDFSource',
-  );
+  static const NonRDFSource = IriTerm('http://www.w3.org/ns/ldp#NonRDFSource');
 
   /// IRI for ldp:Container
   ///
   /// A Linked Data Platform RDF Source (LDP-RS) that also conforms to additional patterns and conventions for managing membership. Readers should refer to the specification defining this ontology for the list of behaviors associated with it.
   ///
-  static const Container = const IriTerm('http://www.w3.org/ns/ldp#Container');
+  static const Container = IriTerm('http://www.w3.org/ns/ldp#Container');
 
   /// IRI for ldp:BasicContainer
   ///
   /// An LDPC that uses a predefined predicate to simply link to its contained resources.
   ///
-  static const BasicContainer = const IriTerm(
+  static const BasicContainer = IriTerm(
     'http://www.w3.org/ns/ldp#BasicContainer',
   );
 
@@ -57,7 +55,7 @@ class Ldp {
   ///
   /// An LDPC that is similar to a LDP-DC but it allows an indirection with the ability to list as member a resource, such as a URI representing a real-world object, that is different from the resource that is created.
   ///
-  static const DirectContainer = const IriTerm(
+  static const DirectContainer = IriTerm(
     'http://www.w3.org/ns/ldp#DirectContainer',
   );
 
@@ -65,7 +63,7 @@ class Ldp {
   ///
   /// An LDPC that has the flexibility of choosing what form the membership triples take.
   ///
-  static const IndirectContainer = const IriTerm(
+  static const IndirectContainer = IriTerm(
     'http://www.w3.org/ns/ldp#IndirectContainer',
   );
 
@@ -73,7 +71,7 @@ class Ldp {
   ///
   /// Element in the list of sorting criteria used by the server to assign container members to pages.
   ///
-  static const PageSortCriterion = const IriTerm(
+  static const PageSortCriterion = IriTerm(
     'http://www.w3.org/ns/ldp#PageSortCriterion',
   );
 
@@ -81,13 +79,13 @@ class Ldp {
   ///
   /// URI signifying that the resource is an in-sequence page resource, as defined by LDP Paging.  Typically used on Link rel='type' response headers.
   ///
-  static const Page = const IriTerm('http://www.w3.org/ns/ldp#Page');
+  static const Page = IriTerm('http://www.w3.org/ns/ldp#Page');
 
   /// IRI for ldp:MemberSubject
   ///
   /// Used to indicate default and typical behavior for ldp:insertedContentRelation, where the member-URI value in the membership triple added when a creation request is successful is the URI assigned to the newly created resource.
   ///
-  static const MemberSubject = const IriTerm(
+  static const MemberSubject = IriTerm(
     'http://www.w3.org/ns/ldp#MemberSubject',
   );
 
@@ -95,7 +93,7 @@ class Ldp {
   ///
   /// URI identifying a LDPC's containment triples, for example to allow clients to express interest in receiving them.
   ///
-  static const PreferContainment = const IriTerm(
+  static const PreferContainment = IriTerm(
     'http://www.w3.org/ns/ldp#PreferContainment',
   );
 
@@ -103,7 +101,7 @@ class Ldp {
   ///
   /// URI identifying a LDPC's membership triples, for example to allow clients to express interest in receiving them.
   ///
-  static const PreferMembership = const IriTerm(
+  static const PreferMembership = IriTerm(
     'http://www.w3.org/ns/ldp#PreferMembership',
   );
 
@@ -113,7 +111,7 @@ class Ldp {
   ///
   /// [See also](http://www.w3.org/ns/ldp#PreferMinimalContainer)
   ///
-  static const PreferEmptyContainer = const IriTerm(
+  static const PreferEmptyContainer = IriTerm(
     'http://www.w3.org/ns/ldp#PreferEmptyContainer',
   );
 
@@ -121,7 +119,7 @@ class Ldp {
   ///
   /// URI identifying the subset of a LDPC's triples present in an empty LDPC, for example to allow clients to express interest in receiving them.  Currently this excludes containment and membership triples, but in the future other exclusions might be added.  This definition is written to automatically exclude those new classes of triples.
   ///
-  static const PreferMinimalContainer = const IriTerm(
+  static const PreferMinimalContainer = IriTerm(
     'http://www.w3.org/ns/ldp#PreferMinimalContainer',
   );
 
@@ -129,15 +127,13 @@ class Ldp {
   ///
   /// Ascending order.
   ///
-  static const Ascending = const IriTerm('http://www.w3.org/ns/ldp#Ascending');
+  static const Ascending = IriTerm('http://www.w3.org/ns/ldp#Ascending');
 
   /// IRI for ldp:Descending
   ///
   /// Descending order.
   ///
-  static const Descending = const IriTerm(
-    'http://www.w3.org/ns/ldp#Descending',
-  );
+  static const Descending = IriTerm('http://www.w3.org/ns/ldp#Descending');
 
   /// IRI for ldp:hasMemberRelation [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property]
   ///
@@ -145,7 +141,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Container
   ///
-  static const hasMemberRelation = const IriTerm(
+  static const hasMemberRelation = IriTerm(
     'http://www.w3.org/ns/ldp#hasMemberRelation',
   );
 
@@ -155,7 +151,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Container
   ///
-  static const isMemberOfRelation = const IriTerm(
+  static const isMemberOfRelation = IriTerm(
     'http://www.w3.org/ns/ldp#isMemberOfRelation',
   );
 
@@ -165,7 +161,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Container
   ///
-  static const membershipResource = const IriTerm(
+  static const membershipResource = IriTerm(
     'http://www.w3.org/ns/ldp#membershipResource',
   );
 
@@ -175,7 +171,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Container
   ///
-  static const insertedContentRelation = const IriTerm(
+  static const insertedContentRelation = IriTerm(
     'http://www.w3.org/ns/ldp#insertedContentRelation',
   );
 
@@ -185,7 +181,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Resource
   ///
-  static const member = const IriTerm('http://www.w3.org/ns/ldp#member');
+  static const member = IriTerm('http://www.w3.org/ns/ldp#member');
 
   /// IRI for ldp:contains [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -193,7 +189,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Container
   ///
-  static const contains = const IriTerm('http://www.w3.org/ns/ldp#contains');
+  static const contains = IriTerm('http://www.w3.org/ns/ldp#contains');
 
   /// IRI for ldp:constrainedBy [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -201,7 +197,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Resource
   ///
-  static const constrainedBy = const IriTerm(
+  static const constrainedBy = IriTerm(
     'http://www.w3.org/ns/ldp#constrainedBy',
   );
 
@@ -211,7 +207,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#Page
   ///
-  static const pageSortCriteria = const IriTerm(
+  static const pageSortCriteria = IriTerm(
     'http://www.w3.org/ns/ldp#pageSortCriteria',
   );
 
@@ -221,7 +217,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#PageSortCriterion
   ///
-  static const pageSortPredicate = const IriTerm(
+  static const pageSortPredicate = IriTerm(
     'http://www.w3.org/ns/ldp#pageSortPredicate',
   );
 
@@ -231,7 +227,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#PageSortCriterion
   ///
-  static const pageSortOrder = const IriTerm(
+  static const pageSortOrder = IriTerm(
     'http://www.w3.org/ns/ldp#pageSortOrder',
   );
 
@@ -241,7 +237,7 @@ class Ldp {
   ///
   /// Can be used on: http://www.w3.org/ns/ldp#PageSortCriterion
   ///
-  static const pageSortCollation = const IriTerm(
+  static const pageSortCollation = IriTerm(
     'http://www.w3.org/ns/ldp#pageSortCollation',
   );
 
@@ -251,9 +247,7 @@ class Ldp {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const pageSequence = const IriTerm(
-    'http://www.w3.org/ns/ldp#pageSequence',
-  );
+  static const pageSequence = IriTerm('http://www.w3.org/ns/ldp#pageSequence');
 
   /// IRI for ldp:inbox
   ///
@@ -261,5 +255,5 @@ class Ldp {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const inbox = const IriTerm('http://www.w3.org/ns/ldp#inbox');
+  static const inbox = IriTerm('http://www.w3.org/ns/ldp#inbox');
 }

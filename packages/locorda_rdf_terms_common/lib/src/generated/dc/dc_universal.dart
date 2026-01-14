@@ -25,7 +25,7 @@ class DcUniversalProperties {
   ///
   /// An entity responsible for making contributions to the resource.
   ///
-  static const contributor = const IriTerm(
+  static const contributor = IriTerm(
     'http://purl.org/dc/elements/1.1/contributor',
   );
 
@@ -33,29 +33,25 @@ class DcUniversalProperties {
   ///
   /// The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.
   ///
-  static const coverage = const IriTerm(
-    'http://purl.org/dc/elements/1.1/coverage',
-  );
+  static const coverage = IriTerm('http://purl.org/dc/elements/1.1/coverage');
 
   /// creator
   ///
   /// An entity primarily responsible for making the resource.
   ///
-  static const creator = const IriTerm(
-    'http://purl.org/dc/elements/1.1/creator',
-  );
+  static const creator = IriTerm('http://purl.org/dc/elements/1.1/creator');
 
   /// date
   ///
   /// A point or period of time associated with an event in the lifecycle of the resource.
   ///
-  static const date = const IriTerm('http://purl.org/dc/elements/1.1/date');
+  static const date = IriTerm('http://purl.org/dc/elements/1.1/date');
 
   /// description
   ///
   /// An account of the resource.
   ///
-  static const description = const IriTerm(
+  static const description = IriTerm(
     'http://purl.org/dc/elements/1.1/description',
   );
 
@@ -63,13 +59,13 @@ class DcUniversalProperties {
   ///
   /// The file format, physical medium, or dimensions of the resource.
   ///
-  static const format = const IriTerm('http://purl.org/dc/elements/1.1/format');
+  static const format = IriTerm('http://purl.org/dc/elements/1.1/format');
 
   /// identifier
   ///
   /// An unambiguous reference to the resource within a given context.
   ///
-  static const identifier = const IriTerm(
+  static const identifier = IriTerm(
     'http://purl.org/dc/elements/1.1/identifier',
   );
 
@@ -77,55 +73,47 @@ class DcUniversalProperties {
   ///
   /// A language of the resource.
   ///
-  static const language = const IriTerm(
-    'http://purl.org/dc/elements/1.1/language',
-  );
+  static const language = IriTerm('http://purl.org/dc/elements/1.1/language');
 
   /// publisher
   ///
   /// An entity responsible for making the resource available.
   ///
-  static const publisher = const IriTerm(
-    'http://purl.org/dc/elements/1.1/publisher',
-  );
+  static const publisher = IriTerm('http://purl.org/dc/elements/1.1/publisher');
 
   /// relation
   ///
   /// A related resource.
   ///
-  static const relation = const IriTerm(
-    'http://purl.org/dc/elements/1.1/relation',
-  );
+  static const relation = IriTerm('http://purl.org/dc/elements/1.1/relation');
 
   /// rights
   ///
   /// Information about rights held in and over the resource.
   ///
-  static const rights = const IriTerm('http://purl.org/dc/elements/1.1/rights');
+  static const rights = IriTerm('http://purl.org/dc/elements/1.1/rights');
 
   /// source
   ///
   /// A related resource from which the described resource is derived.
   ///
-  static const source = const IriTerm('http://purl.org/dc/elements/1.1/source');
+  static const source = IriTerm('http://purl.org/dc/elements/1.1/source');
 
   /// subject
   ///
   /// The topic of the resource.
   ///
-  static const subject = const IriTerm(
-    'http://purl.org/dc/elements/1.1/subject',
-  );
+  static const subject = IriTerm('http://purl.org/dc/elements/1.1/subject');
 
   /// title
   ///
   /// A name given to the resource.
   ///
-  static const title = const IriTerm('http://purl.org/dc/elements/1.1/title');
+  static const title = IriTerm('http://purl.org/dc/elements/1.1/title');
 
   /// type
   ///
   /// The nature or genre of the resource.
   ///
-  static const type = const IriTerm('http://purl.org/dc/elements/1.1/type');
+  static const type = IriTerm('http://purl.org/dc/elements/1.1/type');
 }

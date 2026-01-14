@@ -23,7 +23,7 @@ class Geo {
   ///
   /// Anything with spatial extent, i.e. size, shape, or position. e.g. people, places, bowling balls, as well as abstract areas like cubes.
   ///
-  static const SpatialThing = const IriTerm(
+  static const SpatialThing = IriTerm(
     'http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing',
   );
 
@@ -31,23 +31,19 @@ class Geo {
   ///
   /// A point, typically described using a coordinate system relative to Earth, such as WGS84.
   ///
-  static const Point = const IriTerm(
-    'http://www.w3.org/2003/01/geo/wgs84_pos#Point',
-  );
+  static const Point = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#Point');
 
   /// IRI for geo:lat
   ///
   /// The WGS84 latitude of a SpatialThing (decimal degrees).
   ///
-  static const lat = const IriTerm(
-    'http://www.w3.org/2003/01/geo/wgs84_pos#lat',
-  );
+  static const lat = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#lat');
 
   /// IRI for geo:location
   ///
   /// The relation between something and the point, or other geometrical thing in space, where it is. For example, the realtionship between a radio tower and a Point with a given lat and long. Or a relationship between a park and its outline as a closed arc of points, or a road and its location as a arc (a sequence of points). Clearly in practice there will be limit to the accuracy of any such statement, but one would expect an accuracy appropriate for the size of the object and uses such as mapping .
   ///
-  static const location = const IriTerm(
+  static const location = IriTerm(
     'http://www.w3.org/2003/01/geo/wgs84_pos#location',
   );
 
@@ -55,23 +51,19 @@ class Geo {
   ///
   /// The WGS84 longitude of a SpatialThing (decimal degrees).
   ///
-  static const long = const IriTerm(
-    'http://www.w3.org/2003/01/geo/wgs84_pos#long',
-  );
+  static const long = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#long');
 
   /// IRI for geo:alt
   ///
   /// The WGS84 altitude of a SpatialThing (decimal meters above the local reference ellipsoid).
   ///
-  static const alt = const IriTerm(
-    'http://www.w3.org/2003/01/geo/wgs84_pos#alt',
-  );
+  static const alt = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#alt');
 
   /// IRI for geo:lat_long
   ///
   /// A comma-separated representation of a latitude, longitude coordinate.
   ///
-  static const lat_long = const IriTerm(
+  static const lat_long = IriTerm(
     'http://www.w3.org/2003/01/geo/wgs84_pos#lat_long',
   );
 }

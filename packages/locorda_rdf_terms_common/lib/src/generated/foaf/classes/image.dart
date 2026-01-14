@@ -35,7 +35,7 @@ class FoafImage {
 
   /// IRI term for the Image class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://xmlns.com/foaf/0.1/Image');
+  static const classIri = IriTerm('http://xmlns.com/foaf/0.1/Image');
 
   /// dnaChecksum [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -43,9 +43,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dnaChecksum = const IriTerm(
-    'http://xmlns.com/foaf/0.1/dnaChecksum',
-  );
+  static const dnaChecksum = IriTerm('http://xmlns.com/foaf/0.1/dnaChecksum');
 
   /// sha1
   ///
@@ -53,7 +51,7 @@ class FoafImage {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const sha1 = const IriTerm('http://xmlns.com/foaf/0.1/sha1');
+  static const sha1 = IriTerm('http://xmlns.com/foaf/0.1/sha1');
 
   /// title
   ///
@@ -61,7 +59,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const title = const IriTerm('http://xmlns.com/foaf/0.1/title');
+  static const title = IriTerm('http://xmlns.com/foaf/0.1/title');
 
   /// nick
   ///
@@ -69,7 +67,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const nick = const IriTerm('http://xmlns.com/foaf/0.1/nick');
+  static const nick = IriTerm('http://xmlns.com/foaf/0.1/nick');
 
   /// name [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -77,7 +75,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const name = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const name = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// givenName
   ///
@@ -85,7 +83,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const givenName = const IriTerm('http://xmlns.com/foaf/0.1/givenName');
+  static const givenName = IriTerm('http://xmlns.com/foaf/0.1/givenName');
 
   /// givenname
   ///
@@ -93,7 +91,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const givenname = const IriTerm('http://xmlns.com/foaf/0.1/givenname');
+  static const givenname = IriTerm('http://xmlns.com/foaf/0.1/givenname');
 
   /// phone
   ///
@@ -101,7 +99,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const phone = const IriTerm('http://xmlns.com/foaf/0.1/phone');
+  static const phone = IriTerm('http://xmlns.com/foaf/0.1/phone');
 
   /// homepage [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -109,16 +107,15 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const homepage = const IriTerm('http://xmlns.com/foaf/0.1/homepage');
+  static const homepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// maker [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const maker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const maker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// depiction [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -126,7 +123,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const depiction = const IriTerm('http://xmlns.com/foaf/0.1/depiction');
+  static const depiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// depicts [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -134,7 +131,7 @@ class FoafImage {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Image
   ///
-  static const depicts = const IriTerm('http://xmlns.com/foaf/0.1/depicts');
+  static const depicts = IriTerm('http://xmlns.com/foaf/0.1/depicts');
 
   /// thumbnail [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -142,7 +139,7 @@ class FoafImage {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Image
   ///
-  static const thumbnail = const IriTerm('http://xmlns.com/foaf/0.1/thumbnail');
+  static const thumbnail = IriTerm('http://xmlns.com/foaf/0.1/thumbnail');
 
   /// fundedBy [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -150,7 +147,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const fundedBy = const IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+  static const fundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -158,7 +155,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const logo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const logo = IriTerm('http://xmlns.com/foaf/0.1/logo');
 
   /// topic [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -166,7 +163,7 @@ class FoafImage {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const topic = const IriTerm('http://xmlns.com/foaf/0.1/topic');
+  static const topic = IriTerm('http://xmlns.com/foaf/0.1/topic');
 
   /// primaryTopic [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -174,8 +171,16 @@ class FoafImage {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const primaryTopic = const IriTerm(
-    'http://xmlns.com/foaf/0.1/primaryTopic',
+  static const primaryTopic = IriTerm('http://xmlns.com/foaf/0.1/primaryTopic');
+
+  /// isPrimaryTopicOf [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const isPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
   );
 
   /// page [Expects: http://xmlns.com/foaf/0.1/Document]
@@ -184,7 +189,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const page = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const page = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -192,7 +197,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const theme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const theme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// membershipClass
   ///
@@ -200,7 +205,7 @@ class FoafImage {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const membershipClass = const IriTerm(
+  static const membershipClass = IriTerm(
     'http://xmlns.com/foaf/0.1/membershipClass',
   );
 
@@ -210,7 +215,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -220,7 +225,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -230,7 +235,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -240,7 +245,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -250,7 +255,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -260,7 +265,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -270,9 +275,17 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
+
+  /// inDataset from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// Points to the void:Dataset that a document is a part of.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Document
+  ///
+  static const voidInDataset = IriTerm('http://rdfs.org/ns/void#inDataset');
 
   /// annotatedProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -280,7 +293,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -290,7 +303,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -300,7 +313,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -310,7 +323,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -320,7 +333,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -330,7 +343,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -340,7 +353,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -350,9 +363,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -360,9 +371,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -370,7 +379,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -380,7 +389,7 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -390,8 +399,550 @@ class FoafImage {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
+  );
+
+  /// activityIdeas from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to ideas for using a product or engaging in other forms of entertainment, particularly with children.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ActivityIdeas = IriTerm(
+    'https://ref.gs1.org/voc/activityIdeas',
+  );
+
+  /// allergenInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the allergen information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AllergenInfo = IriTerm(
+    'https://ref.gs1.org/voc/allergenInfo',
+  );
+
+  /// appDownload from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a related mobile app
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AppDownload = IriTerm('https://ref.gs1.org/voc/appDownload');
+
+  /// backgroundInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information typically from the owner of the identified entity about the creative background, thought leadership or influence of the identified entity. This may include the inspiration, innovation for a development process, literary approach or, the science or technology used.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BackgroundInfo = IriTerm(
+    'https://ref.gs1.org/voc/backgroundInfo',
+  );
+
+  /// brandHomepageClinical from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at clinical professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepageClinical = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepageClinical',
+  );
+
+  /// brandHomepagePatient from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at patients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepagePatient = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepagePatient',
+  );
+
+  /// careersInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about jobs, careers, or other employment opportunities associated to an organisation or location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CareersInfo = IriTerm('https://ref.gs1.org/voc/careersInfo');
+
+  /// certificationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to certification information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CertificationInfo = IriTerm(
+    'https://ref.gs1.org/voc/certificationInfo',
+  );
+
+  /// consumerHandlingStorageInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about safe handling and storage for consumer use.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ConsumerHandlingStorageInfo = IriTerm(
+    'https://ref.gs1.org/voc/consumerHandlingStorageInfo',
+  );
+
+  /// defaultLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLink = IriTerm('https://ref.gs1.org/voc/defaultLink');
+
+  /// defaultLinkMulti from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLinkMulti = IriTerm(
+    'https://ref.gs1.org/voc/defaultLinkMulti',
+  );
+
+  /// dpp from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a digital product passport.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Dpp = IriTerm('https://ref.gs1.org/voc/dpp');
+
+  /// eifu from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to electronic Instruction For Use instructions for Medical Devices.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Eifu = IriTerm('https://ref.gs1.org/voc/eifu');
+
+  /// epcis from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an EPCIS repository of visibility event data.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epcis = IriTerm('https://ref.gs1.org/voc/epcis');
+
+  /// epil from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an electronic patient information leaflet.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epil = IriTerm('https://ref.gs1.org/voc/epil');
+
+  /// eventsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1EventsInfo = IriTerm('https://ref.gs1.org/voc/eventsInfo');
+
+  /// faqs from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a set of frequently asked questions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Faqs = IriTerm('https://ref.gs1.org/voc/faqs');
+
+  /// handledBy from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HandledBy = IriTerm('https://ref.gs1.org/voc/handledBy');
+
+  /// hasRetailers from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a list of retailers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HasRetailers = IriTerm(
+    'https://ref.gs1.org/voc/hasRetailers',
+  );
+
+  /// homepage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Homepage = IriTerm('https://ref.gs1.org/voc/homepage');
+
+  /// ingredientsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to facts about ingredients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1IngredientsInfo = IriTerm(
+    'https://ref.gs1.org/voc/ingredientsInfo',
+  );
+
+  /// instructions from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to instructions, such as assembly instructions, usage tips etc.  It is not appropriate to use this link type for healthcare regulated content applications for which specific link types are available.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Instructions = IriTerm(
+    'https://ref.gs1.org/voc/instructions',
+  );
+
+  /// leaveReview from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link through which a review can be added.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LeaveReview = IriTerm('https://ref.gs1.org/voc/leaveReview');
+
+  /// linkType from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Provides a URL for related information or services. This is not expected to be used directly but provides a super property for all other link types in the GS1 ecosystem.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LinkType = IriTerm('https://ref.gs1.org/voc/linkType');
+
+  /// locationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LocationInfo = IriTerm(
+    'https://ref.gs1.org/voc/locationInfo',
+  );
+
+  /// logisticsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to B2B logistics information related to a physical location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LogisticsInfo = IriTerm(
+    'https://ref.gs1.org/voc/logisticsInfo',
+  );
+
+  /// loyaltyProgram from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about a loyalty program, including a member's current status and/or a registration option for new members
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LoyaltyProgram = IriTerm(
+    'https://ref.gs1.org/voc/loyaltyProgram',
+  );
+
+  /// masterData from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of structured master data for the entity. This is typically for B2B applications.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterData = IriTerm('https://ref.gs1.org/voc/masterData');
+
+  /// masterDataAvailableFor from gs1 vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// Links from a document, message or event to static data for specified identifiers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterDataAvailableFor = IriTerm(
+    'https://ref.gs1.org/voc/masterDataAvailableFor',
+  );
+
+  /// menuInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo .
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MenuInfo = IriTerm('https://ref.gs1.org/voc/menuInfo');
+
+  /// nutritionalInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to nutritional facts.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1NutritionalInfo = IriTerm(
+    'https://ref.gs1.org/voc/nutritionalInfo',
+  );
+
+  /// openingHoursInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to details on hours of operation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1OpeningHoursInfo = IriTerm(
+    'https://ref.gs1.org/voc/openingHoursInfo',
+  );
+
+  /// paymentLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a place where payments details are provided and/or payments can be made by the user.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PaymentLink = IriTerm('https://ref.gs1.org/voc/paymentLink');
+
+  /// pip from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Pip = IriTerm('https://ref.gs1.org/voc/pip');
+
+  /// promotion from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a promotion.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Promotion = IriTerm('https://ref.gs1.org/voc/promotion');
+
+  /// purchaseSuppliesOrAccessories from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about where supplies or accessories for the item can be purchased or ordered.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PurchaseSuppliesOrAccessories = IriTerm(
+    'https://ref.gs1.org/voc/purchaseSuppliesOrAccessories',
+  );
+
+  /// quickStartGuide from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the key features needed to be understood to begin using the item or interacting with something new.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1QuickStartGuide = IriTerm(
+    'https://ref.gs1.org/voc/quickStartGuide',
+  );
+
+  /// recallStatus from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about whether the product has been recalled or not, typically an API.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecallStatus = IriTerm(
+    'https://ref.gs1.org/voc/recallStatus',
+  );
+
+  /// recipeInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a recipe website.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecipeInfo = IriTerm('https://ref.gs1.org/voc/recipeInfo');
+
+  /// registerProduct from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry point for registering ownership of a product including for warranty purposes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegisterProduct = IriTerm(
+    'https://ref.gs1.org/voc/registerProduct',
+  );
+
+  /// registryEntry from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegistryEntry = IriTerm(
+    'https://ref.gs1.org/voc/registryEntry',
+  );
+
+  /// relatedImage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any image that depicts or relates to the identified entity (e.g., trade item, assets, business process, patient record, location, organisation, etc.)
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedImage = IriTerm(
+    'https://ref.gs1.org/voc/relatedImage',
+  );
+
+  /// relatedVideo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any video, or document that has an embedded video, that describes or relates to the identified item, organisation, or location in some way.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedVideo = IriTerm(
+    'https://ref.gs1.org/voc/relatedVideo',
+  );
+
+  /// reportFound from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a platform or service where users (company or a person) can report a found item associated with the identified entity (instance of an item). This link type is designed to assist in connecting the found item with its rightful owner or relevant authorities.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ReportFound = IriTerm('https://ref.gs1.org/voc/reportFound');
+
+  /// review from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to reviews.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Review = IriTerm('https://ref.gs1.org/voc/review');
+
+  /// safetyInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to safety information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SafetyInfo = IriTerm('https://ref.gs1.org/voc/safetyInfo');
+
+  /// scheduleTime from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ScheduleTime = IriTerm(
+    'https://ref.gs1.org/voc/scheduleTime',
+  );
+
+  /// serviceInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to service or maintenance instructions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ServiceInfo = IriTerm('https://ref.gs1.org/voc/serviceInfo');
+
+  /// smartLabel from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to the product's SmartLabel page.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SmartLabel = IriTerm('https://ref.gs1.org/voc/smartLabel');
+
+  /// smpc from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Smpc = IriTerm('https://ref.gs1.org/voc/smpc');
+
+  /// socialMedia from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a social media channel. The title will typically be replaced by the name of the channel.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SocialMedia = IriTerm('https://ref.gs1.org/voc/socialMedia');
+
+  /// statisticInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about statistics regarding an organisation, location, or other entity.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1StatisticInfo = IriTerm(
+    'https://ref.gs1.org/voc/statisticInfo',
+  );
+
+  /// subscribe from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a subscription form
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Subscribe = IriTerm('https://ref.gs1.org/voc/subscribe');
+
+  /// support from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of support such as a helpdesk, chat support, email etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Support = IriTerm('https://ref.gs1.org/voc/support');
+
+  /// sustainabilityInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information relating to sustainability and recycling requirements or processes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SustainabilityInfo = IriTerm(
+    'https://ref.gs1.org/voc/sustainabilityInfo',
+  );
+
+  /// traceability from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to traceability information (includes track and trace).  Traceability information may be provided for consumption by humans or computers. If the target is an EPCIS repository, use gs1:epcis instead.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Traceability = IriTerm(
+    'https://ref.gs1.org/voc/traceability',
+  );
+
+  /// tutorial from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a tutorial or set of tutorials, such as online classes, how-to videos etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Tutorial = IriTerm('https://ref.gs1.org/voc/tutorial');
+
+  /// userAgreement from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an agreement or waiver.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1UserAgreement = IriTerm(
+    'https://ref.gs1.org/voc/userAgreement',
+  );
+
+  /// verificationService from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a GS1 Lightweight Messaging Service for verifying the status of a product, organisation, or location and its identifier.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1VerificationService = IriTerm(
+    'https://ref.gs1.org/voc/verificationService',
+  );
+
+  /// whatsInTheBox from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of all the individual items in a packaged item.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1WhatsInTheBox = IriTerm(
+    'https://ref.gs1.org/voc/whatsInTheBox',
   );
 
   /// abstract_ from schemahttp vocabulary [Expects: http://schema.org/Text]
@@ -400,9 +951,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAbstract_ = const IriTerm(
-    'http://schema.org/abstract',
-  );
+  static const schemahttpAbstract_ = IriTerm('http://schema.org/abstract');
 
   /// accessMode from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -410,9 +959,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessMode = const IriTerm(
-    'http://schema.org/accessMode',
-  );
+  static const schemahttpAccessMode = IriTerm('http://schema.org/accessMode');
 
   /// accessModeSufficient from schemahttp vocabulary [Expects: http://schema.org/ItemList]
   ///
@@ -420,7 +967,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessModeSufficient = const IriTerm(
+  static const schemahttpAccessModeSufficient = IriTerm(
     'http://schema.org/accessModeSufficient',
   );
 
@@ -430,7 +977,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityAPI = const IriTerm(
+  static const schemahttpAccessibilityAPI = IriTerm(
     'http://schema.org/accessibilityAPI',
   );
 
@@ -440,7 +987,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityControl = const IriTerm(
+  static const schemahttpAccessibilityControl = IriTerm(
     'http://schema.org/accessibilityControl',
   );
 
@@ -450,7 +997,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityFeature = const IriTerm(
+  static const schemahttpAccessibilityFeature = IriTerm(
     'http://schema.org/accessibilityFeature',
   );
 
@@ -460,7 +1007,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityHazard = const IriTerm(
+  static const schemahttpAccessibilityHazard = IriTerm(
     'http://schema.org/accessibilityHazard',
   );
 
@@ -470,7 +1017,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilitySummary = const IriTerm(
+  static const schemahttpAccessibilitySummary = IriTerm(
     'http://schema.org/accessibilitySummary',
   );
 
@@ -480,7 +1027,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccountablePerson = const IriTerm(
+  static const schemahttpAccountablePerson = IriTerm(
     'http://schema.org/accountablePerson',
   );
 
@@ -490,7 +1037,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAcquireLicensePage = const IriTerm(
+  static const schemahttpAcquireLicensePage = IriTerm(
     'http://schema.org/acquireLicensePage',
   );
 
@@ -501,7 +1048,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAdditionalType = const IriTerm(
+  static const schemahttpAdditionalType = IriTerm(
     'http://schema.org/additionalType',
   );
 
@@ -511,7 +1058,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAggregateRating = const IriTerm(
+  static const schemahttpAggregateRating = IriTerm(
     'http://schema.org/aggregateRating',
   );
 
@@ -521,7 +1068,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAlternativeHeadline = const IriTerm(
+  static const schemahttpAlternativeHeadline = IriTerm(
     'http://schema.org/alternativeHeadline',
   );
 
@@ -531,9 +1078,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpArchivedAt = const IriTerm(
-    'http://schema.org/archivedAt',
-  );
+  static const schemahttpArchivedAt = IriTerm('http://schema.org/archivedAt');
 
   /// assesses from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -541,7 +1086,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const schemahttpAssesses = const IriTerm('http://schema.org/assesses');
+  static const schemahttpAssesses = IriTerm('http://schema.org/assesses');
 
   /// associatedArticle from schemahttp vocabulary [Expects: http://schema.org/NewsArticle]
   ///
@@ -549,7 +1094,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpAssociatedArticle = const IriTerm(
+  static const schemahttpAssociatedArticle = IriTerm(
     'http://schema.org/associatedArticle',
   );
 
@@ -559,7 +1104,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/HyperToc, http://schema.org/HyperTocEntry
   ///
-  static const schemahttpAssociatedMedia = const IriTerm(
+  static const schemahttpAssociatedMedia = IriTerm(
     'http://schema.org/associatedMedia',
   );
 
@@ -569,7 +1114,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAudio = const IriTerm('http://schema.org/audio');
+  static const schemahttpAudio = IriTerm('http://schema.org/audio');
 
   /// author from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -577,7 +1122,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Rating
   ///
-  static const schemahttpAuthor = const IriTerm('http://schema.org/author');
+  static const schemahttpAuthor = IriTerm('http://schema.org/author');
 
   /// awards from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -585,7 +1130,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpAwards = const IriTerm('http://schema.org/awards');
+  static const schemahttpAwards = IriTerm('http://schema.org/awards');
 
   /// bitrate from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -593,7 +1138,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpBitrate = const IriTerm('http://schema.org/bitrate');
+  static const schemahttpBitrate = IriTerm('http://schema.org/bitrate');
 
   /// character from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -601,9 +1146,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCharacter = const IriTerm(
-    'http://schema.org/character',
-  );
+  static const schemahttpCharacter = IriTerm('http://schema.org/character');
 
   /// citation from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Text]
   ///
@@ -611,7 +1154,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCitation = const IriTerm('http://schema.org/citation');
+  static const schemahttpCitation = IriTerm('http://schema.org/citation');
 
   /// comment from schemahttp vocabulary [Expects: http://schema.org/Comment]
   ///
@@ -619,7 +1162,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/RsvpAction
   ///
-  static const schemahttpComment = const IriTerm('http://schema.org/comment');
+  static const schemahttpComment = IriTerm('http://schema.org/comment');
 
   /// commentCount from schemahttp vocabulary [Expects: http://schema.org/Integer]
   ///
@@ -627,7 +1170,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCommentCount = const IriTerm(
+  static const schemahttpCommentCount = IriTerm(
     'http://schema.org/commentCount',
   );
 
@@ -637,7 +1180,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpConditionsOfAccess = const IriTerm(
+  static const schemahttpConditionsOfAccess = IriTerm(
     'http://schema.org/conditionsOfAccess',
   );
 
@@ -647,7 +1190,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentRating = const IriTerm(
+  static const schemahttpContentRating = IriTerm(
     'http://schema.org/contentRating',
   );
 
@@ -657,7 +1200,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentReferenceTime = const IriTerm(
+  static const schemahttpContentReferenceTime = IriTerm(
     'http://schema.org/contentReferenceTime',
   );
 
@@ -667,9 +1210,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpContentSize = const IriTerm(
-    'http://schema.org/contentSize',
-  );
+  static const schemahttpContentSize = IriTerm('http://schema.org/contentSize');
 
   /// contentUrl from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -677,9 +1218,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpContentUrl = const IriTerm(
-    'http://schema.org/contentUrl',
-  );
+  static const schemahttpContentUrl = IriTerm('http://schema.org/contentUrl');
 
   /// contributor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -687,9 +1226,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpContributor = const IriTerm(
-    'http://schema.org/contributor',
-  );
+  static const schemahttpContributor = IriTerm('http://schema.org/contributor');
 
   /// copyrightHolder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -697,7 +1234,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightHolder = const IriTerm(
+  static const schemahttpCopyrightHolder = IriTerm(
     'http://schema.org/copyrightHolder',
   );
 
@@ -707,7 +1244,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightNotice = const IriTerm(
+  static const schemahttpCopyrightNotice = IriTerm(
     'http://schema.org/copyrightNotice',
   );
 
@@ -717,7 +1254,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightYear = const IriTerm(
+  static const schemahttpCopyrightYear = IriTerm(
     'http://schema.org/copyrightYear',
   );
 
@@ -727,9 +1264,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCorrection = const IriTerm(
-    'http://schema.org/correction',
-  );
+  static const schemahttpCorrection = IriTerm('http://schema.org/correction');
 
   /// countryOfOrigin from schemahttp vocabulary [Expects: http://schema.org/Country]
   ///
@@ -741,7 +1276,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Movie, http://schema.org/Product, http://schema.org/TVEpisode, http://schema.org/TVSeason, http://schema.org/TVSeries
   ///
-  static const schemahttpCountryOfOrigin = const IriTerm(
+  static const schemahttpCountryOfOrigin = IriTerm(
     'http://schema.org/countryOfOrigin',
   );
 
@@ -751,7 +1286,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCreativeWorkStatus = const IriTerm(
+  static const schemahttpCreativeWorkStatus = IriTerm(
     'http://schema.org/creativeWorkStatus',
   );
 
@@ -761,9 +1296,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCreditText = const IriTerm(
-    'http://schema.org/creditText',
-  );
+  static const schemahttpCreditText = IriTerm('http://schema.org/creditText');
 
   /// dateModified from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -771,7 +1304,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const schemahttpDateModified = const IriTerm(
+  static const schemahttpDateModified = IriTerm(
     'http://schema.org/dateModified',
   );
 
@@ -781,7 +1314,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const schemahttpDatePublished = const IriTerm(
+  static const schemahttpDatePublished = IriTerm(
     'http://schema.org/datePublished',
   );
 
@@ -791,7 +1324,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpDigitalSourceType = const IriTerm(
+  static const schemahttpDigitalSourceType = IriTerm(
     'http://schema.org/digitalSourceType',
   );
 
@@ -801,7 +1334,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDisambiguatingDescription = const IriTerm(
+  static const schemahttpDisambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -811,8 +1344,18 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpDiscussionUrl = const IriTerm(
+  static const schemahttpDiscussionUrl = IriTerm(
     'http://schema.org/discussionUrl',
+  );
+
+  /// displayLocation from schemahttp vocabulary [Expects: http://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
+  ///
+  static const schemahttpDisplayLocation = IriTerm(
+    'http://schema.org/displayLocation',
   );
 
   /// editEIDR from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
@@ -826,7 +1369,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEditEIDR = const IriTerm('http://schema.org/editEIDR');
+  static const schemahttpEditEIDR = IriTerm('http://schema.org/editEIDR');
 
   /// editor from schemahttp vocabulary [Expects: http://schema.org/Person]
   ///
@@ -834,7 +1377,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEditor = const IriTerm('http://schema.org/editor');
+  static const schemahttpEditor = IriTerm('http://schema.org/editor');
 
   /// educationalAlignment from schemahttp vocabulary [Expects: http://schema.org/AlignmentObject]
   ///
@@ -844,7 +1387,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalAlignment = const IriTerm(
+  static const schemahttpEducationalAlignment = IriTerm(
     'http://schema.org/educationalAlignment',
   );
 
@@ -854,7 +1397,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/EducationalOccupationalCredential, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalLevel = const IriTerm(
+  static const schemahttpEducationalLevel = IriTerm(
     'http://schema.org/educationalLevel',
   );
 
@@ -864,7 +1407,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalUse = const IriTerm(
+  static const schemahttpEducationalUse = IriTerm(
     'http://schema.org/educationalUse',
   );
 
@@ -874,7 +1417,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpEmbedUrl = const IriTerm('http://schema.org/embedUrl');
+  static const schemahttpEmbedUrl = IriTerm('http://schema.org/embedUrl');
 
   /// embeddedTextCaption from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -882,7 +1425,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/AudioObject, http://schema.org/ImageObject, http://schema.org/VideoObject
   ///
-  static const schemahttpEmbeddedTextCaption = const IriTerm(
+  static const schemahttpEmbeddedTextCaption = IriTerm(
     'http://schema.org/embeddedTextCaption',
   );
 
@@ -892,9 +1435,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEncodings = const IriTerm(
-    'http://schema.org/encodings',
-  );
+  static const schemahttpEncodings = IriTerm('http://schema.org/encodings');
 
   /// endTime from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Time]
   ///
@@ -902,7 +1443,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/FoodEstablishmentReservation, http://schema.org/InteractionCounter, http://schema.org/MediaObject, http://schema.org/Schedule
   ///
-  static const schemahttpEndTime = const IriTerm('http://schema.org/endTime');
+  static const schemahttpEndTime = IriTerm('http://schema.org/endTime');
 
   /// exifData from schemahttp vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text]
   ///
@@ -910,7 +1451,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/ImageObject
   ///
-  static const schemahttpExifData = const IriTerm('http://schema.org/exifData');
+  static const schemahttpExifData = IriTerm('http://schema.org/exifData');
 
   /// expires from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -918,7 +1459,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const schemahttpExpires = const IriTerm('http://schema.org/expires');
+  static const schemahttpExpires = IriTerm('http://schema.org/expires');
 
   /// fileFormat from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -926,9 +1467,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpFileFormat = const IriTerm(
-    'http://schema.org/fileFormat',
-  );
+  static const schemahttpFileFormat = IriTerm('http://schema.org/fileFormat');
 
   /// funder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -936,7 +1475,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpFunder = const IriTerm('http://schema.org/funder');
+  static const schemahttpFunder = IriTerm('http://schema.org/funder');
 
   /// headline from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -944,7 +1483,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpHeadline = const IriTerm('http://schema.org/headline');
+  static const schemahttpHeadline = IriTerm('http://schema.org/headline');
 
   /// height from schemahttp vocabulary [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
@@ -952,7 +1491,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpHeight = const IriTerm('http://schema.org/height');
+  static const schemahttpHeight = IriTerm('http://schema.org/height');
 
   /// ineligibleRegion from schemahttp vocabulary [Expects: http://schema.org/GeoShape, http://schema.org/Place, http://schema.org/Text]
   ///
@@ -961,7 +1500,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/DeliveryChargeSpecification, http://schema.org/Demand, http://schema.org/MediaObject, http://schema.org/Offer
   ///
-  static const schemahttpIneligibleRegion = const IriTerm(
+  static const schemahttpIneligibleRegion = IriTerm(
     'http://schema.org/ineligibleRegion',
   );
 
@@ -971,7 +1510,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpInteractivityType = const IriTerm(
+  static const schemahttpInteractivityType = IriTerm(
     'http://schema.org/interactivityType',
   );
 
@@ -981,7 +1520,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const schemahttpInterpretedAsClaim = const IriTerm(
+  static const schemahttpInterpretedAsClaim = IriTerm(
     'http://schema.org/interpretedAsClaim',
   );
 
@@ -991,7 +1530,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsBasedOnUrl = const IriTerm(
+  static const schemahttpIsBasedOnUrl = IriTerm(
     'http://schema.org/isBasedOnUrl',
   );
 
@@ -1001,7 +1540,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const schemahttpIsFamilyFriendly = const IriTerm(
+  static const schemahttpIsFamilyFriendly = IriTerm(
     'http://schema.org/isFamilyFriendly',
   );
 
@@ -1011,7 +1550,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const schemahttpKeywords = const IriTerm('http://schema.org/keywords');
+  static const schemahttpKeywords = IriTerm('http://schema.org/keywords');
 
   /// learningResourceType from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -1019,7 +1558,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpLearningResourceType = const IriTerm(
+  static const schemahttpLearningResourceType = IriTerm(
     'http://schema.org/learningResourceType',
   );
 
@@ -1029,7 +1568,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpLicense = const IriTerm('http://schema.org/license');
+  static const schemahttpLicense = IriTerm('http://schema.org/license');
 
   /// locationCreated from schemahttp vocabulary [Expects: http://schema.org/Place]
   ///
@@ -1037,7 +1576,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpLocationCreated = const IriTerm(
+  static const schemahttpLocationCreated = IriTerm(
     'http://schema.org/locationCreated',
   );
 
@@ -1048,9 +1587,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMaintainer = const IriTerm(
-    'http://schema.org/maintainer',
-  );
+  static const schemahttpMaintainer = IriTerm('http://schema.org/maintainer');
 
   /// materialExtent from schemahttp vocabulary [Expects: http://schema.org/QuantitativeValue, http://schema.org/Text]
   ///
@@ -1058,7 +1595,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMaterialExtent = const IriTerm(
+  static const schemahttpMaterialExtent = IriTerm(
     'http://schema.org/materialExtent',
   );
 
@@ -1068,7 +1605,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMentions = const IriTerm('http://schema.org/mentions');
+  static const schemahttpMentions = IriTerm('http://schema.org/mentions');
 
   /// name from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1076,7 +1613,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpName = const IriTerm('http://schema.org/name');
+  static const schemahttpName = IriTerm('http://schema.org/name');
 
   /// pattern from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -1084,7 +1621,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpPattern = const IriTerm('http://schema.org/pattern');
+  static const schemahttpPattern = IriTerm('http://schema.org/pattern');
 
   /// playerType from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1092,9 +1629,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpPlayerType = const IriTerm(
-    'http://schema.org/playerType',
-  );
+  static const schemahttpPlayerType = IriTerm('http://schema.org/playerType');
 
   /// potentialAction from schemahttp vocabulary [Expects: http://schema.org/Action]
   ///
@@ -1102,7 +1637,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpPotentialAction = const IriTerm(
+  static const schemahttpPotentialAction = IriTerm(
     'http://schema.org/potentialAction',
   );
 
@@ -1112,7 +1647,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpProducer = const IriTerm('http://schema.org/producer');
+  static const schemahttpProducer = IriTerm('http://schema.org/producer');
 
   /// productionCompany from schemahttp vocabulary [Expects: http://schema.org/Organization]
   ///
@@ -1120,7 +1655,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWorkSeason, http://schema.org/Episode, http://schema.org/MediaObject, http://schema.org/Movie, http://schema.org/MovieSeries, http://schema.org/RadioSeries, http://schema.org/TVSeries, http://schema.org/VideoGameSeries
   ///
-  static const schemahttpProductionCompany = const IriTerm(
+  static const schemahttpProductionCompany = IriTerm(
     'http://schema.org/productionCompany',
   );
 
@@ -1130,9 +1665,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpPublication = const IriTerm(
-    'http://schema.org/publication',
-  );
+  static const schemahttpPublication = IriTerm('http://schema.org/publication');
 
   /// publisher from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1140,9 +1673,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/FinancialIncentive
   ///
-  static const schemahttpPublisher = const IriTerm(
-    'http://schema.org/publisher',
-  );
+  static const schemahttpPublisher = IriTerm('http://schema.org/publisher');
 
   /// publisherImprint from schemahttp vocabulary [Expects: http://schema.org/Organization]
   ///
@@ -1150,7 +1681,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpPublisherImprint = const IriTerm(
+  static const schemahttpPublisherImprint = IriTerm(
     'http://schema.org/publisherImprint',
   );
 
@@ -1160,7 +1691,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpRegionsAllowed = const IriTerm(
+  static const schemahttpRegionsAllowed = IriTerm(
     'http://schema.org/regionsAllowed',
   );
 
@@ -1170,7 +1701,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpReleasedEvent = const IriTerm(
+  static const schemahttpReleasedEvent = IriTerm(
     'http://schema.org/releasedEvent',
   );
 
@@ -1180,7 +1711,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/ImageObject
   ///
-  static const schemahttpRepresentativeOfPage = const IriTerm(
+  static const schemahttpRepresentativeOfPage = IriTerm(
     'http://schema.org/representativeOfPage',
   );
 
@@ -1190,7 +1721,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/MediaObject
   ///
-  static const schemahttpRequiresSubscription = const IriTerm(
+  static const schemahttpRequiresSubscription = IriTerm(
     'http://schema.org/requiresSubscription',
   );
 
@@ -1200,7 +1731,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const schemahttpReviews = const IriTerm('http://schema.org/reviews');
+  static const schemahttpReviews = IriTerm('http://schema.org/reviews');
 
   /// sameAs from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -1208,7 +1739,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSameAs = const IriTerm('http://schema.org/sameAs');
+  static const schemahttpSameAs = IriTerm('http://schema.org/sameAs');
 
   /// schemaVersion from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1217,7 +1748,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSchemaVersion = const IriTerm(
+  static const schemahttpSchemaVersion = IriTerm(
     'http://schema.org/schemaVersion',
   );
 
@@ -1227,7 +1758,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdDatePublished = const IriTerm(
+  static const schemahttpSdDatePublished = IriTerm(
     'http://schema.org/sdDatePublished',
   );
 
@@ -1237,9 +1768,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdLicense = const IriTerm(
-    'http://schema.org/sdLicense',
-  );
+  static const schemahttpSdLicense = IriTerm('http://schema.org/sdLicense');
 
   /// sdPublisher from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1248,9 +1777,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdPublisher = const IriTerm(
-    'http://schema.org/sdPublisher',
-  );
+  static const schemahttpSdPublisher = IriTerm('http://schema.org/sdPublisher');
 
   /// sha256 from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1258,7 +1785,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpSha256 = const IriTerm('http://schema.org/sha256');
+  static const schemahttpSha256 = IriTerm('http://schema.org/sha256');
 
   /// size from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/QuantitativeValue, http://schema.org/SizeSpecification, http://schema.org/Text]
   ///
@@ -1266,7 +1793,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpSize = const IriTerm('http://schema.org/size');
+  static const schemahttpSize = IriTerm('http://schema.org/size');
 
   /// sourceOrganization from schemahttp vocabulary [Expects: http://schema.org/Organization]
   ///
@@ -1274,7 +1801,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSourceOrganization = const IriTerm(
+  static const schemahttpSourceOrganization = IriTerm(
     'http://schema.org/sourceOrganization',
   );
 
@@ -1285,7 +1812,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSpatial = const IriTerm('http://schema.org/spatial');
+  static const schemahttpSpatial = IriTerm('http://schema.org/spatial');
 
   /// startTime from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Time]
   ///
@@ -1293,9 +1820,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/FoodEstablishmentReservation, http://schema.org/InteractionCounter, http://schema.org/MediaObject, http://schema.org/Schedule
   ///
-  static const schemahttpStartTime = const IriTerm(
-    'http://schema.org/startTime',
-  );
+  static const schemahttpStartTime = IriTerm('http://schema.org/startTime');
 
   /// teaches from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -1303,7 +1828,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const schemahttpTeaches = const IriTerm('http://schema.org/teaches');
+  static const schemahttpTeaches = IriTerm('http://schema.org/teaches');
 
   /// temporal from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text]
   ///
@@ -1312,7 +1837,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTemporal = const IriTerm('http://schema.org/temporal');
+  static const schemahttpTemporal = IriTerm('http://schema.org/temporal');
 
   /// text from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1320,7 +1845,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpText = const IriTerm('http://schema.org/text');
+  static const schemahttpText = IriTerm('http://schema.org/text');
 
   /// thumbnail from schemahttp vocabulary [Expects: http://schema.org/ImageObject]
   ///
@@ -1328,9 +1853,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpThumbnail = const IriTerm(
-    'http://schema.org/thumbnail',
-  );
+  static const schemahttpThumbnail = IriTerm('http://schema.org/thumbnail');
 
   /// thumbnailUrl from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -1338,7 +1861,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpThumbnailUrl = const IriTerm(
+  static const schemahttpThumbnailUrl = IriTerm(
     'http://schema.org/thumbnailUrl',
   );
 
@@ -1348,7 +1871,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTimeRequired = const IriTerm(
+  static const schemahttpTimeRequired = IriTerm(
     'http://schema.org/timeRequired',
   );
 
@@ -1358,9 +1881,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpTranslator = const IriTerm(
-    'http://schema.org/translator',
-  );
+  static const schemahttpTranslator = IriTerm('http://schema.org/translator');
 
   /// typicalAgeRange from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1368,7 +1889,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpTypicalAgeRange = const IriTerm(
+  static const schemahttpTypicalAgeRange = IriTerm(
     'http://schema.org/typicalAgeRange',
   );
 
@@ -1378,9 +1899,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpUploadDate = const IriTerm(
-    'http://schema.org/uploadDate',
-  );
+  static const schemahttpUploadDate = IriTerm('http://schema.org/uploadDate');
 
   /// url from schemahttp vocabulary [Expects: http://schema.org/URL]
   ///
@@ -1388,7 +1907,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpUrl = const IriTerm('http://schema.org/url');
+  static const schemahttpUrl = IriTerm('http://schema.org/url');
 
   /// version from schemahttp vocabulary [Expects: http://schema.org/Number, http://schema.org/Text]
   ///
@@ -1396,7 +1915,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpVersion = const IriTerm('http://schema.org/version');
+  static const schemahttpVersion = IriTerm('http://schema.org/version');
 
   /// video from schemahttp vocabulary [Expects: http://schema.org/Clip, http://schema.org/VideoObject]
   ///
@@ -1404,7 +1923,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpVideo = const IriTerm('http://schema.org/video');
+  static const schemahttpVideo = IriTerm('http://schema.org/video');
 
   /// width from schemahttp vocabulary [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
@@ -1412,7 +1931,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpWidth = const IriTerm('http://schema.org/width');
+  static const schemahttpWidth = IriTerm('http://schema.org/width');
 
   /// wordCount from schemahttp vocabulary [Expects: http://schema.org/Integer]
   ///
@@ -1420,9 +1939,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Article, http://schema.org/CreativeWork
   ///
-  static const schemahttpWordCount = const IriTerm(
-    'http://schema.org/wordCount',
-  );
+  static const schemahttpWordCount = IriTerm('http://schema.org/wordCount');
 
   /// alternateName from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1430,7 +1947,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAlternateName = const IriTerm(
+  static const schemahttpAlternateName = IriTerm(
     'http://schema.org/alternateName',
   );
 
@@ -1440,7 +1957,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAudience = const IriTerm('http://schema.org/audience');
+  static const schemahttpAudience = IriTerm('http://schema.org/audience');
 
   /// award from schemahttp vocabulary [Expects: http://schema.org/Text]
   ///
@@ -1448,7 +1965,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAward = const IriTerm('http://schema.org/award');
+  static const schemahttpAward = IriTerm('http://schema.org/award');
 
   /// caption from schemahttp vocabulary [Expects: http://schema.org/MediaObject, http://schema.org/Text]
   ///
@@ -1456,7 +1973,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/AudioObject, http://schema.org/ImageObject, http://schema.org/VideoObject
   ///
-  static const schemahttpCaption = const IriTerm('http://schema.org/caption');
+  static const schemahttpCaption = IriTerm('http://schema.org/caption');
 
   /// contentLocation from schemahttp vocabulary [Expects: http://schema.org/Place]
   ///
@@ -1464,7 +1981,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentLocation = const IriTerm(
+  static const schemahttpContentLocation = IriTerm(
     'http://schema.org/contentLocation',
   );
 
@@ -1474,7 +1991,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/UserComments
   ///
-  static const schemahttpCreator = const IriTerm('http://schema.org/creator');
+  static const schemahttpCreator = IriTerm('http://schema.org/creator');
 
   /// dateCreated from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -1482,17 +1999,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const schemahttpDateCreated = const IriTerm(
-    'http://schema.org/dateCreated',
-  );
-
-  /// duration from schemahttp vocabulary [Expects: http://schema.org/Duration, http://schema.org/QuantitativeValue]
-  ///
-  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
-  ///
-  /// Can be used on: http://schema.org/Audiobook, http://schema.org/Episode, http://schema.org/Event, http://schema.org/MediaObject, http://schema.org/Movie, http://schema.org/MusicRecording, http://schema.org/MusicRelease, http://schema.org/QuantitativeValueDistribution, http://schema.org/Schedule, http://schema.org/ServicePeriod
-  ///
-  static const schemahttpDuration = const IriTerm('http://schema.org/duration');
+  static const schemahttpDateCreated = IriTerm('http://schema.org/dateCreated');
 
   /// encodesCreativeWork from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
   ///
@@ -1500,7 +2007,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/MediaObject
   ///
-  static const schemahttpEncodesCreativeWork = const IriTerm(
+  static const schemahttpEncodesCreativeWork = IriTerm(
     'http://schema.org/encodesCreativeWork',
   );
 
@@ -1514,7 +2021,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const schemahttpEncodingFormat = const IriTerm(
+  static const schemahttpEncodingFormat = IriTerm(
     'http://schema.org/encodingFormat',
   );
 
@@ -1524,7 +2031,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpExampleOfWork = const IriTerm(
+  static const schemahttpExampleOfWork = IriTerm(
     'http://schema.org/exampleOfWork',
   );
 
@@ -1534,15 +2041,15 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpFunding = const IriTerm('http://schema.org/funding');
+  static const schemahttpFunding = IriTerm('http://schema.org/funding');
 
-  /// genre from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// genre from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: http://schema.org/BroadcastChannel, http://schema.org/CreativeWork, http://schema.org/MusicGroup
   ///
-  static const schemahttpGenre = const IriTerm('http://schema.org/genre');
+  static const schemahttpGenre = IriTerm('http://schema.org/genre');
 
   /// inLanguage from schemahttp vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -1550,9 +2057,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LinkRole, http://schema.org/PronounceableText, http://schema.org/WriteAction
   ///
-  static const schemahttpInLanguage = const IriTerm(
-    'http://schema.org/inLanguage',
-  );
+  static const schemahttpInLanguage = IriTerm('http://schema.org/inLanguage');
 
   /// interactionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
@@ -1560,7 +2065,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpInteractionStatistic = const IriTerm(
+  static const schemahttpInteractionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
@@ -1570,7 +2075,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Place
   ///
-  static const schemahttpIsAccessibleForFree = const IriTerm(
+  static const schemahttpIsAccessibleForFree = IriTerm(
     'http://schema.org/isAccessibleForFree',
   );
 
@@ -1580,9 +2085,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsBasedOn = const IriTerm(
-    'http://schema.org/isBasedOn',
-  );
+  static const schemahttpIsBasedOn = IriTerm('http://schema.org/isBasedOn');
 
   /// mainEntity from schemahttp vocabulary [Expects: http://schema.org/Thing]
   ///
@@ -1590,9 +2093,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMainEntity = const IriTerm(
-    'http://schema.org/mainEntity',
-  );
+  static const schemahttpMainEntity = IriTerm('http://schema.org/mainEntity');
 
   /// mainEntityOfPage from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1600,7 +2101,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpMainEntityOfPage = const IriTerm(
+  static const schemahttpMainEntityOfPage = IriTerm(
     'http://schema.org/mainEntityOfPage',
   );
 
@@ -1611,7 +2112,15 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const schemahttpOffers = const IriTerm('http://schema.org/offers');
+  static const schemahttpOffers = IriTerm('http://schema.org/offers');
+
+  /// owner from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const schemahttpOwner = IriTerm('http://schema.org/owner');
 
   /// provider from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1619,7 +2128,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/FinancialIncentive, http://schema.org/Invoice, http://schema.org/ParcelDelivery, http://schema.org/Reservation, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const schemahttpProvider = const IriTerm('http://schema.org/provider');
+  static const schemahttpProvider = IriTerm('http://schema.org/provider');
 
   /// recordedAt from schemahttp vocabulary [Expects: http://schema.org/Event]
   ///
@@ -1627,9 +2136,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpRecordedAt = const IriTerm(
-    'http://schema.org/recordedAt',
-  );
+  static const schemahttpRecordedAt = IriTerm('http://schema.org/recordedAt');
 
   /// review from schemahttp vocabulary [Expects: http://schema.org/Review]
   ///
@@ -1637,7 +2144,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpReview = const IriTerm('http://schema.org/review');
+  static const schemahttpReview = IriTerm('http://schema.org/review');
 
   /// sponsor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1645,7 +2152,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSponsor = const IriTerm('http://schema.org/sponsor');
+  static const schemahttpSponsor = IriTerm('http://schema.org/sponsor');
 
   /// subjectOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -1653,9 +2160,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSubjectOf = const IriTerm(
-    'http://schema.org/subjectOf',
-  );
+  static const schemahttpSubjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// temporalCoverage from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1667,7 +2172,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTemporalCoverage = const IriTerm(
+  static const schemahttpTemporalCoverage = IriTerm(
     'http://schema.org/temporalCoverage',
   );
 
@@ -1677,7 +2182,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTranslationOfWork = const IriTerm(
+  static const schemahttpTranslationOfWork = IriTerm(
     'http://schema.org/translationOfWork',
   );
 
@@ -1689,9 +2194,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpUsageInfo = const IriTerm(
-    'http://schema.org/usageInfo',
-  );
+  static const schemahttpUsageInfo = IriTerm('http://schema.org/usageInfo');
 
   /// workTranslation from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
   ///
@@ -1699,17 +2202,17 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpWorkTranslation = const IriTerm(
+  static const schemahttpWorkTranslation = IriTerm(
     'http://schema.org/workTranslation',
   );
 
   /// about from schemahttp vocabulary [Expects: http://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event
+  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/DefinedTerm, http://schema.org/DefinedTermSet, http://schema.org/Event
   ///
-  static const schemahttpAbout = const IriTerm('http://schema.org/about');
+  static const schemahttpAbout = IriTerm('http://schema.org/about');
 
   /// encoding from schemahttp vocabulary [Expects: http://schema.org/MediaObject]
   ///
@@ -1717,7 +2220,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEncoding = const IriTerm('http://schema.org/encoding');
+  static const schemahttpEncoding = IriTerm('http://schema.org/encoding');
 
   /// material from schemahttp vocabulary [Expects: http://schema.org/Product, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1725,7 +2228,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpMaterial = const IriTerm('http://schema.org/material');
+  static const schemahttpMaterial = IriTerm('http://schema.org/material');
 
   /// spatialCoverage from schemahttp vocabulary [Expects: http://schema.org/Place]
   ///
@@ -1735,9 +2238,17 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSpatialCoverage = const IriTerm(
+  static const schemahttpSpatialCoverage = IriTerm(
     'http://schema.org/spatialCoverage',
   );
+
+  /// duration from schemahttp vocabulary [Expects: http://schema.org/Duration, http://schema.org/QuantitativeValue]
+  ///
+  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
+  ///
+  /// Can be used on: http://schema.org/Audiobook, http://schema.org/Episode, http://schema.org/Event, http://schema.org/MediaObject, http://schema.org/Movie, http://schema.org/MusicRecording, http://schema.org/MusicRelease, http://schema.org/QuantitativeValueDistribution, http://schema.org/Schedule, http://schema.org/ServicePeriod
+  ///
+  static const schemahttpDuration = IriTerm('http://schema.org/duration');
 
   /// workExample from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
   ///
@@ -1745,9 +2256,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpWorkExample = const IriTerm(
-    'http://schema.org/workExample',
-  );
+  static const schemahttpWorkExample = IriTerm('http://schema.org/workExample');
 
   /// description from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -1755,9 +2264,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDescription = const IriTerm(
-    'http://schema.org/description',
-  );
+  static const schemahttpDescription = IriTerm('http://schema.org/description');
 
   /// image from schemahttp vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -1765,7 +2272,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpImage = const IriTerm('http://schema.org/image');
+  static const schemahttpImage = IriTerm('http://schema.org/image');
 
   /// hasPart from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
   ///
@@ -1773,7 +2280,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpHasPart = const IriTerm('http://schema.org/hasPart');
+  static const schemahttpHasPart = IriTerm('http://schema.org/hasPart');
 
   /// position from schemahttp vocabulary [Expects: http://schema.org/Integer, http://schema.org/Text]
   ///
@@ -1781,7 +2288,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/ListItem
   ///
-  static const schemahttpPosition = const IriTerm('http://schema.org/position');
+  static const schemahttpPosition = IriTerm('http://schema.org/position');
 
   /// isPartOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1789,7 +2296,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsPartOf = const IriTerm('http://schema.org/isPartOf');
+  static const schemahttpIsPartOf = IriTerm('http://schema.org/isPartOf');
 
   /// publishingPrinciples from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1800,7 +2307,7 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpPublishingPrinciples = const IriTerm(
+  static const schemahttpPublishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
@@ -1811,29 +2318,60 @@ class FoafImage {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpIdentifier = const IriTerm(
-    'http://schema.org/identifier',
-  );
+  static const schemahttpIdentifier = IriTerm('http://schema.org/identifier');
 
-  /// authorList from bibo vocabulary
+  /// numPages from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
-  /// An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance.
+  /// The number of pages contained in a document
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboAuthorList = const IriTerm(
-    'http://purl.org/ontology/bibo/authorList',
-  );
+  static const biboNumPages = IriTerm('http://purl.org/ontology/bibo/numPages');
 
-  /// citedBy from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
+  /// shortTitle from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
-  /// Relates a document to another document that cites the
-  /// first document.
+  /// The abbreviation of a title.
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboCitedBy = const IriTerm(
-    'http://purl.org/ontology/bibo/citedBy',
+  static const biboShortTitle = IriTerm(
+    'http://purl.org/ontology/bibo/shortTitle',
+  );
+
+  /// locator from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A description (often numeric) that locates an item within a containing document or collection.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboLocator = IriTerm('http://purl.org/ontology/bibo/locator');
+
+  /// editorList from bibo vocabulary
+  ///
+  /// An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboEditorList = IriTerm(
+    'http://purl.org/ontology/bibo/editorList',
+  );
+
+  /// volume from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A volume number
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboVolume = IriTerm('http://purl.org/ontology/bibo/volume');
+
+  /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A summary of the resource.
+  ///
+  /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
+  ///
+  static const biboAbstract_ = IriTerm(
+    'http://purl.org/ontology/bibo/abstract',
   );
 
   /// cites from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
@@ -1844,36 +2382,24 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboCites = const IriTerm('http://purl.org/ontology/bibo/cites');
+  static const biboCites = IriTerm('http://purl.org/ontology/bibo/cites');
 
-  /// contributorList from bibo vocabulary
+  /// section from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
-  /// An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance.
+  /// A section number
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboContributorList = const IriTerm(
-    'http://purl.org/ontology/bibo/contributorList',
-  );
+  static const biboSection = IriTerm('http://purl.org/ontology/bibo/section');
 
-  /// editorList from bibo vocabulary
+  /// shortDescription from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
-  /// An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance.
+  ///
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboEditorList = const IriTerm(
-    'http://purl.org/ontology/bibo/editorList',
-  );
-
-  /// presentedAt from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Event]
-  ///
-  /// Relates a document to an event; for example, a paper to a conference.
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboPresentedAt = const IriTerm(
-    'http://purl.org/ontology/bibo/presentedAt',
+  static const biboShortDescription = IriTerm(
+    'http://purl.org/ontology/bibo/shortDescription',
   );
 
   /// reproducedIn from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
@@ -1882,28 +2408,8 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboReproducedIn = const IriTerm(
+  static const biboReproducedIn = IriTerm(
     'http://purl.org/ontology/bibo/reproducedIn',
-  );
-
-  /// reviewOf from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
-  ///
-  /// Relates a review document to a reviewed thing (resource, item, etc.).
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboReviewOf = const IriTerm(
-    'http://purl.org/ontology/bibo/reviewOf',
-  );
-
-  /// status from bibo vocabulary [Expects: http://purl.org/ontology/bibo/DocumentStatus]
-  ///
-  /// The publication status of (typically academic) content.
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboStatus = const IriTerm(
-    'http://purl.org/ontology/bibo/status',
   );
 
   /// transcriptOf from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1912,38 +2418,8 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboTranscriptOf = const IriTerm(
+  static const biboTranscriptOf = IriTerm(
     'http://purl.org/ontology/bibo/transcriptOf',
-  );
-
-  /// translationOf from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
-  ///
-  /// Relates a translated document to the original document.
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboTranslationOf = const IriTerm(
-    'http://purl.org/ontology/bibo/translationOf',
-  );
-
-  /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// A summary of the resource.
-  ///
-  /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
-  ///
-  static const biboAbstract_ = const IriTerm(
-    'http://purl.org/ontology/bibo/abstract',
-  );
-
-  /// content from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property.
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboContent = const IriTerm(
-    'http://purl.org/ontology/bibo/content',
   );
 
   /// edition from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
@@ -1952,38 +2428,16 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboEdition = const IriTerm(
-    'http://purl.org/ontology/bibo/edition',
-  );
+  static const biboEdition = IriTerm('http://purl.org/ontology/bibo/edition');
 
-  /// locator from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  /// authorList from bibo vocabulary
   ///
-  /// A description (often numeric) that locates an item within a containing document or collection.
+  /// An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance.
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboLocator = const IriTerm(
-    'http://purl.org/ontology/bibo/locator',
-  );
-
-  /// numPages from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// The number of pages contained in a document
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboNumPages = const IriTerm(
-    'http://purl.org/ontology/bibo/numPages',
-  );
-
-  /// number from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// A generic item or document number. Not to be confused with issue number.
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboNumber = const IriTerm(
-    'http://purl.org/ontology/bibo/number',
+  static const biboAuthorList = IriTerm(
+    'http://purl.org/ontology/bibo/authorList',
   );
 
   /// pageEnd from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
@@ -1992,9 +2446,42 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPageEnd = const IriTerm(
-    'http://purl.org/ontology/bibo/pageEnd',
+  static const biboPageEnd = IriTerm('http://purl.org/ontology/bibo/pageEnd');
+
+  /// status from bibo vocabulary [Expects: http://purl.org/ontology/bibo/DocumentStatus]
+  ///
+  /// The publication status of (typically academic) content.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboStatus = IriTerm('http://purl.org/ontology/bibo/status');
+
+  /// translationOf from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
+  ///
+  /// Relates a translated document to the original document.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboTranslationOf = IriTerm(
+    'http://purl.org/ontology/bibo/translationOf',
   );
+
+  /// content from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboContent = IriTerm('http://purl.org/ontology/bibo/content');
+
+  /// citedBy from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
+  ///
+  /// Relates a document to another document that cites the
+  /// first document.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboCitedBy = IriTerm('http://purl.org/ontology/bibo/citedBy');
 
   /// pageStart from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -2002,7 +2489,7 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPageStart = const IriTerm(
+  static const biboPageStart = IriTerm(
     'http://purl.org/ontology/bibo/pageStart',
   );
 
@@ -2012,45 +2499,41 @@ class FoafImage {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPages = const IriTerm('http://purl.org/ontology/bibo/pages');
+  static const biboPages = IriTerm('http://purl.org/ontology/bibo/pages');
 
-  /// section from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  /// reviewOf from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
-  /// A section number
+  /// Relates a review document to a reviewed thing (resource, item, etc.).
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboSection = const IriTerm(
-    'http://purl.org/ontology/bibo/section',
+  static const biboReviewOf = IriTerm('http://purl.org/ontology/bibo/reviewOf');
+
+  /// number from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A generic item or document number. Not to be confused with issue number.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboNumber = IriTerm('http://purl.org/ontology/bibo/number');
+
+  /// presentedAt from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Event]
+  ///
+  /// Relates a document to an event; for example, a paper to a conference.
+  ///
+  /// Can be used on: http://purl.org/ontology/bibo/Document
+  ///
+  static const biboPresentedAt = IriTerm(
+    'http://purl.org/ontology/bibo/presentedAt',
   );
 
-  /// shortDescription from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  /// contributorList from bibo vocabulary
   ///
-  ///
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboShortDescription = const IriTerm(
-    'http://purl.org/ontology/bibo/shortDescription',
-  );
-
-  /// shortTitle from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// The abbreviation of a title.
+  /// An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance.
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboShortTitle = const IriTerm(
-    'http://purl.org/ontology/bibo/shortTitle',
-  );
-
-  /// volume from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
-  ///
-  /// A volume number
-  ///
-  /// Can be used on: http://purl.org/ontology/bibo/Document
-  ///
-  static const biboVolume = const IriTerm(
-    'http://purl.org/ontology/bibo/volume',
+  static const biboContributorList = IriTerm(
+    'http://purl.org/ontology/bibo/contributorList',
   );
 }

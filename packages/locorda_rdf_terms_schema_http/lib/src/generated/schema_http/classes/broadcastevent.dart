@@ -27,7 +27,7 @@ class SchemaHttpBroadcastEvent {
 
   /// IRI term for the BroadcastEvent class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/BroadcastEvent');
+  static const classIri = IriTerm('http://schema.org/BroadcastEvent');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -36,9 +36,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// aggregateRating [Expects: http://schema.org/AggregateRating]
   ///
@@ -46,9 +44,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'http://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('http://schema.org/aggregateRating');
 
   /// attendees [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -56,7 +52,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const attendees = const IriTerm('http://schema.org/attendees');
+  static const attendees = IriTerm('http://schema.org/attendees');
 
   /// broadcastOfEvent [Expects: http://schema.org/Event]
   ///
@@ -64,9 +60,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BroadcastEvent
   ///
-  static const broadcastOfEvent = const IriTerm(
-    'http://schema.org/broadcastOfEvent',
-  );
+  static const broadcastOfEvent = IriTerm('http://schema.org/broadcastOfEvent');
 
   /// composer [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -74,7 +68,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event, http://schema.org/MusicComposition
   ///
-  static const composer = const IriTerm('http://schema.org/composer');
+  static const composer = IriTerm('http://schema.org/composer');
 
   /// contributor [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -82,7 +76,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const contributor = const IriTerm('http://schema.org/contributor');
+  static const contributor = IriTerm('http://schema.org/contributor');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -90,7 +84,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -100,15 +94,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const doorTime = const IriTerm('http://schema.org/doorTime');
-
-  /// endDate [Expects: http://schema.org/Date, http://schema.org/DateTime]
-  ///
-  /// The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
-  ///
-  /// Can be used on: http://schema.org/CreativeWorkSeason, http://schema.org/CreativeWorkSeries, http://schema.org/DatedMoneySpecification, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MerchantReturnPolicySeasonalOverride, http://schema.org/Role, http://schema.org/Schedule
-  ///
-  static const endDate = const IriTerm('http://schema.org/endDate');
+  static const doorTime = IriTerm('http://schema.org/doorTime');
 
   /// eventAttendanceMode [Expects: http://schema.org/EventAttendanceModeEnumeration]
   ///
@@ -116,7 +102,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const eventAttendanceMode = const IriTerm(
+  static const eventAttendanceMode = IriTerm(
     'http://schema.org/eventAttendanceMode',
   );
 
@@ -131,7 +117,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const eventSchedule = const IriTerm('http://schema.org/eventSchedule');
+  static const eventSchedule = IriTerm('http://schema.org/eventSchedule');
 
   /// eventStatus [Expects: http://schema.org/EventStatusType]
   ///
@@ -139,7 +125,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const eventStatus = const IriTerm('http://schema.org/eventStatus');
+  static const eventStatus = IriTerm('http://schema.org/eventStatus');
 
   /// free [Expects: http://schema.org/Boolean]
   ///
@@ -147,7 +133,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/PublicationEvent
   ///
-  static const free = const IriTerm('http://schema.org/free');
+  static const free = IriTerm('http://schema.org/free');
 
   /// funder [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -155,7 +141,27 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const funder = const IriTerm('http://schema.org/funder');
+  static const funder = IriTerm('http://schema.org/funder');
+
+  /// hasParticipationOffer [Expects: http://schema.org/Offer]
+  ///
+  /// An offer to participate in the event, for example, Call for Proposals, Call for Speakers, or Call for Performers.
+  ///
+  /// Can be used on: http://schema.org/Event
+  ///
+  static const hasParticipationOffer = IriTerm(
+    'http://schema.org/hasParticipationOffer',
+  );
+
+  /// hasSponsorshipOffer [Expects: http://schema.org/Offer]
+  ///
+  /// An offer to sponsor the event, for example, Sponsorship Prospectus, Sponsorship Opportunities, or Sponsor Packages.
+  ///
+  /// Can be used on: http://schema.org/Event
+  ///
+  static const hasSponsorshipOffer = IriTerm(
+    'http://schema.org/hasSponsorshipOffer',
+  );
 
   /// interactionCount
   ///
@@ -163,9 +169,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// isLiveBroadcast [Expects: http://schema.org/Boolean]
   ///
@@ -173,9 +177,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BroadcastEvent
   ///
-  static const isLiveBroadcast = const IriTerm(
-    'http://schema.org/isLiveBroadcast',
-  );
+  static const isLiveBroadcast = IriTerm('http://schema.org/isLiveBroadcast');
 
   /// keywords [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -183,7 +185,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const keywords = const IriTerm('http://schema.org/keywords');
+  static const keywords = IriTerm('http://schema.org/keywords');
 
   /// maximumAttendeeCapacity [Expects: http://schema.org/Integer]
   ///
@@ -191,7 +193,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event, http://schema.org/Place
   ///
-  static const maximumAttendeeCapacity = const IriTerm(
+  static const maximumAttendeeCapacity = IriTerm(
     'http://schema.org/maximumAttendeeCapacity',
   );
 
@@ -201,7 +203,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const maximumPhysicalAttendeeCapacity = const IriTerm(
+  static const maximumPhysicalAttendeeCapacity = IriTerm(
     'http://schema.org/maximumPhysicalAttendeeCapacity',
   );
 
@@ -211,7 +213,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const maximumVirtualAttendeeCapacity = const IriTerm(
+  static const maximumVirtualAttendeeCapacity = IriTerm(
     'http://schema.org/maximumVirtualAttendeeCapacity',
   );
 
@@ -221,7 +223,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// organizer [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -229,7 +231,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const organizer = const IriTerm('http://schema.org/organizer');
+  static const organizer = IriTerm('http://schema.org/organizer');
 
   /// performers [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -237,7 +239,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const performers = const IriTerm('http://schema.org/performers');
+  static const performers = IriTerm('http://schema.org/performers');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -245,9 +247,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// previousStartDate [Expects: http://schema.org/Date]
   ///
@@ -255,7 +255,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const previousStartDate = const IriTerm(
+  static const previousStartDate = IriTerm(
     'http://schema.org/previousStartDate',
   );
 
@@ -265,7 +265,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/PublicationEvent
   ///
-  static const publishedBy = const IriTerm('http://schema.org/publishedBy');
+  static const publishedBy = IriTerm('http://schema.org/publishedBy');
 
   /// publishedOn [Expects: http://schema.org/BroadcastService]
   ///
@@ -273,7 +273,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/PublicationEvent
   ///
-  static const publishedOn = const IriTerm('http://schema.org/publishedOn');
+  static const publishedOn = IriTerm('http://schema.org/publishedOn');
 
   /// remainingAttendeeCapacity [Expects: http://schema.org/Integer]
   ///
@@ -281,7 +281,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const remainingAttendeeCapacity = const IriTerm(
+  static const remainingAttendeeCapacity = IriTerm(
     'http://schema.org/remainingAttendeeCapacity',
   );
 
@@ -291,7 +291,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// startDate [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -299,7 +299,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWorkSeason, http://schema.org/CreativeWorkSeries, http://schema.org/DatedMoneySpecification, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MerchantReturnPolicySeasonalOverride, http://schema.org/Role, http://schema.org/Schedule
   ///
-  static const startDate = const IriTerm('http://schema.org/startDate');
+  static const startDate = IriTerm('http://schema.org/startDate');
 
   /// subEvents [Expects: http://schema.org/Event]
   ///
@@ -307,7 +307,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const subEvents = const IriTerm('http://schema.org/subEvents');
+  static const subEvents = IriTerm('http://schema.org/subEvents');
 
   /// subtitleLanguage [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -315,9 +315,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BroadcastEvent, http://schema.org/Movie, http://schema.org/ScreeningEvent, http://schema.org/TVEpisode
   ///
-  static const subtitleLanguage = const IriTerm(
-    'http://schema.org/subtitleLanguage',
-  );
+  static const subtitleLanguage = IriTerm('http://schema.org/subtitleLanguage');
 
   /// translator [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -325,7 +323,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const translator = const IriTerm('http://schema.org/translator');
+  static const translator = IriTerm('http://schema.org/translator');
 
   /// typicalAgeRange [Expects: http://schema.org/Text]
   ///
@@ -333,9 +331,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const typicalAgeRange = const IriTerm(
-    'http://schema.org/typicalAgeRange',
-  );
+  static const typicalAgeRange = IriTerm('http://schema.org/typicalAgeRange');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -343,7 +339,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// videoFormat [Expects: http://schema.org/Text]
   ///
@@ -351,7 +347,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BroadcastEvent, http://schema.org/BroadcastService, http://schema.org/ScreeningEvent
   ///
-  static const videoFormat = const IriTerm('http://schema.org/videoFormat');
+  static const videoFormat = IriTerm('http://schema.org/videoFormat');
 
   /// workPerformed [Expects: http://schema.org/CreativeWork]
   ///
@@ -359,7 +355,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const workPerformed = const IriTerm('http://schema.org/workPerformed');
+  static const workPerformed = IriTerm('http://schema.org/workPerformed');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -367,7 +363,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// attendee [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -375,7 +371,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const attendee = const IriTerm('http://schema.org/attendee');
+  static const attendee = IriTerm('http://schema.org/attendee');
 
   /// audience [Expects: http://schema.org/Audience]
   ///
@@ -383,7 +379,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const audience = const IriTerm('http://schema.org/audience');
+  static const audience = IriTerm('http://schema.org/audience');
 
   /// director [Expects: http://schema.org/Person]
   ///
@@ -391,15 +387,15 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Clip, http://schema.org/CreativeWorkSeason, http://schema.org/Episode, http://schema.org/Event, http://schema.org/Movie, http://schema.org/MovieSeries, http://schema.org/RadioSeries, http://schema.org/TVSeries, http://schema.org/VideoGame, http://schema.org/VideoGameSeries, http://schema.org/VideoObject
   ///
-  static const director = const IriTerm('http://schema.org/director');
+  static const director = IriTerm('http://schema.org/director');
 
-  /// duration [Expects: http://schema.org/Duration, http://schema.org/QuantitativeValue]
+  /// endDate [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
-  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
+  /// The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
   ///
-  /// Can be used on: http://schema.org/Audiobook, http://schema.org/Episode, http://schema.org/Event, http://schema.org/MediaObject, http://schema.org/Movie, http://schema.org/MusicRecording, http://schema.org/MusicRelease, http://schema.org/QuantitativeValueDistribution, http://schema.org/Schedule, http://schema.org/ServicePeriod
+  /// Can be used on: http://schema.org/CreativeWorkSeason, http://schema.org/CreativeWorkSeries, http://schema.org/DatedMoneySpecification, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MerchantReturnPolicySeasonalOverride, http://schema.org/Role, http://schema.org/Schedule
   ///
-  static const duration = const IriTerm('http://schema.org/duration');
+  static const endDate = IriTerm('http://schema.org/endDate');
 
   /// funding [Expects: http://schema.org/Grant]
   ///
@@ -407,7 +403,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
   /// inLanguage [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -415,7 +411,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LinkRole, http://schema.org/PronounceableText, http://schema.org/WriteAction
   ///
-  static const inLanguage = const IriTerm('http://schema.org/inLanguage');
+  static const inLanguage = IriTerm('http://schema.org/inLanguage');
 
   /// isAccessibleForFree [Expects: http://schema.org/Boolean]
   ///
@@ -423,7 +419,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'http://schema.org/isAccessibleForFree',
   );
 
@@ -433,9 +429,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
 
   /// offers [Expects: http://schema.org/Demand, http://schema.org/Offer]
   ///
@@ -444,7 +438,15 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const offers = const IriTerm('http://schema.org/offers');
+  static const offers = IriTerm('http://schema.org/offers');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// performer [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -452,7 +454,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const performer = const IriTerm('http://schema.org/performer');
+  static const performer = IriTerm('http://schema.org/performer');
 
   /// recordedIn [Expects: http://schema.org/CreativeWork]
   ///
@@ -460,7 +462,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const recordedIn = const IriTerm('http://schema.org/recordedIn');
+  static const recordedIn = IriTerm('http://schema.org/recordedIn');
 
   /// review [Expects: http://schema.org/Review]
   ///
@@ -468,7 +470,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const review = const IriTerm('http://schema.org/review');
+  static const review = IriTerm('http://schema.org/review');
 
   /// sponsor [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -476,7 +478,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const sponsor = const IriTerm('http://schema.org/sponsor');
+  static const sponsor = IriTerm('http://schema.org/sponsor');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -484,7 +486,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// superEvent [Expects: http://schema.org/Event]
   ///
@@ -492,15 +494,15 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const superEvent = const IriTerm('http://schema.org/superEvent');
+  static const superEvent = IriTerm('http://schema.org/superEvent');
 
   /// about [Expects: http://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event
+  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/DefinedTerm, http://schema.org/DefinedTermSet, http://schema.org/Event
   ///
-  static const about = const IriTerm('http://schema.org/about');
+  static const about = IriTerm('http://schema.org/about');
 
   /// actor [Expects: http://schema.org/PerformingGroup, http://schema.org/Person]
   ///
@@ -508,7 +510,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Clip, http://schema.org/CreativeWorkSeason, http://schema.org/Episode, http://schema.org/Event, http://schema.org/Movie, http://schema.org/MovieSeries, http://schema.org/PodcastSeries, http://schema.org/RadioSeries, http://schema.org/TVSeries, http://schema.org/VideoGame, http://schema.org/VideoGameSeries, http://schema.org/VideoObject
   ///
-  static const actor = const IriTerm('http://schema.org/actor');
+  static const actor = IriTerm('http://schema.org/actor');
 
   /// subEvent [Expects: http://schema.org/Event]
   ///
@@ -516,7 +518,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const subEvent = const IriTerm('http://schema.org/subEvent');
+  static const subEvent = IriTerm('http://schema.org/subEvent');
 
   /// workFeatured [Expects: http://schema.org/CreativeWork]
   ///
@@ -525,7 +527,15 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Event
   ///
-  static const workFeatured = const IriTerm('http://schema.org/workFeatured');
+  static const workFeatured = IriTerm('http://schema.org/workFeatured');
+
+  /// duration [Expects: http://schema.org/Duration, http://schema.org/QuantitativeValue]
+  ///
+  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
+  ///
+  /// Can be used on: http://schema.org/Audiobook, http://schema.org/Episode, http://schema.org/Event, http://schema.org/MediaObject, http://schema.org/Movie, http://schema.org/MusicRecording, http://schema.org/MusicRelease, http://schema.org/QuantitativeValueDistribution, http://schema.org/Schedule, http://schema.org/ServicePeriod
+  ///
+  static const duration = IriTerm('http://schema.org/duration');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -533,7 +543,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -541,7 +551,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// location [Expects: http://schema.org/Place, http://schema.org/PostalAddress, http://schema.org/Text, http://schema.org/VirtualLocation]
   ///
@@ -549,7 +559,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/Event, http://schema.org/InteractionCounter, http://schema.org/Organization
   ///
-  static const location = const IriTerm('http://schema.org/location');
+  static const location = IriTerm('http://schema.org/location');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -558,15 +568,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -574,7 +576,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -584,7 +586,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -594,7 +596,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -604,7 +606,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -614,7 +616,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -624,7 +626,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -634,7 +636,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -644,7 +646,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -654,7 +656,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -664,7 +666,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -674,7 +676,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -684,9 +686,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -694,7 +694,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -704,7 +704,7 @@ class SchemaHttpBroadcastEvent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

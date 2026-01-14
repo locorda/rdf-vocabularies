@@ -24,7 +24,7 @@ class DctermsMethodOfInstruction {
 
   /// IRI term for the MethodOfInstruction class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
+  static const classIri = IriTerm(
     'http://purl.org/dc/terms/MethodOfInstruction',
   );
 
@@ -34,7 +34,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const abstract_ = const IriTerm('http://purl.org/dc/terms/abstract');
+  static const abstract_ = IriTerm('http://purl.org/dc/terms/abstract');
 
   /// accessRights
   ///
@@ -42,9 +42,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const accessRights = const IriTerm(
-    'http://purl.org/dc/terms/accessRights',
-  );
+  static const accessRights = IriTerm('http://purl.org/dc/terms/accessRights');
 
   /// alternative [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -52,9 +50,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const alternative = const IriTerm(
-    'http://purl.org/dc/terms/alternative',
-  );
+  static const alternative = IriTerm('http://purl.org/dc/terms/alternative');
 
   /// audience
   ///
@@ -62,7 +58,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const audience = const IriTerm('http://purl.org/dc/terms/audience');
+  static const audience = IriTerm('http://purl.org/dc/terms/audience');
 
   /// available [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -70,7 +66,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const available = const IriTerm('http://purl.org/dc/terms/available');
+  static const available = IriTerm('http://purl.org/dc/terms/available');
 
   /// bibliographicCitation [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -78,7 +74,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const bibliographicCitation = const IriTerm(
+  static const bibliographicCitation = IriTerm(
     'http://purl.org/dc/terms/bibliographicCitation',
   );
 
@@ -88,9 +84,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const conformsTo = const IriTerm(
-    'http://purl.org/dc/terms/conformsTo',
-  );
+  static const conformsTo = IriTerm('http://purl.org/dc/terms/conformsTo');
 
   /// contributor
   ///
@@ -98,9 +92,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const contributor = const IriTerm(
-    'http://purl.org/dc/terms/contributor',
-  );
+  static const contributor = IriTerm('http://purl.org/dc/terms/contributor');
 
   /// coverage
   ///
@@ -108,7 +100,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const coverage = const IriTerm('http://purl.org/dc/terms/coverage');
+  static const coverage = IriTerm('http://purl.org/dc/terms/coverage');
 
   /// created [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -116,7 +108,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const created = const IriTerm('http://purl.org/dc/terms/created');
+  static const created = IriTerm('http://purl.org/dc/terms/created');
 
   /// creator
   ///
@@ -124,7 +116,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const creator = const IriTerm('http://purl.org/dc/terms/creator');
+  static const creator = IriTerm('http://purl.org/dc/terms/creator');
 
   /// date [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -132,7 +124,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const date = const IriTerm('http://purl.org/dc/terms/date');
+  static const date = IriTerm('http://purl.org/dc/terms/date');
 
   /// dateAccepted [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -140,9 +132,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateAccepted = const IriTerm(
-    'http://purl.org/dc/terms/dateAccepted',
-  );
+  static const dateAccepted = IriTerm('http://purl.org/dc/terms/dateAccepted');
 
   /// dateCopyrighted [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -150,7 +140,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateCopyrighted = const IriTerm(
+  static const dateCopyrighted = IriTerm(
     'http://purl.org/dc/terms/dateCopyrighted',
   );
 
@@ -160,7 +150,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateSubmitted = const IriTerm(
+  static const dateSubmitted = IriTerm(
     'http://purl.org/dc/terms/dateSubmitted',
   );
 
@@ -170,9 +160,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const description = const IriTerm(
-    'http://purl.org/dc/terms/description',
-  );
+  static const description = IriTerm('http://purl.org/dc/terms/description');
 
   /// educationLevel
   ///
@@ -180,7 +168,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const educationLevel = const IriTerm(
+  static const educationLevel = IriTerm(
     'http://purl.org/dc/terms/educationLevel',
   );
 
@@ -190,7 +178,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const extent = const IriTerm('http://purl.org/dc/terms/extent');
+  static const extent = IriTerm('http://purl.org/dc/terms/extent');
 
   /// format
   ///
@@ -198,7 +186,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const format = const IriTerm('http://purl.org/dc/terms/format');
+  static const format = IriTerm('http://purl.org/dc/terms/format');
 
   /// hasFormat
   ///
@@ -206,7 +194,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFormat = const IriTerm('http://purl.org/dc/terms/hasFormat');
+  static const hasFormat = IriTerm('http://purl.org/dc/terms/hasFormat');
 
   /// hasPart
   ///
@@ -214,7 +202,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPart = const IriTerm('http://purl.org/dc/terms/hasPart');
+  static const hasPart = IriTerm('http://purl.org/dc/terms/hasPart');
 
   /// hasVersion
   ///
@@ -222,9 +210,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasVersion = const IriTerm(
-    'http://purl.org/dc/terms/hasVersion',
-  );
+  static const hasVersion = IriTerm('http://purl.org/dc/terms/hasVersion');
 
   /// identifier [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -232,9 +218,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const identifier = const IriTerm(
-    'http://purl.org/dc/terms/identifier',
-  );
+  static const identifier = IriTerm('http://purl.org/dc/terms/identifier');
 
   /// instructionalMethod
   ///
@@ -242,7 +226,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const instructionalMethod = const IriTerm(
+  static const instructionalMethod = IriTerm(
     'http://purl.org/dc/terms/instructionalMethod',
   );
 
@@ -252,9 +236,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isFormatOf = const IriTerm(
-    'http://purl.org/dc/terms/isFormatOf',
-  );
+  static const isFormatOf = IriTerm('http://purl.org/dc/terms/isFormatOf');
 
   /// isPartOf
   ///
@@ -262,7 +244,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isPartOf = const IriTerm('http://purl.org/dc/terms/isPartOf');
+  static const isPartOf = IriTerm('http://purl.org/dc/terms/isPartOf');
 
   /// isReferencedBy
   ///
@@ -270,7 +252,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isReferencedBy = const IriTerm(
+  static const isReferencedBy = IriTerm(
     'http://purl.org/dc/terms/isReferencedBy',
   );
 
@@ -280,9 +262,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isReplacedBy = const IriTerm(
-    'http://purl.org/dc/terms/isReplacedBy',
-  );
+  static const isReplacedBy = IriTerm('http://purl.org/dc/terms/isReplacedBy');
 
   /// isRequiredBy
   ///
@@ -290,9 +270,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isRequiredBy = const IriTerm(
-    'http://purl.org/dc/terms/isRequiredBy',
-  );
+  static const isRequiredBy = IriTerm('http://purl.org/dc/terms/isRequiredBy');
 
   /// isVersionOf
   ///
@@ -300,9 +278,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isVersionOf = const IriTerm(
-    'http://purl.org/dc/terms/isVersionOf',
-  );
+  static const isVersionOf = IriTerm('http://purl.org/dc/terms/isVersionOf');
 
   /// issued [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -310,7 +286,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const issued = const IriTerm('http://purl.org/dc/terms/issued');
+  static const issued = IriTerm('http://purl.org/dc/terms/issued');
 
   /// language
   ///
@@ -318,7 +294,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const language = const IriTerm('http://purl.org/dc/terms/language');
+  static const language = IriTerm('http://purl.org/dc/terms/language');
 
   /// license
   ///
@@ -326,7 +302,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const license = const IriTerm('http://purl.org/dc/terms/license');
+  static const license = IriTerm('http://purl.org/dc/terms/license');
 
   /// mediator
   ///
@@ -334,7 +310,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const mediator = const IriTerm('http://purl.org/dc/terms/mediator');
+  static const mediator = IriTerm('http://purl.org/dc/terms/mediator');
 
   /// medium
   ///
@@ -342,7 +318,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const medium = const IriTerm('http://purl.org/dc/terms/medium');
+  static const medium = IriTerm('http://purl.org/dc/terms/medium');
 
   /// modified [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -350,7 +326,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const modified = const IriTerm('http://purl.org/dc/terms/modified');
+  static const modified = IriTerm('http://purl.org/dc/terms/modified');
 
   /// provenance
   ///
@@ -358,9 +334,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const provenance = const IriTerm(
-    'http://purl.org/dc/terms/provenance',
-  );
+  static const provenance = IriTerm('http://purl.org/dc/terms/provenance');
 
   /// publisher
   ///
@@ -368,7 +342,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const publisher = const IriTerm('http://purl.org/dc/terms/publisher');
+  static const publisher = IriTerm('http://purl.org/dc/terms/publisher');
 
   /// references
   ///
@@ -376,9 +350,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const references = const IriTerm(
-    'http://purl.org/dc/terms/references',
-  );
+  static const references = IriTerm('http://purl.org/dc/terms/references');
 
   /// relation
   ///
@@ -386,7 +358,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const relation = const IriTerm('http://purl.org/dc/terms/relation');
+  static const relation = IriTerm('http://purl.org/dc/terms/relation');
 
   /// replaces
   ///
@@ -394,7 +366,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const replaces = const IriTerm('http://purl.org/dc/terms/replaces');
+  static const replaces = IriTerm('http://purl.org/dc/terms/replaces');
 
   /// requires
   ///
@@ -402,7 +374,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const requires = const IriTerm('http://purl.org/dc/terms/requires');
+  static const requires = IriTerm('http://purl.org/dc/terms/requires');
 
   /// rights
   ///
@@ -410,7 +382,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rights = const IriTerm('http://purl.org/dc/terms/rights');
+  static const rights = IriTerm('http://purl.org/dc/terms/rights');
 
   /// rightsHolder
   ///
@@ -418,9 +390,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rightsHolder = const IriTerm(
-    'http://purl.org/dc/terms/rightsHolder',
-  );
+  static const rightsHolder = IriTerm('http://purl.org/dc/terms/rightsHolder');
 
   /// source
   ///
@@ -428,7 +398,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const source = const IriTerm('http://purl.org/dc/terms/source');
+  static const source = IriTerm('http://purl.org/dc/terms/source');
 
   /// spatial
   ///
@@ -436,7 +406,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const spatial = const IriTerm('http://purl.org/dc/terms/spatial');
+  static const spatial = IriTerm('http://purl.org/dc/terms/spatial');
 
   /// subject
   ///
@@ -444,7 +414,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const subject = const IriTerm('http://purl.org/dc/terms/subject');
+  static const subject = IriTerm('http://purl.org/dc/terms/subject');
 
   /// tableOfContents
   ///
@@ -452,7 +422,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tableOfContents = const IriTerm(
+  static const tableOfContents = IriTerm(
     'http://purl.org/dc/terms/tableOfContents',
   );
 
@@ -462,7 +432,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const temporal = const IriTerm('http://purl.org/dc/terms/temporal');
+  static const temporal = IriTerm('http://purl.org/dc/terms/temporal');
 
   /// title [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -470,7 +440,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const title = const IriTerm('http://purl.org/dc/terms/title');
+  static const title = IriTerm('http://purl.org/dc/terms/title');
 
   /// type
   ///
@@ -478,7 +448,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const type = const IriTerm('http://purl.org/dc/terms/type');
+  static const type = IriTerm('http://purl.org/dc/terms/type');
 
   /// valid [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -486,7 +456,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const valid = const IriTerm('http://purl.org/dc/terms/valid');
+  static const valid = IriTerm('http://purl.org/dc/terms/valid');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -494,7 +464,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -504,7 +474,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -514,7 +484,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -524,7 +494,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -534,7 +504,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -544,7 +514,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -554,7 +524,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -564,7 +534,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -574,7 +544,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -584,7 +554,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -594,7 +564,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -604,9 +574,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -614,7 +582,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -624,7 +592,7 @@ class DctermsMethodOfInstruction {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

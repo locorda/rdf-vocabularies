@@ -25,7 +25,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const isAgentIn = const IriTerm(
+  static const isAgentIn = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#isAgentIn',
   );
 
@@ -33,7 +33,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const isFactorOf = const IriTerm(
+  static const isFactorOf = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#isFactorOf',
   );
 
@@ -41,7 +41,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const producedIn = const IriTerm(
+  static const producedIn = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#producedIn',
   );
 
@@ -49,7 +49,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const hasFactor = const IriTerm(
+  static const hasFactor = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#hasFactor',
   );
 
@@ -57,7 +57,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const hasAgent = const IriTerm(
+  static const hasAgent = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#hasAgent',
   );
 
@@ -65,7 +65,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const hasProduct = const IriTerm(
+  static const hasProduct = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#hasProduct',
   );
 
@@ -73,7 +73,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const hasLiteralFactor = const IriTerm(
+  static const hasLiteralFactor = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#hasLiteralFactor',
   );
 
@@ -81,7 +81,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const agent_in = const IriTerm(
+  static const agent_in = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#agent_in',
   );
 
@@ -89,7 +89,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const factor_of = const IriTerm(
+  static const factor_of = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#factor_of',
   );
 
@@ -97,7 +97,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const produced_in = const IriTerm(
+  static const produced_in = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#produced_in',
   );
 
@@ -105,7 +105,7 @@ class EventowlUniversalProperties {
   ///
   ///
   ///
-  static const hasSubEvent = const IriTerm(
+  static const hasSubEvent = IriTerm(
     'http://purl.org/NET/c4dm/event.owl#hasSubEvent',
   );
 }

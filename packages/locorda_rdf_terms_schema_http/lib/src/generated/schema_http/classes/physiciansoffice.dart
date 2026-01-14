@@ -20,6 +20,7 @@ import 'package:locorda_rdf_core/core.dart';
 /// - Place (http://schema.org/Place)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (http://schema.org/Thing)
+/// - Thing (http://www.w3.org/2002/07/owl#Thing)
 ///
 /// This class provides access to all properties that can be used with PhysiciansOffice.
 /// [Class Reference](http://schema.org/PhysiciansOffice)
@@ -31,7 +32,7 @@ class SchemaHttpPhysiciansOffice {
 
   /// IRI term for the PhysiciansOffice class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/PhysiciansOffice');
+  static const classIri = IriTerm('http://schema.org/PhysiciansOffice');
 
   /// acceptedPaymentMethod [Expects: http://schema.org/LoanOrCredit, http://schema.org/PaymentMethod, http://schema.org/Text]
   ///
@@ -39,7 +40,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Organization
   ///
-  static const acceptedPaymentMethod = const IriTerm(
+  static const acceptedPaymentMethod = IriTerm(
     'http://schema.org/acceptedPaymentMethod',
   );
 
@@ -49,7 +50,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const actionableFeedbackPolicy = const IriTerm(
+  static const actionableFeedbackPolicy = IriTerm(
     'http://schema.org/actionableFeedbackPolicy',
   );
 
@@ -60,7 +61,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/MerchantReturnPolicy, http://schema.org/Offer, http://schema.org/Place, http://schema.org/Product, http://schema.org/QualitativeValue, http://schema.org/QuantitativeValue
   ///
-  static const additionalProperty = const IriTerm(
+  static const additionalProperty = IriTerm(
     'http://schema.org/additionalProperty',
   );
 
@@ -71,9 +72,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// address [Expects: http://schema.org/PostalAddress, http://schema.org/Text]
   ///
@@ -81,7 +80,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeoCoordinates, http://schema.org/GeoShape, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const address = const IriTerm('http://schema.org/address');
+  static const address = IriTerm('http://schema.org/address');
 
   /// agentInteractionStatistic [Expects: http://schema.org/InteractionCounter]
   ///
@@ -89,7 +88,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const agentInteractionStatistic = const IriTerm(
+  static const agentInteractionStatistic = IriTerm(
     'http://schema.org/agentInteractionStatistic',
   );
 
@@ -99,9 +98,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'http://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('http://schema.org/aggregateRating');
 
   /// amenityFeature [Expects: http://schema.org/LocationFeatureSpecification]
   ///
@@ -109,9 +106,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Accommodation, http://schema.org/FloorPlan, http://schema.org/LodgingBusiness, http://schema.org/Place
   ///
-  static const amenityFeature = const IriTerm(
-    'http://schema.org/amenityFeature',
-  );
+  static const amenityFeature = IriTerm('http://schema.org/amenityFeature');
 
   /// availableService [Expects: http://schema.org/MedicalProcedure, http://schema.org/MedicalTest, http://schema.org/MedicalTherapy]
   ///
@@ -119,9 +114,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Hospital, http://schema.org/MedicalClinic, http://schema.org/Physician
   ///
-  static const availableService = const IriTerm(
-    'http://schema.org/availableService',
-  );
+  static const availableService = IriTerm('http://schema.org/availableService');
 
   /// awards [Expects: http://schema.org/Text]
   ///
@@ -129,7 +122,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const awards = const IriTerm('http://schema.org/awards');
+  static const awards = IriTerm('http://schema.org/awards');
 
   /// branchCode [Expects: http://schema.org/Text]
   ///
@@ -138,7 +131,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const branchCode = const IriTerm('http://schema.org/branchCode');
+  static const branchCode = IriTerm('http://schema.org/branchCode');
 
   /// branchOf [Expects: http://schema.org/Organization]
   ///
@@ -146,7 +139,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/LocalBusiness
   ///
-  static const branchOf = const IriTerm('http://schema.org/branchOf');
+  static const branchOf = IriTerm('http://schema.org/branchOf');
 
   /// brand [Expects: http://schema.org/Brand, http://schema.org/Organization]
   ///
@@ -154,7 +147,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const brand = const IriTerm('http://schema.org/brand');
+  static const brand = IriTerm('http://schema.org/brand');
 
   /// companyRegistration [Expects: http://schema.org/Certification]
   ///
@@ -162,7 +155,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const companyRegistration = const IriTerm(
+  static const companyRegistration = IriTerm(
     'http://schema.org/companyRegistration',
   );
 
@@ -172,7 +165,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const contactPoints = const IriTerm('http://schema.org/contactPoints');
+  static const contactPoints = IriTerm('http://schema.org/contactPoints');
 
   /// containedIn [Expects: http://schema.org/Place]
   ///
@@ -180,7 +173,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const containedIn = const IriTerm('http://schema.org/containedIn');
+  static const containedIn = IriTerm('http://schema.org/containedIn');
 
   /// correctionsPolicy [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -188,7 +181,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const correctionsPolicy = const IriTerm(
+  static const correctionsPolicy = IriTerm(
     'http://schema.org/correctionsPolicy',
   );
 
@@ -198,7 +191,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/LocalBusiness
   ///
-  static const currenciesAccepted = const IriTerm(
+  static const currenciesAccepted = IriTerm(
     'http://schema.org/currenciesAccepted',
   );
 
@@ -208,7 +201,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const department = const IriTerm('http://schema.org/department');
+  static const department = IriTerm('http://schema.org/department');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -216,7 +209,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -226,9 +219,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const dissolutionDate = const IriTerm(
-    'http://schema.org/dissolutionDate',
-  );
+  static const dissolutionDate = IriTerm('http://schema.org/dissolutionDate');
 
   /// diversityPolicy [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -236,9 +227,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const diversityPolicy = const IriTerm(
-    'http://schema.org/diversityPolicy',
-  );
+  static const diversityPolicy = IriTerm('http://schema.org/diversityPolicy');
 
   /// diversityStaffingReport [Expects: http://schema.org/Article, http://schema.org/URL]
   ///
@@ -246,7 +235,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const diversityStaffingReport = const IriTerm(
+  static const diversityStaffingReport = IriTerm(
     'http://schema.org/diversityStaffingReport',
   );
 
@@ -256,7 +245,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const duns = const IriTerm('http://schema.org/duns');
+  static const duns = IriTerm('http://schema.org/duns');
 
   /// email [Expects: http://schema.org/Text]
   ///
@@ -264,7 +253,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const email = const IriTerm('http://schema.org/email');
+  static const email = IriTerm('http://schema.org/email');
 
   /// employees [Expects: http://schema.org/Person]
   ///
@@ -272,7 +261,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const employees = const IriTerm('http://schema.org/employees');
+  static const employees = IriTerm('http://schema.org/employees');
 
   /// ethicsPolicy [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -280,7 +269,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const ethicsPolicy = const IriTerm('http://schema.org/ethicsPolicy');
+  static const ethicsPolicy = IriTerm('http://schema.org/ethicsPolicy');
 
   /// events [Expects: http://schema.org/Event]
   ///
@@ -288,7 +277,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Place
   ///
-  static const events = const IriTerm('http://schema.org/events');
+  static const events = IriTerm('http://schema.org/events');
 
   /// faxNumber [Expects: http://schema.org/Text]
   ///
@@ -296,7 +285,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const faxNumber = const IriTerm('http://schema.org/faxNumber');
+  static const faxNumber = IriTerm('http://schema.org/faxNumber');
 
   /// founders [Expects: http://schema.org/Person]
   ///
@@ -304,7 +293,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const founders = const IriTerm('http://schema.org/founders');
+  static const founders = IriTerm('http://schema.org/founders');
 
   /// foundingDate [Expects: http://schema.org/Date]
   ///
@@ -312,7 +301,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const foundingDate = const IriTerm('http://schema.org/foundingDate');
+  static const foundingDate = IriTerm('http://schema.org/foundingDate');
 
   /// foundingLocation [Expects: http://schema.org/Place]
   ///
@@ -320,9 +309,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const foundingLocation = const IriTerm(
-    'http://schema.org/foundingLocation',
-  );
+  static const foundingLocation = IriTerm('http://schema.org/foundingLocation');
 
   /// funder [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -330,7 +317,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const funder = const IriTerm('http://schema.org/funder');
+  static const funder = IriTerm('http://schema.org/funder');
 
   /// geo [Expects: http://schema.org/GeoCoordinates, http://schema.org/GeoShape]
   ///
@@ -338,7 +325,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const geo = const IriTerm('http://schema.org/geo');
+  static const geo = IriTerm('http://schema.org/geo');
 
   /// geoContains [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -346,7 +333,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoContains = const IriTerm('http://schema.org/geoContains');
+  static const geoContains = IriTerm('http://schema.org/geoContains');
 
   /// geoCoveredBy [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -354,7 +341,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoCoveredBy = const IriTerm('http://schema.org/geoCoveredBy');
+  static const geoCoveredBy = IriTerm('http://schema.org/geoCoveredBy');
 
   /// geoCovers [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -362,7 +349,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoCovers = const IriTerm('http://schema.org/geoCovers');
+  static const geoCovers = IriTerm('http://schema.org/geoCovers');
 
   /// geoCrosses [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -370,7 +357,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoCrosses = const IriTerm('http://schema.org/geoCrosses');
+  static const geoCrosses = IriTerm('http://schema.org/geoCrosses');
 
   /// geoDisjoint [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -378,7 +365,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoDisjoint = const IriTerm('http://schema.org/geoDisjoint');
+  static const geoDisjoint = IriTerm('http://schema.org/geoDisjoint');
 
   /// geoEquals [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -386,7 +373,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoEquals = const IriTerm('http://schema.org/geoEquals');
+  static const geoEquals = IriTerm('http://schema.org/geoEquals');
 
   /// geoIntersects [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -394,7 +381,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoIntersects = const IriTerm('http://schema.org/geoIntersects');
+  static const geoIntersects = IriTerm('http://schema.org/geoIntersects');
 
   /// geoOverlaps [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -402,7 +389,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoOverlaps = const IriTerm('http://schema.org/geoOverlaps');
+  static const geoOverlaps = IriTerm('http://schema.org/geoOverlaps');
 
   /// geoTouches [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -410,7 +397,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoTouches = const IriTerm('http://schema.org/geoTouches');
+  static const geoTouches = IriTerm('http://schema.org/geoTouches');
 
   /// geoWithin [Expects: http://schema.org/GeospatialGeometry, http://schema.org/Place]
   ///
@@ -418,7 +405,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeospatialGeometry, http://schema.org/Place
   ///
-  static const geoWithin = const IriTerm('http://schema.org/geoWithin');
+  static const geoWithin = IriTerm('http://schema.org/geoWithin');
 
   /// globalLocationNumber [Expects: http://schema.org/Text]
   ///
@@ -426,7 +413,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const globalLocationNumber = const IriTerm(
+  static const globalLocationNumber = IriTerm(
     'http://schema.org/globalLocationNumber',
   );
 
@@ -436,9 +423,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
-    'http://schema.org/hasCertification',
-  );
+  static const hasCertification = IriTerm('http://schema.org/hasCertification');
 
   /// hasCredential [Expects: http://schema.org/EducationalOccupationalCredential]
   ///
@@ -446,7 +431,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const hasCredential = const IriTerm('http://schema.org/hasCredential');
+  static const hasCredential = IriTerm('http://schema.org/hasCredential');
 
   /// hasDriveThroughService [Expects: http://schema.org/Boolean]
   ///
@@ -454,7 +439,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const hasDriveThroughService = const IriTerm(
+  static const hasDriveThroughService = IriTerm(
     'http://schema.org/hasDriveThroughService',
   );
 
@@ -464,7 +449,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'http://schema.org/hasGS1DigitalLink',
   );
 
@@ -474,9 +459,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const hasMemberProgram = const IriTerm(
-    'http://schema.org/hasMemberProgram',
-  );
+  static const hasMemberProgram = IriTerm('http://schema.org/hasMemberProgram');
 
   /// hasMerchantReturnPolicy [Expects: http://schema.org/MerchantReturnPolicy]
   ///
@@ -484,7 +467,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Product
   ///
-  static const hasMerchantReturnPolicy = const IriTerm(
+  static const hasMerchantReturnPolicy = IriTerm(
     'http://schema.org/hasMerchantReturnPolicy',
   );
 
@@ -494,9 +477,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Service
   ///
-  static const hasOfferCatalog = const IriTerm(
-    'http://schema.org/hasOfferCatalog',
-  );
+  static const hasOfferCatalog = IriTerm('http://schema.org/hasOfferCatalog');
 
   /// hasPOS [Expects: http://schema.org/Place]
   ///
@@ -504,7 +485,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const hasPOS = const IriTerm('http://schema.org/hasPOS');
+  static const hasPOS = IriTerm('http://schema.org/hasPOS');
 
   /// hasShippingService [Expects: http://schema.org/ShippingService]
   ///
@@ -512,7 +493,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/OfferShippingDetails, http://schema.org/Organization
   ///
-  static const hasShippingService = const IriTerm(
+  static const hasShippingService = IriTerm(
     'http://schema.org/hasShippingService',
   );
 
@@ -522,7 +503,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/HealthPlanNetwork, http://schema.org/MedicalOrganization
   ///
-  static const healthPlanNetworkId = const IriTerm(
+  static const healthPlanNetworkId = IriTerm(
     'http://schema.org/healthPlanNetworkId',
   );
 
@@ -532,7 +513,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Physician
   ///
-  static const hospitalAffiliation = const IriTerm(
+  static const hospitalAffiliation = IriTerm(
     'http://schema.org/hospitalAffiliation',
   );
 
@@ -542,9 +523,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// isAcceptingNewPatients [Expects: http://schema.org/Boolean]
   ///
@@ -552,7 +531,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/MedicalOrganization
   ///
-  static const isAcceptingNewPatients = const IriTerm(
+  static const isAcceptingNewPatients = IriTerm(
     'http://schema.org/isAcceptingNewPatients',
   );
 
@@ -562,7 +541,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const isicV4 = const IriTerm('http://schema.org/isicV4');
+  static const isicV4 = IriTerm('http://schema.org/isicV4');
 
   /// iso6523Code [Expects: http://schema.org/Text]
   ///
@@ -570,7 +549,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const iso6523Code = const IriTerm('http://schema.org/iso6523Code');
+  static const iso6523Code = IriTerm('http://schema.org/iso6523Code');
 
   /// keywords [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -578,7 +557,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const keywords = const IriTerm('http://schema.org/keywords');
+  static const keywords = IriTerm('http://schema.org/keywords');
 
   /// knowsAbout [Expects: http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
@@ -586,7 +565,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const knowsAbout = const IriTerm('http://schema.org/knowsAbout');
+  static const knowsAbout = IriTerm('http://schema.org/knowsAbout');
 
   /// knowsLanguage [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -594,7 +573,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const knowsLanguage = const IriTerm('http://schema.org/knowsLanguage');
+  static const knowsLanguage = IriTerm('http://schema.org/knowsLanguage');
 
   /// latitude [Expects: http://schema.org/Number, http://schema.org/Text]
   ///
@@ -602,7 +581,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeoCoordinates, http://schema.org/Place
   ///
-  static const latitude = const IriTerm('http://schema.org/latitude');
+  static const latitude = IriTerm('http://schema.org/latitude');
 
   /// legalAddress [Expects: http://schema.org/PostalAddress]
   ///
@@ -610,7 +589,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const legalAddress = const IriTerm('http://schema.org/legalAddress');
+  static const legalAddress = IriTerm('http://schema.org/legalAddress');
 
   /// legalName [Expects: http://schema.org/Text]
   ///
@@ -618,7 +597,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const legalName = const IriTerm('http://schema.org/legalName');
+  static const legalName = IriTerm('http://schema.org/legalName');
 
   /// legalRepresentative [Expects: http://schema.org/Person]
   ///
@@ -626,7 +605,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const legalRepresentative = const IriTerm(
+  static const legalRepresentative = IriTerm(
     'http://schema.org/legalRepresentative',
   );
 
@@ -636,7 +615,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const leiCode = const IriTerm('http://schema.org/leiCode');
+  static const leiCode = IriTerm('http://schema.org/leiCode');
 
   /// logo [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -644,7 +623,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Certification, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const logo = const IriTerm('http://schema.org/logo');
+  static const logo = IriTerm('http://schema.org/logo');
 
   /// longitude [Expects: http://schema.org/Number, http://schema.org/Text]
   ///
@@ -652,7 +631,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/GeoCoordinates, http://schema.org/Place
   ///
-  static const longitude = const IriTerm('http://schema.org/longitude');
+  static const longitude = IriTerm('http://schema.org/longitude');
 
   /// map [Expects: http://schema.org/URL]
   ///
@@ -660,7 +639,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const map = const IriTerm('http://schema.org/map');
+  static const map = IriTerm('http://schema.org/map');
 
   /// maps [Expects: http://schema.org/URL]
   ///
@@ -668,7 +647,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const maps = const IriTerm('http://schema.org/maps');
+  static const maps = IriTerm('http://schema.org/maps');
 
   /// maximumAttendeeCapacity [Expects: http://schema.org/Integer]
   ///
@@ -676,7 +655,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Event, http://schema.org/Place
   ///
-  static const maximumAttendeeCapacity = const IriTerm(
+  static const maximumAttendeeCapacity = IriTerm(
     'http://schema.org/maximumAttendeeCapacity',
   );
 
@@ -686,9 +665,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Hospital, http://schema.org/MedicalClinic, http://schema.org/MedicalOrganization, http://schema.org/Physician
   ///
-  static const medicalSpecialty = const IriTerm(
-    'http://schema.org/medicalSpecialty',
-  );
+  static const medicalSpecialty = IriTerm('http://schema.org/medicalSpecialty');
 
   /// members [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -696,7 +673,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/ProgramMembership
   ///
-  static const members = const IriTerm('http://schema.org/members');
+  static const members = IriTerm('http://schema.org/members');
 
   /// naics [Expects: http://schema.org/Text]
   ///
@@ -704,7 +681,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const naics = const IriTerm('http://schema.org/naics');
+  static const naics = IriTerm('http://schema.org/naics');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -712,7 +689,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// nonprofitStatus [Expects: http://schema.org/NonprofitType]
   ///
@@ -720,9 +697,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const nonprofitStatus = const IriTerm(
-    'http://schema.org/nonprofitStatus',
-  );
+  static const nonprofitStatus = IriTerm('http://schema.org/nonprofitStatus');
 
   /// numberOfEmployees [Expects: http://schema.org/QuantitativeValue]
   ///
@@ -730,7 +705,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/BusinessAudience, http://schema.org/Organization
   ///
-  static const numberOfEmployees = const IriTerm(
+  static const numberOfEmployees = IriTerm(
     'http://schema.org/numberOfEmployees',
   );
 
@@ -741,7 +716,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/EducationalOccupationalProgram, http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Physician, http://schema.org/WorkBasedProgram
   ///
-  static const occupationalCategory = const IriTerm(
+  static const occupationalCategory = IriTerm(
     'http://schema.org/occupationalCategory',
   );
 
@@ -751,7 +726,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CivicStructure, http://schema.org/LocalBusiness
   ///
-  static const openingHours = const IriTerm('http://schema.org/openingHours');
+  static const openingHours = IriTerm('http://schema.org/openingHours');
 
   /// openingHoursSpecification [Expects: http://schema.org/OpeningHoursSpecification]
   ///
@@ -759,7 +734,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const openingHoursSpecification = const IriTerm(
+  static const openingHoursSpecification = IriTerm(
     'http://schema.org/openingHoursSpecification',
   );
 
@@ -769,17 +744,9 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const ownershipFundingInfo = const IriTerm(
+  static const ownershipFundingInfo = IriTerm(
     'http://schema.org/ownershipFundingInfo',
   );
-
-  /// owns [Expects: http://schema.org/OwnershipInfo, http://schema.org/Product]
-  ///
-  /// Products owned by the organization or person.
-  ///
-  /// Can be used on: http://schema.org/Organization, http://schema.org/Person
-  ///
-  static const owns = const IriTerm('http://schema.org/owns');
 
   /// paymentAccepted [Expects: http://schema.org/Text]
   ///
@@ -787,9 +754,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/LocalBusiness
   ///
-  static const paymentAccepted = const IriTerm(
-    'http://schema.org/paymentAccepted',
-  );
+  static const paymentAccepted = IriTerm('http://schema.org/paymentAccepted');
 
   /// photos [Expects: http://schema.org/ImageObject, http://schema.org/Photograph]
   ///
@@ -797,7 +762,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const photos = const IriTerm('http://schema.org/photos');
+  static const photos = IriTerm('http://schema.org/photos');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -805,9 +770,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// priceRange [Expects: http://schema.org/Text]
   ///
@@ -815,7 +778,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/LocalBusiness
   ///
-  static const priceRange = const IriTerm('http://schema.org/priceRange');
+  static const priceRange = IriTerm('http://schema.org/priceRange');
 
   /// publicAccess [Expects: http://schema.org/Boolean]
   ///
@@ -823,7 +786,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const publicAccess = const IriTerm('http://schema.org/publicAccess');
+  static const publicAccess = IriTerm('http://schema.org/publicAccess');
 
   /// reviews [Expects: http://schema.org/Review]
   ///
@@ -831,7 +794,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const reviews = const IriTerm('http://schema.org/reviews');
+  static const reviews = IriTerm('http://schema.org/reviews');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -839,7 +802,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// seeks [Expects: http://schema.org/Demand]
   ///
@@ -847,7 +810,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const seeks = const IriTerm('http://schema.org/seeks');
+  static const seeks = IriTerm('http://schema.org/seeks');
 
   /// skills [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -855,7 +818,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const skills = const IriTerm('http://schema.org/skills');
+  static const skills = IriTerm('http://schema.org/skills');
 
   /// slogan [Expects: http://schema.org/Text]
   ///
@@ -863,7 +826,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const slogan = const IriTerm('http://schema.org/slogan');
+  static const slogan = IriTerm('http://schema.org/slogan');
 
   /// smokingAllowed [Expects: http://schema.org/Boolean]
   ///
@@ -871,9 +834,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const smokingAllowed = const IriTerm(
-    'http://schema.org/smokingAllowed',
-  );
+  static const smokingAllowed = IriTerm('http://schema.org/smokingAllowed');
 
   /// specialOpeningHoursSpecification [Expects: http://schema.org/OpeningHoursSpecification]
   ///
@@ -882,7 +843,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const specialOpeningHoursSpecification = const IriTerm(
+  static const specialOpeningHoursSpecification = IriTerm(
     'http://schema.org/specialOpeningHoursSpecification',
   );
 
@@ -892,7 +853,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const taxID = const IriTerm('http://schema.org/taxID');
+  static const taxID = IriTerm('http://schema.org/taxID');
 
   /// telephone [Expects: http://schema.org/Text]
   ///
@@ -900,7 +861,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const telephone = const IriTerm('http://schema.org/telephone');
+  static const telephone = IriTerm('http://schema.org/telephone');
 
   /// tourBookingPage [Expects: http://schema.org/URL]
   ///
@@ -908,9 +869,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Accommodation, http://schema.org/ApartmentComplex, http://schema.org/Place
   ///
-  static const tourBookingPage = const IriTerm(
-    'http://schema.org/tourBookingPage',
-  );
+  static const tourBookingPage = IriTerm('http://schema.org/tourBookingPage');
 
   /// unnamedSourcesPolicy [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -918,7 +877,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/NewsMediaOrganization, http://schema.org/Organization
   ///
-  static const unnamedSourcesPolicy = const IriTerm(
+  static const unnamedSourcesPolicy = IriTerm(
     'http://schema.org/unnamedSourcesPolicy',
   );
 
@@ -928,7 +887,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// usNPI [Expects: http://schema.org/Text]
   ///
@@ -937,7 +896,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Physician
   ///
-  static const usNPI = const IriTerm('http://schema.org/usNPI');
+  static const usNPI = IriTerm('http://schema.org/usNPI');
 
   /// vatID [Expects: http://schema.org/Text]
   ///
@@ -945,7 +904,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const vatID = const IriTerm('http://schema.org/vatID');
+  static const vatID = IriTerm('http://schema.org/vatID');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -953,7 +912,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// alumni [Expects: http://schema.org/Person]
   ///
@@ -961,7 +920,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/EducationalOrganization, http://schema.org/Organization
   ///
-  static const alumni = const IriTerm('http://schema.org/alumni');
+  static const alumni = IriTerm('http://schema.org/alumni');
 
   /// award [Expects: http://schema.org/Text]
   ///
@@ -969,7 +928,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const award = const IriTerm('http://schema.org/award');
+  static const award = IriTerm('http://schema.org/award');
 
   /// contactPoint [Expects: http://schema.org/ContactPoint]
   ///
@@ -977,7 +936,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/HealthInsurancePlan, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const contactPoint = const IriTerm('http://schema.org/contactPoint');
+  static const contactPoint = IriTerm('http://schema.org/contactPoint');
 
   /// containsPlace [Expects: http://schema.org/Place]
   ///
@@ -985,7 +944,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const containsPlace = const IriTerm('http://schema.org/containsPlace');
+  static const containsPlace = IriTerm('http://schema.org/containsPlace');
 
   /// employee [Expects: http://schema.org/Person]
   ///
@@ -993,7 +952,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const employee = const IriTerm('http://schema.org/employee');
+  static const employee = IriTerm('http://schema.org/employee');
 
   /// event [Expects: http://schema.org/Event]
   ///
@@ -1001,7 +960,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/InformAction, http://schema.org/InviteAction, http://schema.org/JoinAction, http://schema.org/LeaveAction, http://schema.org/Organization, http://schema.org/Place, http://schema.org/PlayAction
   ///
-  static const event = const IriTerm('http://schema.org/event');
+  static const event = IriTerm('http://schema.org/event');
 
   /// founder [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1009,7 +968,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const founder = const IriTerm('http://schema.org/founder');
+  static const founder = IriTerm('http://schema.org/founder');
 
   /// funding [Expects: http://schema.org/Grant]
   ///
@@ -1017,7 +976,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
   /// interactionStatistic [Expects: http://schema.org/InteractionCounter]
   ///
@@ -1025,7 +984,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
@@ -1035,7 +994,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'http://schema.org/isAccessibleForFree',
   );
 
@@ -1045,9 +1004,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
 
   /// makesOffer [Expects: http://schema.org/Offer]
   ///
@@ -1055,7 +1012,23 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const makesOffer = const IriTerm('http://schema.org/makesOffer');
+  static const makesOffer = IriTerm('http://schema.org/makesOffer');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
+
+  /// owns [Expects: http://schema.org/Thing]
+  ///
+  /// Things owned by the organization or person.
+  ///
+  /// Can be used on: http://schema.org/Organization, http://schema.org/Person
+  ///
+  static const owns = IriTerm('http://schema.org/owns');
 
   /// photo [Expects: http://schema.org/ImageObject, http://schema.org/Photograph]
   ///
@@ -1063,7 +1036,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const photo = const IriTerm('http://schema.org/photo');
+  static const photo = IriTerm('http://schema.org/photo');
 
   /// review [Expects: http://schema.org/Review]
   ///
@@ -1071,7 +1044,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const review = const IriTerm('http://schema.org/review');
+  static const review = IriTerm('http://schema.org/review');
 
   /// serviceArea [Expects: http://schema.org/AdministrativeArea, http://schema.org/GeoShape, http://schema.org/Place]
   ///
@@ -1079,7 +1052,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Service
   ///
-  static const serviceArea = const IriTerm('http://schema.org/serviceArea');
+  static const serviceArea = IriTerm('http://schema.org/serviceArea');
 
   /// sponsor [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1087,7 +1060,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const sponsor = const IriTerm('http://schema.org/sponsor');
+  static const sponsor = IriTerm('http://schema.org/sponsor');
 
   /// subOrganization [Expects: http://schema.org/Organization]
   ///
@@ -1095,9 +1068,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const subOrganization = const IriTerm(
-    'http://schema.org/subOrganization',
-  );
+  static const subOrganization = IriTerm('http://schema.org/subOrganization');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -1105,7 +1076,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// containedInPlace [Expects: http://schema.org/Place]
   ///
@@ -1113,9 +1084,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const containedInPlace = const IriTerm(
-    'http://schema.org/containedInPlace',
-  );
+  static const containedInPlace = IriTerm('http://schema.org/containedInPlace');
 
   /// hasMap [Expects: http://schema.org/Map, http://schema.org/URL]
   ///
@@ -1123,7 +1092,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Place
   ///
-  static const hasMap = const IriTerm('http://schema.org/hasMap');
+  static const hasMap = IriTerm('http://schema.org/hasMap');
 
   /// memberOf [Expects: http://schema.org/MemberProgramTier, http://schema.org/Organization, http://schema.org/ProgramMembership]
   ///
@@ -1131,7 +1100,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const memberOf = const IriTerm('http://schema.org/memberOf');
+  static const memberOf = IriTerm('http://schema.org/memberOf');
 
   /// parentOrganization [Expects: http://schema.org/Organization]
   ///
@@ -1139,7 +1108,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization
   ///
-  static const parentOrganization = const IriTerm(
+  static const parentOrganization = IriTerm(
     'http://schema.org/parentOrganization',
   );
 
@@ -1149,7 +1118,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/DeliveryChargeSpecification, http://schema.org/Demand, http://schema.org/FinancialIncentive, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Service
   ///
-  static const areaServed = const IriTerm('http://schema.org/areaServed');
+  static const areaServed = IriTerm('http://schema.org/areaServed');
 
   /// member [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1157,7 +1126,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/ProgramMembership
   ///
-  static const member = const IriTerm('http://schema.org/member');
+  static const member = IriTerm('http://schema.org/member');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -1165,7 +1134,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -1173,7 +1142,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// publishingPrinciples [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1184,7 +1153,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
@@ -1194,7 +1163,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/Event, http://schema.org/InteractionCounter, http://schema.org/Organization
   ///
-  static const location = const IriTerm('http://schema.org/location');
+  static const location = IriTerm('http://schema.org/location');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1203,15 +1172,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1219,7 +1180,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1229,7 +1190,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1239,7 +1200,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1249,7 +1210,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1259,7 +1220,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1269,7 +1230,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1279,7 +1240,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -1289,7 +1250,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1299,7 +1260,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1309,8 +1270,28 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
+  );
+
+  /// bottomDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that does not relate any individual to any data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomDataProperty',
+  );
+
+  /// bottomObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that does not relate any two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
   /// deprecated from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1319,8 +1300,18 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
+  );
+
+  /// differentFrom from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are different.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlDifferentFrom = IriTerm(
+    'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
   /// members from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
@@ -1329,8 +1320,34 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
+
+  /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are equal.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
+
+  /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that relates every individual to every data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topDataProperty',
+  );
+
+  /// topObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that relates every two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1339,9 +1356,83 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
+
+  /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A name for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
+
+  /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A homepage for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
+
+  /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that  made this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
+
+  /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
+  ///
+  /// A depiction of some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
+
+  /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// An organization funding a project or person.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+
+  /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A logo representing some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
+
+  /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A page or document about this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
+
+  /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A theme.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1349,7 +1440,7 @@ class SchemaHttpPhysiciansOffice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

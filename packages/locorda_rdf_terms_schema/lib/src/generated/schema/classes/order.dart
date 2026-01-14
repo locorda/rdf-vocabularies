@@ -13,8 +13,12 @@ import 'package:locorda_rdf_core/core.dart';
 ///
 /// Inherits from:
 /// - Intangible (https://schema.org/Intangible)
+/// - LegalDocument (https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (https://schema.org/Thing)
+///
+/// Equivalent to:
+/// - Order (http://unece.org/vocab#Order)
 ///
 /// This class provides access to all properties that can be used with Order.
 /// [Class Reference](https://schema.org/Order)
@@ -26,7 +30,7 @@ class SchemaOrder {
 
   /// IRI term for the Order class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/Order');
+  static const classIri = IriTerm('https://schema.org/Order');
 
   /// acceptedOffer [Expects: https://schema.org/Offer]
   ///
@@ -34,9 +38,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const acceptedOffer = const IriTerm(
-    'https://schema.org/acceptedOffer',
-  );
+  static const acceptedOffer = IriTerm('https://schema.org/acceptedOffer');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -45,9 +47,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// billingAddress [Expects: https://schema.org/PostalAddress]
   ///
@@ -55,9 +55,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const billingAddress = const IriTerm(
-    'https://schema.org/billingAddress',
-  );
+  static const billingAddress = IriTerm('https://schema.org/billingAddress');
 
   /// confirmationNumber [Expects: https://schema.org/Text]
   ///
@@ -65,7 +63,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const confirmationNumber = const IriTerm(
+  static const confirmationNumber = IriTerm(
     'https://schema.org/confirmationNumber',
   );
 
@@ -75,7 +73,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const customer = const IriTerm('https://schema.org/customer');
+  static const customer = IriTerm('https://schema.org/customer');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -83,7 +81,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -93,7 +91,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const discount = const IriTerm('https://schema.org/discount');
+  static const discount = IriTerm('https://schema.org/discount');
 
   /// discountCode [Expects: https://schema.org/Text]
   ///
@@ -101,7 +99,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const discountCode = const IriTerm('https://schema.org/discountCode');
+  static const discountCode = IriTerm('https://schema.org/discountCode');
 
   /// discountCurrency [Expects: https://schema.org/Text]
   ///
@@ -109,7 +107,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const discountCurrency = const IriTerm(
+  static const discountCurrency = IriTerm(
     'https://schema.org/discountCurrency',
   );
 
@@ -119,7 +117,7 @@ class SchemaOrder {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -129,7 +127,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const isGift = const IriTerm('https://schema.org/isGift');
+  static const isGift = IriTerm('https://schema.org/isGift');
 
   /// merchant [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -137,7 +135,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const merchant = const IriTerm('https://schema.org/merchant');
+  static const merchant = IriTerm('https://schema.org/merchant');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -145,7 +143,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// orderDate [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -153,7 +151,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const orderDate = const IriTerm('https://schema.org/orderDate');
+  static const orderDate = IriTerm('https://schema.org/orderDate');
 
   /// orderDelivery [Expects: https://schema.org/ParcelDelivery]
   ///
@@ -161,9 +159,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order, https://schema.org/OrderItem
   ///
-  static const orderDelivery = const IriTerm(
-    'https://schema.org/orderDelivery',
-  );
+  static const orderDelivery = IriTerm('https://schema.org/orderDelivery');
 
   /// orderNumber [Expects: https://schema.org/Text]
   ///
@@ -171,7 +167,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const orderNumber = const IriTerm('https://schema.org/orderNumber');
+  static const orderNumber = IriTerm('https://schema.org/orderNumber');
 
   /// orderStatus [Expects: https://schema.org/OrderStatus]
   ///
@@ -179,7 +175,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const orderStatus = const IriTerm('https://schema.org/orderStatus');
+  static const orderStatus = IriTerm('https://schema.org/orderStatus');
 
   /// orderedItem [Expects: https://schema.org/OrderItem, https://schema.org/Product, https://schema.org/Service]
   ///
@@ -187,7 +183,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order, https://schema.org/OrderItem
   ///
-  static const orderedItem = const IriTerm('https://schema.org/orderedItem');
+  static const orderedItem = IriTerm('https://schema.org/orderedItem');
 
   /// partOfInvoice [Expects: https://schema.org/Invoice]
   ///
@@ -195,9 +191,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const partOfInvoice = const IriTerm(
-    'https://schema.org/partOfInvoice',
-  );
+  static const partOfInvoice = IriTerm('https://schema.org/partOfInvoice');
 
   /// paymentDue [Expects: https://schema.org/DateTime]
   ///
@@ -205,7 +199,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const paymentDue = const IriTerm('https://schema.org/paymentDue');
+  static const paymentDue = IriTerm('https://schema.org/paymentDue');
 
   /// paymentMethod [Expects: https://schema.org/PaymentMethod, https://schema.org/Text]
   ///
@@ -213,9 +207,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const paymentMethod = const IriTerm(
-    'https://schema.org/paymentMethod',
-  );
+  static const paymentMethod = IriTerm('https://schema.org/paymentMethod');
 
   /// paymentMethodId [Expects: https://schema.org/Text]
   ///
@@ -223,9 +215,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const paymentMethodId = const IriTerm(
-    'https://schema.org/paymentMethodId',
-  );
+  static const paymentMethodId = IriTerm('https://schema.org/paymentMethodId');
 
   /// paymentUrl [Expects: https://schema.org/URL]
   ///
@@ -233,7 +223,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Order
   ///
-  static const paymentUrl = const IriTerm('https://schema.org/paymentUrl');
+  static const paymentUrl = IriTerm('https://schema.org/paymentUrl');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -241,9 +231,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -251,7 +239,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -259,7 +247,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -267,9 +255,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// broker [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -277,7 +263,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order, https://schema.org/Reservation, https://schema.org/Service
   ///
-  static const broker = const IriTerm('https://schema.org/broker');
+  static const broker = IriTerm('https://schema.org/broker');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -285,9 +271,17 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// paymentDueDate [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -295,9 +289,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Invoice, https://schema.org/Order
   ///
-  static const paymentDueDate = const IriTerm(
-    'https://schema.org/paymentDueDate',
-  );
+  static const paymentDueDate = IriTerm('https://schema.org/paymentDueDate');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -305,7 +297,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// seller [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -313,7 +305,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/BuyAction, https://schema.org/Demand, https://schema.org/Flight, https://schema.org/Offer, https://schema.org/Order
   ///
-  static const seller = const IriTerm('https://schema.org/seller');
+  static const seller = IriTerm('https://schema.org/seller');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -321,7 +313,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -329,7 +321,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -338,15 +330,7 @@ class SchemaOrder {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -354,7 +338,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -364,7 +348,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -374,7 +358,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -384,7 +368,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -394,7 +378,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -404,7 +388,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -414,7 +398,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -424,7 +408,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -434,7 +418,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -444,7 +428,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -454,7 +438,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -464,9 +448,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -474,7 +456,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -484,7 +466,7 @@ class SchemaOrder {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

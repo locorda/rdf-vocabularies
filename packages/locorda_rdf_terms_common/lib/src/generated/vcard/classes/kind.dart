@@ -12,10 +12,18 @@ import 'package:locorda_rdf_core/core.dart';
 /// The parent class for all objects
 ///
 /// Inherits from:
+/// - Intangible (https://schema.org/Intangible)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
+/// - StructuredValue (https://schema.org/StructuredValue)
 /// - Thing (http://www.w3.org/2002/07/owl#Thing)
+/// - Thing (https://schema.org/Thing)
 ///
 /// Equivalent to:
+/// - ContactPoint (https://schema.org/ContactPoint)
+/// - ContactPoint (https://ref.gs1.org/voc/ContactPoint)
+/// - ContactPoint (https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ContactPoint)
+/// - ContactPoint (https://gs1.org/voc/ContactPoint)
+/// - ContactPoint (https://www.gs1.org/voc/ContactPoint)
 /// - VCard (http://www.w3.org/2006/vcard/ns#VCard)
 ///
 /// This class provides access to all properties that can be used with Kind.
@@ -28,7 +36,7 @@ class VcardKind {
 
   /// IRI term for the Kind class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://www.w3.org/2006/vcard/ns#Kind');
+  static const classIri = IriTerm('http://www.w3.org/2006/vcard/ns#Kind');
 
   /// adr
   ///
@@ -36,7 +44,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const adr = const IriTerm('http://www.w3.org/2006/vcard/ns#adr');
+  static const adr = IriTerm('http://www.w3.org/2006/vcard/ns#adr');
 
   /// agent
   ///
@@ -44,7 +52,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const agent = const IriTerm('http://www.w3.org/2006/vcard/ns#agent');
+  static const agent = IriTerm('http://www.w3.org/2006/vcard/ns#agent');
 
   /// email
   ///
@@ -52,7 +60,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const email = const IriTerm('http://www.w3.org/2006/vcard/ns#email');
+  static const email = IriTerm('http://www.w3.org/2006/vcard/ns#email');
 
   /// geo
   ///
@@ -60,7 +68,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const geo = const IriTerm('http://www.w3.org/2006/vcard/ns#geo');
+  static const geo = IriTerm('http://www.w3.org/2006/vcard/ns#geo');
 
   /// hasAdditionalName
   ///
@@ -68,7 +76,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasAdditionalName = const IriTerm(
+  static const hasAdditionalName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAdditionalName',
   );
 
@@ -78,7 +86,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasAddress = const IriTerm(
+  static const hasAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAddress',
   );
 
@@ -88,7 +96,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarBusy = const IriTerm(
+  static const hasCalendarBusy = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarBusy',
   );
 
@@ -98,7 +106,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarLink = const IriTerm(
+  static const hasCalendarLink = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarLink',
   );
 
@@ -108,7 +116,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarRequest = const IriTerm(
+  static const hasCalendarRequest = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarRequest',
   );
 
@@ -118,7 +126,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCategory = const IriTerm(
+  static const hasCategory = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCategory',
   );
 
@@ -128,7 +136,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCountryName = const IriTerm(
+  static const hasCountryName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCountryName',
   );
 
@@ -138,9 +146,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasEmail = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasEmail',
-  );
+  static const hasEmail = IriTerm('http://www.w3.org/2006/vcard/ns#hasEmail');
 
   /// hasFN
   ///
@@ -148,7 +154,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFN = const IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
+  static const hasFN = IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
 
   /// hasFamilyName
   ///
@@ -156,7 +162,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFamilyName = const IriTerm(
+  static const hasFamilyName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasFamilyName',
   );
 
@@ -166,9 +172,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGender = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasGender',
-  );
+  static const hasGender = IriTerm('http://www.w3.org/2006/vcard/ns#hasGender');
 
   /// hasGeo
   ///
@@ -176,7 +180,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGeo = const IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
+  static const hasGeo = IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
 
   /// hasGivenName
   ///
@@ -184,7 +188,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGivenName = const IriTerm(
+  static const hasGivenName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasGivenName',
   );
 
@@ -194,7 +198,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasHonorificPrefix = const IriTerm(
+  static const hasHonorificPrefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificPrefix',
   );
 
@@ -204,7 +208,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasHonorificSuffix = const IriTerm(
+  static const hasHonorificSuffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificSuffix',
   );
 
@@ -214,7 +218,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasInstantMessage = const IriTerm(
+  static const hasInstantMessage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasInstantMessage',
   );
 
@@ -224,7 +228,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasKey = const IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
+  static const hasKey = IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
 
   /// hasLanguage
   ///
@@ -232,7 +236,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLanguage = const IriTerm(
+  static const hasLanguage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLanguage',
   );
 
@@ -242,7 +246,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLocality = const IriTerm(
+  static const hasLocality = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLocality',
   );
 
@@ -252,9 +256,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLogo = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasLogo',
-  );
+  static const hasLogo = IriTerm('http://www.w3.org/2006/vcard/ns#hasLogo');
 
   /// hasName [Expects: http://www.w3.org/2006/vcard/ns#Name]
   ///
@@ -262,9 +264,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasName = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasName',
-  );
+  static const hasName = IriTerm('http://www.w3.org/2006/vcard/ns#hasName');
 
   /// hasNickname
   ///
@@ -274,7 +274,7 @@ class VcardKind {
   ///
   /// [See also](http://www.w3.org/2006/vcard/ns#nickname)
   ///
-  static const hasNickname = const IriTerm(
+  static const hasNickname = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasNickname',
   );
 
@@ -284,9 +284,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasNote = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasNote',
-  );
+  static const hasNote = IriTerm('http://www.w3.org/2006/vcard/ns#hasNote');
 
   /// hasOrganizationName
   ///
@@ -294,7 +292,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasOrganizationName = const IriTerm(
+  static const hasOrganizationName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationName',
   );
 
@@ -304,7 +302,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasOrganizationUnit = const IriTerm(
+  static const hasOrganizationUnit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationUnit',
   );
 
@@ -314,9 +312,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPhoto = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasPhoto',
-  );
+  static const hasPhoto = IriTerm('http://www.w3.org/2006/vcard/ns#hasPhoto');
 
   /// hasPostalCode
   ///
@@ -324,7 +320,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPostalCode = const IriTerm(
+  static const hasPostalCode = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasPostalCode',
   );
 
@@ -334,9 +330,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRegion = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRegion',
-  );
+  static const hasRegion = IriTerm('http://www.w3.org/2006/vcard/ns#hasRegion');
 
   /// hasRelated
   ///
@@ -344,7 +338,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRelated = const IriTerm(
+  static const hasRelated = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasRelated',
   );
 
@@ -354,9 +348,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRole = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRole',
-  );
+  static const hasRole = IriTerm('http://www.w3.org/2006/vcard/ns#hasRole');
 
   /// hasSound
   ///
@@ -364,9 +356,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasSound = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSound',
-  );
+  static const hasSound = IriTerm('http://www.w3.org/2006/vcard/ns#hasSound');
 
   /// hasSource
   ///
@@ -374,9 +364,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasSource = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSource',
-  );
+  static const hasSource = IriTerm('http://www.w3.org/2006/vcard/ns#hasSource');
 
   /// hasStreetAddress
   ///
@@ -384,7 +372,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasStreetAddress = const IriTerm(
+  static const hasStreetAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasStreetAddress',
   );
 
@@ -394,7 +382,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasTelephone = const IriTerm(
+  static const hasTelephone = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasTelephone',
   );
 
@@ -404,9 +392,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasTitle = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasTitle',
-  );
+  static const hasTitle = IriTerm('http://www.w3.org/2006/vcard/ns#hasTitle');
 
   /// hasUID
   ///
@@ -414,7 +400,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasUID = const IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
+  static const hasUID = IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
 
   /// hasURL
   ///
@@ -422,7 +408,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasURL = const IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
+  static const hasURL = IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
 
   /// hasValue
   ///
@@ -430,9 +416,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasValue = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasValue',
-  );
+  static const hasValue = IriTerm('http://www.w3.org/2006/vcard/ns#hasValue');
 
   /// key
   ///
@@ -440,7 +424,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const key = const IriTerm('http://www.w3.org/2006/vcard/ns#key');
+  static const key = IriTerm('http://www.w3.org/2006/vcard/ns#key');
 
   /// logo
   ///
@@ -448,7 +432,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const logo = const IriTerm('http://www.w3.org/2006/vcard/ns#logo');
+  static const logo = IriTerm('http://www.w3.org/2006/vcard/ns#logo');
 
   /// n
   ///
@@ -456,7 +440,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const n = const IriTerm('http://www.w3.org/2006/vcard/ns#n');
+  static const n = IriTerm('http://www.w3.org/2006/vcard/ns#n');
 
   /// org
   ///
@@ -464,7 +448,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const org = const IriTerm('http://www.w3.org/2006/vcard/ns#org');
+  static const org = IriTerm('http://www.w3.org/2006/vcard/ns#org');
 
   /// photo
   ///
@@ -472,7 +456,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const photo = const IriTerm('http://www.w3.org/2006/vcard/ns#photo');
+  static const photo = IriTerm('http://www.w3.org/2006/vcard/ns#photo');
 
   /// sound
   ///
@@ -480,7 +464,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const sound = const IriTerm('http://www.w3.org/2006/vcard/ns#sound');
+  static const sound = IriTerm('http://www.w3.org/2006/vcard/ns#sound');
 
   /// tel
   ///
@@ -488,7 +472,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tel = const IriTerm('http://www.w3.org/2006/vcard/ns#tel');
+  static const tel = IriTerm('http://www.w3.org/2006/vcard/ns#tel');
 
   /// url
   ///
@@ -496,7 +480,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const url = const IriTerm('http://www.w3.org/2006/vcard/ns#url');
+  static const url = IriTerm('http://www.w3.org/2006/vcard/ns#url');
 
   /// additional_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -504,7 +488,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const additional_name = const IriTerm(
+  static const additional_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#additional-name',
   );
 
@@ -514,7 +498,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const anniversary = const IriTerm(
+  static const anniversary = IriTerm(
     'http://www.w3.org/2006/vcard/ns#anniversary',
   );
 
@@ -524,7 +508,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const bday = const IriTerm('http://www.w3.org/2006/vcard/ns#bday');
+  static const bday = IriTerm('http://www.w3.org/2006/vcard/ns#bday');
 
   /// category [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -532,9 +516,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const category = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#category',
-  );
+  static const category = IriTerm('http://www.w3.org/2006/vcard/ns#category');
 
   /// class_
   ///
@@ -542,7 +524,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const class_ = const IriTerm('http://www.w3.org/2006/vcard/ns#class');
+  static const class_ = IriTerm('http://www.w3.org/2006/vcard/ns#class');
 
   /// country_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -550,7 +532,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const country_name = const IriTerm(
+  static const country_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#country-name',
   );
 
@@ -560,7 +542,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const extended_address = const IriTerm(
+  static const extended_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#extended-address',
   );
 
@@ -570,7 +552,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const family_name = const IriTerm(
+  static const family_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#family-name',
   );
 
@@ -580,7 +562,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const fn = const IriTerm('http://www.w3.org/2006/vcard/ns#fn');
+  static const fn = IriTerm('http://www.w3.org/2006/vcard/ns#fn');
 
   /// given_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -588,7 +570,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const given_name = const IriTerm(
+  static const given_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#given-name',
   );
 
@@ -598,7 +580,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const honorific_prefix = const IriTerm(
+  static const honorific_prefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-prefix',
   );
 
@@ -608,7 +590,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const honorific_suffix = const IriTerm(
+  static const honorific_suffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-suffix',
   );
 
@@ -618,7 +600,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const label = const IriTerm('http://www.w3.org/2006/vcard/ns#label');
+  static const label = IriTerm('http://www.w3.org/2006/vcard/ns#label');
 
   /// language
   ///
@@ -626,9 +608,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const language = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#language',
-  );
+  static const language = IriTerm('http://www.w3.org/2006/vcard/ns#language');
 
   /// latitude
   ///
@@ -636,9 +616,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const latitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#latitude',
-  );
+  static const latitude = IriTerm('http://www.w3.org/2006/vcard/ns#latitude');
 
   /// locality [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -646,9 +624,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const locality = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#locality',
-  );
+  static const locality = IriTerm('http://www.w3.org/2006/vcard/ns#locality');
 
   /// longitude
   ///
@@ -656,9 +632,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const longitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#longitude',
-  );
+  static const longitude = IriTerm('http://www.w3.org/2006/vcard/ns#longitude');
 
   /// mailer
   ///
@@ -666,7 +640,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const mailer = const IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
+  static const mailer = IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
 
   /// nickname [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -674,9 +648,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const nickname = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#nickname',
-  );
+  static const nickname = IriTerm('http://www.w3.org/2006/vcard/ns#nickname');
 
   /// note [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -684,7 +656,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const note = const IriTerm('http://www.w3.org/2006/vcard/ns#note');
+  static const note = IriTerm('http://www.w3.org/2006/vcard/ns#note');
 
   /// organization_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -692,7 +664,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const organization_name = const IriTerm(
+  static const organization_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-name',
   );
 
@@ -702,7 +674,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const organization_unit = const IriTerm(
+  static const organization_unit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-unit',
   );
 
@@ -712,7 +684,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const post_office_box = const IriTerm(
+  static const post_office_box = IriTerm(
     'http://www.w3.org/2006/vcard/ns#post-office-box',
   );
 
@@ -722,7 +694,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const postal_code = const IriTerm(
+  static const postal_code = IriTerm(
     'http://www.w3.org/2006/vcard/ns#postal-code',
   );
 
@@ -732,7 +704,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const prodid = const IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
+  static const prodid = IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
 
   /// region [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -740,7 +712,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const region = const IriTerm('http://www.w3.org/2006/vcard/ns#region');
+  static const region = IriTerm('http://www.w3.org/2006/vcard/ns#region');
 
   /// rev [Expects: http://www.w3.org/2001/XMLSchema#dateTime]
   ///
@@ -748,7 +720,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rev = const IriTerm('http://www.w3.org/2006/vcard/ns#rev');
+  static const rev = IriTerm('http://www.w3.org/2006/vcard/ns#rev');
 
   /// role [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -756,7 +728,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const role = const IriTerm('http://www.w3.org/2006/vcard/ns#role');
+  static const role = IriTerm('http://www.w3.org/2006/vcard/ns#role');
 
   /// sort_string [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -764,7 +736,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const sort_string = const IriTerm(
+  static const sort_string = IriTerm(
     'http://www.w3.org/2006/vcard/ns#sort-string',
   );
 
@@ -774,7 +746,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const street_address = const IriTerm(
+  static const street_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#street-address',
   );
 
@@ -784,7 +756,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const title = const IriTerm('http://www.w3.org/2006/vcard/ns#title');
+  static const title = IriTerm('http://www.w3.org/2006/vcard/ns#title');
 
   /// tz [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -792,7 +764,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tz = const IriTerm('http://www.w3.org/2006/vcard/ns#tz');
+  static const tz = IriTerm('http://www.w3.org/2006/vcard/ns#tz');
 
   /// value
   ///
@@ -800,7 +772,7 @@ class VcardKind {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const value = const IriTerm('http://www.w3.org/2006/vcard/ns#value');
+  static const value = IriTerm('http://www.w3.org/2006/vcard/ns#value');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -808,7 +780,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -818,7 +790,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -828,7 +800,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -838,7 +810,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -848,7 +820,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -858,7 +830,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -868,7 +840,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -878,7 +850,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -888,7 +860,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -898,7 +870,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -908,7 +880,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -918,7 +890,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -928,7 +900,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -938,7 +910,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -948,9 +920,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -958,9 +928,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -968,7 +936,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -978,7 +946,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -988,7 +956,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -998,7 +966,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafName = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -1006,18 +974,15 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafHomepage = const IriTerm(
-    'http://xmlns.com/foaf/0.1/homepage',
-  );
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafMaker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -1025,9 +990,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafDepiction = const IriTerm(
-    'http://xmlns.com/foaf/0.1/depiction',
-  );
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1035,9 +998,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafFundedBy = const IriTerm(
-    'http://xmlns.com/foaf/0.1/fundedBy',
-  );
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1045,7 +1006,17 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafLogo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
 
   /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -1053,7 +1024,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafPage = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1061,7 +1032,825 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafTheme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
+
+  /// activityIdeas from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to ideas for using a product or engaging in other forms of entertainment, particularly with children.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ActivityIdeas = IriTerm(
+    'https://ref.gs1.org/voc/activityIdeas',
+  );
+
+  /// allergenInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the allergen information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AllergenInfo = IriTerm(
+    'https://ref.gs1.org/voc/allergenInfo',
+  );
+
+  /// appDownload from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a related mobile app
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AppDownload = IriTerm('https://ref.gs1.org/voc/appDownload');
+
+  /// availableLanguage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#string]
+  ///
+  /// ISO 639-1 code specifying the language of a specified contact point.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1AvailableLanguage = IriTerm(
+    'https://ref.gs1.org/voc/availableLanguage',
+  );
+
+  /// backgroundInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information typically from the owner of the identified entity about the creative background, thought leadership or influence of the identified entity. This may include the inspiration, innovation for a development process, literary approach or, the science or technology used.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BackgroundInfo = IriTerm(
+    'https://ref.gs1.org/voc/backgroundInfo',
+  );
+
+  /// brandHomepageClinical from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at clinical professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepageClinical = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepageClinical',
+  );
+
+  /// brandHomepagePatient from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at patients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepagePatient = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepagePatient',
+  );
+
+  /// careersInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about jobs, careers, or other employment opportunities associated to an organisation or location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CareersInfo = IriTerm('https://ref.gs1.org/voc/careersInfo');
+
+  /// certificationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to certification information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CertificationInfo = IriTerm(
+    'https://ref.gs1.org/voc/certificationInfo',
+  );
+
+  /// consumerHandlingStorageInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about safe handling and storage for consumer use.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ConsumerHandlingStorageInfo = IriTerm(
+    'https://ref.gs1.org/voc/consumerHandlingStorageInfo',
+  );
+
+  /// contactRoleCode from gs1 vocabulary [Expects: https://ref.gs1.org/voc/ContactRoleType]
+  ///
+  /// The function or role of a contact. Value from gs1:ContactRoleType code list.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1ContactRoleCode = IriTerm(
+    'https://ref.gs1.org/voc/contactRoleCode',
+  );
+
+  /// contactTitle from gs1 vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString]
+  ///
+  /// The job title of the person that can be contacted for example Manager.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1ContactTitle = IriTerm(
+    'https://ref.gs1.org/voc/contactTitle',
+  );
+
+  /// contactType from gs1 vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString]
+  ///
+  /// The function or role of a contact for example Customer Support.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1ContactType = IriTerm('https://ref.gs1.org/voc/contactType');
+
+  /// defaultLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLink = IriTerm('https://ref.gs1.org/voc/defaultLink');
+
+  /// defaultLinkMulti from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLinkMulti = IriTerm(
+    'https://ref.gs1.org/voc/defaultLinkMulti',
+  );
+
+  /// dpp from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a digital product passport.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Dpp = IriTerm('https://ref.gs1.org/voc/dpp');
+
+  /// eifu from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to electronic Instruction For Use instructions for Medical Devices.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Eifu = IriTerm('https://ref.gs1.org/voc/eifu');
+
+  /// email from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#string]
+  ///
+  /// Creating/sending/receiving of unstructured free text messages or documents using computer network, a mini-computer or an attached modem and regular telephone line or other electronic transmission media.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1Email = IriTerm('https://ref.gs1.org/voc/email');
+
+  /// epcis from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an EPCIS repository of visibility event data.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epcis = IriTerm('https://ref.gs1.org/voc/epcis');
+
+  /// epil from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an electronic patient information leaflet.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epil = IriTerm('https://ref.gs1.org/voc/epil');
+
+  /// eventsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1EventsInfo = IriTerm('https://ref.gs1.org/voc/eventsInfo');
+
+  /// faqs from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a set of frequently asked questions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Faqs = IriTerm('https://ref.gs1.org/voc/faqs');
+
+  /// faxNumber from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#string]
+  ///
+  /// A fax number used for transmitting and reproducing fixed graphic material over telephone lines or other electronic transmission media.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1FaxNumber = IriTerm('https://ref.gs1.org/voc/faxNumber');
+
+  /// handledBy from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HandledBy = IriTerm('https://ref.gs1.org/voc/handledBy');
+
+  /// hasRetailers from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a list of retailers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HasRetailers = IriTerm(
+    'https://ref.gs1.org/voc/hasRetailers',
+  );
+
+  /// homepage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Homepage = IriTerm('https://ref.gs1.org/voc/homepage');
+
+  /// ingredientsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to facts about ingredients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1IngredientsInfo = IriTerm(
+    'https://ref.gs1.org/voc/ingredientsInfo',
+  );
+
+  /// instructions from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to instructions, such as assembly instructions, usage tips etc.  It is not appropriate to use this link type for healthcare regulated content applications for which specific link types are available.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Instructions = IriTerm(
+    'https://ref.gs1.org/voc/instructions',
+  );
+
+  /// leaveReview from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link through which a review can be added.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LeaveReview = IriTerm('https://ref.gs1.org/voc/leaveReview');
+
+  /// linkType from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Provides a URL for related information or services. This is not expected to be used directly but provides a super property for all other link types in the GS1 ecosystem.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LinkType = IriTerm('https://ref.gs1.org/voc/linkType');
+
+  /// locationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LocationInfo = IriTerm(
+    'https://ref.gs1.org/voc/locationInfo',
+  );
+
+  /// logisticsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to B2B logistics information related to a physical location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LogisticsInfo = IriTerm(
+    'https://ref.gs1.org/voc/logisticsInfo',
+  );
+
+  /// loyaltyProgram from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about a loyalty program, including a member's current status and/or a registration option for new members
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LoyaltyProgram = IriTerm(
+    'https://ref.gs1.org/voc/loyaltyProgram',
+  );
+
+  /// masterData from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of structured master data for the entity. This is typically for B2B applications.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterData = IriTerm('https://ref.gs1.org/voc/masterData');
+
+  /// masterDataAvailableFor from gs1 vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// Links from a document, message or event to static data for specified identifiers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterDataAvailableFor = IriTerm(
+    'https://ref.gs1.org/voc/masterDataAvailableFor',
+  );
+
+  /// menuInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo .
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MenuInfo = IriTerm('https://ref.gs1.org/voc/menuInfo');
+
+  /// nutritionalInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to nutritional facts.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1NutritionalInfo = IriTerm(
+    'https://ref.gs1.org/voc/nutritionalInfo',
+  );
+
+  /// openingHoursInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to details on hours of operation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1OpeningHoursInfo = IriTerm(
+    'https://ref.gs1.org/voc/openingHoursInfo',
+  );
+
+  /// paymentLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a place where payments details are provided and/or payments can be made by the user.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PaymentLink = IriTerm('https://ref.gs1.org/voc/paymentLink');
+
+  /// pip from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Pip = IriTerm('https://ref.gs1.org/voc/pip');
+
+  /// promotion from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a promotion.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Promotion = IriTerm('https://ref.gs1.org/voc/promotion');
+
+  /// purchaseSuppliesOrAccessories from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about where supplies or accessories for the item can be purchased or ordered.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PurchaseSuppliesOrAccessories = IriTerm(
+    'https://ref.gs1.org/voc/purchaseSuppliesOrAccessories',
+  );
+
+  /// quickStartGuide from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the key features needed to be understood to begin using the item or interacting with something new.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1QuickStartGuide = IriTerm(
+    'https://ref.gs1.org/voc/quickStartGuide',
+  );
+
+  /// recallStatus from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about whether the product has been recalled or not, typically an API.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecallStatus = IriTerm(
+    'https://ref.gs1.org/voc/recallStatus',
+  );
+
+  /// recipeInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a recipe website.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecipeInfo = IriTerm('https://ref.gs1.org/voc/recipeInfo');
+
+  /// registerProduct from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry point for registering ownership of a product including for warranty purposes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegisterProduct = IriTerm(
+    'https://ref.gs1.org/voc/registerProduct',
+  );
+
+  /// registryEntry from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegistryEntry = IriTerm(
+    'https://ref.gs1.org/voc/registryEntry',
+  );
+
+  /// relatedImage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any image that depicts or relates to the identified entity (e.g., trade item, assets, business process, patient record, location, organisation, etc.)
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedImage = IriTerm(
+    'https://ref.gs1.org/voc/relatedImage',
+  );
+
+  /// relatedVideo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any video, or document that has an embedded video, that describes or relates to the identified item, organisation, or location in some way.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedVideo = IriTerm(
+    'https://ref.gs1.org/voc/relatedVideo',
+  );
+
+  /// reportFound from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a platform or service where users (company or a person) can report a found item associated with the identified entity (instance of an item). This link type is designed to assist in connecting the found item with its rightful owner or relevant authorities.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ReportFound = IriTerm('https://ref.gs1.org/voc/reportFound');
+
+  /// responsibility from gs1 vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#langString]
+  ///
+  /// Text further specifying the area of responsibility of the trade contact.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1Responsibility = IriTerm(
+    'https://ref.gs1.org/voc/responsibility',
+  );
+
+  /// review from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to reviews.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Review = IriTerm('https://ref.gs1.org/voc/review');
+
+  /// safetyInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to safety information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SafetyInfo = IriTerm('https://ref.gs1.org/voc/safetyInfo');
+
+  /// scheduleTime from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ScheduleTime = IriTerm(
+    'https://ref.gs1.org/voc/scheduleTime',
+  );
+
+  /// serviceInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to service or maintenance instructions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ServiceInfo = IriTerm('https://ref.gs1.org/voc/serviceInfo');
+
+  /// smartLabel from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to the product's SmartLabel page.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SmartLabel = IriTerm('https://ref.gs1.org/voc/smartLabel');
+
+  /// smpc from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Smpc = IriTerm('https://ref.gs1.org/voc/smpc');
+
+  /// socialMedia from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a social media channel. The title will typically be replaced by the name of the channel.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SocialMedia = IriTerm('https://ref.gs1.org/voc/socialMedia');
+
+  /// statisticInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about statistics regarding an organisation, location, or other entity.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1StatisticInfo = IriTerm(
+    'https://ref.gs1.org/voc/statisticInfo',
+  );
+
+  /// subscribe from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a subscription form
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Subscribe = IriTerm('https://ref.gs1.org/voc/subscribe');
+
+  /// support from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of support such as a helpdesk, chat support, email etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Support = IriTerm('https://ref.gs1.org/voc/support');
+
+  /// sustainabilityInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information relating to sustainability and recycling requirements or processes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SustainabilityInfo = IriTerm(
+    'https://ref.gs1.org/voc/sustainabilityInfo',
+  );
+
+  /// telephone from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#string]
+  ///
+  /// A telephone number for example +44 217 992 9999.
+  ///
+  /// Can be used on: https://ref.gs1.org/voc/ContactPoint
+  ///
+  static const gs1Telephone = IriTerm('https://ref.gs1.org/voc/telephone');
+
+  /// traceability from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to traceability information (includes track and trace).  Traceability information may be provided for consumption by humans or computers. If the target is an EPCIS repository, use gs1:epcis instead.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Traceability = IriTerm(
+    'https://ref.gs1.org/voc/traceability',
+  );
+
+  /// tutorial from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a tutorial or set of tutorials, such as online classes, how-to videos etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Tutorial = IriTerm('https://ref.gs1.org/voc/tutorial');
+
+  /// userAgreement from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an agreement or waiver.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1UserAgreement = IriTerm(
+    'https://ref.gs1.org/voc/userAgreement',
+  );
+
+  /// verificationService from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a GS1 Lightweight Messaging Service for verifying the status of a product, organisation, or location and its identifier.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1VerificationService = IriTerm(
+    'https://ref.gs1.org/voc/verificationService',
+  );
+
+  /// whatsInTheBox from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of all the individual items in a packaged item.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1WhatsInTheBox = IriTerm(
+    'https://ref.gs1.org/voc/whatsInTheBox',
+  );
+
+  /// additionalType from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
+  ///
+  /// An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
+  /// use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaAdditionalType = IriTerm(
+    'https://schema.org/additionalType',
+  );
+
+  /// availableLanguage from schema vocabulary [Expects: https://schema.org/Language, https://schema.org/Text]
+  ///
+  /// A language someone may use with or at the item, service or place. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also {[inLanguage]}.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Course, https://schema.org/LodgingBusiness, https://schema.org/ServiceChannel, https://schema.org/TouristAttraction
+  ///
+  static const schemaAvailableLanguage = IriTerm(
+    'https://schema.org/availableLanguage',
+  );
+
+  /// contactOption from schema vocabulary [Expects: https://schema.org/ContactPointOption]
+  ///
+  /// An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers).
+  ///
+  /// Can be used on: https://schema.org/ContactPoint
+  ///
+  static const schemaContactOption = IriTerm(
+    'https://schema.org/contactOption',
+  );
+
+  /// contactType from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint
+  ///
+  static const schemaContactType = IriTerm('https://schema.org/contactType');
+
+  /// disambiguatingDescription from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaDisambiguatingDescription = IriTerm(
+    'https://schema.org/disambiguatingDescription',
+  );
+
+  /// email from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// Email address.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person
+  ///
+  static const schemaEmail = IriTerm('https://schema.org/email');
+
+  /// faxNumber from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// The fax number.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const schemaFaxNumber = IriTerm('https://schema.org/faxNumber');
+
+  /// hoursAvailable from schema vocabulary [Expects: https://schema.org/OpeningHoursSpecification]
+  ///
+  /// The hours during which this service or contact is available.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/LocationFeatureSpecification, https://schema.org/Service
+  ///
+  static const schemaHoursAvailable = IriTerm(
+    'https://schema.org/hoursAvailable',
+  );
+
+  /// name from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// The name of the item.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaName = IriTerm('https://schema.org/name');
+
+  /// potentialAction from schema vocabulary [Expects: https://schema.org/Action]
+  ///
+  /// Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaPotentialAction = IriTerm(
+    'https://schema.org/potentialAction',
+  );
+
+  /// productSupported from schema vocabulary [Expects: https://schema.org/Product, https://schema.org/Text]
+  ///
+  /// The product or service this support contact point is related to (such as product support for a particular product line). This can be a specific product or product line (e.g. "iPhone") or a general category of products or services (e.g. "smartphones").
+  ///
+  /// Can be used on: https://schema.org/ContactPoint
+  ///
+  static const schemaProductSupported = IriTerm(
+    'https://schema.org/productSupported',
+  );
+
+  /// sameAs from schema vocabulary [Expects: https://schema.org/URL]
+  ///
+  /// URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaSameAs = IriTerm('https://schema.org/sameAs');
+
+  /// telephone from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// The telephone number.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const schemaTelephone = IriTerm('https://schema.org/telephone');
+
+  /// url from schema vocabulary [Expects: https://schema.org/URL]
+  ///
+  /// URL of the item.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaUrl = IriTerm('https://schema.org/url');
+
+  /// alternateName from schema vocabulary [Expects: https://schema.org/Text]
+  ///
+  /// An alias for the item.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaAlternateName = IriTerm(
+    'https://schema.org/alternateName',
+  );
+
+  /// mainEntityOfPage from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
+  ///
+  /// Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaMainEntityOfPage = IriTerm(
+    'https://schema.org/mainEntityOfPage',
+  );
+
+  /// owner from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaOwner = IriTerm('https://schema.org/owner');
+
+  /// serviceArea from schema vocabulary [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place]
+  ///
+  /// The geographic area where the service is provided.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Service
+  ///
+  static const schemaServiceArea = IriTerm('https://schema.org/serviceArea');
+
+  /// subjectOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
+  ///
+  /// A CreativeWork or Event about this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaSubjectOf = IriTerm('https://schema.org/subjectOf');
+
+  /// areaServed from schema vocabulary [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place, https://schema.org/Text]
+  ///
+  /// The geographic area where a service or offered item is provided.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Service
+  ///
+  static const schemaAreaServed = IriTerm('https://schema.org/areaServed');
+
+  /// description from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/TextObject]
+  ///
+  /// A description of the item.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaDescription = IriTerm('https://schema.org/description');
+
+  /// image from schema vocabulary [Expects: https://schema.org/ImageObject, https://schema.org/URL]
+  ///
+  /// An image of the item. This can be a {[URL]} or a fully described {[ImageObject]}.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaImage = IriTerm('https://schema.org/image');
+
+  /// identifier from schema vocabulary [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
+  ///
+  /// The identifier property represents any kind of identifier for any kind of {[Thing]}, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
+  ///
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaIdentifier = IriTerm('https://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1069,7 +1858,7 @@ class VcardKind {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

@@ -26,9 +26,11 @@ import 'package:locorda_rdf_core/core.dart';
 ///
 /// Inherits from:
 /// - Intangible (https://schema.org/Intangible)
+/// - Place (https://schema.org/Place)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - StructuredValue (https://schema.org/StructuredValue)
 /// - Thing (https://schema.org/Thing)
+/// - Thing (http://www.w3.org/2002/07/owl#Thing)
 ///
 /// This class provides access to all properties that can be used with DefinedRegion.
 /// [Class Reference](https://schema.org/DefinedRegion)
@@ -40,7 +42,18 @@ class SchemaDefinedRegion {
 
   /// IRI term for the DefinedRegion class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/DefinedRegion');
+  static const classIri = IriTerm('https://schema.org/DefinedRegion');
+
+  /// additionalProperty [Expects: https://schema.org/PropertyValue]
+  ///
+  /// A property-value pair representing an additional characteristic of the entity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.\n\nNote: Publishers should be aware that applications designed to use specific schema.org properties (e.g. https://schema.org/width, https://schema.org/color, https://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism.
+  ///
+  ///
+  /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/Place, https://schema.org/Product, https://schema.org/QualitativeValue, https://schema.org/QuantitativeValue
+  ///
+  static const additionalProperty = IriTerm(
+    'https://schema.org/additionalProperty',
+  );
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -49,9 +62,15 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
+
+  /// address [Expects: https://schema.org/PostalAddress, https://schema.org/Text]
+  ///
+  /// Physical address of the item.
+  ///
+  /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const address = IriTerm('https://schema.org/address');
 
   /// addressCountry [Expects: https://schema.org/Country, https://schema.org/Text]
   ///
@@ -59,19 +78,48 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/PostalAddress
   ///
-  static const addressCountry = const IriTerm(
-    'https://schema.org/addressCountry',
-  );
+  static const addressCountry = IriTerm('https://schema.org/addressCountry');
 
-  /// addressRegion [Expects: https://schema.org/Text]
+  /// addressRegion [Expects: https://schema.org/AdministrativeArea, https://schema.org/Text]
   ///
   /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country).
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/PostalAddress
   ///
-  static const addressRegion = const IriTerm(
-    'https://schema.org/addressRegion',
-  );
+  static const addressRegion = IriTerm('https://schema.org/addressRegion');
+
+  /// aggregateRating [Expects: https://schema.org/AggregateRating]
+  ///
+  /// The overall rating, based on a collection of reviews or ratings, of the item.
+  ///
+  /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
+  ///
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
+
+  /// amenityFeature [Expects: https://schema.org/LocationFeatureSpecification]
+  ///
+  /// An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs.
+  ///
+  /// Can be used on: https://schema.org/Accommodation, https://schema.org/FloorPlan, https://schema.org/LodgingBusiness, https://schema.org/Place
+  ///
+  static const amenityFeature = IriTerm('https://schema.org/amenityFeature');
+
+  /// branchCode [Expects: https://schema.org/Text]
+  ///
+  /// A short textual code (also called "store code") that uniquely identifies a place of business. The code is typically assigned by the parentOrganization and used in structured URLs.\n\nFor example, in the URL http://www.starbucks.co.uk/store-locator/etc/detail/3047 the code "3047" is a branchCode for a particular branch.
+  ///
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const branchCode = IriTerm('https://schema.org/branchCode');
+
+  /// containedIn [Expects: https://schema.org/Place]
+  ///
+  /// The basic containment relation between a place and one that contains it.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const containedIn = IriTerm('https://schema.org/containedIn');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -79,8 +127,152 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
+  );
+
+  /// events [Expects: https://schema.org/Event]
+  ///
+  /// Upcoming or past events associated with this place or organization.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Place
+  ///
+  static const events = IriTerm('https://schema.org/events');
+
+  /// faxNumber [Expects: https://schema.org/Text]
+  ///
+  /// The fax number.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const faxNumber = IriTerm('https://schema.org/faxNumber');
+
+  /// geo [Expects: https://schema.org/GeoCoordinates, https://schema.org/GeoShape]
+  ///
+  /// The geo coordinates of the place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const geo = IriTerm('https://schema.org/geo');
+
+  /// geoContains [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a containing geometry to a contained geometry. "a contains b iff no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoContains = IriTerm('https://schema.org/geoContains');
+
+  /// geoCoveredBy [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a geometry to another that covers it. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoCoveredBy = IriTerm('https://schema.org/geoCoveredBy');
+
+  /// geoCovers [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a covering geometry to a covered geometry. "Every point of b is a point of (the interior or boundary of) a". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoCovers = IriTerm('https://schema.org/geoCovers');
+
+  /// geoCrosses [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a geometry to another that crosses it: "a crosses b: they have some but not all interior points in common, and the dimension of the intersection is less than that of at least one of them". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoCrosses = IriTerm('https://schema.org/geoCrosses');
+
+  /// geoDisjoint [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents spatial relations in which two geometries (or the places they represent) are topologically disjoint: "they have no point in common. They form a set of disconnected geometries." (A symmetric relationship, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).)
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoDisjoint = IriTerm('https://schema.org/geoDisjoint');
+
+  /// geoEquals [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents spatial relations in which two geometries (or the places they represent) are topologically equal, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM). "Two geometries are topologically equal if their interiors intersect and no part of the interior or boundary of one geometry intersects the exterior of the other" (a symmetric relationship).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoEquals = IriTerm('https://schema.org/geoEquals');
+
+  /// geoIntersects [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents spatial relations in which two geometries (or the places they represent) have at least one point in common. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoIntersects = IriTerm('https://schema.org/geoIntersects');
+
+  /// geoOverlaps [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a geometry to another that geospatially overlaps it, i.e. they have some but not all points in common. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoOverlaps = IriTerm('https://schema.org/geoOverlaps');
+
+  /// geoTouches [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents spatial relations in which two geometries (or the places they represent) touch: "they have at least one boundary point in common, but no interior points." (A symmetric relationship, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).)
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoTouches = IriTerm('https://schema.org/geoTouches');
+
+  /// geoWithin [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
+  ///
+  /// Represents a relationship between two geometries (or the places they represent), relating a geometry to one that contains it, i.e. it is inside (i.e. within) its interior. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+  ///
+  /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
+  ///
+  static const geoWithin = IriTerm('https://schema.org/geoWithin');
+
+  /// globalLocationNumber [Expects: https://schema.org/Text]
+  ///
+  /// The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const globalLocationNumber = IriTerm(
+    'https://schema.org/globalLocationNumber',
+  );
+
+  /// hasCertification [Expects: https://schema.org/Certification]
+  ///
+  /// Certification information about a product, organization, service, place, or person.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
+  ///
+  static const hasCertification = IriTerm(
+    'https://schema.org/hasCertification',
+  );
+
+  /// hasDriveThroughService [Expects: https://schema.org/Boolean]
+  ///
+  /// Indicates whether some facility (e.g. {[FoodEstablishment]}, {[CovidTestingFacility]}) offers a service that can be used by driving through in a car. In the case of {[CovidTestingFacility]} such facilities could potentially help with social distancing from other potentially-infected users.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const hasDriveThroughService = IriTerm(
+    'https://schema.org/hasDriveThroughService',
+  );
+
+  /// hasGS1DigitalLink [Expects: https://schema.org/URL]
+  ///
+  /// The <a href="https://www.gs1.org/standards/gs1-digital-link">GS1 digital link</a> associated with the object. This URL should conform to the particular requirements of digital links. The link should only contain the Application Identifiers (AIs) that are relevant for the entity being annotated, for instance a {[Product]} or an {[Organization]}, and for the correct granularity. In particular, for products:<ul><li>A Digital Link that contains a serial number (AI <code>21</code>) should only be present on instances of {[IndividualProduct]}</li><li>A Digital Link that contains a lot number (AI <code>10</code>) should be annotated as {[SomeProduct]} if only products from that lot are sold, or {[IndividualProduct]} if there is only a specific product.</li><li>A Digital Link that contains a global model number (AI <code>8013</code>)  should be attached to a {[Product]} or a {[ProductModel]}.</li></ul> Other item types should be adapted similarly.
+  ///
+  /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
+  ///
+  static const hasGS1DigitalLink = IriTerm(
+    'https://schema.org/hasGS1DigitalLink',
   );
 
   /// interactionCount
@@ -89,8 +281,74 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
+  );
+
+  /// isicV4 [Expects: https://schema.org/Text]
+  ///
+  /// The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const isicV4 = IriTerm('https://schema.org/isicV4');
+
+  /// keywords [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
+  ///
+  /// Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
+  ///
+  static const keywords = IriTerm('https://schema.org/keywords');
+
+  /// latitude [Expects: https://schema.org/Number, https://schema.org/Text]
+  ///
+  /// The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+  ///
+  /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
+  ///
+  static const latitude = IriTerm('https://schema.org/latitude');
+
+  /// logo [Expects: https://schema.org/ImageObject, https://schema.org/URL]
+  ///
+  /// An associated logo.
+  ///
+  /// Can be used on: https://schema.org/Brand, https://schema.org/Certification, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
+  ///
+  static const logo = IriTerm('https://schema.org/logo');
+
+  /// longitude [Expects: https://schema.org/Number, https://schema.org/Text]
+  ///
+  /// The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+  ///
+  /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
+  ///
+  static const longitude = IriTerm('https://schema.org/longitude');
+
+  /// map [Expects: https://schema.org/URL]
+  ///
+  /// A URL to a map of the place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const map = IriTerm('https://schema.org/map');
+
+  /// maps [Expects: https://schema.org/URL]
+  ///
+  /// A URL to a map of the place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const maps = IriTerm('https://schema.org/maps');
+
+  /// maximumAttendeeCapacity [Expects: https://schema.org/Integer]
+  ///
+  /// The total number of individuals that may attend an event or venue.
+  ///
+  /// Can be used on: https://schema.org/Event, https://schema.org/Place
+  ///
+  static const maximumAttendeeCapacity = IriTerm(
+    'https://schema.org/maximumAttendeeCapacity',
   );
 
   /// name [Expects: https://schema.org/Text]
@@ -99,7 +357,25 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
+
+  /// openingHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
+  ///
+  /// The opening hours of a certain place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const openingHoursSpecification = IriTerm(
+    'https://schema.org/openingHoursSpecification',
+  );
+
+  /// photos [Expects: https://schema.org/ImageObject, https://schema.org/Photograph]
+  ///
+  /// Photographs of this place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const photos = IriTerm('https://schema.org/photos');
 
   /// postalCode [Expects: https://schema.org/Text]
   ///
@@ -107,7 +383,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/PostalAddress
   ///
-  static const postalCode = const IriTerm('https://schema.org/postalCode');
+  static const postalCode = IriTerm('https://schema.org/postalCode');
 
   /// postalCodePrefix [Expects: https://schema.org/Text]
   ///
@@ -115,7 +391,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/DefinedRegion
   ///
-  static const postalCodePrefix = const IriTerm(
+  static const postalCodePrefix = IriTerm(
     'https://schema.org/postalCodePrefix',
   );
 
@@ -125,9 +401,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/DefinedRegion
   ///
-  static const postalCodeRange = const IriTerm(
-    'https://schema.org/postalCodeRange',
-  );
+  static const postalCodeRange = IriTerm('https://schema.org/postalCodeRange');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -135,9 +409,23 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
+
+  /// publicAccess [Expects: https://schema.org/Boolean]
+  ///
+  /// A flag to signal that the {[Place]} is open to public visitors.  If this property is omitted there is no assumed default boolean value.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const publicAccess = IriTerm('https://schema.org/publicAccess');
+
+  /// reviews [Expects: https://schema.org/Review]
+  ///
+  /// Review of the item.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
+  ///
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -145,7 +433,50 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
+
+  /// slogan [Expects: https://schema.org/Text]
+  ///
+  /// A slogan or motto associated with the item.
+  ///
+  /// Can be used on: https://schema.org/Brand, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
+  ///
+  static const slogan = IriTerm('https://schema.org/slogan');
+
+  /// smokingAllowed [Expects: https://schema.org/Boolean]
+  ///
+  /// Indicates whether it is allowed to smoke in the place, e.g. in the restaurant, hotel or hotel room.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const smokingAllowed = IriTerm('https://schema.org/smokingAllowed');
+
+  /// specialOpeningHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
+  ///
+  /// The special opening hours of a certain place.\n\nUse this to explicitly override general opening hours brought in scope by {[openingHoursSpecification]} or {[openingHours]}.
+  ///
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const specialOpeningHoursSpecification = IriTerm(
+    'https://schema.org/specialOpeningHoursSpecification',
+  );
+
+  /// telephone [Expects: https://schema.org/Text]
+  ///
+  /// The telephone number.
+  ///
+  /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
+  ///
+  static const telephone = IriTerm('https://schema.org/telephone');
+
+  /// tourBookingPage [Expects: https://schema.org/URL]
+  ///
+  /// A page providing information on how to book a tour of some {[Place]}, such as an {[Accommodation]} or {[ApartmentComplex]} in a real estate setting, as well as other kinds of tours as appropriate.
+  ///
+  /// Can be used on: https://schema.org/Accommodation, https://schema.org/ApartmentComplex, https://schema.org/Place
+  ///
+  static const tourBookingPage = IriTerm('https://schema.org/tourBookingPage');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -153,7 +484,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -161,8 +492,32 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
+  static const alternateName = IriTerm('https://schema.org/alternateName');
+
+  /// containsPlace [Expects: https://schema.org/Place]
+  ///
+  /// The basic containment relation between a place and another that it contains.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const containsPlace = IriTerm('https://schema.org/containsPlace');
+
+  /// event [Expects: https://schema.org/Event]
+  ///
+  /// Upcoming or past event associated with this place, organization, or action.
+  ///
+  /// Can be used on: https://schema.org/InformAction, https://schema.org/InviteAction, https://schema.org/JoinAction, https://schema.org/LeaveAction, https://schema.org/Organization, https://schema.org/Place, https://schema.org/PlayAction
+  ///
+  static const event = IriTerm('https://schema.org/event');
+
+  /// isAccessibleForFree [Expects: https://schema.org/Boolean]
+  ///
+  /// A flag to signal that the item, event, or place is accessible for free.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
+  ///
+  static const isAccessibleForFree = IriTerm(
+    'https://schema.org/isAccessibleForFree',
   );
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
@@ -171,9 +526,33 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
+
+  /// photo [Expects: https://schema.org/ImageObject, https://schema.org/Photograph]
+  ///
+  /// A photograph of this place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const photo = IriTerm('https://schema.org/photo');
+
+  /// review [Expects: https://schema.org/Review]
+  ///
+  /// A review of the item.
+  ///
+  /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
+  ///
+  static const review = IriTerm('https://schema.org/review');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -181,7 +560,25 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
+
+  /// containedInPlace [Expects: https://schema.org/Place]
+  ///
+  /// The basic containment relation between a place and one that contains it.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const containedInPlace = IriTerm(
+    'https://schema.org/containedInPlace',
+  );
+
+  /// hasMap [Expects: https://schema.org/Map, https://schema.org/URL]
+  ///
+  /// A URL to a map of the place.
+  ///
+  /// Can be used on: https://schema.org/Place
+  ///
+  static const hasMap = IriTerm('https://schema.org/hasMap');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -189,7 +586,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -197,7 +594,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -206,15 +603,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -222,7 +611,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -232,7 +621,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -242,7 +631,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -252,7 +641,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -262,7 +651,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -272,7 +661,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -282,7 +671,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -292,7 +681,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -302,7 +691,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -312,8 +701,28 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
+  );
+
+  /// bottomDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that does not relate any individual to any data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomDataProperty',
+  );
+
+  /// bottomObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that does not relate any two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
   /// deprecated from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -322,8 +731,18 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
+  );
+
+  /// differentFrom from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are different.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlDifferentFrom = IriTerm(
+    'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
   /// members from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
@@ -332,8 +751,34 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
+
+  /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are equal.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
+
+  /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that relates every individual to every data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topDataProperty',
+  );
+
+  /// topObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that relates every two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -342,9 +787,83 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
+
+  /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A name for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
+
+  /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A homepage for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
+
+  /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that  made this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
+
+  /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
+  ///
+  /// A depiction of some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
+
+  /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// An organization funding a project or person.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+
+  /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A logo representing some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
+
+  /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A page or document about this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
+
+  /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A theme.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -352,7 +871,7 @@ class SchemaDefinedRegion {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

@@ -26,7 +26,7 @@ class SchemaHttpJobPosting {
 
   /// IRI term for the JobPosting class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/JobPosting');
+  static const classIri = IriTerm('http://schema.org/JobPosting');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -35,9 +35,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// applicantLocationRequirements [Expects: http://schema.org/AdministrativeArea]
   ///
@@ -45,7 +43,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const applicantLocationRequirements = const IriTerm(
+  static const applicantLocationRequirements = IriTerm(
     'http://schema.org/applicantLocationRequirements',
   );
 
@@ -55,7 +53,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const applicationContact = const IriTerm(
+  static const applicationContact = IriTerm(
     'http://schema.org/applicationContact',
   );
 
@@ -65,7 +63,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/EmployeeRole, http://schema.org/JobPosting
   ///
-  static const baseSalary = const IriTerm('http://schema.org/baseSalary');
+  static const baseSalary = IriTerm('http://schema.org/baseSalary');
 
   /// benefits [Expects: http://schema.org/Text]
   ///
@@ -73,7 +71,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const benefits = const IriTerm('http://schema.org/benefits');
+  static const benefits = IriTerm('http://schema.org/benefits');
 
   /// datePosted [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -81,7 +79,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/CDCPMDRecord, http://schema.org/JobPosting, http://schema.org/RealEstateListing, http://schema.org/SpecialAnnouncement
   ///
-  static const datePosted = const IriTerm('http://schema.org/datePosted');
+  static const datePosted = IriTerm('http://schema.org/datePosted');
 
   /// directApply [Expects: http://schema.org/Boolean]
   ///
@@ -89,7 +87,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const directApply = const IriTerm('http://schema.org/directApply');
+  static const directApply = IriTerm('http://schema.org/directApply');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -97,7 +95,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -107,7 +105,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation
   ///
-  static const educationRequirements = const IriTerm(
+  static const educationRequirements = IriTerm(
     'http://schema.org/educationRequirements',
   );
 
@@ -117,7 +115,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const eligibilityToWorkRequirement = const IriTerm(
+  static const eligibilityToWorkRequirement = IriTerm(
     'http://schema.org/eligibilityToWorkRequirement',
   );
 
@@ -127,9 +125,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const employerOverview = const IriTerm(
-    'http://schema.org/employerOverview',
-  );
+  static const employerOverview = IriTerm('http://schema.org/employerOverview');
 
   /// employmentType [Expects: http://schema.org/Text]
   ///
@@ -137,9 +133,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const employmentType = const IriTerm(
-    'http://schema.org/employmentType',
-  );
+  static const employmentType = IriTerm('http://schema.org/employmentType');
 
   /// employmentUnit [Expects: http://schema.org/Organization]
   ///
@@ -147,9 +141,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const employmentUnit = const IriTerm(
-    'http://schema.org/employmentUnit',
-  );
+  static const employmentUnit = IriTerm('http://schema.org/employmentUnit');
 
   /// estimatedSalary [Expects: http://schema.org/MonetaryAmount, http://schema.org/MonetaryAmountDistribution, http://schema.org/Number]
   ///
@@ -157,9 +149,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation
   ///
-  static const estimatedSalary = const IriTerm(
-    'http://schema.org/estimatedSalary',
-  );
+  static const estimatedSalary = IriTerm('http://schema.org/estimatedSalary');
 
   /// experienceInPlaceOfEducation [Expects: http://schema.org/Boolean]
   ///
@@ -167,7 +157,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const experienceInPlaceOfEducation = const IriTerm(
+  static const experienceInPlaceOfEducation = IriTerm(
     'http://schema.org/experienceInPlaceOfEducation',
   );
 
@@ -177,7 +167,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation
   ///
-  static const experienceRequirements = const IriTerm(
+  static const experienceRequirements = IriTerm(
     'http://schema.org/experienceRequirements',
   );
 
@@ -187,7 +177,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const hiringOrganization = const IriTerm(
+  static const hiringOrganization = IriTerm(
     'http://schema.org/hiringOrganization',
   );
 
@@ -197,7 +187,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const incentives = const IriTerm('http://schema.org/incentives');
+  static const incentives = IriTerm('http://schema.org/incentives');
 
   /// industry [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -205,7 +195,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const industry = const IriTerm('http://schema.org/industry');
+  static const industry = IriTerm('http://schema.org/industry');
 
   /// interactionCount
   ///
@@ -213,9 +203,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// jobImmediateStart [Expects: http://schema.org/Boolean]
   ///
@@ -223,7 +211,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const jobImmediateStart = const IriTerm(
+  static const jobImmediateStart = IriTerm(
     'http://schema.org/jobImmediateStart',
   );
 
@@ -233,7 +221,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const jobLocation = const IriTerm('http://schema.org/jobLocation');
+  static const jobLocation = IriTerm('http://schema.org/jobLocation');
 
   /// jobLocationType [Expects: http://schema.org/Text]
   ///
@@ -241,9 +229,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const jobLocationType = const IriTerm(
-    'http://schema.org/jobLocationType',
-  );
+  static const jobLocationType = IriTerm('http://schema.org/jobLocationType');
 
   /// jobStartDate [Expects: http://schema.org/Date, http://schema.org/Text]
   ///
@@ -251,7 +237,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const jobStartDate = const IriTerm('http://schema.org/jobStartDate');
+  static const jobStartDate = IriTerm('http://schema.org/jobStartDate');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -259,7 +245,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// occupationalCategory [Expects: http://schema.org/CategoryCode, http://schema.org/Text]
   ///
@@ -268,7 +254,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/EducationalOccupationalProgram, http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Physician, http://schema.org/WorkBasedProgram
   ///
-  static const occupationalCategory = const IriTerm(
+  static const occupationalCategory = IriTerm(
     'http://schema.org/occupationalCategory',
   );
 
@@ -278,7 +264,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const physicalRequirement = const IriTerm(
+  static const physicalRequirement = IriTerm(
     'http://schema.org/physicalRequirement',
   );
 
@@ -288,9 +274,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// qualifications [Expects: http://schema.org/EducationalOccupationalCredential, http://schema.org/Text]
   ///
@@ -298,9 +282,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation
   ///
-  static const qualifications = const IriTerm(
-    'http://schema.org/qualifications',
-  );
+  static const qualifications = IriTerm('http://schema.org/qualifications');
 
   /// relevantOccupation [Expects: http://schema.org/Occupation]
   ///
@@ -308,7 +290,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const relevantOccupation = const IriTerm(
+  static const relevantOccupation = IriTerm(
     'http://schema.org/relevantOccupation',
   );
 
@@ -318,9 +300,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation
   ///
-  static const responsibilities = const IriTerm(
-    'http://schema.org/responsibilities',
-  );
+  static const responsibilities = IriTerm('http://schema.org/responsibilities');
 
   /// salaryCurrency [Expects: http://schema.org/Text]
   ///
@@ -328,9 +308,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/EmployeeRole, http://schema.org/JobPosting
   ///
-  static const salaryCurrency = const IriTerm(
-    'http://schema.org/salaryCurrency',
-  );
+  static const salaryCurrency = IriTerm('http://schema.org/salaryCurrency');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -338,7 +316,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// securityClearanceRequirement [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -346,7 +324,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const securityClearanceRequirement = const IriTerm(
+  static const securityClearanceRequirement = IriTerm(
     'http://schema.org/securityClearanceRequirement',
   );
 
@@ -356,7 +334,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const sensoryRequirement = const IriTerm(
+  static const sensoryRequirement = IriTerm(
     'http://schema.org/sensoryRequirement',
   );
 
@@ -366,7 +344,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const skills = const IriTerm('http://schema.org/skills');
+  static const skills = IriTerm('http://schema.org/skills');
 
   /// specialCommitments [Expects: http://schema.org/Text]
   ///
@@ -374,7 +352,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const specialCommitments = const IriTerm(
+  static const specialCommitments = IriTerm(
     'http://schema.org/specialCommitments',
   );
 
@@ -384,7 +362,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const title = const IriTerm('http://schema.org/title');
+  static const title = IriTerm('http://schema.org/title');
 
   /// totalJobOpenings [Expects: http://schema.org/Integer]
   ///
@@ -392,9 +370,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const totalJobOpenings = const IriTerm(
-    'http://schema.org/totalJobOpenings',
-  );
+  static const totalJobOpenings = IriTerm('http://schema.org/totalJobOpenings');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -402,7 +378,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// validThrough [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -410,7 +386,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/FinancialIncentive, http://schema.org/JobPosting, http://schema.org/LocationFeatureSpecification, http://schema.org/MonetaryAmount, http://schema.org/Offer, http://schema.org/OpeningHoursSpecification, http://schema.org/PriceSpecification
   ///
-  static const validThrough = const IriTerm('http://schema.org/validThrough');
+  static const validThrough = IriTerm('http://schema.org/validThrough');
 
   /// workHours [Expects: http://schema.org/Text]
   ///
@@ -418,7 +394,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const workHours = const IriTerm('http://schema.org/workHours');
+  static const workHours = IriTerm('http://schema.org/workHours');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -426,7 +402,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// incentiveCompensation [Expects: http://schema.org/Text]
   ///
@@ -434,7 +410,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const incentiveCompensation = const IriTerm(
+  static const incentiveCompensation = IriTerm(
     'http://schema.org/incentiveCompensation',
   );
 
@@ -444,7 +420,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/JobPosting
   ///
-  static const jobBenefits = const IriTerm('http://schema.org/jobBenefits');
+  static const jobBenefits = IriTerm('http://schema.org/jobBenefits');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -452,9 +428,15 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -462,7 +444,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -470,7 +452,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -478,7 +460,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -487,15 +469,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -503,7 +477,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -513,7 +487,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -523,7 +497,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -533,7 +507,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -543,7 +517,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -553,7 +527,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -563,7 +537,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -573,7 +547,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -583,7 +557,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -593,7 +567,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -603,7 +577,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -613,9 +587,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -623,7 +595,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -633,7 +605,7 @@ class SchemaHttpJobPosting {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

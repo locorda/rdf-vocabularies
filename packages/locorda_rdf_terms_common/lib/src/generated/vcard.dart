@@ -23,7 +23,7 @@ class Vcard {
   ///
   ///
   ///
-  static const Acquaintance = const IriTerm(
+  static const Acquaintance = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Acquaintance',
   );
 
@@ -31,61 +31,55 @@ class Vcard {
   ///
   /// To specify the components of the delivery address for the object
   ///
-  static const Address = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Address',
-  );
+  static const Address = IriTerm('http://www.w3.org/2006/vcard/ns#Address');
 
   /// IRI for vcard:Agent
   ///
   ///
   ///
-  static const Agent = const IriTerm('http://www.w3.org/2006/vcard/ns#Agent');
+  static const Agent = IriTerm('http://www.w3.org/2006/vcard/ns#Agent');
 
   /// IRI for vcard:BBS
   ///
   /// This class is deprecated
   ///
-  static const BBS = const IriTerm('http://www.w3.org/2006/vcard/ns#BBS');
+  static const BBS = IriTerm('http://www.w3.org/2006/vcard/ns#BBS');
 
   /// IRI for vcard:Car
   ///
   /// This class is deprecated
   ///
-  static const Car = const IriTerm('http://www.w3.org/2006/vcard/ns#Car');
+  static const Car = IriTerm('http://www.w3.org/2006/vcard/ns#Car');
 
   /// IRI for vcard:Cell
   ///
   /// Also called mobile telephone
   ///
-  static const Cell = const IriTerm('http://www.w3.org/2006/vcard/ns#Cell');
+  static const Cell = IriTerm('http://www.w3.org/2006/vcard/ns#Cell');
 
   /// IRI for vcard:Child
   ///
   ///
   ///
-  static const Child = const IriTerm('http://www.w3.org/2006/vcard/ns#Child');
+  static const Child = IriTerm('http://www.w3.org/2006/vcard/ns#Child');
 
   /// IRI for vcard:Colleague
   ///
   ///
   ///
-  static const Colleague = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Colleague',
-  );
+  static const Colleague = IriTerm('http://www.w3.org/2006/vcard/ns#Colleague');
 
   /// IRI for vcard:Contact
   ///
   ///
   ///
-  static const Contact = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Contact',
-  );
+  static const Contact = IriTerm('http://www.w3.org/2006/vcard/ns#Contact');
 
   /// IRI for vcard:Coresident
   ///
   ///
   ///
-  static const Coresident = const IriTerm(
+  static const Coresident = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Coresident',
   );
 
@@ -93,89 +87,85 @@ class Vcard {
   ///
   ///
   ///
-  static const Coworker = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Coworker',
-  );
+  static const Coworker = IriTerm('http://www.w3.org/2006/vcard/ns#Coworker');
 
   /// IRI for vcard:Crush
   ///
   ///
   ///
-  static const Crush = const IriTerm('http://www.w3.org/2006/vcard/ns#Crush');
+  static const Crush = IriTerm('http://www.w3.org/2006/vcard/ns#Crush');
 
   /// IRI for vcard:Date
   ///
   ///
   ///
-  static const Date = const IriTerm('http://www.w3.org/2006/vcard/ns#Date');
+  static const Date = IriTerm('http://www.w3.org/2006/vcard/ns#Date');
 
   /// IRI for vcard:Dom
   ///
   /// This class is deprecated
   ///
-  static const Dom = const IriTerm('http://www.w3.org/2006/vcard/ns#Dom');
+  static const Dom = IriTerm('http://www.w3.org/2006/vcard/ns#Dom');
 
   /// IRI for vcard:Email
   ///
   /// To specify the electronic mail address for communication with the object the vCard represents. Use the hasEmail object property.
   ///
-  static const Email = const IriTerm('http://www.w3.org/2006/vcard/ns#Email');
+  static const Email = IriTerm('http://www.w3.org/2006/vcard/ns#Email');
 
   /// IRI for vcard:Emergency
   ///
   ///
   ///
-  static const Emergency = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Emergency',
-  );
+  static const Emergency = IriTerm('http://www.w3.org/2006/vcard/ns#Emergency');
 
   /// IRI for vcard:Fax
   ///
   ///
   ///
-  static const Fax = const IriTerm('http://www.w3.org/2006/vcard/ns#Fax');
+  static const Fax = IriTerm('http://www.w3.org/2006/vcard/ns#Fax');
 
   /// IRI for vcard:Female
   ///
   ///
   ///
-  static const Female = const IriTerm('http://www.w3.org/2006/vcard/ns#Female');
+  static const Female = IriTerm('http://www.w3.org/2006/vcard/ns#Female');
 
   /// IRI for vcard:Friend
   ///
   ///
   ///
-  static const Friend = const IriTerm('http://www.w3.org/2006/vcard/ns#Friend');
+  static const Friend = IriTerm('http://www.w3.org/2006/vcard/ns#Friend');
 
   /// IRI for vcard:Gender
   ///
   /// Used for gender codes. The URI of the gender code must be used as the value for Gender.
   ///
-  static const Gender = const IriTerm('http://www.w3.org/2006/vcard/ns#Gender');
+  static const Gender = IriTerm('http://www.w3.org/2006/vcard/ns#Gender');
 
   /// IRI for vcard:Group
   ///
   /// Object representing a group of persons or entities. A group object will usually contain hasMember properties to specify the members of the group.
   ///
-  static const Group = const IriTerm('http://www.w3.org/2006/vcard/ns#Group');
+  static const Group = IriTerm('http://www.w3.org/2006/vcard/ns#Group');
 
   /// IRI for vcard:Home
   ///
   /// This implies that the property is related to an individual's personal life
   ///
-  static const Home = const IriTerm('http://www.w3.org/2006/vcard/ns#Home');
+  static const Home = IriTerm('http://www.w3.org/2006/vcard/ns#Home');
 
   /// IRI for vcard:ISDN
   ///
   /// This class is deprecated
   ///
-  static const ISDN = const IriTerm('http://www.w3.org/2006/vcard/ns#ISDN');
+  static const ISDN = IriTerm('http://www.w3.org/2006/vcard/ns#ISDN');
 
   /// IRI for vcard:Individual
   ///
   /// An object representing a single person or entity
   ///
-  static const Individual = const IriTerm(
+  static const Individual = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Individual',
   );
 
@@ -183,103 +173,97 @@ class Vcard {
   ///
   /// This class is deprecated
   ///
-  static const Internet = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Internet',
-  );
+  static const Internet = IriTerm('http://www.w3.org/2006/vcard/ns#Internet');
 
   /// IRI for vcard:Intl
   ///
   /// This class is deprecated
   ///
-  static const Intl = const IriTerm('http://www.w3.org/2006/vcard/ns#Intl');
+  static const Intl = IriTerm('http://www.w3.org/2006/vcard/ns#Intl');
 
   /// IRI for vcard:Kin
   ///
   ///
   ///
-  static const Kin = const IriTerm('http://www.w3.org/2006/vcard/ns#Kin');
+  static const Kin = IriTerm('http://www.w3.org/2006/vcard/ns#Kin');
 
   /// IRI for vcard:Kind
   ///
   /// The parent class for all objects
   ///
-  static const Kind = const IriTerm('http://www.w3.org/2006/vcard/ns#Kind');
+  static const Kind = IriTerm('http://www.w3.org/2006/vcard/ns#Kind');
 
   /// IRI for vcard:Label
   ///
   /// This class is deprecated
   ///
-  static const Label = const IriTerm('http://www.w3.org/2006/vcard/ns#Label');
+  static const Label = IriTerm('http://www.w3.org/2006/vcard/ns#Label');
 
   /// IRI for vcard:Location
   ///
   /// An object representing a named geographical place
   ///
-  static const Location = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Location',
-  );
+  static const Location = IriTerm('http://www.w3.org/2006/vcard/ns#Location');
 
   /// IRI for vcard:Male
   ///
   ///
   ///
-  static const Male = const IriTerm('http://www.w3.org/2006/vcard/ns#Male');
+  static const Male = IriTerm('http://www.w3.org/2006/vcard/ns#Male');
 
   /// IRI for vcard:Me
   ///
   ///
   ///
-  static const Me = const IriTerm('http://www.w3.org/2006/vcard/ns#Me');
+  static const Me = IriTerm('http://www.w3.org/2006/vcard/ns#Me');
 
   /// IRI for vcard:Met
   ///
   ///
   ///
-  static const Met = const IriTerm('http://www.w3.org/2006/vcard/ns#Met');
+  static const Met = IriTerm('http://www.w3.org/2006/vcard/ns#Met');
 
   /// IRI for vcard:Modem
   ///
   /// This class is deprecated
   ///
-  static const Modem = const IriTerm('http://www.w3.org/2006/vcard/ns#Modem');
+  static const Modem = IriTerm('http://www.w3.org/2006/vcard/ns#Modem');
 
   /// IRI for vcard:Msg
   ///
   /// This class is deprecated
   ///
-  static const Msg = const IriTerm('http://www.w3.org/2006/vcard/ns#Msg');
+  static const Msg = IriTerm('http://www.w3.org/2006/vcard/ns#Msg');
 
   /// IRI for vcard:Muse
   ///
   ///
   ///
-  static const Muse = const IriTerm('http://www.w3.org/2006/vcard/ns#Muse');
+  static const Muse = IriTerm('http://www.w3.org/2006/vcard/ns#Muse');
 
   /// IRI for vcard:Name
   ///
   /// To specify the components of the name of the object
   ///
-  static const Name = const IriTerm('http://www.w3.org/2006/vcard/ns#Name');
+  static const Name = IriTerm('http://www.w3.org/2006/vcard/ns#Name');
 
   /// IRI for vcard:Neighbor
   ///
   ///
   ///
-  static const Neighbor = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Neighbor',
-  );
+  static const Neighbor = IriTerm('http://www.w3.org/2006/vcard/ns#Neighbor');
 
   /// IRI for vcard:None
   ///
   ///
   ///
-  static const None = const IriTerm('http://www.w3.org/2006/vcard/ns#None');
+  static const None = IriTerm('http://www.w3.org/2006/vcard/ns#None');
 
   /// IRI for vcard:Organization
   ///
   /// An object representing an organization. An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
   ///
-  static const Organization = const IriTerm(
+  static const Organization = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Organization',
   );
 
@@ -287,49 +271,49 @@ class Vcard {
   ///
   ///
   ///
-  static const Other = const IriTerm('http://www.w3.org/2006/vcard/ns#Other');
+  static const Other = IriTerm('http://www.w3.org/2006/vcard/ns#Other');
 
   /// IRI for vcard:PCS
   ///
   /// This class is deprecated
   ///
-  static const PCS = const IriTerm('http://www.w3.org/2006/vcard/ns#PCS');
+  static const PCS = IriTerm('http://www.w3.org/2006/vcard/ns#PCS');
 
   /// IRI for vcard:Pager
   ///
   ///
   ///
-  static const Pager = const IriTerm('http://www.w3.org/2006/vcard/ns#Pager');
+  static const Pager = IriTerm('http://www.w3.org/2006/vcard/ns#Pager');
 
   /// IRI for vcard:Parcel
   ///
   /// This class is deprecated
   ///
-  static const Parcel = const IriTerm('http://www.w3.org/2006/vcard/ns#Parcel');
+  static const Parcel = IriTerm('http://www.w3.org/2006/vcard/ns#Parcel');
 
   /// IRI for vcard:Parent
   ///
   ///
   ///
-  static const Parent = const IriTerm('http://www.w3.org/2006/vcard/ns#Parent');
+  static const Parent = IriTerm('http://www.w3.org/2006/vcard/ns#Parent');
 
   /// IRI for vcard:Postal
   ///
   /// This class is deprecated
   ///
-  static const Postal = const IriTerm('http://www.w3.org/2006/vcard/ns#Postal');
+  static const Postal = IriTerm('http://www.w3.org/2006/vcard/ns#Postal');
 
   /// IRI for vcard:Pref
   ///
   /// This class is deprecated
   ///
-  static const Pref = const IriTerm('http://www.w3.org/2006/vcard/ns#Pref');
+  static const Pref = IriTerm('http://www.w3.org/2006/vcard/ns#Pref');
 
   /// IRI for vcard:RelatedType
   ///
   /// Used for relation type codes. The URI of the relation type code must be used as the value for the Relation Type.
   ///
-  static const RelatedType = const IriTerm(
+  static const RelatedType = IriTerm(
     'http://www.w3.org/2006/vcard/ns#RelatedType',
   );
 
@@ -337,21 +321,19 @@ class Vcard {
   ///
   ///
   ///
-  static const Sibling = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Sibling',
-  );
+  static const Sibling = IriTerm('http://www.w3.org/2006/vcard/ns#Sibling');
 
   /// IRI for vcard:Spouse
   ///
   ///
   ///
-  static const Spouse = const IriTerm('http://www.w3.org/2006/vcard/ns#Spouse');
+  static const Spouse = IriTerm('http://www.w3.org/2006/vcard/ns#Spouse');
 
   /// IRI for vcard:Sweetheart
   ///
   ///
   ///
-  static const Sweetheart = const IriTerm(
+  static const Sweetheart = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Sweetheart',
   );
 
@@ -359,13 +341,13 @@ class Vcard {
   ///
   /// This class is deprecated. Use the hasTelephone object property.
   ///
-  static const Tel = const IriTerm('http://www.w3.org/2006/vcard/ns#Tel');
+  static const Tel = IriTerm('http://www.w3.org/2006/vcard/ns#Tel');
 
   /// IRI for vcard:TelephoneType
   ///
   /// Used for telephone type codes. The URI of the telephone type code must be used as the value for the Telephone Type.
   ///
-  static const TelephoneType = const IriTerm(
+  static const TelephoneType = IriTerm(
     'http://www.w3.org/2006/vcard/ns#TelephoneType',
   );
 
@@ -373,65 +355,61 @@ class Vcard {
   ///
   /// Also called sms telephone
   ///
-  static const Text = const IriTerm('http://www.w3.org/2006/vcard/ns#Text');
+  static const Text = IriTerm('http://www.w3.org/2006/vcard/ns#Text');
 
   /// IRI for vcard:TextPhone
   ///
   ///
   ///
-  static const TextPhone = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#TextPhone',
-  );
+  static const TextPhone = IriTerm('http://www.w3.org/2006/vcard/ns#TextPhone');
 
   /// IRI for vcard:Type
   ///
   /// Used for type codes. The URI of the type code must be used as the value for Type.
   ///
-  static const Type = const IriTerm('http://www.w3.org/2006/vcard/ns#Type');
+  static const Type = IriTerm('http://www.w3.org/2006/vcard/ns#Type');
 
   /// IRI for vcard:Unknown
   ///
   ///
   ///
-  static const Unknown = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#Unknown',
-  );
+  static const Unknown = IriTerm('http://www.w3.org/2006/vcard/ns#Unknown');
 
   /// IRI for vcard:VCard
   ///
   /// The vCard class is equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)
   ///
-  static const VCard = const IriTerm('http://www.w3.org/2006/vcard/ns#VCard');
+  static const VCard = IriTerm('http://www.w3.org/2006/vcard/ns#VCard');
 
   /// IRI for vcard:Video
   ///
   ///
   ///
-  static const Video = const IriTerm('http://www.w3.org/2006/vcard/ns#Video');
+  static const Video = IriTerm('http://www.w3.org/2006/vcard/ns#Video');
 
   /// IRI for vcard:Voice
   ///
   ///
   ///
-  static const Voice = const IriTerm('http://www.w3.org/2006/vcard/ns#Voice');
+  static const Voice = IriTerm('http://www.w3.org/2006/vcard/ns#Voice');
 
   /// IRI for vcard:Work
   ///
   /// This implies that the property is related to an individual's work place
   ///
-  static const Work = const IriTerm('http://www.w3.org/2006/vcard/ns#Work');
+  static const Work = IriTerm('http://www.w3.org/2006/vcard/ns#Work');
 
   /// IRI for vcard:X400
   ///
   /// This class is deprecated
   ///
-  static const X400 = const IriTerm('http://www.w3.org/2006/vcard/ns#X400');
+  static const X400 = IriTerm('http://www.w3.org/2006/vcard/ns#X400');
 
   /// IRI for vcard:AddressBook
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const AddressBook = const IriTerm(
+  static const AddressBook = IriTerm(
     'http://www.w3.org/2006/vcard/ns#AddressBook',
   );
 
@@ -439,7 +417,7 @@ class Vcard {
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const groupIndex = const IriTerm(
+  static const groupIndex = IriTerm(
     'http://www.w3.org/2006/vcard/ns#groupIndex',
   );
 
@@ -447,7 +425,7 @@ class Vcard {
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const includesGroup = const IriTerm(
+  static const includesGroup = IriTerm(
     'http://www.w3.org/2006/vcard/ns#includesGroup',
   );
 
@@ -455,7 +433,7 @@ class Vcard {
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const nameEmailIndex = const IriTerm(
+  static const nameEmailIndex = IriTerm(
     'http://www.w3.org/2006/vcard/ns#nameEmailIndex',
   );
 
@@ -463,7 +441,7 @@ class Vcard {
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const inAddressBook = const IriTerm(
+  static const inAddressBook = IriTerm(
     'http://www.w3.org/2006/vcard/ns#inAddressBook',
   );
 
@@ -471,7 +449,7 @@ class Vcard {
   ///
   /// This term is not part of vCard as defined by the IETF
   ///
-  static const WebID = const IriTerm('http://www.w3.org/2006/vcard/ns#WebID');
+  static const WebID = IriTerm('http://www.w3.org/2006/vcard/ns#WebID');
 
   /// IRI for vcard:adr
   ///
@@ -479,7 +457,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const adr = const IriTerm('http://www.w3.org/2006/vcard/ns#adr');
+  static const adr = IriTerm('http://www.w3.org/2006/vcard/ns#adr');
 
   /// IRI for vcard:agent
   ///
@@ -487,7 +465,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const agent = const IriTerm('http://www.w3.org/2006/vcard/ns#agent');
+  static const agent = IriTerm('http://www.w3.org/2006/vcard/ns#agent');
 
   /// IRI for vcard:email
   ///
@@ -495,7 +473,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const email = const IriTerm('http://www.w3.org/2006/vcard/ns#email');
+  static const email = IriTerm('http://www.w3.org/2006/vcard/ns#email');
 
   /// IRI for vcard:geo
   ///
@@ -503,7 +481,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const geo = const IriTerm('http://www.w3.org/2006/vcard/ns#geo');
+  static const geo = IriTerm('http://www.w3.org/2006/vcard/ns#geo');
 
   /// IRI for vcard:hasAdditionalName
   ///
@@ -511,7 +489,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasAdditionalName = const IriTerm(
+  static const hasAdditionalName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAdditionalName',
   );
 
@@ -521,7 +499,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasAddress = const IriTerm(
+  static const hasAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasAddress',
   );
 
@@ -531,7 +509,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarBusy = const IriTerm(
+  static const hasCalendarBusy = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarBusy',
   );
 
@@ -541,7 +519,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarLink = const IriTerm(
+  static const hasCalendarLink = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarLink',
   );
 
@@ -551,7 +529,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCalendarRequest = const IriTerm(
+  static const hasCalendarRequest = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCalendarRequest',
   );
 
@@ -561,7 +539,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCategory = const IriTerm(
+  static const hasCategory = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCategory',
   );
 
@@ -571,7 +549,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasCountryName = const IriTerm(
+  static const hasCountryName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasCountryName',
   );
 
@@ -581,9 +559,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasEmail = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasEmail',
-  );
+  static const hasEmail = IriTerm('http://www.w3.org/2006/vcard/ns#hasEmail');
 
   /// IRI for vcard:hasFN
   ///
@@ -591,7 +567,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFN = const IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
+  static const hasFN = IriTerm('http://www.w3.org/2006/vcard/ns#hasFN');
 
   /// IRI for vcard:hasFamilyName
   ///
@@ -599,7 +575,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFamilyName = const IriTerm(
+  static const hasFamilyName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasFamilyName',
   );
 
@@ -609,9 +585,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGender = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasGender',
-  );
+  static const hasGender = IriTerm('http://www.w3.org/2006/vcard/ns#hasGender');
 
   /// IRI for vcard:hasGeo
   ///
@@ -619,7 +593,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGeo = const IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
+  static const hasGeo = IriTerm('http://www.w3.org/2006/vcard/ns#hasGeo');
 
   /// IRI for vcard:hasGivenName
   ///
@@ -627,7 +601,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasGivenName = const IriTerm(
+  static const hasGivenName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasGivenName',
   );
 
@@ -637,7 +611,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasHonorificPrefix = const IriTerm(
+  static const hasHonorificPrefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificPrefix',
   );
 
@@ -647,7 +621,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasHonorificSuffix = const IriTerm(
+  static const hasHonorificSuffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasHonorificSuffix',
   );
 
@@ -657,7 +631,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasInstantMessage = const IriTerm(
+  static const hasInstantMessage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasInstantMessage',
   );
 
@@ -667,7 +641,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasKey = const IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
+  static const hasKey = IriTerm('http://www.w3.org/2006/vcard/ns#hasKey');
 
   /// IRI for vcard:hasLanguage
   ///
@@ -675,7 +649,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLanguage = const IriTerm(
+  static const hasLanguage = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLanguage',
   );
 
@@ -685,7 +659,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLocality = const IriTerm(
+  static const hasLocality = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasLocality',
   );
 
@@ -695,9 +669,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasLogo = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasLogo',
-  );
+  static const hasLogo = IriTerm('http://www.w3.org/2006/vcard/ns#hasLogo');
 
   /// IRI for vcard:hasMember [Expects: http://www.w3.org/2006/vcard/ns#Kind]
   ///
@@ -705,9 +677,7 @@ class Vcard {
   ///
   /// Can be used on: http://www.w3.org/2006/vcard/ns#Group
   ///
-  static const hasMember = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasMember',
-  );
+  static const hasMember = IriTerm('http://www.w3.org/2006/vcard/ns#hasMember');
 
   /// IRI for vcard:hasName [Expects: http://www.w3.org/2006/vcard/ns#Name]
   ///
@@ -715,9 +685,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasName = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasName',
-  );
+  static const hasName = IriTerm('http://www.w3.org/2006/vcard/ns#hasName');
 
   /// IRI for vcard:hasNickname
   ///
@@ -727,7 +695,7 @@ class Vcard {
   ///
   /// [See also](http://www.w3.org/2006/vcard/ns#nickname)
   ///
-  static const hasNickname = const IriTerm(
+  static const hasNickname = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasNickname',
   );
 
@@ -737,9 +705,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasNote = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasNote',
-  );
+  static const hasNote = IriTerm('http://www.w3.org/2006/vcard/ns#hasNote');
 
   /// IRI for vcard:hasOrganizationName
   ///
@@ -747,7 +713,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasOrganizationName = const IriTerm(
+  static const hasOrganizationName = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationName',
   );
 
@@ -757,7 +723,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasOrganizationUnit = const IriTerm(
+  static const hasOrganizationUnit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasOrganizationUnit',
   );
 
@@ -767,9 +733,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPhoto = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasPhoto',
-  );
+  static const hasPhoto = IriTerm('http://www.w3.org/2006/vcard/ns#hasPhoto');
 
   /// IRI for vcard:hasPostalCode
   ///
@@ -777,7 +741,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPostalCode = const IriTerm(
+  static const hasPostalCode = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasPostalCode',
   );
 
@@ -787,9 +751,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRegion = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRegion',
-  );
+  static const hasRegion = IriTerm('http://www.w3.org/2006/vcard/ns#hasRegion');
 
   /// IRI for vcard:hasRelated
   ///
@@ -797,7 +759,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRelated = const IriTerm(
+  static const hasRelated = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasRelated',
   );
 
@@ -807,9 +769,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasRole = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasRole',
-  );
+  static const hasRole = IriTerm('http://www.w3.org/2006/vcard/ns#hasRole');
 
   /// IRI for vcard:hasSound
   ///
@@ -817,9 +777,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasSound = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSound',
-  );
+  static const hasSound = IriTerm('http://www.w3.org/2006/vcard/ns#hasSound');
 
   /// IRI for vcard:hasSource
   ///
@@ -827,9 +785,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasSource = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasSource',
-  );
+  static const hasSource = IriTerm('http://www.w3.org/2006/vcard/ns#hasSource');
 
   /// IRI for vcard:hasStreetAddress
   ///
@@ -837,7 +793,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasStreetAddress = const IriTerm(
+  static const hasStreetAddress = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasStreetAddress',
   );
 
@@ -847,7 +803,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasTelephone = const IriTerm(
+  static const hasTelephone = IriTerm(
     'http://www.w3.org/2006/vcard/ns#hasTelephone',
   );
 
@@ -857,9 +813,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasTitle = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasTitle',
-  );
+  static const hasTitle = IriTerm('http://www.w3.org/2006/vcard/ns#hasTitle');
 
   /// IRI for vcard:hasUID
   ///
@@ -867,7 +821,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasUID = const IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
+  static const hasUID = IriTerm('http://www.w3.org/2006/vcard/ns#hasUID');
 
   /// IRI for vcard:hasURL
   ///
@@ -875,7 +829,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasURL = const IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
+  static const hasURL = IriTerm('http://www.w3.org/2006/vcard/ns#hasURL');
 
   /// IRI for vcard:hasValue
   ///
@@ -883,9 +837,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasValue = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#hasValue',
-  );
+  static const hasValue = IriTerm('http://www.w3.org/2006/vcard/ns#hasValue');
 
   /// IRI for vcard:key
   ///
@@ -893,7 +845,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const key = const IriTerm('http://www.w3.org/2006/vcard/ns#key');
+  static const key = IriTerm('http://www.w3.org/2006/vcard/ns#key');
 
   /// IRI for vcard:logo
   ///
@@ -901,7 +853,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const logo = const IriTerm('http://www.w3.org/2006/vcard/ns#logo');
+  static const logo = IriTerm('http://www.w3.org/2006/vcard/ns#logo');
 
   /// IRI for vcard:n
   ///
@@ -909,7 +861,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const n = const IriTerm('http://www.w3.org/2006/vcard/ns#n');
+  static const n = IriTerm('http://www.w3.org/2006/vcard/ns#n');
 
   /// IRI for vcard:org
   ///
@@ -917,7 +869,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const org = const IriTerm('http://www.w3.org/2006/vcard/ns#org');
+  static const org = IriTerm('http://www.w3.org/2006/vcard/ns#org');
 
   /// IRI for vcard:photo
   ///
@@ -925,7 +877,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const photo = const IriTerm('http://www.w3.org/2006/vcard/ns#photo');
+  static const photo = IriTerm('http://www.w3.org/2006/vcard/ns#photo');
 
   /// IRI for vcard:sound
   ///
@@ -933,7 +885,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const sound = const IriTerm('http://www.w3.org/2006/vcard/ns#sound');
+  static const sound = IriTerm('http://www.w3.org/2006/vcard/ns#sound');
 
   /// IRI for vcard:tel
   ///
@@ -941,7 +893,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tel = const IriTerm('http://www.w3.org/2006/vcard/ns#tel');
+  static const tel = IriTerm('http://www.w3.org/2006/vcard/ns#tel');
 
   /// IRI for vcard:url
   ///
@@ -949,7 +901,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const url = const IriTerm('http://www.w3.org/2006/vcard/ns#url');
+  static const url = IriTerm('http://www.w3.org/2006/vcard/ns#url');
 
   /// IRI for vcard:additional_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -957,7 +909,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const additional_name = const IriTerm(
+  static const additional_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#additional-name',
   );
 
@@ -967,7 +919,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const anniversary = const IriTerm(
+  static const anniversary = IriTerm(
     'http://www.w3.org/2006/vcard/ns#anniversary',
   );
 
@@ -977,7 +929,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const bday = const IriTerm('http://www.w3.org/2006/vcard/ns#bday');
+  static const bday = IriTerm('http://www.w3.org/2006/vcard/ns#bday');
 
   /// IRI for vcard:category [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -985,9 +937,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const category = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#category',
-  );
+  static const category = IriTerm('http://www.w3.org/2006/vcard/ns#category');
 
   /// IRI for vcard:class_
   ///
@@ -995,7 +945,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const class_ = const IriTerm('http://www.w3.org/2006/vcard/ns#class');
+  static const class_ = IriTerm('http://www.w3.org/2006/vcard/ns#class');
 
   /// IRI for vcard:country_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1003,7 +953,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const country_name = const IriTerm(
+  static const country_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#country-name',
   );
 
@@ -1013,7 +963,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const extended_address = const IriTerm(
+  static const extended_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#extended-address',
   );
 
@@ -1023,7 +973,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const family_name = const IriTerm(
+  static const family_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#family-name',
   );
 
@@ -1033,7 +983,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const fn = const IriTerm('http://www.w3.org/2006/vcard/ns#fn');
+  static const fn = IriTerm('http://www.w3.org/2006/vcard/ns#fn');
 
   /// IRI for vcard:given_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1041,7 +991,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const given_name = const IriTerm(
+  static const given_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#given-name',
   );
 
@@ -1051,7 +1001,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const honorific_prefix = const IriTerm(
+  static const honorific_prefix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-prefix',
   );
 
@@ -1061,7 +1011,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const honorific_suffix = const IriTerm(
+  static const honorific_suffix = IriTerm(
     'http://www.w3.org/2006/vcard/ns#honorific-suffix',
   );
 
@@ -1071,7 +1021,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const label = const IriTerm('http://www.w3.org/2006/vcard/ns#label');
+  static const label = IriTerm('http://www.w3.org/2006/vcard/ns#label');
 
   /// IRI for vcard:language
   ///
@@ -1079,9 +1029,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const language = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#language',
-  );
+  static const language = IriTerm('http://www.w3.org/2006/vcard/ns#language');
 
   /// IRI for vcard:latitude
   ///
@@ -1089,9 +1037,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const latitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#latitude',
-  );
+  static const latitude = IriTerm('http://www.w3.org/2006/vcard/ns#latitude');
 
   /// IRI for vcard:locality [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1099,9 +1045,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const locality = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#locality',
-  );
+  static const locality = IriTerm('http://www.w3.org/2006/vcard/ns#locality');
 
   /// IRI for vcard:longitude
   ///
@@ -1109,9 +1053,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const longitude = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#longitude',
-  );
+  static const longitude = IriTerm('http://www.w3.org/2006/vcard/ns#longitude');
 
   /// IRI for vcard:mailer
   ///
@@ -1119,7 +1061,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const mailer = const IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
+  static const mailer = IriTerm('http://www.w3.org/2006/vcard/ns#mailer');
 
   /// IRI for vcard:nickname [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1127,9 +1069,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const nickname = const IriTerm(
-    'http://www.w3.org/2006/vcard/ns#nickname',
-  );
+  static const nickname = IriTerm('http://www.w3.org/2006/vcard/ns#nickname');
 
   /// IRI for vcard:note [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1137,7 +1077,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const note = const IriTerm('http://www.w3.org/2006/vcard/ns#note');
+  static const note = IriTerm('http://www.w3.org/2006/vcard/ns#note');
 
   /// IRI for vcard:organization_name [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1145,7 +1085,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const organization_name = const IriTerm(
+  static const organization_name = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-name',
   );
 
@@ -1155,7 +1095,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const organization_unit = const IriTerm(
+  static const organization_unit = IriTerm(
     'http://www.w3.org/2006/vcard/ns#organization-unit',
   );
 
@@ -1165,7 +1105,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const post_office_box = const IriTerm(
+  static const post_office_box = IriTerm(
     'http://www.w3.org/2006/vcard/ns#post-office-box',
   );
 
@@ -1175,7 +1115,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const postal_code = const IriTerm(
+  static const postal_code = IriTerm(
     'http://www.w3.org/2006/vcard/ns#postal-code',
   );
 
@@ -1185,7 +1125,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const prodid = const IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
+  static const prodid = IriTerm('http://www.w3.org/2006/vcard/ns#prodid');
 
   /// IRI for vcard:region [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1193,7 +1133,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const region = const IriTerm('http://www.w3.org/2006/vcard/ns#region');
+  static const region = IriTerm('http://www.w3.org/2006/vcard/ns#region');
 
   /// IRI for vcard:rev [Expects: http://www.w3.org/2001/XMLSchema#dateTime]
   ///
@@ -1201,7 +1141,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rev = const IriTerm('http://www.w3.org/2006/vcard/ns#rev');
+  static const rev = IriTerm('http://www.w3.org/2006/vcard/ns#rev');
 
   /// IRI for vcard:role [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1209,7 +1149,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const role = const IriTerm('http://www.w3.org/2006/vcard/ns#role');
+  static const role = IriTerm('http://www.w3.org/2006/vcard/ns#role');
 
   /// IRI for vcard:sort_string [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1217,7 +1157,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const sort_string = const IriTerm(
+  static const sort_string = IriTerm(
     'http://www.w3.org/2006/vcard/ns#sort-string',
   );
 
@@ -1227,7 +1167,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const street_address = const IriTerm(
+  static const street_address = IriTerm(
     'http://www.w3.org/2006/vcard/ns#street-address',
   );
 
@@ -1237,7 +1177,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const title = const IriTerm('http://www.w3.org/2006/vcard/ns#title');
+  static const title = IriTerm('http://www.w3.org/2006/vcard/ns#title');
 
   /// IRI for vcard:tz [Expects: http://www.w3.org/2001/XMLSchema#string]
   ///
@@ -1245,7 +1185,7 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tz = const IriTerm('http://www.w3.org/2006/vcard/ns#tz');
+  static const tz = IriTerm('http://www.w3.org/2006/vcard/ns#tz');
 
   /// IRI for vcard:value
   ///
@@ -1253,5 +1193,5 @@ class Vcard {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const value = const IriTerm('http://www.w3.org/2006/vcard/ns#value');
+  static const value = IriTerm('http://www.w3.org/2006/vcard/ns#value');
 }

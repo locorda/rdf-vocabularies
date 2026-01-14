@@ -25,13 +25,7 @@ class SchemaUniversalProperties {
   ///
   /// This property is deprecated, alongside the UserInteraction types on which it depended.
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
-
-  /// source
-  ///
-  ///
-  ///
-  static const source = const IriTerm('https://schema.org/source');
 }

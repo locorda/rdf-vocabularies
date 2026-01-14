@@ -25,7 +25,7 @@ class AclAuthorization {
 
   /// IRI term for the Authorization class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
+  static const classIri = IriTerm(
     'http://www.w3.org/ns/auth/acl#Authorization',
   );
 
@@ -35,9 +35,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const accessTo = const IriTerm(
-    'http://www.w3.org/ns/auth/acl#accessTo',
-  );
+  static const accessTo = IriTerm('http://www.w3.org/ns/auth/acl#accessTo');
 
   /// accessToClass [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -45,7 +43,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const accessToClass = const IriTerm(
+  static const accessToClass = IriTerm(
     'http://www.w3.org/ns/auth/acl#accessToClass',
   );
 
@@ -55,7 +53,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const agent = const IriTerm('http://www.w3.org/ns/auth/acl#agent');
+  static const agent = IriTerm('http://www.w3.org/ns/auth/acl#agent');
 
   /// agentClass [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -63,9 +61,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const agentClass = const IriTerm(
-    'http://www.w3.org/ns/auth/acl#agentClass',
-  );
+  static const agentClass = IriTerm('http://www.w3.org/ns/auth/acl#agentClass');
 
   /// agentGroup [Expects: http://www.w3.org/2006/vcard/ns#Group]
   ///
@@ -75,9 +71,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const agentGroup = const IriTerm(
-    'http://www.w3.org/ns/auth/acl#agentGroup',
-  );
+  static const agentGroup = IriTerm('http://www.w3.org/ns/auth/acl#agentGroup');
 
   /// default_
   ///
@@ -92,9 +86,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const default_ = const IriTerm(
-    'http://www.w3.org/ns/auth/acl#default',
-  );
+  static const default_ = IriTerm('http://www.w3.org/ns/auth/acl#default');
 
   /// defaultForNew
   ///
@@ -103,7 +95,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const defaultForNew = const IriTerm(
+  static const defaultForNew = IriTerm(
     'http://www.w3.org/ns/auth/acl#defaultForNew',
   );
 
@@ -114,9 +106,7 @@ class AclAuthorization {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const delegates = const IriTerm(
-    'http://www.w3.org/ns/auth/acl#delegates',
-  );
+  static const delegates = IriTerm('http://www.w3.org/ns/auth/acl#delegates');
 
   /// mode [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -124,7 +114,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/ns/auth/acl#Authorization
   ///
-  static const mode = const IriTerm('http://www.w3.org/ns/auth/acl#mode');
+  static const mode = IriTerm('http://www.w3.org/ns/auth/acl#mode');
 
   /// origin [Expects: http://www.w3.org/ns/auth/acl#Origin]
   ///
@@ -139,7 +129,7 @@ class AclAuthorization {
   ///
   /// [See also](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin)
   ///
-  static const origin = const IriTerm('http://www.w3.org/ns/auth/acl#origin');
+  static const origin = IriTerm('http://www.w3.org/ns/auth/acl#origin');
 
   /// owner [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
@@ -150,7 +140,7 @@ class AclAuthorization {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const owner = const IriTerm('http://www.w3.org/ns/auth/acl#owner');
+  static const owner = IriTerm('http://www.w3.org/ns/auth/acl#owner');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -158,7 +148,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -168,7 +158,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -178,7 +168,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -188,7 +178,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -198,7 +188,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -208,7 +198,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -218,7 +208,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -228,7 +218,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -238,7 +228,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -248,7 +238,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -258,7 +248,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -268,9 +258,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -278,7 +266,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -288,7 +276,7 @@ class AclAuthorization {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

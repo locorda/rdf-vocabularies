@@ -18,6 +18,7 @@ import 'package:locorda_rdf_core/core.dart';
 /// - Place (https://schema.org/Place)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (https://schema.org/Thing)
+/// - Thing (http://www.w3.org/2002/07/owl#Thing)
 ///
 /// This class provides access to all properties that can be used with FastFoodRestaurant.
 /// [Class Reference](https://schema.org/FastFoodRestaurant)
@@ -29,9 +30,7 @@ class SchemaFastFoodRestaurant {
 
   /// IRI term for the FastFoodRestaurant class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'https://schema.org/FastFoodRestaurant',
-  );
+  static const classIri = IriTerm('https://schema.org/FastFoodRestaurant');
 
   /// acceptedPaymentMethod [Expects: https://schema.org/LoanOrCredit, https://schema.org/PaymentMethod, https://schema.org/Text]
   ///
@@ -39,7 +38,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Organization
   ///
-  static const acceptedPaymentMethod = const IriTerm(
+  static const acceptedPaymentMethod = IriTerm(
     'https://schema.org/acceptedPaymentMethod',
   );
 
@@ -49,7 +48,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/FoodEstablishment
   ///
-  static const acceptsReservations = const IriTerm(
+  static const acceptsReservations = IriTerm(
     'https://schema.org/acceptsReservations',
   );
 
@@ -59,7 +58,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const actionableFeedbackPolicy = const IriTerm(
+  static const actionableFeedbackPolicy = IriTerm(
     'https://schema.org/actionableFeedbackPolicy',
   );
 
@@ -70,7 +69,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/Place, https://schema.org/Product, https://schema.org/QualitativeValue, https://schema.org/QuantitativeValue
   ///
-  static const additionalProperty = const IriTerm(
+  static const additionalProperty = IriTerm(
     'https://schema.org/additionalProperty',
   );
 
@@ -81,9 +80,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// address [Expects: https://schema.org/PostalAddress, https://schema.org/Text]
   ///
@@ -91,7 +88,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const address = const IriTerm('https://schema.org/address');
+  static const address = IriTerm('https://schema.org/address');
 
   /// agentInteractionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -99,7 +96,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const agentInteractionStatistic = const IriTerm(
+  static const agentInteractionStatistic = IriTerm(
     'https://schema.org/agentInteractionStatistic',
   );
 
@@ -109,9 +106,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// amenityFeature [Expects: https://schema.org/LocationFeatureSpecification]
   ///
@@ -119,9 +114,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Accommodation, https://schema.org/FloorPlan, https://schema.org/LodgingBusiness, https://schema.org/Place
   ///
-  static const amenityFeature = const IriTerm(
-    'https://schema.org/amenityFeature',
-  );
+  static const amenityFeature = IriTerm('https://schema.org/amenityFeature');
 
   /// awards [Expects: https://schema.org/Text]
   ///
@@ -129,7 +122,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const awards = const IriTerm('https://schema.org/awards');
+  static const awards = IriTerm('https://schema.org/awards');
 
   /// branchCode [Expects: https://schema.org/Text]
   ///
@@ -138,7 +131,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const branchCode = const IriTerm('https://schema.org/branchCode');
+  static const branchCode = IriTerm('https://schema.org/branchCode');
 
   /// branchOf [Expects: https://schema.org/Organization]
   ///
@@ -146,7 +139,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/LocalBusiness
   ///
-  static const branchOf = const IriTerm('https://schema.org/branchOf');
+  static const branchOf = IriTerm('https://schema.org/branchOf');
 
   /// brand [Expects: https://schema.org/Brand, https://schema.org/Organization]
   ///
@@ -154,7 +147,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const brand = const IriTerm('https://schema.org/brand');
+  static const brand = IriTerm('https://schema.org/brand');
 
   /// companyRegistration [Expects: https://schema.org/Certification]
   ///
@@ -162,7 +155,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const companyRegistration = const IriTerm(
+  static const companyRegistration = IriTerm(
     'https://schema.org/companyRegistration',
   );
 
@@ -172,9 +165,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const contactPoints = const IriTerm(
-    'https://schema.org/contactPoints',
-  );
+  static const contactPoints = IriTerm('https://schema.org/contactPoints');
 
   /// containedIn [Expects: https://schema.org/Place]
   ///
@@ -182,7 +173,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containedIn = const IriTerm('https://schema.org/containedIn');
+  static const containedIn = IriTerm('https://schema.org/containedIn');
 
   /// correctionsPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -190,7 +181,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const correctionsPolicy = const IriTerm(
+  static const correctionsPolicy = IriTerm(
     'https://schema.org/correctionsPolicy',
   );
 
@@ -200,7 +191,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/LocalBusiness
   ///
-  static const currenciesAccepted = const IriTerm(
+  static const currenciesAccepted = IriTerm(
     'https://schema.org/currenciesAccepted',
   );
 
@@ -210,7 +201,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const department = const IriTerm('https://schema.org/department');
+  static const department = IriTerm('https://schema.org/department');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -218,7 +209,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -228,9 +219,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const dissolutionDate = const IriTerm(
-    'https://schema.org/dissolutionDate',
-  );
+  static const dissolutionDate = IriTerm('https://schema.org/dissolutionDate');
 
   /// diversityPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -238,9 +227,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const diversityPolicy = const IriTerm(
-    'https://schema.org/diversityPolicy',
-  );
+  static const diversityPolicy = IriTerm('https://schema.org/diversityPolicy');
 
   /// diversityStaffingReport [Expects: https://schema.org/Article, https://schema.org/URL]
   ///
@@ -248,7 +235,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const diversityStaffingReport = const IriTerm(
+  static const diversityStaffingReport = IriTerm(
     'https://schema.org/diversityStaffingReport',
   );
 
@@ -258,7 +245,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const duns = const IriTerm('https://schema.org/duns');
+  static const duns = IriTerm('https://schema.org/duns');
 
   /// email [Expects: https://schema.org/Text]
   ///
@@ -266,7 +253,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const email = const IriTerm('https://schema.org/email');
+  static const email = IriTerm('https://schema.org/email');
 
   /// employees [Expects: https://schema.org/Person]
   ///
@@ -274,7 +261,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const employees = const IriTerm('https://schema.org/employees');
+  static const employees = IriTerm('https://schema.org/employees');
 
   /// ethicsPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -282,7 +269,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const ethicsPolicy = const IriTerm('https://schema.org/ethicsPolicy');
+  static const ethicsPolicy = IriTerm('https://schema.org/ethicsPolicy');
 
   /// events [Expects: https://schema.org/Event]
   ///
@@ -290,7 +277,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Place
   ///
-  static const events = const IriTerm('https://schema.org/events');
+  static const events = IriTerm('https://schema.org/events');
 
   /// faxNumber [Expects: https://schema.org/Text]
   ///
@@ -298,7 +285,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const faxNumber = const IriTerm('https://schema.org/faxNumber');
+  static const faxNumber = IriTerm('https://schema.org/faxNumber');
 
   /// founders [Expects: https://schema.org/Person]
   ///
@@ -306,7 +293,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const founders = const IriTerm('https://schema.org/founders');
+  static const founders = IriTerm('https://schema.org/founders');
 
   /// foundingDate [Expects: https://schema.org/Date]
   ///
@@ -314,7 +301,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const foundingDate = const IriTerm('https://schema.org/foundingDate');
+  static const foundingDate = IriTerm('https://schema.org/foundingDate');
 
   /// foundingLocation [Expects: https://schema.org/Place]
   ///
@@ -322,7 +309,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const foundingLocation = const IriTerm(
+  static const foundingLocation = IriTerm(
     'https://schema.org/foundingLocation',
   );
 
@@ -332,7 +319,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const funder = const IriTerm('https://schema.org/funder');
+  static const funder = IriTerm('https://schema.org/funder');
 
   /// geo [Expects: https://schema.org/GeoCoordinates, https://schema.org/GeoShape]
   ///
@@ -340,7 +327,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const geo = const IriTerm('https://schema.org/geo');
+  static const geo = IriTerm('https://schema.org/geo');
 
   /// geoContains [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -348,7 +335,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoContains = const IriTerm('https://schema.org/geoContains');
+  static const geoContains = IriTerm('https://schema.org/geoContains');
 
   /// geoCoveredBy [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -356,7 +343,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCoveredBy = const IriTerm('https://schema.org/geoCoveredBy');
+  static const geoCoveredBy = IriTerm('https://schema.org/geoCoveredBy');
 
   /// geoCovers [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -364,7 +351,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCovers = const IriTerm('https://schema.org/geoCovers');
+  static const geoCovers = IriTerm('https://schema.org/geoCovers');
 
   /// geoCrosses [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -372,7 +359,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCrosses = const IriTerm('https://schema.org/geoCrosses');
+  static const geoCrosses = IriTerm('https://schema.org/geoCrosses');
 
   /// geoDisjoint [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -380,7 +367,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoDisjoint = const IriTerm('https://schema.org/geoDisjoint');
+  static const geoDisjoint = IriTerm('https://schema.org/geoDisjoint');
 
   /// geoEquals [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -388,7 +375,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoEquals = const IriTerm('https://schema.org/geoEquals');
+  static const geoEquals = IriTerm('https://schema.org/geoEquals');
 
   /// geoIntersects [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -396,9 +383,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoIntersects = const IriTerm(
-    'https://schema.org/geoIntersects',
-  );
+  static const geoIntersects = IriTerm('https://schema.org/geoIntersects');
 
   /// geoOverlaps [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -406,7 +391,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoOverlaps = const IriTerm('https://schema.org/geoOverlaps');
+  static const geoOverlaps = IriTerm('https://schema.org/geoOverlaps');
 
   /// geoTouches [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -414,7 +399,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoTouches = const IriTerm('https://schema.org/geoTouches');
+  static const geoTouches = IriTerm('https://schema.org/geoTouches');
 
   /// geoWithin [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -422,7 +407,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoWithin = const IriTerm('https://schema.org/geoWithin');
+  static const geoWithin = IriTerm('https://schema.org/geoWithin');
 
   /// globalLocationNumber [Expects: https://schema.org/Text]
   ///
@@ -430,7 +415,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const globalLocationNumber = const IriTerm(
+  static const globalLocationNumber = IriTerm(
     'https://schema.org/globalLocationNumber',
   );
 
@@ -440,7 +425,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
+  static const hasCertification = IriTerm(
     'https://schema.org/hasCertification',
   );
 
@@ -450,9 +435,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const hasCredential = const IriTerm(
-    'https://schema.org/hasCredential',
-  );
+  static const hasCredential = IriTerm('https://schema.org/hasCredential');
 
   /// hasDriveThroughService [Expects: https://schema.org/Boolean]
   ///
@@ -460,7 +443,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const hasDriveThroughService = const IriTerm(
+  static const hasDriveThroughService = IriTerm(
     'https://schema.org/hasDriveThroughService',
   );
 
@@ -470,7 +453,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'https://schema.org/hasGS1DigitalLink',
   );
 
@@ -480,7 +463,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const hasMemberProgram = const IriTerm(
+  static const hasMemberProgram = IriTerm(
     'https://schema.org/hasMemberProgram',
   );
 
@@ -490,7 +473,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Product
   ///
-  static const hasMerchantReturnPolicy = const IriTerm(
+  static const hasMerchantReturnPolicy = IriTerm(
     'https://schema.org/hasMerchantReturnPolicy',
   );
 
@@ -500,9 +483,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Service
   ///
-  static const hasOfferCatalog = const IriTerm(
-    'https://schema.org/hasOfferCatalog',
-  );
+  static const hasOfferCatalog = IriTerm('https://schema.org/hasOfferCatalog');
 
   /// hasPOS [Expects: https://schema.org/Place]
   ///
@@ -510,7 +491,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const hasPOS = const IriTerm('https://schema.org/hasPOS');
+  static const hasPOS = IriTerm('https://schema.org/hasPOS');
 
   /// hasShippingService [Expects: https://schema.org/ShippingService]
   ///
@@ -518,7 +499,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/OfferShippingDetails, https://schema.org/Organization
   ///
-  static const hasShippingService = const IriTerm(
+  static const hasShippingService = IriTerm(
     'https://schema.org/hasShippingService',
   );
 
@@ -528,7 +509,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -538,7 +519,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const isicV4 = const IriTerm('https://schema.org/isicV4');
+  static const isicV4 = IriTerm('https://schema.org/isicV4');
 
   /// iso6523Code [Expects: https://schema.org/Text]
   ///
@@ -546,7 +527,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const iso6523Code = const IriTerm('https://schema.org/iso6523Code');
+  static const iso6523Code = IriTerm('https://schema.org/iso6523Code');
 
   /// keywords [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -554,7 +535,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// knowsAbout [Expects: https://schema.org/Text, https://schema.org/Thing, https://schema.org/URL]
   ///
@@ -562,7 +543,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const knowsAbout = const IriTerm('https://schema.org/knowsAbout');
+  static const knowsAbout = IriTerm('https://schema.org/knowsAbout');
 
   /// knowsLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -570,9 +551,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const knowsLanguage = const IriTerm(
-    'https://schema.org/knowsLanguage',
-  );
+  static const knowsLanguage = IriTerm('https://schema.org/knowsLanguage');
 
   /// latitude [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -580,7 +559,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
   ///
-  static const latitude = const IriTerm('https://schema.org/latitude');
+  static const latitude = IriTerm('https://schema.org/latitude');
 
   /// legalAddress [Expects: https://schema.org/PostalAddress]
   ///
@@ -588,7 +567,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalAddress = const IriTerm('https://schema.org/legalAddress');
+  static const legalAddress = IriTerm('https://schema.org/legalAddress');
 
   /// legalName [Expects: https://schema.org/Text]
   ///
@@ -596,7 +575,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalName = const IriTerm('https://schema.org/legalName');
+  static const legalName = IriTerm('https://schema.org/legalName');
 
   /// legalRepresentative [Expects: https://schema.org/Person]
   ///
@@ -604,7 +583,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const legalRepresentative = const IriTerm(
+  static const legalRepresentative = IriTerm(
     'https://schema.org/legalRepresentative',
   );
 
@@ -614,7 +593,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const leiCode = const IriTerm('https://schema.org/leiCode');
+  static const leiCode = IriTerm('https://schema.org/leiCode');
 
   /// logo [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -622,7 +601,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Certification, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const logo = const IriTerm('https://schema.org/logo');
+  static const logo = IriTerm('https://schema.org/logo');
 
   /// longitude [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -630,7 +609,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
   ///
-  static const longitude = const IriTerm('https://schema.org/longitude');
+  static const longitude = IriTerm('https://schema.org/longitude');
 
   /// map [Expects: https://schema.org/URL]
   ///
@@ -638,7 +617,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const map = const IriTerm('https://schema.org/map');
+  static const map = IriTerm('https://schema.org/map');
 
   /// maps [Expects: https://schema.org/URL]
   ///
@@ -646,7 +625,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const maps = const IriTerm('https://schema.org/maps');
+  static const maps = IriTerm('https://schema.org/maps');
 
   /// maximumAttendeeCapacity [Expects: https://schema.org/Integer]
   ///
@@ -654,7 +633,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Event, https://schema.org/Place
   ///
-  static const maximumAttendeeCapacity = const IriTerm(
+  static const maximumAttendeeCapacity = IriTerm(
     'https://schema.org/maximumAttendeeCapacity',
   );
 
@@ -664,7 +643,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/ProgramMembership
   ///
-  static const members = const IriTerm('https://schema.org/members');
+  static const members = IriTerm('https://schema.org/members');
 
   /// menu [Expects: https://schema.org/Menu, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -672,7 +651,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/FoodEstablishment
   ///
-  static const menu = const IriTerm('https://schema.org/menu');
+  static const menu = IriTerm('https://schema.org/menu');
 
   /// naics [Expects: https://schema.org/Text]
   ///
@@ -680,7 +659,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const naics = const IriTerm('https://schema.org/naics');
+  static const naics = IriTerm('https://schema.org/naics');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -688,7 +667,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// nonprofitStatus [Expects: https://schema.org/NonprofitType]
   ///
@@ -696,9 +675,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const nonprofitStatus = const IriTerm(
-    'https://schema.org/nonprofitStatus',
-  );
+  static const nonprofitStatus = IriTerm('https://schema.org/nonprofitStatus');
 
   /// numberOfEmployees [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -706,7 +683,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/BusinessAudience, https://schema.org/Organization
   ///
-  static const numberOfEmployees = const IriTerm(
+  static const numberOfEmployees = IriTerm(
     'https://schema.org/numberOfEmployees',
   );
 
@@ -716,7 +693,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CivicStructure, https://schema.org/LocalBusiness
   ///
-  static const openingHours = const IriTerm('https://schema.org/openingHours');
+  static const openingHours = IriTerm('https://schema.org/openingHours');
 
   /// openingHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
   ///
@@ -724,7 +701,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const openingHoursSpecification = const IriTerm(
+  static const openingHoursSpecification = IriTerm(
     'https://schema.org/openingHoursSpecification',
   );
 
@@ -734,17 +711,9 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const ownershipFundingInfo = const IriTerm(
+  static const ownershipFundingInfo = IriTerm(
     'https://schema.org/ownershipFundingInfo',
   );
-
-  /// owns [Expects: https://schema.org/OwnershipInfo, https://schema.org/Product]
-  ///
-  /// Products owned by the organization or person.
-  ///
-  /// Can be used on: https://schema.org/Organization, https://schema.org/Person
-  ///
-  static const owns = const IriTerm('https://schema.org/owns');
 
   /// paymentAccepted [Expects: https://schema.org/Text]
   ///
@@ -752,9 +721,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/LocalBusiness
   ///
-  static const paymentAccepted = const IriTerm(
-    'https://schema.org/paymentAccepted',
-  );
+  static const paymentAccepted = IriTerm('https://schema.org/paymentAccepted');
 
   /// photos [Expects: https://schema.org/ImageObject, https://schema.org/Photograph]
   ///
@@ -762,7 +729,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const photos = const IriTerm('https://schema.org/photos');
+  static const photos = IriTerm('https://schema.org/photos');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -770,9 +737,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// priceRange [Expects: https://schema.org/Text]
   ///
@@ -780,7 +745,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/LocalBusiness
   ///
-  static const priceRange = const IriTerm('https://schema.org/priceRange');
+  static const priceRange = IriTerm('https://schema.org/priceRange');
 
   /// publicAccess [Expects: https://schema.org/Boolean]
   ///
@@ -788,7 +753,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const publicAccess = const IriTerm('https://schema.org/publicAccess');
+  static const publicAccess = IriTerm('https://schema.org/publicAccess');
 
   /// reviews [Expects: https://schema.org/Review]
   ///
@@ -796,7 +761,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -804,7 +769,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// seeks [Expects: https://schema.org/Demand]
   ///
@@ -812,7 +777,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const seeks = const IriTerm('https://schema.org/seeks');
+  static const seeks = IriTerm('https://schema.org/seeks');
 
   /// servesCuisine [Expects: https://schema.org/Text]
   ///
@@ -820,9 +785,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/FoodEstablishment
   ///
-  static const servesCuisine = const IriTerm(
-    'https://schema.org/servesCuisine',
-  );
+  static const servesCuisine = IriTerm('https://schema.org/servesCuisine');
 
   /// skills [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -830,7 +793,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/JobPosting, https://schema.org/Occupation, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const skills = const IriTerm('https://schema.org/skills');
+  static const skills = IriTerm('https://schema.org/skills');
 
   /// slogan [Expects: https://schema.org/Text]
   ///
@@ -838,7 +801,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const slogan = const IriTerm('https://schema.org/slogan');
+  static const slogan = IriTerm('https://schema.org/slogan');
 
   /// smokingAllowed [Expects: https://schema.org/Boolean]
   ///
@@ -846,9 +809,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const smokingAllowed = const IriTerm(
-    'https://schema.org/smokingAllowed',
-  );
+  static const smokingAllowed = IriTerm('https://schema.org/smokingAllowed');
 
   /// specialOpeningHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
   ///
@@ -857,7 +818,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const specialOpeningHoursSpecification = const IriTerm(
+  static const specialOpeningHoursSpecification = IriTerm(
     'https://schema.org/specialOpeningHoursSpecification',
   );
 
@@ -867,7 +828,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/FoodEstablishment, https://schema.org/LodgingBusiness
   ///
-  static const starRating = const IriTerm('https://schema.org/starRating');
+  static const starRating = IriTerm('https://schema.org/starRating');
 
   /// taxID [Expects: https://schema.org/Text]
   ///
@@ -875,7 +836,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const taxID = const IriTerm('https://schema.org/taxID');
+  static const taxID = IriTerm('https://schema.org/taxID');
 
   /// telephone [Expects: https://schema.org/Text]
   ///
@@ -883,7 +844,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const telephone = const IriTerm('https://schema.org/telephone');
+  static const telephone = IriTerm('https://schema.org/telephone');
 
   /// tourBookingPage [Expects: https://schema.org/URL]
   ///
@@ -891,9 +852,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Accommodation, https://schema.org/ApartmentComplex, https://schema.org/Place
   ///
-  static const tourBookingPage = const IriTerm(
-    'https://schema.org/tourBookingPage',
-  );
+  static const tourBookingPage = IriTerm('https://schema.org/tourBookingPage');
 
   /// unnamedSourcesPolicy [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -901,7 +860,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/NewsMediaOrganization, https://schema.org/Organization
   ///
-  static const unnamedSourcesPolicy = const IriTerm(
+  static const unnamedSourcesPolicy = IriTerm(
     'https://schema.org/unnamedSourcesPolicy',
   );
 
@@ -911,7 +870,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// vatID [Expects: https://schema.org/Text]
   ///
@@ -919,7 +878,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const vatID = const IriTerm('https://schema.org/vatID');
+  static const vatID = IriTerm('https://schema.org/vatID');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -927,9 +886,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// alumni [Expects: https://schema.org/Person]
   ///
@@ -937,7 +894,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/EducationalOrganization, https://schema.org/Organization
   ///
-  static const alumni = const IriTerm('https://schema.org/alumni');
+  static const alumni = IriTerm('https://schema.org/alumni');
 
   /// award [Expects: https://schema.org/Text]
   ///
@@ -945,7 +902,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const award = const IriTerm('https://schema.org/award');
+  static const award = IriTerm('https://schema.org/award');
 
   /// contactPoint [Expects: https://schema.org/ContactPoint]
   ///
@@ -953,7 +910,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/HealthInsurancePlan, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const contactPoint = const IriTerm('https://schema.org/contactPoint');
+  static const contactPoint = IriTerm('https://schema.org/contactPoint');
 
   /// containsPlace [Expects: https://schema.org/Place]
   ///
@@ -961,9 +918,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containsPlace = const IriTerm(
-    'https://schema.org/containsPlace',
-  );
+  static const containsPlace = IriTerm('https://schema.org/containsPlace');
 
   /// employee [Expects: https://schema.org/Person]
   ///
@@ -971,7 +926,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const employee = const IriTerm('https://schema.org/employee');
+  static const employee = IriTerm('https://schema.org/employee');
 
   /// event [Expects: https://schema.org/Event]
   ///
@@ -979,7 +934,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/InformAction, https://schema.org/InviteAction, https://schema.org/JoinAction, https://schema.org/LeaveAction, https://schema.org/Organization, https://schema.org/Place, https://schema.org/PlayAction
   ///
-  static const event = const IriTerm('https://schema.org/event');
+  static const event = IriTerm('https://schema.org/event');
 
   /// founder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -987,7 +942,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const founder = const IriTerm('https://schema.org/founder');
+  static const founder = IriTerm('https://schema.org/founder');
 
   /// funding [Expects: https://schema.org/Grant]
   ///
@@ -995,7 +950,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
   /// hasMenu [Expects: https://schema.org/Menu, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1003,7 +958,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/FoodEstablishment
   ///
-  static const hasMenu = const IriTerm('https://schema.org/hasMenu');
+  static const hasMenu = IriTerm('https://schema.org/hasMenu');
 
   /// interactionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -1011,7 +966,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -1021,7 +976,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -1031,7 +986,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -1041,7 +996,23 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const makesOffer = const IriTerm('https://schema.org/makesOffer');
+  static const makesOffer = IriTerm('https://schema.org/makesOffer');
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
+
+  /// owns [Expects: https://schema.org/Thing]
+  ///
+  /// Things owned by the organization or person.
+  ///
+  /// Can be used on: https://schema.org/Organization, https://schema.org/Person
+  ///
+  static const owns = IriTerm('https://schema.org/owns');
 
   /// photo [Expects: https://schema.org/ImageObject, https://schema.org/Photograph]
   ///
@@ -1049,7 +1020,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const photo = const IriTerm('https://schema.org/photo');
+  static const photo = IriTerm('https://schema.org/photo');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -1057,7 +1028,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
   /// serviceArea [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place]
   ///
@@ -1065,7 +1036,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const serviceArea = const IriTerm('https://schema.org/serviceArea');
+  static const serviceArea = IriTerm('https://schema.org/serviceArea');
 
   /// sponsor [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1073,7 +1044,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const sponsor = const IriTerm('https://schema.org/sponsor');
+  static const sponsor = IriTerm('https://schema.org/sponsor');
 
   /// subOrganization [Expects: https://schema.org/Organization]
   ///
@@ -1081,9 +1052,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const subOrganization = const IriTerm(
-    'https://schema.org/subOrganization',
-  );
+  static const subOrganization = IriTerm('https://schema.org/subOrganization');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -1091,7 +1060,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// containedInPlace [Expects: https://schema.org/Place]
   ///
@@ -1099,7 +1068,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containedInPlace = const IriTerm(
+  static const containedInPlace = IriTerm(
     'https://schema.org/containedInPlace',
   );
 
@@ -1109,7 +1078,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const hasMap = const IriTerm('https://schema.org/hasMap');
+  static const hasMap = IriTerm('https://schema.org/hasMap');
 
   /// memberOf [Expects: https://schema.org/MemberProgramTier, https://schema.org/Organization, https://schema.org/ProgramMembership]
   ///
@@ -1117,7 +1086,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
-  static const memberOf = const IriTerm('https://schema.org/memberOf');
+  static const memberOf = IriTerm('https://schema.org/memberOf');
 
   /// parentOrganization [Expects: https://schema.org/Organization]
   ///
@@ -1125,7 +1094,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization
   ///
-  static const parentOrganization = const IriTerm(
+  static const parentOrganization = IriTerm(
     'https://schema.org/parentOrganization',
   );
 
@@ -1135,7 +1104,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const areaServed = const IriTerm('https://schema.org/areaServed');
+  static const areaServed = IriTerm('https://schema.org/areaServed');
 
   /// member [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1143,7 +1112,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/ProgramMembership
   ///
-  static const member = const IriTerm('https://schema.org/member');
+  static const member = IriTerm('https://schema.org/member');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -1151,7 +1120,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1159,7 +1128,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// publishingPrinciples [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1170,7 +1139,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -1180,7 +1149,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/Event, https://schema.org/InteractionCounter, https://schema.org/Organization
   ///
-  static const location = const IriTerm('https://schema.org/location');
+  static const location = IriTerm('https://schema.org/location');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1189,15 +1158,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1205,7 +1166,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1215,7 +1176,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1225,7 +1186,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1235,7 +1196,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1245,7 +1206,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1255,7 +1216,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1265,7 +1226,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -1275,7 +1236,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1285,7 +1246,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1295,8 +1256,28 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
+  );
+
+  /// bottomDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that does not relate any individual to any data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomDataProperty',
+  );
+
+  /// bottomObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that does not relate any two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
   /// deprecated from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1305,8 +1286,18 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
+  );
+
+  /// differentFrom from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are different.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlDifferentFrom = IriTerm(
+    'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
   /// members from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
@@ -1315,8 +1306,34 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
+
+  /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are equal.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
+
+  /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that relates every individual to every data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topDataProperty',
+  );
+
+  /// topObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that relates every two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1325,9 +1342,83 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
+
+  /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A name for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
+
+  /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A homepage for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
+
+  /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that  made this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
+
+  /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
+  ///
+  /// A depiction of some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
+
+  /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// An organization funding a project or person.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+
+  /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A logo representing some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
+
+  /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A page or document about this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
+
+  /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A theme.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1335,7 +1426,7 @@ class SchemaFastFoodRestaurant {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

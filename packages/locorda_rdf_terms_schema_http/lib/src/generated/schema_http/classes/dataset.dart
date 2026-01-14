@@ -35,7 +35,7 @@ class SchemaHttpDataset {
 
   /// IRI term for the Dataset class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/Dataset');
+  static const classIri = IriTerm('http://schema.org/Dataset');
 
   /// abstract_ [Expects: http://schema.org/Text]
   ///
@@ -43,7 +43,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const abstract_ = const IriTerm('http://schema.org/abstract');
+  static const abstract_ = IriTerm('http://schema.org/abstract');
 
   /// accessMode [Expects: http://schema.org/Text]
   ///
@@ -51,7 +51,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessMode = const IriTerm('http://schema.org/accessMode');
+  static const accessMode = IriTerm('http://schema.org/accessMode');
 
   /// accessModeSufficient [Expects: http://schema.org/ItemList]
   ///
@@ -59,7 +59,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessModeSufficient = const IriTerm(
+  static const accessModeSufficient = IriTerm(
     'http://schema.org/accessModeSufficient',
   );
 
@@ -69,9 +69,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessibilityAPI = const IriTerm(
-    'http://schema.org/accessibilityAPI',
-  );
+  static const accessibilityAPI = IriTerm('http://schema.org/accessibilityAPI');
 
   /// accessibilityControl [Expects: http://schema.org/Text]
   ///
@@ -79,7 +77,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessibilityControl = const IriTerm(
+  static const accessibilityControl = IriTerm(
     'http://schema.org/accessibilityControl',
   );
 
@@ -89,7 +87,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessibilityFeature = const IriTerm(
+  static const accessibilityFeature = IriTerm(
     'http://schema.org/accessibilityFeature',
   );
 
@@ -99,7 +97,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessibilityHazard = const IriTerm(
+  static const accessibilityHazard = IriTerm(
     'http://schema.org/accessibilityHazard',
   );
 
@@ -109,7 +107,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accessibilitySummary = const IriTerm(
+  static const accessibilitySummary = IriTerm(
     'http://schema.org/accessibilitySummary',
   );
 
@@ -119,7 +117,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const accountablePerson = const IriTerm(
+  static const accountablePerson = IriTerm(
     'http://schema.org/accountablePerson',
   );
 
@@ -129,7 +127,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const acquireLicensePage = const IriTerm(
+  static const acquireLicensePage = IriTerm(
     'http://schema.org/acquireLicensePage',
   );
 
@@ -140,9 +138,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// aggregateRating [Expects: http://schema.org/AggregateRating]
   ///
@@ -150,9 +146,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'http://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('http://schema.org/aggregateRating');
 
   /// alternativeHeadline [Expects: http://schema.org/Text]
   ///
@@ -160,7 +154,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const alternativeHeadline = const IriTerm(
+  static const alternativeHeadline = IriTerm(
     'http://schema.org/alternativeHeadline',
   );
 
@@ -170,7 +164,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const archivedAt = const IriTerm('http://schema.org/archivedAt');
+  static const archivedAt = IriTerm('http://schema.org/archivedAt');
 
   /// assesses [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -178,7 +172,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const assesses = const IriTerm('http://schema.org/assesses');
+  static const assesses = IriTerm('http://schema.org/assesses');
 
   /// associatedMedia [Expects: http://schema.org/MediaObject]
   ///
@@ -186,9 +180,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/HyperToc, http://schema.org/HyperTocEntry
   ///
-  static const associatedMedia = const IriTerm(
-    'http://schema.org/associatedMedia',
-  );
+  static const associatedMedia = IriTerm('http://schema.org/associatedMedia');
 
   /// audio [Expects: http://schema.org/AudioObject, http://schema.org/Clip, http://schema.org/MusicRecording]
   ///
@@ -196,7 +188,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const audio = const IriTerm('http://schema.org/audio');
+  static const audio = IriTerm('http://schema.org/audio');
 
   /// author [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -204,7 +196,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Rating
   ///
-  static const author = const IriTerm('http://schema.org/author');
+  static const author = IriTerm('http://schema.org/author');
 
   /// awards [Expects: http://schema.org/Text]
   ///
@@ -212,7 +204,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const awards = const IriTerm('http://schema.org/awards');
+  static const awards = IriTerm('http://schema.org/awards');
 
   /// catalog [Expects: http://schema.org/DataCatalog]
   ///
@@ -220,7 +212,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset
   ///
-  static const catalog = const IriTerm('http://schema.org/catalog');
+  static const catalog = IriTerm('http://schema.org/catalog');
 
   /// character [Expects: http://schema.org/Person]
   ///
@@ -228,7 +220,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const character = const IriTerm('http://schema.org/character');
+  static const character = IriTerm('http://schema.org/character');
 
   /// citation [Expects: http://schema.org/CreativeWork, http://schema.org/Text]
   ///
@@ -236,7 +228,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const citation = const IriTerm('http://schema.org/citation');
+  static const citation = IriTerm('http://schema.org/citation');
 
   /// comment [Expects: http://schema.org/Comment]
   ///
@@ -244,7 +236,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/RsvpAction
   ///
-  static const comment = const IriTerm('http://schema.org/comment');
+  static const comment = IriTerm('http://schema.org/comment');
 
   /// commentCount [Expects: http://schema.org/Integer]
   ///
@@ -252,7 +244,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const commentCount = const IriTerm('http://schema.org/commentCount');
+  static const commentCount = IriTerm('http://schema.org/commentCount');
 
   /// conditionsOfAccess [Expects: http://schema.org/Text]
   ///
@@ -260,7 +252,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const conditionsOfAccess = const IriTerm(
+  static const conditionsOfAccess = IriTerm(
     'http://schema.org/conditionsOfAccess',
   );
 
@@ -270,7 +262,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const contentRating = const IriTerm('http://schema.org/contentRating');
+  static const contentRating = IriTerm('http://schema.org/contentRating');
 
   /// contentReferenceTime [Expects: http://schema.org/DateTime]
   ///
@@ -278,7 +270,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const contentReferenceTime = const IriTerm(
+  static const contentReferenceTime = IriTerm(
     'http://schema.org/contentReferenceTime',
   );
 
@@ -288,7 +280,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const contributor = const IriTerm('http://schema.org/contributor');
+  static const contributor = IriTerm('http://schema.org/contributor');
 
   /// copyrightHolder [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -296,9 +288,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const copyrightHolder = const IriTerm(
-    'http://schema.org/copyrightHolder',
-  );
+  static const copyrightHolder = IriTerm('http://schema.org/copyrightHolder');
 
   /// copyrightNotice [Expects: http://schema.org/Text]
   ///
@@ -306,9 +296,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const copyrightNotice = const IriTerm(
-    'http://schema.org/copyrightNotice',
-  );
+  static const copyrightNotice = IriTerm('http://schema.org/copyrightNotice');
 
   /// copyrightYear [Expects: http://schema.org/Number]
   ///
@@ -316,7 +304,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const copyrightYear = const IriTerm('http://schema.org/copyrightYear');
+  static const copyrightYear = IriTerm('http://schema.org/copyrightYear');
 
   /// correction [Expects: http://schema.org/CorrectionComment, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -324,7 +312,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const correction = const IriTerm('http://schema.org/correction');
+  static const correction = IriTerm('http://schema.org/correction');
 
   /// countryOfOrigin [Expects: http://schema.org/Country]
   ///
@@ -336,9 +324,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Movie, http://schema.org/Product, http://schema.org/TVEpisode, http://schema.org/TVSeason, http://schema.org/TVSeries
   ///
-  static const countryOfOrigin = const IriTerm(
-    'http://schema.org/countryOfOrigin',
-  );
+  static const countryOfOrigin = IriTerm('http://schema.org/countryOfOrigin');
 
   /// creativeWorkStatus [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -346,7 +332,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const creativeWorkStatus = const IriTerm(
+  static const creativeWorkStatus = IriTerm(
     'http://schema.org/creativeWorkStatus',
   );
 
@@ -356,7 +342,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const creditText = const IriTerm('http://schema.org/creditText');
+  static const creditText = IriTerm('http://schema.org/creditText');
 
   /// datasetTimeInterval [Expects: http://schema.org/DateTime]
   ///
@@ -364,7 +350,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset
   ///
-  static const datasetTimeInterval = const IriTerm(
+  static const datasetTimeInterval = IriTerm(
     'http://schema.org/datasetTimeInterval',
   );
 
@@ -374,7 +360,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const dateModified = const IriTerm('http://schema.org/dateModified');
+  static const dateModified = IriTerm('http://schema.org/dateModified');
 
   /// datePublished [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -382,7 +368,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const datePublished = const IriTerm('http://schema.org/datePublished');
+  static const datePublished = IriTerm('http://schema.org/datePublished');
 
   /// digitalSourceType [Expects: http://schema.org/IPTCDigitalSourceEnumeration]
   ///
@@ -390,7 +376,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const digitalSourceType = const IriTerm(
+  static const digitalSourceType = IriTerm(
     'http://schema.org/digitalSourceType',
   );
 
@@ -400,7 +386,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -410,7 +396,15 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const discussionUrl = const IriTerm('http://schema.org/discussionUrl');
+  static const discussionUrl = IriTerm('http://schema.org/discussionUrl');
+
+  /// displayLocation [Expects: http://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
+  ///
+  static const displayLocation = IriTerm('http://schema.org/displayLocation');
 
   /// distribution [Expects: http://schema.org/DataDownload]
   ///
@@ -418,7 +412,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset
   ///
-  static const distribution = const IriTerm('http://schema.org/distribution');
+  static const distribution = IriTerm('http://schema.org/distribution');
 
   /// editEIDR [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -431,7 +425,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const editEIDR = const IriTerm('http://schema.org/editEIDR');
+  static const editEIDR = IriTerm('http://schema.org/editEIDR');
 
   /// editor [Expects: http://schema.org/Person]
   ///
@@ -439,7 +433,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const editor = const IriTerm('http://schema.org/editor');
+  static const editor = IriTerm('http://schema.org/editor');
 
   /// educationalAlignment [Expects: http://schema.org/AlignmentObject]
   ///
@@ -449,7 +443,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const educationalAlignment = const IriTerm(
+  static const educationalAlignment = IriTerm(
     'http://schema.org/educationalAlignment',
   );
 
@@ -459,9 +453,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/EducationalOccupationalCredential, http://schema.org/LearningResource
   ///
-  static const educationalLevel = const IriTerm(
-    'http://schema.org/educationalLevel',
-  );
+  static const educationalLevel = IriTerm('http://schema.org/educationalLevel');
 
   /// educationalUse [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -469,9 +461,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const educationalUse = const IriTerm(
-    'http://schema.org/educationalUse',
-  );
+  static const educationalUse = IriTerm('http://schema.org/educationalUse');
 
   /// encodings [Expects: http://schema.org/MediaObject]
   ///
@@ -479,7 +469,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const encodings = const IriTerm('http://schema.org/encodings');
+  static const encodings = IriTerm('http://schema.org/encodings');
 
   /// expires [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -487,7 +477,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const expires = const IriTerm('http://schema.org/expires');
+  static const expires = IriTerm('http://schema.org/expires');
 
   /// fileFormat [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -495,7 +485,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const fileFormat = const IriTerm('http://schema.org/fileFormat');
+  static const fileFormat = IriTerm('http://schema.org/fileFormat');
 
   /// funder [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -503,7 +493,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const funder = const IriTerm('http://schema.org/funder');
+  static const funder = IriTerm('http://schema.org/funder');
 
   /// headline [Expects: http://schema.org/Text]
   ///
@@ -511,7 +501,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const headline = const IriTerm('http://schema.org/headline');
+  static const headline = IriTerm('http://schema.org/headline');
 
   /// includedDataCatalog [Expects: http://schema.org/DataCatalog]
   ///
@@ -519,7 +509,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset
   ///
-  static const includedDataCatalog = const IriTerm(
+  static const includedDataCatalog = IriTerm(
     'http://schema.org/includedDataCatalog',
   );
 
@@ -529,9 +519,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// interactivityType [Expects: http://schema.org/Text]
   ///
@@ -539,7 +527,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const interactivityType = const IriTerm(
+  static const interactivityType = IriTerm(
     'http://schema.org/interactivityType',
   );
 
@@ -549,7 +537,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const interpretedAsClaim = const IriTerm(
+  static const interpretedAsClaim = IriTerm(
     'http://schema.org/interpretedAsClaim',
   );
 
@@ -559,7 +547,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const isBasedOnUrl = const IriTerm('http://schema.org/isBasedOnUrl');
+  static const isBasedOnUrl = IriTerm('http://schema.org/isBasedOnUrl');
 
   /// isFamilyFriendly [Expects: http://schema.org/Boolean]
   ///
@@ -567,9 +555,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const isFamilyFriendly = const IriTerm(
-    'http://schema.org/isFamilyFriendly',
-  );
+  static const isFamilyFriendly = IriTerm('http://schema.org/isFamilyFriendly');
 
   /// issn [Expects: http://schema.org/Text]
   ///
@@ -577,7 +563,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Blog, http://schema.org/CreativeWorkSeries, http://schema.org/Dataset, http://schema.org/WebSite
   ///
-  static const issn = const IriTerm('http://schema.org/issn');
+  static const issn = IriTerm('http://schema.org/issn');
 
   /// keywords [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -585,7 +571,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const keywords = const IriTerm('http://schema.org/keywords');
+  static const keywords = IriTerm('http://schema.org/keywords');
 
   /// learningResourceType [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -593,7 +579,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const learningResourceType = const IriTerm(
+  static const learningResourceType = IriTerm(
     'http://schema.org/learningResourceType',
   );
 
@@ -603,7 +589,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const license = const IriTerm('http://schema.org/license');
+  static const license = IriTerm('http://schema.org/license');
 
   /// locationCreated [Expects: http://schema.org/Place]
   ///
@@ -611,9 +597,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const locationCreated = const IriTerm(
-    'http://schema.org/locationCreated',
-  );
+  static const locationCreated = IriTerm('http://schema.org/locationCreated');
 
   /// maintainer [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -622,7 +606,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const maintainer = const IriTerm('http://schema.org/maintainer');
+  static const maintainer = IriTerm('http://schema.org/maintainer');
 
   /// materialExtent [Expects: http://schema.org/QuantitativeValue, http://schema.org/Text]
   ///
@@ -630,9 +614,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const materialExtent = const IriTerm(
-    'http://schema.org/materialExtent',
-  );
+  static const materialExtent = IriTerm('http://schema.org/materialExtent');
 
   /// measurementMethod [Expects: http://schema.org/DefinedTerm, http://schema.org/MeasurementMethodEnum, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -640,7 +622,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/DataCatalog, http://schema.org/DataDownload, http://schema.org/Dataset, http://schema.org/Observation, http://schema.org/PropertyValue, http://schema.org/StatisticalVariable
   ///
-  static const measurementMethod = const IriTerm(
+  static const measurementMethod = IriTerm(
     'http://schema.org/measurementMethod',
   );
 
@@ -650,7 +632,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const mentions = const IriTerm('http://schema.org/mentions');
+  static const mentions = IriTerm('http://schema.org/mentions');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -658,7 +640,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// pattern [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -666,7 +648,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const pattern = const IriTerm('http://schema.org/pattern');
+  static const pattern = IriTerm('http://schema.org/pattern');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -674,9 +656,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// producer [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -684,7 +664,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const producer = const IriTerm('http://schema.org/producer');
+  static const producer = IriTerm('http://schema.org/producer');
 
   /// publication [Expects: http://schema.org/PublicationEvent]
   ///
@@ -692,7 +672,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const publication = const IriTerm('http://schema.org/publication');
+  static const publication = IriTerm('http://schema.org/publication');
 
   /// publisher [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -700,7 +680,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/FinancialIncentive
   ///
-  static const publisher = const IriTerm('http://schema.org/publisher');
+  static const publisher = IriTerm('http://schema.org/publisher');
 
   /// publisherImprint [Expects: http://schema.org/Organization]
   ///
@@ -708,9 +688,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const publisherImprint = const IriTerm(
-    'http://schema.org/publisherImprint',
-  );
+  static const publisherImprint = IriTerm('http://schema.org/publisherImprint');
 
   /// releasedEvent [Expects: http://schema.org/PublicationEvent]
   ///
@@ -718,7 +696,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const releasedEvent = const IriTerm('http://schema.org/releasedEvent');
+  static const releasedEvent = IriTerm('http://schema.org/releasedEvent');
 
   /// reviews [Expects: http://schema.org/Review]
   ///
@@ -726,7 +704,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const reviews = const IriTerm('http://schema.org/reviews');
+  static const reviews = IriTerm('http://schema.org/reviews');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -734,7 +712,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// schemaVersion [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -743,7 +721,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemaVersion = const IriTerm('http://schema.org/schemaVersion');
+  static const schemaVersion = IriTerm('http://schema.org/schemaVersion');
 
   /// sdDatePublished [Expects: http://schema.org/Date]
   ///
@@ -751,9 +729,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const sdDatePublished = const IriTerm(
-    'http://schema.org/sdDatePublished',
-  );
+  static const sdDatePublished = IriTerm('http://schema.org/sdDatePublished');
 
   /// sdLicense [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -761,7 +737,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const sdLicense = const IriTerm('http://schema.org/sdLicense');
+  static const sdLicense = IriTerm('http://schema.org/sdLicense');
 
   /// sdPublisher [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -770,7 +746,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const sdPublisher = const IriTerm('http://schema.org/sdPublisher');
+  static const sdPublisher = IriTerm('http://schema.org/sdPublisher');
 
   /// size [Expects: http://schema.org/DefinedTerm, http://schema.org/QuantitativeValue, http://schema.org/SizeSpecification, http://schema.org/Text]
   ///
@@ -778,7 +754,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const size = const IriTerm('http://schema.org/size');
+  static const size = IriTerm('http://schema.org/size');
 
   /// sourceOrganization [Expects: http://schema.org/Organization]
   ///
@@ -786,7 +762,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const sourceOrganization = const IriTerm(
+  static const sourceOrganization = IriTerm(
     'http://schema.org/sourceOrganization',
   );
 
@@ -797,7 +773,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const spatial = const IriTerm('http://schema.org/spatial');
+  static const spatial = IriTerm('http://schema.org/spatial');
 
   /// teaches [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -805,7 +781,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const teaches = const IriTerm('http://schema.org/teaches');
+  static const teaches = IriTerm('http://schema.org/teaches');
 
   /// temporal [Expects: http://schema.org/DateTime, http://schema.org/Text]
   ///
@@ -814,7 +790,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const temporal = const IriTerm('http://schema.org/temporal');
+  static const temporal = IriTerm('http://schema.org/temporal');
 
   /// text [Expects: http://schema.org/Text]
   ///
@@ -822,7 +798,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const text = const IriTerm('http://schema.org/text');
+  static const text = IriTerm('http://schema.org/text');
 
   /// thumbnail [Expects: http://schema.org/ImageObject]
   ///
@@ -830,7 +806,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const thumbnail = const IriTerm('http://schema.org/thumbnail');
+  static const thumbnail = IriTerm('http://schema.org/thumbnail');
 
   /// thumbnailUrl [Expects: http://schema.org/URL]
   ///
@@ -838,7 +814,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const thumbnailUrl = const IriTerm('http://schema.org/thumbnailUrl');
+  static const thumbnailUrl = IriTerm('http://schema.org/thumbnailUrl');
 
   /// timeRequired [Expects: http://schema.org/Duration]
   ///
@@ -846,7 +822,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const timeRequired = const IriTerm('http://schema.org/timeRequired');
+  static const timeRequired = IriTerm('http://schema.org/timeRequired');
 
   /// translator [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -854,7 +830,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const translator = const IriTerm('http://schema.org/translator');
+  static const translator = IriTerm('http://schema.org/translator');
 
   /// typicalAgeRange [Expects: http://schema.org/Text]
   ///
@@ -862,9 +838,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const typicalAgeRange = const IriTerm(
-    'http://schema.org/typicalAgeRange',
-  );
+  static const typicalAgeRange = IriTerm('http://schema.org/typicalAgeRange');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -872,7 +846,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// variableMeasured [Expects: http://schema.org/Property, http://schema.org/PropertyValue, http://schema.org/StatisticalVariable, http://schema.org/Text]
   ///
@@ -880,9 +854,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset, http://schema.org/Observation
   ///
-  static const variableMeasured = const IriTerm(
-    'http://schema.org/variableMeasured',
-  );
+  static const variableMeasured = IriTerm('http://schema.org/variableMeasured');
 
   /// version [Expects: http://schema.org/Number, http://schema.org/Text]
   ///
@@ -890,7 +862,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const version = const IriTerm('http://schema.org/version');
+  static const version = IriTerm('http://schema.org/version');
 
   /// video [Expects: http://schema.org/Clip, http://schema.org/VideoObject]
   ///
@@ -898,7 +870,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const video = const IriTerm('http://schema.org/video');
+  static const video = IriTerm('http://schema.org/video');
 
   /// wordCount [Expects: http://schema.org/Integer]
   ///
@@ -906,7 +878,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Article, http://schema.org/CreativeWork
   ///
-  static const wordCount = const IriTerm('http://schema.org/wordCount');
+  static const wordCount = IriTerm('http://schema.org/wordCount');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -914,7 +886,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// audience [Expects: http://schema.org/Audience]
   ///
@@ -922,7 +894,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const audience = const IriTerm('http://schema.org/audience');
+  static const audience = IriTerm('http://schema.org/audience');
 
   /// award [Expects: http://schema.org/Text]
   ///
@@ -930,7 +902,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const award = const IriTerm('http://schema.org/award');
+  static const award = IriTerm('http://schema.org/award');
 
   /// contentLocation [Expects: http://schema.org/Place]
   ///
@@ -938,9 +910,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const contentLocation = const IriTerm(
-    'http://schema.org/contentLocation',
-  );
+  static const contentLocation = IriTerm('http://schema.org/contentLocation');
 
   /// creator [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -948,7 +918,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/UserComments
   ///
-  static const creator = const IriTerm('http://schema.org/creator');
+  static const creator = IriTerm('http://schema.org/creator');
 
   /// dateCreated [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -956,7 +926,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const dateCreated = const IriTerm('http://schema.org/dateCreated');
+  static const dateCreated = IriTerm('http://schema.org/dateCreated');
 
   /// encodingFormat [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -968,9 +938,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const encodingFormat = const IriTerm(
-    'http://schema.org/encodingFormat',
-  );
+  static const encodingFormat = IriTerm('http://schema.org/encodingFormat');
 
   /// exampleOfWork [Expects: http://schema.org/CreativeWork]
   ///
@@ -978,7 +946,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const exampleOfWork = const IriTerm('http://schema.org/exampleOfWork');
+  static const exampleOfWork = IriTerm('http://schema.org/exampleOfWork');
 
   /// funding [Expects: http://schema.org/Grant]
   ///
@@ -986,15 +954,15 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
-  /// genre [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// genre [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: http://schema.org/BroadcastChannel, http://schema.org/CreativeWork, http://schema.org/MusicGroup
   ///
-  static const genre = const IriTerm('http://schema.org/genre');
+  static const genre = IriTerm('http://schema.org/genre');
 
   /// inLanguage [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
@@ -1002,7 +970,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LinkRole, http://schema.org/PronounceableText, http://schema.org/WriteAction
   ///
-  static const inLanguage = const IriTerm('http://schema.org/inLanguage');
+  static const inLanguage = IriTerm('http://schema.org/inLanguage');
 
   /// interactionStatistic [Expects: http://schema.org/InteractionCounter]
   ///
@@ -1010,7 +978,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
@@ -1020,7 +988,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'http://schema.org/isAccessibleForFree',
   );
 
@@ -1030,7 +998,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const isBasedOn = const IriTerm('http://schema.org/isBasedOn');
+  static const isBasedOn = IriTerm('http://schema.org/isBasedOn');
 
   /// mainEntity [Expects: http://schema.org/Thing]
   ///
@@ -1038,7 +1006,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const mainEntity = const IriTerm('http://schema.org/mainEntity');
+  static const mainEntity = IriTerm('http://schema.org/mainEntity');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1046,9 +1014,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
 
   /// measurementTechnique [Expects: http://schema.org/DefinedTerm, http://schema.org/MeasurementMethodEnum, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1062,7 +1028,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/DataCatalog, http://schema.org/DataDownload, http://schema.org/Dataset, http://schema.org/Observation, http://schema.org/PropertyValue, http://schema.org/StatisticalVariable
   ///
-  static const measurementTechnique = const IriTerm(
+  static const measurementTechnique = IriTerm(
     'http://schema.org/measurementTechnique',
   );
 
@@ -1073,7 +1039,15 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const offers = const IriTerm('http://schema.org/offers');
+  static const offers = IriTerm('http://schema.org/offers');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// provider [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1081,7 +1055,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/FinancialIncentive, http://schema.org/Invoice, http://schema.org/ParcelDelivery, http://schema.org/Reservation, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const provider = const IriTerm('http://schema.org/provider');
+  static const provider = IriTerm('http://schema.org/provider');
 
   /// recordedAt [Expects: http://schema.org/Event]
   ///
@@ -1089,7 +1063,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const recordedAt = const IriTerm('http://schema.org/recordedAt');
+  static const recordedAt = IriTerm('http://schema.org/recordedAt');
 
   /// review [Expects: http://schema.org/Review]
   ///
@@ -1097,7 +1071,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const review = const IriTerm('http://schema.org/review');
+  static const review = IriTerm('http://schema.org/review');
 
   /// sponsor [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -1105,7 +1079,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const sponsor = const IriTerm('http://schema.org/sponsor');
+  static const sponsor = IriTerm('http://schema.org/sponsor');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -1113,7 +1087,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// temporalCoverage [Expects: http://schema.org/DateTime, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1125,9 +1099,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const temporalCoverage = const IriTerm(
-    'http://schema.org/temporalCoverage',
-  );
+  static const temporalCoverage = IriTerm('http://schema.org/temporalCoverage');
 
   /// translationOfWork [Expects: http://schema.org/CreativeWork]
   ///
@@ -1135,7 +1107,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const translationOfWork = const IriTerm(
+  static const translationOfWork = IriTerm(
     'http://schema.org/translationOfWork',
   );
 
@@ -1147,7 +1119,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const usageInfo = const IriTerm('http://schema.org/usageInfo');
+  static const usageInfo = IriTerm('http://schema.org/usageInfo');
 
   /// workTranslation [Expects: http://schema.org/CreativeWork]
   ///
@@ -1155,17 +1127,15 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const workTranslation = const IriTerm(
-    'http://schema.org/workTranslation',
-  );
+  static const workTranslation = IriTerm('http://schema.org/workTranslation');
 
   /// about [Expects: http://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event
+  /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/DefinedTerm, http://schema.org/DefinedTermSet, http://schema.org/Event
   ///
-  static const about = const IriTerm('http://schema.org/about');
+  static const about = IriTerm('http://schema.org/about');
 
   /// encoding [Expects: http://schema.org/MediaObject]
   ///
@@ -1173,7 +1143,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const encoding = const IriTerm('http://schema.org/encoding');
+  static const encoding = IriTerm('http://schema.org/encoding');
 
   /// material [Expects: http://schema.org/Product, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -1181,7 +1151,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const material = const IriTerm('http://schema.org/material');
+  static const material = IriTerm('http://schema.org/material');
 
   /// spatialCoverage [Expects: http://schema.org/Place]
   ///
@@ -1191,9 +1161,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const spatialCoverage = const IriTerm(
-    'http://schema.org/spatialCoverage',
-  );
+  static const spatialCoverage = IriTerm('http://schema.org/spatialCoverage');
 
   /// includedInDataCatalog [Expects: http://schema.org/DataCatalog]
   ///
@@ -1201,7 +1169,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Dataset
   ///
-  static const includedInDataCatalog = const IriTerm(
+  static const includedInDataCatalog = IriTerm(
     'http://schema.org/includedInDataCatalog',
   );
 
@@ -1211,7 +1179,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const workExample = const IriTerm('http://schema.org/workExample');
+  static const workExample = IriTerm('http://schema.org/workExample');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -1219,7 +1187,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -1227,7 +1195,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// hasPart [Expects: http://schema.org/CreativeWork]
   ///
@@ -1235,7 +1203,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const hasPart = const IriTerm('http://schema.org/hasPart');
+  static const hasPart = IriTerm('http://schema.org/hasPart');
 
   /// position [Expects: http://schema.org/Integer, http://schema.org/Text]
   ///
@@ -1243,7 +1211,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/ListItem
   ///
-  static const position = const IriTerm('http://schema.org/position');
+  static const position = IriTerm('http://schema.org/position');
 
   /// isPartOf [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1251,7 +1219,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const isPartOf = const IriTerm('http://schema.org/isPartOf');
+  static const isPartOf = IriTerm('http://schema.org/isPartOf');
 
   /// publishingPrinciples [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -1262,7 +1230,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
@@ -1273,15 +1241,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1289,7 +1249,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1299,7 +1259,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1309,7 +1269,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1319,7 +1279,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1329,7 +1289,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1339,7 +1299,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1349,8 +1309,212 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
+  );
+
+  /// entities from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of entities that are described in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidEntities = IriTerm('http://rdfs.org/ns/void#entities');
+
+  /// sparqlEndpoint from void vocabulary
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidSparqlEndpoint = IriTerm(
+    'http://rdfs.org/ns/void#sparqlEndpoint',
+  );
+
+  /// openSearchDescription from void vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// An OpenSearch description document for a free-text search service over a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidOpenSearchDescription = IriTerm(
+    'http://rdfs.org/ns/void#openSearchDescription',
+  );
+
+  /// dataDump from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
+  ///
+  /// An RDF dump, partial or complete, of a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDataDump = IriTerm('http://rdfs.org/ns/void#dataDump');
+
+  /// subset from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidSubset = IriTerm('http://rdfs.org/ns/void#subset');
+
+  /// vocabulary from void vocabulary
+  ///
+  /// A vocabulary that is used in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidVocabulary = IriTerm('http://rdfs.org/ns/void#vocabulary');
+
+  /// documents from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of documents, for datasets that are published as a set of individual documents, such as RDF/XML documents or RDFa-annotated web pages. Non-RDF documents, such as web pages in HTML or images, are usually not included in this count. This property is intended for datasets where the total number of triples or entities is hard to determine. void:triples or void:entities should be preferred where practical.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDocuments = IriTerm('http://rdfs.org/ns/void#documents');
+
+  /// property from void vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property]
+  ///
+  /// The rdf:Property that is the predicate of all triples in a property-based partition.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidProperty = IriTerm('http://rdfs.org/ns/void#property');
+
+  /// uriLookupEndpoint from void vocabulary
+  ///
+  /// Defines a simple URI look-up protocol for accessing a dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriLookupEndpoint = IriTerm(
+    'http://rdfs.org/ns/void#uriLookupEndpoint',
+  );
+
+  /// distinctSubjects from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct subjects in a void:Dataset. In other words, the number of distinct resources that occur in the subject position of triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDistinctSubjects = IriTerm(
+    'http://rdfs.org/ns/void#distinctSubjects',
+  );
+
+  /// inDataset from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// Points to the void:Dataset that a document is a part of.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Document
+  ///
+  static const voidInDataset = IriTerm('http://rdfs.org/ns/void#inDataset');
+
+  /// exampleResource from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidExampleResource = IriTerm(
+    'http://rdfs.org/ns/void#exampleResource',
+  );
+
+  /// propertyPartition from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// A subset of a void:Dataset that contains only the triples of a certain rdf:Property.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidPropertyPartition = IriTerm(
+    'http://rdfs.org/ns/void#propertyPartition',
+  );
+
+  /// class_ from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
+  ///
+  /// The rdfs:Class that is the rdf:type of all entities in a class-based partition.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClass_ = IriTerm('http://rdfs.org/ns/void#class');
+
+  /// properties from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct properties in a void:Dataset. In other words, the number of distinct resources that occur in the predicate position of triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidProperties = IriTerm('http://rdfs.org/ns/void#properties');
+
+  /// rootResource from void vocabulary
+  ///
+  /// A top concept or entry point for a void:Dataset that is structured in a tree-like fashion. All resources in a dataset can be reached by following links from its root resources in a small number of steps.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidRootResource = IriTerm(
+    'http://rdfs.org/ns/void#rootResource',
+  );
+
+  /// classPartition from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// A subset of a void:Dataset that contains only the entities of a certain rdfs:Class.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClassPartition = IriTerm(
+    'http://rdfs.org/ns/void#classPartition',
+  );
+
+  /// uriRegexPattern from void vocabulary
+  ///
+  /// Defines a regular expression pattern matching URIs in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriRegexPattern = IriTerm(
+    'http://rdfs.org/ns/void#uriRegexPattern',
+  );
+
+  /// uriSpace from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A URI that is a common string prefix of all the entity URIs in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriSpace = IriTerm('http://rdfs.org/ns/void#uriSpace');
+
+  /// feature from void vocabulary [Expects: http://rdfs.org/ns/void#TechnicalFeature]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidFeature = IriTerm('http://rdfs.org/ns/void#feature');
+
+  /// classes from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct classes in a void:Dataset. In other words, the number of distinct resources occuring as objects of rdf:type triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClasses = IriTerm('http://rdfs.org/ns/void#classes');
+
+  /// triples from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of triples contained in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidTriples = IriTerm('http://rdfs.org/ns/void#triples');
+
+  /// distinctObjects from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct objects in a void:Dataset. In other words, the number of distinct resources that occur in the object position of triples in the dataset. Literals are included in this count.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDistinctObjects = IriTerm(
+    'http://rdfs.org/ns/void#distinctObjects',
   );
 
   /// annotatedProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -1359,7 +1523,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1369,7 +1533,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1379,7 +1543,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -1389,7 +1553,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -1399,7 +1563,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -1409,7 +1573,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -1419,7 +1583,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -1429,9 +1593,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1439,9 +1601,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1449,7 +1609,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -1459,7 +1619,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -1469,7 +1629,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -1479,7 +1639,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const foafSha1 = const IriTerm('http://xmlns.com/foaf/0.1/sha1');
+  static const foafSha1 = IriTerm('http://xmlns.com/foaf/0.1/sha1');
 
   /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1487,7 +1647,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafName = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -1495,18 +1655,15 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafHomepage = const IriTerm(
-    'http://xmlns.com/foaf/0.1/homepage',
-  );
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafMaker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -1514,9 +1671,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafDepiction = const IriTerm(
-    'http://xmlns.com/foaf/0.1/depiction',
-  );
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1524,9 +1679,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafFundedBy = const IriTerm(
-    'http://xmlns.com/foaf/0.1/fundedBy',
-  );
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1534,7 +1687,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafLogo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
 
   /// topic from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1542,7 +1695,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const foafTopic = const IriTerm('http://xmlns.com/foaf/0.1/topic');
+  static const foafTopic = IriTerm('http://xmlns.com/foaf/0.1/topic');
 
   /// primaryTopic from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1550,8 +1703,18 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Document
   ///
-  static const foafPrimaryTopic = const IriTerm(
+  static const foafPrimaryTopic = IriTerm(
     'http://xmlns.com/foaf/0.1/primaryTopic',
+  );
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
   );
 
   /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
@@ -1560,7 +1723,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafPage = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -1568,7 +1731,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafTheme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// distribution from dcat vocabulary [Expects: http://www.w3.org/ns/dcat#Distribution]
   ///
@@ -1576,7 +1739,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/ns/dcat#Dataset
   ///
-  static const dcatDistribution = const IriTerm(
+  static const dcatDistribution = IriTerm(
     'http://www.w3.org/ns/dcat#distribution',
   );
 
@@ -1586,7 +1749,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/ns/dcat#Resource
   ///
-  static const dcatQualifiedRelation = const IriTerm(
+  static const dcatQualifiedRelation = IriTerm(
     'http://www.w3.org/ns/dcat#qualifiedRelation',
   );
 
@@ -1596,7 +1759,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboAuthorList = const IriTerm(
+  static const biboAuthorList = IriTerm(
     'http://purl.org/ontology/bibo/authorList',
   );
 
@@ -1607,9 +1770,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboCitedBy = const IriTerm(
-    'http://purl.org/ontology/bibo/citedBy',
-  );
+  static const biboCitedBy = IriTerm('http://purl.org/ontology/bibo/citedBy');
 
   /// cites from bibo vocabulary [Expects: http://purl.org/ontology/bibo/Document]
   ///
@@ -1619,7 +1780,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboCites = const IriTerm('http://purl.org/ontology/bibo/cites');
+  static const biboCites = IriTerm('http://purl.org/ontology/bibo/cites');
 
   /// contributorList from bibo vocabulary
   ///
@@ -1627,7 +1788,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboContributorList = const IriTerm(
+  static const biboContributorList = IriTerm(
     'http://purl.org/ontology/bibo/contributorList',
   );
 
@@ -1637,7 +1798,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboEditorList = const IriTerm(
+  static const biboEditorList = IriTerm(
     'http://purl.org/ontology/bibo/editorList',
   );
 
@@ -1647,7 +1808,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPresentedAt = const IriTerm(
+  static const biboPresentedAt = IriTerm(
     'http://purl.org/ontology/bibo/presentedAt',
   );
 
@@ -1657,7 +1818,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboReproducedIn = const IriTerm(
+  static const biboReproducedIn = IriTerm(
     'http://purl.org/ontology/bibo/reproducedIn',
   );
 
@@ -1667,9 +1828,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboReviewOf = const IriTerm(
-    'http://purl.org/ontology/bibo/reviewOf',
-  );
+  static const biboReviewOf = IriTerm('http://purl.org/ontology/bibo/reviewOf');
 
   /// status from bibo vocabulary [Expects: http://purl.org/ontology/bibo/DocumentStatus]
   ///
@@ -1677,9 +1836,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboStatus = const IriTerm(
-    'http://purl.org/ontology/bibo/status',
-  );
+  static const biboStatus = IriTerm('http://purl.org/ontology/bibo/status');
 
   /// transcriptOf from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -1687,7 +1844,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboTranscriptOf = const IriTerm(
+  static const biboTranscriptOf = IriTerm(
     'http://purl.org/ontology/bibo/transcriptOf',
   );
 
@@ -1697,7 +1854,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboTranslationOf = const IriTerm(
+  static const biboTranslationOf = IriTerm(
     'http://purl.org/ontology/bibo/translationOf',
   );
 
@@ -1707,7 +1864,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 
@@ -1717,9 +1874,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboContent = const IriTerm(
-    'http://purl.org/ontology/bibo/content',
-  );
+  static const biboContent = IriTerm('http://purl.org/ontology/bibo/content');
 
   /// edition from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1727,9 +1882,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboEdition = const IriTerm(
-    'http://purl.org/ontology/bibo/edition',
-  );
+  static const biboEdition = IriTerm('http://purl.org/ontology/bibo/edition');
 
   /// locator from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1737,9 +1890,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboLocator = const IriTerm(
-    'http://purl.org/ontology/bibo/locator',
-  );
+  static const biboLocator = IriTerm('http://purl.org/ontology/bibo/locator');
 
   /// numPages from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1747,9 +1898,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboNumPages = const IriTerm(
-    'http://purl.org/ontology/bibo/numPages',
-  );
+  static const biboNumPages = IriTerm('http://purl.org/ontology/bibo/numPages');
 
   /// number from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1757,9 +1906,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboNumber = const IriTerm(
-    'http://purl.org/ontology/bibo/number',
-  );
+  static const biboNumber = IriTerm('http://purl.org/ontology/bibo/number');
 
   /// pageEnd from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1767,9 +1914,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPageEnd = const IriTerm(
-    'http://purl.org/ontology/bibo/pageEnd',
-  );
+  static const biboPageEnd = IriTerm('http://purl.org/ontology/bibo/pageEnd');
 
   /// pageStart from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1777,7 +1922,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPageStart = const IriTerm(
+  static const biboPageStart = IriTerm(
     'http://purl.org/ontology/bibo/pageStart',
   );
 
@@ -1787,7 +1932,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboPages = const IriTerm('http://purl.org/ontology/bibo/pages');
+  static const biboPages = IriTerm('http://purl.org/ontology/bibo/pages');
 
   /// section from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1795,9 +1940,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboSection = const IriTerm(
-    'http://purl.org/ontology/bibo/section',
-  );
+  static const biboSection = IriTerm('http://purl.org/ontology/bibo/section');
 
   /// shortDescription from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -1805,7 +1948,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboShortDescription = const IriTerm(
+  static const biboShortDescription = IriTerm(
     'http://purl.org/ontology/bibo/shortDescription',
   );
 
@@ -1815,7 +1958,7 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboShortTitle = const IriTerm(
+  static const biboShortTitle = IriTerm(
     'http://purl.org/ontology/bibo/shortTitle',
   );
 
@@ -1825,7 +1968,5 @@ class SchemaHttpDataset {
   ///
   /// Can be used on: http://purl.org/ontology/bibo/Document
   ///
-  static const biboVolume = const IriTerm(
-    'http://purl.org/ontology/bibo/volume',
-  );
+  static const biboVolume = IriTerm('http://purl.org/ontology/bibo/volume');
 }

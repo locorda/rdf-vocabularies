@@ -28,7 +28,7 @@ class SchemaHttpDietarySupplement {
 
   /// IRI term for the DietarySupplement class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/DietarySupplement');
+  static const classIri = IriTerm('http://schema.org/DietarySupplement');
 
   /// activeIngredient [Expects: http://schema.org/Text]
   ///
@@ -36,9 +36,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug, http://schema.org/DrugStrength, http://schema.org/Substance
   ///
-  static const activeIngredient = const IriTerm(
-    'http://schema.org/activeIngredient',
-  );
+  static const activeIngredient = IriTerm('http://schema.org/activeIngredient');
 
   /// additionalProperty [Expects: http://schema.org/PropertyValue]
   ///
@@ -47,7 +45,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MerchantReturnPolicy, http://schema.org/Offer, http://schema.org/Place, http://schema.org/Product, http://schema.org/QualitativeValue, http://schema.org/QuantitativeValue
   ///
-  static const additionalProperty = const IriTerm(
+  static const additionalProperty = IriTerm(
     'http://schema.org/additionalProperty',
   );
 
@@ -58,9 +56,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// aggregateRating [Expects: http://schema.org/AggregateRating]
   ///
@@ -68,9 +64,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'http://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('http://schema.org/aggregateRating');
 
   /// asin [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -81,7 +75,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const asin = const IriTerm('http://schema.org/asin');
+  static const asin = IriTerm('http://schema.org/asin');
 
   /// awards [Expects: http://schema.org/Text]
   ///
@@ -89,7 +83,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const awards = const IriTerm('http://schema.org/awards');
+  static const awards = IriTerm('http://schema.org/awards');
 
   /// brand [Expects: http://schema.org/Brand, http://schema.org/Organization]
   ///
@@ -97,7 +91,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const brand = const IriTerm('http://schema.org/brand');
+  static const brand = IriTerm('http://schema.org/brand');
 
   /// code [Expects: http://schema.org/MedicalCode]
   ///
@@ -105,7 +99,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const code = const IriTerm('http://schema.org/code');
+  static const code = IriTerm('http://schema.org/code');
 
   /// color [Expects: http://schema.org/Text]
   ///
@@ -113,7 +107,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const color = const IriTerm('http://schema.org/color');
+  static const color = IriTerm('http://schema.org/color');
 
   /// colorSwatch [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -121,7 +115,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const colorSwatch = const IriTerm('http://schema.org/colorSwatch');
+  static const colorSwatch = IriTerm('http://schema.org/colorSwatch');
 
   /// countryOfAssembly [Expects: http://schema.org/Text]
   ///
@@ -129,7 +123,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const countryOfAssembly = const IriTerm(
+  static const countryOfAssembly = IriTerm(
     'http://schema.org/countryOfAssembly',
   );
 
@@ -139,7 +133,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const countryOfLastProcessing = const IriTerm(
+  static const countryOfLastProcessing = IriTerm(
     'http://schema.org/countryOfLastProcessing',
   );
 
@@ -153,9 +147,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Movie, http://schema.org/Product, http://schema.org/TVEpisode, http://schema.org/TVSeason, http://schema.org/TVSeries
   ///
-  static const countryOfOrigin = const IriTerm(
-    'http://schema.org/countryOfOrigin',
-  );
+  static const countryOfOrigin = IriTerm('http://schema.org/countryOfOrigin');
 
   /// depth [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
@@ -163,7 +155,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/OfferShippingDetails, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const depth = const IriTerm('http://schema.org/depth');
+  static const depth = IriTerm('http://schema.org/depth');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -171,9 +163,17 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
+
+  /// displayLocation [Expects: http://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
+  ///
+  static const displayLocation = IriTerm('http://schema.org/displayLocation');
 
   /// gtin12 [Expects: http://schema.org/Text]
   ///
@@ -181,7 +181,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const gtin12 = const IriTerm('http://schema.org/gtin12');
+  static const gtin12 = IriTerm('http://schema.org/gtin12');
 
   /// gtin13 [Expects: http://schema.org/Text]
   ///
@@ -189,7 +189,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const gtin13 = const IriTerm('http://schema.org/gtin13');
+  static const gtin13 = IriTerm('http://schema.org/gtin13');
 
   /// gtin14 [Expects: http://schema.org/Text]
   ///
@@ -197,7 +197,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const gtin14 = const IriTerm('http://schema.org/gtin14');
+  static const gtin14 = IriTerm('http://schema.org/gtin14');
 
   /// gtin8 [Expects: http://schema.org/Text]
   ///
@@ -205,7 +205,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const gtin8 = const IriTerm('http://schema.org/gtin8');
+  static const gtin8 = IriTerm('http://schema.org/gtin8');
 
   /// guideline [Expects: http://schema.org/MedicalGuideline]
   ///
@@ -213,7 +213,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const guideline = const IriTerm('http://schema.org/guideline');
+  static const guideline = IriTerm('http://schema.org/guideline');
 
   /// hasAdultConsideration [Expects: http://schema.org/AdultOrientedEnumeration]
   ///
@@ -221,7 +221,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Product
   ///
-  static const hasAdultConsideration = const IriTerm(
+  static const hasAdultConsideration = IriTerm(
     'http://schema.org/hasAdultConsideration',
   );
 
@@ -231,9 +231,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
-    'http://schema.org/hasCertification',
-  );
+  static const hasCertification = IriTerm('http://schema.org/hasCertification');
 
   /// hasEnergyConsumptionDetails [Expects: http://schema.org/EnergyConsumptionDetails]
   ///
@@ -241,7 +239,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const hasEnergyConsumptionDetails = const IriTerm(
+  static const hasEnergyConsumptionDetails = IriTerm(
     'http://schema.org/hasEnergyConsumptionDetails',
   );
 
@@ -251,7 +249,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'http://schema.org/hasGS1DigitalLink',
   );
 
@@ -261,9 +259,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/Offer, http://schema.org/Product, http://schema.org/SizeSpecification
   ///
-  static const hasMeasurement = const IriTerm(
-    'http://schema.org/hasMeasurement',
-  );
+  static const hasMeasurement = IriTerm('http://schema.org/hasMeasurement');
 
   /// hasMerchantReturnPolicy [Expects: http://schema.org/MerchantReturnPolicy]
   ///
@@ -271,7 +267,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Product
   ///
-  static const hasMerchantReturnPolicy = const IriTerm(
+  static const hasMerchantReturnPolicy = IriTerm(
     'http://schema.org/hasMerchantReturnPolicy',
   );
 
@@ -281,7 +277,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const height = const IriTerm('http://schema.org/height');
+  static const height = IriTerm('http://schema.org/height');
 
   /// inProductGroupWithID [Expects: http://schema.org/Text]
   ///
@@ -289,7 +285,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const inProductGroupWithID = const IriTerm(
+  static const inProductGroupWithID = IriTerm(
     'http://schema.org/inProductGroupWithID',
   );
 
@@ -299,9 +295,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// isAccessoryOrSparePartFor [Expects: http://schema.org/Product]
   ///
@@ -309,7 +303,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const isAccessoryOrSparePartFor = const IriTerm(
+  static const isAccessoryOrSparePartFor = IriTerm(
     'http://schema.org/isAccessoryOrSparePartFor',
   );
 
@@ -319,9 +313,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const isConsumableFor = const IriTerm(
-    'http://schema.org/isConsumableFor',
-  );
+  static const isConsumableFor = IriTerm('http://schema.org/isConsumableFor');
 
   /// isFamilyFriendly [Expects: http://schema.org/Boolean]
   ///
@@ -329,9 +321,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const isFamilyFriendly = const IriTerm(
-    'http://schema.org/isFamilyFriendly',
-  );
+  static const isFamilyFriendly = IriTerm('http://schema.org/isFamilyFriendly');
 
   /// isProprietary [Expects: http://schema.org/Boolean]
   ///
@@ -339,7 +329,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug
   ///
-  static const isProprietary = const IriTerm('http://schema.org/isProprietary');
+  static const isProprietary = IriTerm('http://schema.org/isProprietary');
 
   /// isRelatedTo [Expects: http://schema.org/Product, http://schema.org/Service]
   ///
@@ -347,7 +337,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Service
   ///
-  static const isRelatedTo = const IriTerm('http://schema.org/isRelatedTo');
+  static const isRelatedTo = IriTerm('http://schema.org/isRelatedTo');
 
   /// isSimilarTo [Expects: http://schema.org/Product, http://schema.org/Service]
   ///
@@ -355,7 +345,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Service
   ///
-  static const isSimilarTo = const IriTerm('http://schema.org/isSimilarTo');
+  static const isSimilarTo = IriTerm('http://schema.org/isSimilarTo');
 
   /// itemCondition [Expects: http://schema.org/OfferItemCondition]
   ///
@@ -363,7 +353,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/MerchantReturnPolicy, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const itemCondition = const IriTerm('http://schema.org/itemCondition');
+  static const itemCondition = IriTerm('http://schema.org/itemCondition');
 
   /// keywords [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -371,7 +361,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const keywords = const IriTerm('http://schema.org/keywords');
+  static const keywords = IriTerm('http://schema.org/keywords');
 
   /// legalStatus [Expects: http://schema.org/DrugLegalStatus, http://schema.org/MedicalEnumeration, http://schema.org/Text]
   ///
@@ -379,7 +369,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug, http://schema.org/MedicalEntity
   ///
-  static const legalStatus = const IriTerm('http://schema.org/legalStatus');
+  static const legalStatus = IriTerm('http://schema.org/legalStatus');
 
   /// logo [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -387,7 +377,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Certification, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const logo = const IriTerm('http://schema.org/logo');
+  static const logo = IriTerm('http://schema.org/logo');
 
   /// manufacturer [Expects: http://schema.org/Organization]
   ///
@@ -395,7 +385,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const manufacturer = const IriTerm('http://schema.org/manufacturer');
+  static const manufacturer = IriTerm('http://schema.org/manufacturer');
 
   /// maximumIntake [Expects: http://schema.org/MaximumDoseSchedule]
   ///
@@ -403,7 +393,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug, http://schema.org/DrugStrength, http://schema.org/Substance
   ///
-  static const maximumIntake = const IriTerm('http://schema.org/maximumIntake');
+  static const maximumIntake = IriTerm('http://schema.org/maximumIntake');
 
   /// mechanismOfAction [Expects: http://schema.org/Text]
   ///
@@ -411,7 +401,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug
   ///
-  static const mechanismOfAction = const IriTerm(
+  static const mechanismOfAction = IriTerm(
     'http://schema.org/mechanismOfAction',
   );
 
@@ -421,9 +411,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const medicineSystem = const IriTerm(
-    'http://schema.org/medicineSystem',
-  );
+  static const medicineSystem = IriTerm('http://schema.org/medicineSystem');
 
   /// mobileUrl [Expects: http://schema.org/Text]
   ///
@@ -434,7 +422,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Product
   ///
-  static const mobileUrl = const IriTerm('http://schema.org/mobileUrl');
+  static const mobileUrl = IriTerm('http://schema.org/mobileUrl');
 
   /// model [Expects: http://schema.org/ProductModel, http://schema.org/Text]
   ///
@@ -442,7 +430,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const model = const IriTerm('http://schema.org/model');
+  static const model = IriTerm('http://schema.org/model');
 
   /// mpn [Expects: http://schema.org/Text]
   ///
@@ -450,7 +438,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const mpn = const IriTerm('http://schema.org/mpn');
+  static const mpn = IriTerm('http://schema.org/mpn');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -458,7 +446,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// negativeNotes [Expects: http://schema.org/ItemList, http://schema.org/ListItem, http://schema.org/Text, http://schema.org/WebContent]
   ///
@@ -471,7 +459,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Review
   ///
-  static const negativeNotes = const IriTerm('http://schema.org/negativeNotes');
+  static const negativeNotes = IriTerm('http://schema.org/negativeNotes');
 
   /// nonProprietaryName [Expects: http://schema.org/Text]
   ///
@@ -479,7 +467,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug
   ///
-  static const nonProprietaryName = const IriTerm(
+  static const nonProprietaryName = IriTerm(
     'http://schema.org/nonProprietaryName',
   );
 
@@ -489,7 +477,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const nsn = const IriTerm('http://schema.org/nsn');
+  static const nsn = IriTerm('http://schema.org/nsn');
 
   /// pattern [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
@@ -497,7 +485,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const pattern = const IriTerm('http://schema.org/pattern');
+  static const pattern = IriTerm('http://schema.org/pattern');
 
   /// positiveNotes [Expects: http://schema.org/ItemList, http://schema.org/ListItem, http://schema.org/Text, http://schema.org/WebContent]
   ///
@@ -509,7 +497,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Review
   ///
-  static const positiveNotes = const IriTerm('http://schema.org/positiveNotes');
+  static const positiveNotes = IriTerm('http://schema.org/positiveNotes');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -517,9 +505,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// productID [Expects: http://schema.org/Text]
   ///
@@ -527,7 +513,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const productID = const IriTerm('http://schema.org/productID');
+  static const productID = IriTerm('http://schema.org/productID');
 
   /// productionDate [Expects: http://schema.org/Date]
   ///
@@ -535,9 +521,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Vehicle
   ///
-  static const productionDate = const IriTerm(
-    'http://schema.org/productionDate',
-  );
+  static const productionDate = IriTerm('http://schema.org/productionDate');
 
   /// proprietaryName [Expects: http://schema.org/Text]
   ///
@@ -545,9 +529,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/Drug
   ///
-  static const proprietaryName = const IriTerm(
-    'http://schema.org/proprietaryName',
-  );
+  static const proprietaryName = IriTerm('http://schema.org/proprietaryName');
 
   /// purchaseDate [Expects: http://schema.org/Date]
   ///
@@ -555,7 +537,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Vehicle
   ///
-  static const purchaseDate = const IriTerm('http://schema.org/purchaseDate');
+  static const purchaseDate = IriTerm('http://schema.org/purchaseDate');
 
   /// recognizingAuthority [Expects: http://schema.org/Organization]
   ///
@@ -563,7 +545,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const recognizingAuthority = const IriTerm(
+  static const recognizingAuthority = IriTerm(
     'http://schema.org/recognizingAuthority',
   );
 
@@ -573,7 +555,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement
   ///
-  static const recommendedIntake = const IriTerm(
+  static const recommendedIntake = IriTerm(
     'http://schema.org/recommendedIntake',
   );
 
@@ -583,7 +565,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product
   ///
-  static const releaseDate = const IriTerm('http://schema.org/releaseDate');
+  static const releaseDate = IriTerm('http://schema.org/releaseDate');
 
   /// relevantSpecialty [Expects: http://schema.org/MedicalSpecialty]
   ///
@@ -591,7 +573,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const relevantSpecialty = const IriTerm(
+  static const relevantSpecialty = IriTerm(
     'http://schema.org/relevantSpecialty',
   );
 
@@ -601,7 +583,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const reviews = const IriTerm('http://schema.org/reviews');
+  static const reviews = IriTerm('http://schema.org/reviews');
 
   /// safetyConsideration [Expects: http://schema.org/Text]
   ///
@@ -609,7 +591,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement
   ///
-  static const safetyConsideration = const IriTerm(
+  static const safetyConsideration = IriTerm(
     'http://schema.org/safetyConsideration',
   );
 
@@ -619,7 +601,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// size [Expects: http://schema.org/DefinedTerm, http://schema.org/QuantitativeValue, http://schema.org/SizeSpecification, http://schema.org/Text]
   ///
@@ -627,7 +609,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const size = const IriTerm('http://schema.org/size');
+  static const size = IriTerm('http://schema.org/size');
 
   /// sku [Expects: http://schema.org/Text]
   ///
@@ -635,7 +617,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const sku = const IriTerm('http://schema.org/sku');
+  static const sku = IriTerm('http://schema.org/sku');
 
   /// slogan [Expects: http://schema.org/Text]
   ///
@@ -643,7 +625,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const slogan = const IriTerm('http://schema.org/slogan');
+  static const slogan = IriTerm('http://schema.org/slogan');
 
   /// study [Expects: http://schema.org/MedicalStudy]
   ///
@@ -651,7 +633,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MedicalEntity
   ///
-  static const study = const IriTerm('http://schema.org/study');
+  static const study = IriTerm('http://schema.org/study');
 
   /// targetPopulation [Expects: http://schema.org/Text]
   ///
@@ -659,9 +641,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/DietarySupplement, http://schema.org/DoseSchedule
   ///
-  static const targetPopulation = const IriTerm(
-    'http://schema.org/targetPopulation',
-  );
+  static const targetPopulation = IriTerm('http://schema.org/targetPopulation');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -669,7 +649,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// weight [Expects: http://schema.org/Mass, http://schema.org/QuantitativeValue]
   ///
@@ -677,7 +657,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const weight = const IriTerm('http://schema.org/weight');
+  static const weight = IriTerm('http://schema.org/weight');
 
   /// width [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
@@ -685,7 +665,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const width = const IriTerm('http://schema.org/width');
+  static const width = IriTerm('http://schema.org/width');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -693,7 +673,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// audience [Expects: http://schema.org/Audience]
   ///
@@ -701,7 +681,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const audience = const IriTerm('http://schema.org/audience');
+  static const audience = IriTerm('http://schema.org/audience');
 
   /// award [Expects: http://schema.org/Text]
   ///
@@ -709,15 +689,15 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const award = const IriTerm('http://schema.org/award');
+  static const award = IriTerm('http://schema.org/award');
 
   /// category [Expects: http://schema.org/CategoryCode, http://schema.org/PhysicalActivityCategory, http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
   /// A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
   ///
-  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
+  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Guide, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
   ///
-  static const category = const IriTerm('http://schema.org/category');
+  static const category = IriTerm('http://schema.org/category');
 
   /// funding [Expects: http://schema.org/Grant]
   ///
@@ -725,7 +705,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const funding = const IriTerm('http://schema.org/funding');
+  static const funding = IriTerm('http://schema.org/funding');
 
   /// isVariantOf [Expects: http://schema.org/ProductGroup, http://schema.org/ProductModel]
   ///
@@ -733,7 +713,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/ProductModel
   ///
-  static const isVariantOf = const IriTerm('http://schema.org/isVariantOf');
+  static const isVariantOf = IriTerm('http://schema.org/isVariantOf');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -741,9 +721,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
 
   /// offers [Expects: http://schema.org/Demand, http://schema.org/Offer]
   ///
@@ -752,7 +730,15 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const offers = const IriTerm('http://schema.org/offers');
+  static const offers = IriTerm('http://schema.org/offers');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// review [Expects: http://schema.org/Review]
   ///
@@ -760,7 +746,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const review = const IriTerm('http://schema.org/review');
+  static const review = IriTerm('http://schema.org/review');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -768,7 +754,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// material [Expects: http://schema.org/Product, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -776,7 +762,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const material = const IriTerm('http://schema.org/material');
+  static const material = IriTerm('http://schema.org/material');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -784,7 +770,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// gtin [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -799,7 +785,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Demand, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const gtin = const IriTerm('http://schema.org/gtin');
+  static const gtin = IriTerm('http://schema.org/gtin');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -807,7 +793,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -816,15 +802,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -832,7 +810,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -842,7 +820,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -852,7 +830,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -862,7 +840,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -872,7 +850,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -882,7 +860,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -892,7 +870,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -902,7 +880,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -912,7 +890,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -922,7 +900,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -932,7 +910,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -942,9 +920,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -952,7 +928,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -962,7 +938,7 @@ class SchemaHttpDietarySupplement {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

@@ -29,7 +29,7 @@ class SchemaHttpMortgageLoan {
 
   /// IRI term for the MortgageLoan class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/MortgageLoan');
+  static const classIri = IriTerm('http://schema.org/MortgageLoan');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -38,9 +38,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// aggregateRating [Expects: http://schema.org/AggregateRating]
   ///
@@ -48,9 +46,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'http://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('http://schema.org/aggregateRating');
 
   /// amount [Expects: http://schema.org/MonetaryAmount, http://schema.org/Number]
   ///
@@ -58,7 +54,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/DatedMoneySpecification, http://schema.org/InvestmentOrDeposit, http://schema.org/LoanOrCredit, http://schema.org/MonetaryGrant, http://schema.org/MoneyTransfer
   ///
-  static const amount = const IriTerm('http://schema.org/amount');
+  static const amount = IriTerm('http://schema.org/amount');
 
   /// annualPercentageRate [Expects: http://schema.org/Number, http://schema.org/QuantitativeValue]
   ///
@@ -66,7 +62,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/FinancialProduct
   ///
-  static const annualPercentageRate = const IriTerm(
+  static const annualPercentageRate = IriTerm(
     'http://schema.org/annualPercentageRate',
   );
 
@@ -76,9 +72,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const availableChannel = const IriTerm(
-    'http://schema.org/availableChannel',
-  );
+  static const availableChannel = IriTerm('http://schema.org/availableChannel');
 
   /// brand [Expects: http://schema.org/Brand, http://schema.org/Organization]
   ///
@@ -86,7 +80,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const brand = const IriTerm('http://schema.org/brand');
+  static const brand = IriTerm('http://schema.org/brand');
 
   /// currency [Expects: http://schema.org/Text]
   ///
@@ -94,7 +88,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/DatedMoneySpecification, http://schema.org/ExchangeRateSpecification, http://schema.org/LoanOrCredit, http://schema.org/MonetaryAmount, http://schema.org/MonetaryAmountDistribution
   ///
-  static const currency = const IriTerm('http://schema.org/currency');
+  static const currency = IriTerm('http://schema.org/currency');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -102,7 +96,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -112,7 +106,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/MortgageLoan
   ///
-  static const domiciledMortgage = const IriTerm(
+  static const domiciledMortgage = IriTerm(
     'http://schema.org/domiciledMortgage',
   );
 
@@ -122,7 +116,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/FinancialProduct, http://schema.org/FinancialService
   ///
-  static const feesAndCommissionsSpecification = const IriTerm(
+  static const feesAndCommissionsSpecification = IriTerm(
     'http://schema.org/feesAndCommissionsSpecification',
   );
 
@@ -132,7 +126,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const gracePeriod = const IriTerm('http://schema.org/gracePeriod');
+  static const gracePeriod = IriTerm('http://schema.org/gracePeriod');
 
   /// hasCertification [Expects: http://schema.org/Certification]
   ///
@@ -140,9 +134,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
-    'http://schema.org/hasCertification',
-  );
+  static const hasCertification = IriTerm('http://schema.org/hasCertification');
 
   /// hasOfferCatalog [Expects: http://schema.org/OfferCatalog]
   ///
@@ -150,9 +142,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Service
   ///
-  static const hasOfferCatalog = const IriTerm(
-    'http://schema.org/hasOfferCatalog',
-  );
+  static const hasOfferCatalog = IriTerm('http://schema.org/hasOfferCatalog');
 
   /// hoursAvailable [Expects: http://schema.org/OpeningHoursSpecification]
   ///
@@ -160,9 +150,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/LocationFeatureSpecification, http://schema.org/Service
   ///
-  static const hoursAvailable = const IriTerm(
-    'http://schema.org/hoursAvailable',
-  );
+  static const hoursAvailable = IriTerm('http://schema.org/hoursAvailable');
 
   /// interactionCount
   ///
@@ -170,9 +158,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// interestRate [Expects: http://schema.org/Number, http://schema.org/QuantitativeValue]
   ///
@@ -180,7 +166,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/FinancialProduct
   ///
-  static const interestRate = const IriTerm('http://schema.org/interestRate');
+  static const interestRate = IriTerm('http://schema.org/interestRate');
 
   /// isRelatedTo [Expects: http://schema.org/Product, http://schema.org/Service]
   ///
@@ -188,7 +174,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Service
   ///
-  static const isRelatedTo = const IriTerm('http://schema.org/isRelatedTo');
+  static const isRelatedTo = IriTerm('http://schema.org/isRelatedTo');
 
   /// isSimilarTo [Expects: http://schema.org/Product, http://schema.org/Service]
   ///
@@ -196,7 +182,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Product, http://schema.org/Service
   ///
-  static const isSimilarTo = const IriTerm('http://schema.org/isSimilarTo');
+  static const isSimilarTo = IriTerm('http://schema.org/isSimilarTo');
 
   /// loanMortgageMandateAmount [Expects: http://schema.org/MonetaryAmount]
   ///
@@ -204,7 +190,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/MortgageLoan
   ///
-  static const loanMortgageMandateAmount = const IriTerm(
+  static const loanMortgageMandateAmount = IriTerm(
     'http://schema.org/loanMortgageMandateAmount',
   );
 
@@ -214,7 +200,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const loanRepaymentForm = const IriTerm(
+  static const loanRepaymentForm = IriTerm(
     'http://schema.org/loanRepaymentForm',
   );
 
@@ -224,7 +210,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const loanTerm = const IriTerm('http://schema.org/loanTerm');
+  static const loanTerm = IriTerm('http://schema.org/loanTerm');
 
   /// loanType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -232,7 +218,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const loanType = const IriTerm('http://schema.org/loanType');
+  static const loanType = IriTerm('http://schema.org/loanType');
 
   /// logo [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -240,7 +226,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Certification, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const logo = const IriTerm('http://schema.org/logo');
+  static const logo = IriTerm('http://schema.org/logo');
 
   /// name [Expects: http://schema.org/Text]
   ///
@@ -248,7 +234,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -256,9 +242,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// produces [Expects: http://schema.org/Thing]
   ///
@@ -266,7 +250,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const produces = const IriTerm('http://schema.org/produces');
+  static const produces = IriTerm('http://schema.org/produces');
 
   /// providerMobility [Expects: http://schema.org/Text]
   ///
@@ -274,9 +258,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const providerMobility = const IriTerm(
-    'http://schema.org/providerMobility',
-  );
+  static const providerMobility = IriTerm('http://schema.org/providerMobility');
 
   /// recourseLoan [Expects: http://schema.org/Boolean]
   ///
@@ -284,7 +266,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const recourseLoan = const IriTerm('http://schema.org/recourseLoan');
+  static const recourseLoan = IriTerm('http://schema.org/recourseLoan');
 
   /// renegotiableLoan [Expects: http://schema.org/Boolean]
   ///
@@ -292,9 +274,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const renegotiableLoan = const IriTerm(
-    'http://schema.org/renegotiableLoan',
-  );
+  static const renegotiableLoan = IriTerm('http://schema.org/renegotiableLoan');
 
   /// requiredCollateral [Expects: http://schema.org/Text, http://schema.org/Thing]
   ///
@@ -302,7 +282,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/LoanOrCredit
   ///
-  static const requiredCollateral = const IriTerm(
+  static const requiredCollateral = IriTerm(
     'http://schema.org/requiredCollateral',
   );
 
@@ -312,7 +292,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// serviceAudience [Expects: http://schema.org/Audience]
   ///
@@ -320,9 +300,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const serviceAudience = const IriTerm(
-    'http://schema.org/serviceAudience',
-  );
+  static const serviceAudience = IriTerm('http://schema.org/serviceAudience');
 
   /// serviceType [Expects: http://schema.org/GovernmentBenefitsType, http://schema.org/Text]
   ///
@@ -330,7 +308,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const serviceType = const IriTerm('http://schema.org/serviceType');
+  static const serviceType = IriTerm('http://schema.org/serviceType');
 
   /// slogan [Expects: http://schema.org/Text]
   ///
@@ -338,7 +316,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const slogan = const IriTerm('http://schema.org/slogan');
+  static const slogan = IriTerm('http://schema.org/slogan');
 
   /// termsOfService [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -346,9 +324,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const termsOfService = const IriTerm(
-    'http://schema.org/termsOfService',
-  );
+  static const termsOfService = IriTerm('http://schema.org/termsOfService');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -356,7 +332,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -364,7 +340,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// audience [Expects: http://schema.org/Audience]
   ///
@@ -372,7 +348,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const audience = const IriTerm('http://schema.org/audience');
+  static const audience = IriTerm('http://schema.org/audience');
 
   /// award [Expects: http://schema.org/Text]
   ///
@@ -380,7 +356,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const award = const IriTerm('http://schema.org/award');
+  static const award = IriTerm('http://schema.org/award');
 
   /// broker [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -388,15 +364,15 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order, http://schema.org/Reservation, http://schema.org/Service
   ///
-  static const broker = const IriTerm('http://schema.org/broker');
+  static const broker = IriTerm('http://schema.org/broker');
 
   /// category [Expects: http://schema.org/CategoryCode, http://schema.org/PhysicalActivityCategory, http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
   /// A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
   ///
-  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
+  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Guide, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
   ///
-  static const category = const IriTerm('http://schema.org/category');
+  static const category = IriTerm('http://schema.org/category');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -404,9 +380,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
 
   /// offers [Expects: http://schema.org/Demand, http://schema.org/Offer]
   ///
@@ -415,7 +389,15 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const offers = const IriTerm('http://schema.org/offers');
+  static const offers = IriTerm('http://schema.org/offers');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// provider [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -423,7 +405,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/FinancialIncentive, http://schema.org/Invoice, http://schema.org/ParcelDelivery, http://schema.org/Reservation, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const provider = const IriTerm('http://schema.org/provider');
+  static const provider = IriTerm('http://schema.org/provider');
 
   /// review [Expects: http://schema.org/Review]
   ///
@@ -431,7 +413,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const review = const IriTerm('http://schema.org/review');
+  static const review = IriTerm('http://schema.org/review');
 
   /// serviceArea [Expects: http://schema.org/AdministrativeArea, http://schema.org/GeoShape, http://schema.org/Place]
   ///
@@ -439,7 +421,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Service
   ///
-  static const serviceArea = const IriTerm('http://schema.org/serviceArea');
+  static const serviceArea = IriTerm('http://schema.org/serviceArea');
 
   /// serviceOutput [Expects: http://schema.org/Thing]
   ///
@@ -447,7 +429,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Service
   ///
-  static const serviceOutput = const IriTerm('http://schema.org/serviceOutput');
+  static const serviceOutput = IriTerm('http://schema.org/serviceOutput');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -455,7 +437,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// areaServed [Expects: http://schema.org/AdministrativeArea, http://schema.org/GeoShape, http://schema.org/Place, http://schema.org/Text]
   ///
@@ -463,7 +445,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/DeliveryChargeSpecification, http://schema.org/Demand, http://schema.org/FinancialIncentive, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Service
   ///
-  static const areaServed = const IriTerm('http://schema.org/areaServed');
+  static const areaServed = IriTerm('http://schema.org/areaServed');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -471,7 +453,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -479,7 +461,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -488,15 +470,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -504,7 +478,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -514,7 +488,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -524,7 +498,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -534,7 +508,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -544,7 +518,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -554,7 +528,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -564,7 +538,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -574,7 +548,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -584,7 +558,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -594,7 +568,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -604,7 +578,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -614,9 +588,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -624,7 +596,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -634,7 +606,7 @@ class SchemaHttpMortgageLoan {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

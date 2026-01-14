@@ -28,7 +28,7 @@ class SchemaVideoGame {
 
   /// IRI term for the VideoGame class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/VideoGame');
+  static const classIri = IriTerm('https://schema.org/VideoGame');
 
   /// abstract_ [Expects: https://schema.org/Text]
   ///
@@ -36,7 +36,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const abstract_ = const IriTerm('https://schema.org/abstract');
+  static const abstract_ = IriTerm('https://schema.org/abstract');
 
   /// accessMode [Expects: https://schema.org/Text]
   ///
@@ -44,7 +44,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessMode = const IriTerm('https://schema.org/accessMode');
+  static const accessMode = IriTerm('https://schema.org/accessMode');
 
   /// accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
@@ -52,7 +52,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessModeSufficient = const IriTerm(
+  static const accessModeSufficient = IriTerm(
     'https://schema.org/accessModeSufficient',
   );
 
@@ -62,7 +62,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityAPI = const IriTerm(
+  static const accessibilityAPI = IriTerm(
     'https://schema.org/accessibilityAPI',
   );
 
@@ -72,7 +72,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityControl = const IriTerm(
+  static const accessibilityControl = IriTerm(
     'https://schema.org/accessibilityControl',
   );
 
@@ -82,7 +82,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityFeature = const IriTerm(
+  static const accessibilityFeature = IriTerm(
     'https://schema.org/accessibilityFeature',
   );
 
@@ -92,7 +92,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityHazard = const IriTerm(
+  static const accessibilityHazard = IriTerm(
     'https://schema.org/accessibilityHazard',
   );
 
@@ -102,7 +102,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilitySummary = const IriTerm(
+  static const accessibilitySummary = IriTerm(
     'https://schema.org/accessibilitySummary',
   );
 
@@ -112,7 +112,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accountablePerson = const IriTerm(
+  static const accountablePerson = IriTerm(
     'https://schema.org/accountablePerson',
   );
 
@@ -122,7 +122,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const acquireLicensePage = const IriTerm(
+  static const acquireLicensePage = IriTerm(
     'https://schema.org/acquireLicensePage',
   );
 
@@ -132,7 +132,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const actors = const IriTerm('https://schema.org/actors');
+  static const actors = IriTerm('https://schema.org/actors');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -141,9 +141,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// aggregateRating [Expects: https://schema.org/AggregateRating]
   ///
@@ -151,9 +149,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// alternativeHeadline [Expects: https://schema.org/Text]
   ///
@@ -161,7 +157,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const alternativeHeadline = const IriTerm(
+  static const alternativeHeadline = IriTerm(
     'https://schema.org/alternativeHeadline',
   );
 
@@ -171,7 +167,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const applicationCategory = const IriTerm(
+  static const applicationCategory = IriTerm(
     'https://schema.org/applicationCategory',
   );
 
@@ -181,7 +177,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const applicationSubCategory = const IriTerm(
+  static const applicationSubCategory = IriTerm(
     'https://schema.org/applicationSubCategory',
   );
 
@@ -191,7 +187,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const applicationSuite = const IriTerm(
+  static const applicationSuite = IriTerm(
     'https://schema.org/applicationSuite',
   );
 
@@ -201,7 +197,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const archivedAt = const IriTerm('https://schema.org/archivedAt');
+  static const archivedAt = IriTerm('https://schema.org/archivedAt');
 
   /// assesses [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -209,7 +205,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const assesses = const IriTerm('https://schema.org/assesses');
+  static const assesses = IriTerm('https://schema.org/assesses');
 
   /// associatedMedia [Expects: https://schema.org/MediaObject]
   ///
@@ -217,9 +213,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/HyperToc, https://schema.org/HyperTocEntry
   ///
-  static const associatedMedia = const IriTerm(
-    'https://schema.org/associatedMedia',
-  );
+  static const associatedMedia = IriTerm('https://schema.org/associatedMedia');
 
   /// audio [Expects: https://schema.org/AudioObject, https://schema.org/Clip, https://schema.org/MusicRecording]
   ///
@@ -227,7 +221,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const audio = const IriTerm('https://schema.org/audio');
+  static const audio = IriTerm('https://schema.org/audio');
 
   /// author [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -235,7 +229,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Rating
   ///
-  static const author = const IriTerm('https://schema.org/author');
+  static const author = IriTerm('https://schema.org/author');
 
   /// awards [Expects: https://schema.org/Text]
   ///
@@ -243,7 +237,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const awards = const IriTerm('https://schema.org/awards');
+  static const awards = IriTerm('https://schema.org/awards');
 
   /// character [Expects: https://schema.org/Person]
   ///
@@ -251,7 +245,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const character = const IriTerm('https://schema.org/character');
+  static const character = IriTerm('https://schema.org/character');
 
   /// characterAttribute [Expects: https://schema.org/Thing]
   ///
@@ -259,7 +253,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Game, https://schema.org/VideoGameSeries
   ///
-  static const characterAttribute = const IriTerm(
+  static const characterAttribute = IriTerm(
     'https://schema.org/characterAttribute',
   );
 
@@ -269,7 +263,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame, https://schema.org/VideoGameSeries
   ///
-  static const cheatCode = const IriTerm('https://schema.org/cheatCode');
+  static const cheatCode = IriTerm('https://schema.org/cheatCode');
 
   /// citation [Expects: https://schema.org/CreativeWork, https://schema.org/Text]
   ///
@@ -277,7 +271,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const citation = const IriTerm('https://schema.org/citation');
+  static const citation = IriTerm('https://schema.org/citation');
 
   /// comment [Expects: https://schema.org/Comment]
   ///
@@ -285,7 +279,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/RsvpAction
   ///
-  static const comment = const IriTerm('https://schema.org/comment');
+  static const comment = IriTerm('https://schema.org/comment');
 
   /// commentCount [Expects: https://schema.org/Integer]
   ///
@@ -293,7 +287,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const commentCount = const IriTerm('https://schema.org/commentCount');
+  static const commentCount = IriTerm('https://schema.org/commentCount');
 
   /// conditionsOfAccess [Expects: https://schema.org/Text]
   ///
@@ -301,7 +295,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const conditionsOfAccess = const IriTerm(
+  static const conditionsOfAccess = IriTerm(
     'https://schema.org/conditionsOfAccess',
   );
 
@@ -311,9 +305,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentRating = const IriTerm(
-    'https://schema.org/contentRating',
-  );
+  static const contentRating = IriTerm('https://schema.org/contentRating');
 
   /// contentReferenceTime [Expects: https://schema.org/DateTime]
   ///
@@ -321,7 +313,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentReferenceTime = const IriTerm(
+  static const contentReferenceTime = IriTerm(
     'https://schema.org/contentReferenceTime',
   );
 
@@ -331,7 +323,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const contributor = const IriTerm('https://schema.org/contributor');
+  static const contributor = IriTerm('https://schema.org/contributor');
 
   /// copyrightHolder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -339,9 +331,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightHolder = const IriTerm(
-    'https://schema.org/copyrightHolder',
-  );
+  static const copyrightHolder = IriTerm('https://schema.org/copyrightHolder');
 
   /// copyrightNotice [Expects: https://schema.org/Text]
   ///
@@ -349,9 +339,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightNotice = const IriTerm(
-    'https://schema.org/copyrightNotice',
-  );
+  static const copyrightNotice = IriTerm('https://schema.org/copyrightNotice');
 
   /// copyrightYear [Expects: https://schema.org/Number]
   ///
@@ -359,9 +347,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightYear = const IriTerm(
-    'https://schema.org/copyrightYear',
-  );
+  static const copyrightYear = IriTerm('https://schema.org/copyrightYear');
 
   /// correction [Expects: https://schema.org/CorrectionComment, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -369,7 +355,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const correction = const IriTerm('https://schema.org/correction');
+  static const correction = IriTerm('https://schema.org/correction');
 
   /// countriesNotSupported [Expects: https://schema.org/Text]
   ///
@@ -377,7 +363,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const countriesNotSupported = const IriTerm(
+  static const countriesNotSupported = IriTerm(
     'https://schema.org/countriesNotSupported',
   );
 
@@ -387,7 +373,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const countriesSupported = const IriTerm(
+  static const countriesSupported = IriTerm(
     'https://schema.org/countriesSupported',
   );
 
@@ -401,9 +387,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Movie, https://schema.org/Product, https://schema.org/TVEpisode, https://schema.org/TVSeason, https://schema.org/TVSeries
   ///
-  static const countryOfOrigin = const IriTerm(
-    'https://schema.org/countryOfOrigin',
-  );
+  static const countryOfOrigin = IriTerm('https://schema.org/countryOfOrigin');
 
   /// creativeWorkStatus [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -411,7 +395,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const creativeWorkStatus = const IriTerm(
+  static const creativeWorkStatus = IriTerm(
     'https://schema.org/creativeWorkStatus',
   );
 
@@ -421,7 +405,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const creditText = const IriTerm('https://schema.org/creditText');
+  static const creditText = IriTerm('https://schema.org/creditText');
 
   /// dateModified [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -429,7 +413,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const dateModified = const IriTerm('https://schema.org/dateModified');
+  static const dateModified = IriTerm('https://schema.org/dateModified');
 
   /// datePublished [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -437,9 +421,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const datePublished = const IriTerm(
-    'https://schema.org/datePublished',
-  );
+  static const datePublished = IriTerm('https://schema.org/datePublished');
 
   /// device [Expects: https://schema.org/Text]
   ///
@@ -447,7 +429,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const device = const IriTerm('https://schema.org/device');
+  static const device = IriTerm('https://schema.org/device');
 
   /// digitalSourceType [Expects: https://schema.org/IPTCDigitalSourceEnumeration]
   ///
@@ -455,7 +437,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const digitalSourceType = const IriTerm(
+  static const digitalSourceType = IriTerm(
     'https://schema.org/digitalSourceType',
   );
 
@@ -465,7 +447,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const directors = const IriTerm('https://schema.org/directors');
+  static const directors = IriTerm('https://schema.org/directors');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -473,7 +455,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -483,9 +465,15 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const discussionUrl = const IriTerm(
-    'https://schema.org/discussionUrl',
-  );
+  static const discussionUrl = IriTerm('https://schema.org/discussionUrl');
+
+  /// displayLocation [Expects: https://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
+  ///
+  static const displayLocation = IriTerm('https://schema.org/displayLocation');
 
   /// downloadUrl [Expects: https://schema.org/URL]
   ///
@@ -493,7 +481,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const downloadUrl = const IriTerm('https://schema.org/downloadUrl');
+  static const downloadUrl = IriTerm('https://schema.org/downloadUrl');
 
   /// editEIDR [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -506,7 +494,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const editEIDR = const IriTerm('https://schema.org/editEIDR');
+  static const editEIDR = IriTerm('https://schema.org/editEIDR');
 
   /// editor [Expects: https://schema.org/Person]
   ///
@@ -514,7 +502,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const editor = const IriTerm('https://schema.org/editor');
+  static const editor = IriTerm('https://schema.org/editor');
 
   /// educationalAlignment [Expects: https://schema.org/AlignmentObject]
   ///
@@ -524,7 +512,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const educationalAlignment = const IriTerm(
+  static const educationalAlignment = IriTerm(
     'https://schema.org/educationalAlignment',
   );
 
@@ -534,7 +522,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/EducationalOccupationalCredential, https://schema.org/LearningResource
   ///
-  static const educationalLevel = const IriTerm(
+  static const educationalLevel = IriTerm(
     'https://schema.org/educationalLevel',
   );
 
@@ -544,9 +532,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const educationalUse = const IriTerm(
-    'https://schema.org/educationalUse',
-  );
+  static const educationalUse = IriTerm('https://schema.org/educationalUse');
 
   /// encodings [Expects: https://schema.org/MediaObject]
   ///
@@ -554,7 +540,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const encodings = const IriTerm('https://schema.org/encodings');
+  static const encodings = IriTerm('https://schema.org/encodings');
 
   /// expires [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -562,7 +548,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const expires = const IriTerm('https://schema.org/expires');
+  static const expires = IriTerm('https://schema.org/expires');
 
   /// featureList [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -570,7 +556,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const featureList = const IriTerm('https://schema.org/featureList');
+  static const featureList = IriTerm('https://schema.org/featureList');
 
   /// fileFormat [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -578,7 +564,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const fileFormat = const IriTerm('https://schema.org/fileFormat');
+  static const fileFormat = IriTerm('https://schema.org/fileFormat');
 
   /// fileSize [Expects: https://schema.org/Text]
   ///
@@ -586,7 +572,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const fileSize = const IriTerm('https://schema.org/fileSize');
+  static const fileSize = IriTerm('https://schema.org/fileSize');
 
   /// funder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -594,7 +580,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const funder = const IriTerm('https://schema.org/funder');
+  static const funder = IriTerm('https://schema.org/funder');
 
   /// gameEdition [Expects: https://schema.org/Text]
   ///
@@ -602,7 +588,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame
   ///
-  static const gameEdition = const IriTerm('https://schema.org/gameEdition');
+  static const gameEdition = IriTerm('https://schema.org/gameEdition');
 
   /// gameItem [Expects: https://schema.org/Thing]
   ///
@@ -610,7 +596,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Game, https://schema.org/VideoGameSeries
   ///
-  static const gameItem = const IriTerm('https://schema.org/gameItem');
+  static const gameItem = IriTerm('https://schema.org/gameItem');
 
   /// gameLocation [Expects: https://schema.org/Place, https://schema.org/PostalAddress, https://schema.org/URL]
   ///
@@ -618,7 +604,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Game, https://schema.org/VideoGameSeries
   ///
-  static const gameLocation = const IriTerm('https://schema.org/gameLocation');
+  static const gameLocation = IriTerm('https://schema.org/gameLocation');
 
   /// gamePlatform [Expects: https://schema.org/Text, https://schema.org/Thing, https://schema.org/URL]
   ///
@@ -626,7 +612,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame, https://schema.org/VideoGameSeries
   ///
-  static const gamePlatform = const IriTerm('https://schema.org/gamePlatform');
+  static const gamePlatform = IriTerm('https://schema.org/gamePlatform');
 
   /// gameTip [Expects: https://schema.org/CreativeWork]
   ///
@@ -634,7 +620,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame
   ///
-  static const gameTip = const IriTerm('https://schema.org/gameTip');
+  static const gameTip = IriTerm('https://schema.org/gameTip');
 
   /// headline [Expects: https://schema.org/Text]
   ///
@@ -642,7 +628,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const headline = const IriTerm('https://schema.org/headline');
+  static const headline = IriTerm('https://schema.org/headline');
 
   /// installUrl [Expects: https://schema.org/URL]
   ///
@@ -650,7 +636,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const installUrl = const IriTerm('https://schema.org/installUrl');
+  static const installUrl = IriTerm('https://schema.org/installUrl');
 
   /// interactionCount
   ///
@@ -658,7 +644,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -668,7 +654,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const interactivityType = const IriTerm(
+  static const interactivityType = IriTerm(
     'https://schema.org/interactivityType',
   );
 
@@ -678,7 +664,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const interpretedAsClaim = const IriTerm(
+  static const interpretedAsClaim = IriTerm(
     'https://schema.org/interpretedAsClaim',
   );
 
@@ -688,7 +674,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isBasedOnUrl = const IriTerm('https://schema.org/isBasedOnUrl');
+  static const isBasedOnUrl = IriTerm('https://schema.org/isBasedOnUrl');
 
   /// isFamilyFriendly [Expects: https://schema.org/Boolean]
   ///
@@ -696,7 +682,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const isFamilyFriendly = const IriTerm(
+  static const isFamilyFriendly = IriTerm(
     'https://schema.org/isFamilyFriendly',
   );
 
@@ -706,7 +692,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// learningResourceType [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -714,7 +700,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const learningResourceType = const IriTerm(
+  static const learningResourceType = IriTerm(
     'https://schema.org/learningResourceType',
   );
 
@@ -724,7 +710,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const license = const IriTerm('https://schema.org/license');
+  static const license = IriTerm('https://schema.org/license');
 
   /// locationCreated [Expects: https://schema.org/Place]
   ///
@@ -732,9 +718,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const locationCreated = const IriTerm(
-    'https://schema.org/locationCreated',
-  );
+  static const locationCreated = IriTerm('https://schema.org/locationCreated');
 
   /// maintainer [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -743,7 +727,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const maintainer = const IriTerm('https://schema.org/maintainer');
+  static const maintainer = IriTerm('https://schema.org/maintainer');
 
   /// materialExtent [Expects: https://schema.org/QuantitativeValue, https://schema.org/Text]
   ///
@@ -751,9 +735,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const materialExtent = const IriTerm(
-    'https://schema.org/materialExtent',
-  );
+  static const materialExtent = IriTerm('https://schema.org/materialExtent');
 
   /// memoryRequirements [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -761,7 +743,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const memoryRequirements = const IriTerm(
+  static const memoryRequirements = IriTerm(
     'https://schema.org/memoryRequirements',
   );
 
@@ -771,7 +753,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const mentions = const IriTerm('https://schema.org/mentions');
+  static const mentions = IriTerm('https://schema.org/mentions');
 
   /// musicBy [Expects: https://schema.org/MusicGroup, https://schema.org/Person]
   ///
@@ -779,7 +761,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const musicBy = const IriTerm('https://schema.org/musicBy');
+  static const musicBy = IriTerm('https://schema.org/musicBy');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -787,7 +769,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// numberOfPlayers [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -795,19 +777,15 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Game, https://schema.org/VideoGameSeries
   ///
-  static const numberOfPlayers = const IriTerm(
-    'https://schema.org/numberOfPlayers',
-  );
+  static const numberOfPlayers = IriTerm('https://schema.org/numberOfPlayers');
 
-  /// operatingSystem [Expects: https://schema.org/Text]
+  /// operatingSystem [Expects: https://schema.org/OperatingSystem, https://schema.org/Text]
   ///
   /// Operating systems supported (Windows 7, OS X 10.6, Android 1.6).
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const operatingSystem = const IriTerm(
-    'https://schema.org/operatingSystem',
-  );
+  static const operatingSystem = IriTerm('https://schema.org/operatingSystem');
 
   /// pattern [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -815,7 +793,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const pattern = const IriTerm('https://schema.org/pattern');
+  static const pattern = IriTerm('https://schema.org/pattern');
 
   /// permissions [Expects: https://schema.org/Text]
   ///
@@ -823,7 +801,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const permissions = const IriTerm('https://schema.org/permissions');
+  static const permissions = IriTerm('https://schema.org/permissions');
 
   /// playMode [Expects: https://schema.org/GamePlayMode]
   ///
@@ -831,7 +809,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame, https://schema.org/VideoGameSeries
   ///
-  static const playMode = const IriTerm('https://schema.org/playMode');
+  static const playMode = IriTerm('https://schema.org/playMode');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -839,9 +817,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// processorRequirements [Expects: https://schema.org/Text]
   ///
@@ -849,7 +825,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const processorRequirements = const IriTerm(
+  static const processorRequirements = IriTerm(
     'https://schema.org/processorRequirements',
   );
 
@@ -859,7 +835,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const producer = const IriTerm('https://schema.org/producer');
+  static const producer = IriTerm('https://schema.org/producer');
 
   /// publication [Expects: https://schema.org/PublicationEvent]
   ///
@@ -867,7 +843,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const publication = const IriTerm('https://schema.org/publication');
+  static const publication = IriTerm('https://schema.org/publication');
 
   /// publisher [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -875,7 +851,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/FinancialIncentive
   ///
-  static const publisher = const IriTerm('https://schema.org/publisher');
+  static const publisher = IriTerm('https://schema.org/publisher');
 
   /// publisherImprint [Expects: https://schema.org/Organization]
   ///
@@ -883,7 +859,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const publisherImprint = const IriTerm(
+  static const publisherImprint = IriTerm(
     'https://schema.org/publisherImprint',
   );
 
@@ -893,7 +869,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Game, https://schema.org/VideoGameSeries
   ///
-  static const quest = const IriTerm('https://schema.org/quest');
+  static const quest = IriTerm('https://schema.org/quest');
 
   /// releaseNotes [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -901,7 +877,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const releaseNotes = const IriTerm('https://schema.org/releaseNotes');
+  static const releaseNotes = IriTerm('https://schema.org/releaseNotes');
 
   /// releasedEvent [Expects: https://schema.org/PublicationEvent]
   ///
@@ -909,9 +885,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const releasedEvent = const IriTerm(
-    'https://schema.org/releasedEvent',
-  );
+  static const releasedEvent = IriTerm('https://schema.org/releasedEvent');
 
   /// requirements [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -919,7 +893,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const requirements = const IriTerm('https://schema.org/requirements');
+  static const requirements = IriTerm('https://schema.org/requirements');
 
   /// reviews [Expects: https://schema.org/Review]
   ///
@@ -927,7 +901,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -935,7 +909,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// schemaVersion [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -944,9 +918,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVersion = const IriTerm(
-    'https://schema.org/schemaVersion',
-  );
+  static const schemaVersion = IriTerm('https://schema.org/schemaVersion');
 
   /// screenshot [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -954,7 +926,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const screenshot = const IriTerm('https://schema.org/screenshot');
+  static const screenshot = IriTerm('https://schema.org/screenshot');
 
   /// sdDatePublished [Expects: https://schema.org/Date]
   ///
@@ -962,9 +934,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdDatePublished = const IriTerm(
-    'https://schema.org/sdDatePublished',
-  );
+  static const sdDatePublished = IriTerm('https://schema.org/sdDatePublished');
 
   /// sdLicense [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -972,7 +942,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdLicense = const IriTerm('https://schema.org/sdLicense');
+  static const sdLicense = IriTerm('https://schema.org/sdLicense');
 
   /// sdPublisher [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -981,7 +951,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdPublisher = const IriTerm('https://schema.org/sdPublisher');
+  static const sdPublisher = IriTerm('https://schema.org/sdPublisher');
 
   /// size [Expects: https://schema.org/DefinedTerm, https://schema.org/QuantitativeValue, https://schema.org/SizeSpecification, https://schema.org/Text]
   ///
@@ -989,7 +959,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const size = const IriTerm('https://schema.org/size');
+  static const size = IriTerm('https://schema.org/size');
 
   /// softwareAddOn [Expects: https://schema.org/SoftwareApplication]
   ///
@@ -997,9 +967,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const softwareAddOn = const IriTerm(
-    'https://schema.org/softwareAddOn',
-  );
+  static const softwareAddOn = IriTerm('https://schema.org/softwareAddOn');
 
   /// softwareHelp [Expects: https://schema.org/CreativeWork]
   ///
@@ -1007,7 +975,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const softwareHelp = const IriTerm('https://schema.org/softwareHelp');
+  static const softwareHelp = IriTerm('https://schema.org/softwareHelp');
 
   /// softwareVersion [Expects: https://schema.org/Text]
   ///
@@ -1015,9 +983,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const softwareVersion = const IriTerm(
-    'https://schema.org/softwareVersion',
-  );
+  static const softwareVersion = IriTerm('https://schema.org/softwareVersion');
 
   /// sourceOrganization [Expects: https://schema.org/Organization]
   ///
@@ -1025,7 +991,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sourceOrganization = const IriTerm(
+  static const sourceOrganization = IriTerm(
     'https://schema.org/sourceOrganization',
   );
 
@@ -1036,7 +1002,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const spatial = const IriTerm('https://schema.org/spatial');
+  static const spatial = IriTerm('https://schema.org/spatial');
 
   /// storageRequirements [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1044,7 +1010,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const storageRequirements = const IriTerm(
+  static const storageRequirements = IriTerm(
     'https://schema.org/storageRequirements',
   );
 
@@ -1054,9 +1020,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const supportingData = const IriTerm(
-    'https://schema.org/supportingData',
-  );
+  static const supportingData = IriTerm('https://schema.org/supportingData');
 
   /// teaches [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -1064,7 +1028,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const teaches = const IriTerm('https://schema.org/teaches');
+  static const teaches = IriTerm('https://schema.org/teaches');
 
   /// temporal [Expects: https://schema.org/DateTime, https://schema.org/Text]
   ///
@@ -1073,7 +1037,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const temporal = const IriTerm('https://schema.org/temporal');
+  static const temporal = IriTerm('https://schema.org/temporal');
 
   /// text [Expects: https://schema.org/Text]
   ///
@@ -1081,7 +1045,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const text = const IriTerm('https://schema.org/text');
+  static const text = IriTerm('https://schema.org/text');
 
   /// thumbnail [Expects: https://schema.org/ImageObject]
   ///
@@ -1089,7 +1053,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const thumbnail = const IriTerm('https://schema.org/thumbnail');
+  static const thumbnail = IriTerm('https://schema.org/thumbnail');
 
   /// thumbnailUrl [Expects: https://schema.org/URL]
   ///
@@ -1097,7 +1061,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const thumbnailUrl = const IriTerm('https://schema.org/thumbnailUrl');
+  static const thumbnailUrl = IriTerm('https://schema.org/thumbnailUrl');
 
   /// timeRequired [Expects: https://schema.org/Duration]
   ///
@@ -1105,7 +1069,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const timeRequired = const IriTerm('https://schema.org/timeRequired');
+  static const timeRequired = IriTerm('https://schema.org/timeRequired');
 
   /// trailer [Expects: https://schema.org/VideoObject]
   ///
@@ -1113,7 +1077,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries
   ///
-  static const trailer = const IriTerm('https://schema.org/trailer');
+  static const trailer = IriTerm('https://schema.org/trailer');
 
   /// translator [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1121,7 +1085,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const translator = const IriTerm('https://schema.org/translator');
+  static const translator = IriTerm('https://schema.org/translator');
 
   /// typicalAgeRange [Expects: https://schema.org/Text]
   ///
@@ -1129,9 +1093,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const typicalAgeRange = const IriTerm(
-    'https://schema.org/typicalAgeRange',
-  );
+  static const typicalAgeRange = IriTerm('https://schema.org/typicalAgeRange');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -1139,7 +1101,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// version [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -1147,7 +1109,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const version = const IriTerm('https://schema.org/version');
+  static const version = IriTerm('https://schema.org/version');
 
   /// video [Expects: https://schema.org/Clip, https://schema.org/VideoObject]
   ///
@@ -1155,7 +1117,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const video = const IriTerm('https://schema.org/video');
+  static const video = IriTerm('https://schema.org/video');
 
   /// wordCount [Expects: https://schema.org/Integer]
   ///
@@ -1163,7 +1125,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Article, https://schema.org/CreativeWork
   ///
-  static const wordCount = const IriTerm('https://schema.org/wordCount');
+  static const wordCount = IriTerm('https://schema.org/wordCount');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -1171,9 +1133,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// audience [Expects: https://schema.org/Audience]
   ///
@@ -1181,7 +1141,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const audience = const IriTerm('https://schema.org/audience');
+  static const audience = IriTerm('https://schema.org/audience');
 
   /// availableOnDevice [Expects: https://schema.org/Text]
   ///
@@ -1189,7 +1149,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const availableOnDevice = const IriTerm(
+  static const availableOnDevice = IriTerm(
     'https://schema.org/availableOnDevice',
   );
 
@@ -1199,7 +1159,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const award = const IriTerm('https://schema.org/award');
+  static const award = IriTerm('https://schema.org/award');
 
   /// contentLocation [Expects: https://schema.org/Place]
   ///
@@ -1207,9 +1167,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentLocation = const IriTerm(
-    'https://schema.org/contentLocation',
-  );
+  static const contentLocation = IriTerm('https://schema.org/contentLocation');
 
   /// creator [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1217,7 +1175,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/UserComments
   ///
-  static const creator = const IriTerm('https://schema.org/creator');
+  static const creator = IriTerm('https://schema.org/creator');
 
   /// dateCreated [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -1225,7 +1183,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const dateCreated = const IriTerm('https://schema.org/dateCreated');
+  static const dateCreated = IriTerm('https://schema.org/dateCreated');
 
   /// director [Expects: https://schema.org/Person]
   ///
@@ -1233,7 +1191,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/Event, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const director = const IriTerm('https://schema.org/director');
+  static const director = IriTerm('https://schema.org/director');
 
   /// encodingFormat [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1245,9 +1203,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const encodingFormat = const IriTerm(
-    'https://schema.org/encodingFormat',
-  );
+  static const encodingFormat = IriTerm('https://schema.org/encodingFormat');
 
   /// exampleOfWork [Expects: https://schema.org/CreativeWork]
   ///
@@ -1255,9 +1211,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const exampleOfWork = const IriTerm(
-    'https://schema.org/exampleOfWork',
-  );
+  static const exampleOfWork = IriTerm('https://schema.org/exampleOfWork');
 
   /// funding [Expects: https://schema.org/Grant]
   ///
@@ -1265,7 +1219,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
   /// gameServer [Expects: https://schema.org/GameServer]
   ///
@@ -1273,15 +1227,15 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/VideoGame
   ///
-  static const gameServer = const IriTerm('https://schema.org/gameServer');
+  static const gameServer = IriTerm('https://schema.org/gameServer');
 
-  /// genre [Expects: https://schema.org/Text, https://schema.org/URL]
+  /// genre [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: https://schema.org/BroadcastChannel, https://schema.org/CreativeWork, https://schema.org/MusicGroup
   ///
-  static const genre = const IriTerm('https://schema.org/genre');
+  static const genre = IriTerm('https://schema.org/genre');
 
   /// inLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -1289,7 +1243,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/BroadcastService, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LinkRole, https://schema.org/PronounceableText, https://schema.org/WriteAction
   ///
-  static const inLanguage = const IriTerm('https://schema.org/inLanguage');
+  static const inLanguage = IriTerm('https://schema.org/inLanguage');
 
   /// interactionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -1297,7 +1251,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -1307,7 +1261,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -1317,7 +1271,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isBasedOn = const IriTerm('https://schema.org/isBasedOn');
+  static const isBasedOn = IriTerm('https://schema.org/isBasedOn');
 
   /// mainEntity [Expects: https://schema.org/Thing]
   ///
@@ -1325,7 +1279,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const mainEntity = const IriTerm('https://schema.org/mainEntity');
+  static const mainEntity = IriTerm('https://schema.org/mainEntity');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1333,7 +1287,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -1344,7 +1298,15 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/AggregateOffer, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/Event, https://schema.org/MenuItem, https://schema.org/Product, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const offers = const IriTerm('https://schema.org/offers');
+  static const offers = IriTerm('https://schema.org/offers');
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// provider [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1352,7 +1314,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const provider = const IriTerm('https://schema.org/provider');
+  static const provider = IriTerm('https://schema.org/provider');
 
   /// recordedAt [Expects: https://schema.org/Event]
   ///
@@ -1360,7 +1322,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const recordedAt = const IriTerm('https://schema.org/recordedAt');
+  static const recordedAt = IriTerm('https://schema.org/recordedAt');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -1368,15 +1330,23 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
-  /// softwareRequirements [Expects: https://schema.org/Text, https://schema.org/URL]
+  /// runtimePlatform [Expects: https://schema.org/RuntimePlatform, https://schema.org/Text]
+  ///
+  /// Runtime platform or script interpreter dependencies (example: Java v1, Python 2.3, .NET Framework 3.0).
+  ///
+  /// Can be used on: https://schema.org/SoftwareApplication, https://schema.org/SoftwareSourceCode
+  ///
+  static const runtimePlatform = IriTerm('https://schema.org/runtimePlatform');
+
+  /// softwareRequirements [Expects: https://schema.org/SoftwareApplication, https://schema.org/Text, https://schema.org/URL]
   ///
   /// Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (examples: DirectX, Java or .NET runtime).
   ///
   /// Can be used on: https://schema.org/SoftwareApplication
   ///
-  static const softwareRequirements = const IriTerm(
+  static const softwareRequirements = IriTerm(
     'https://schema.org/softwareRequirements',
   );
 
@@ -1386,7 +1356,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const sponsor = const IriTerm('https://schema.org/sponsor');
+  static const sponsor = IriTerm('https://schema.org/sponsor');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -1394,7 +1364,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// temporalCoverage [Expects: https://schema.org/DateTime, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1406,7 +1376,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const temporalCoverage = const IriTerm(
+  static const temporalCoverage = IriTerm(
     'https://schema.org/temporalCoverage',
   );
 
@@ -1416,7 +1386,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const translationOfWork = const IriTerm(
+  static const translationOfWork = IriTerm(
     'https://schema.org/translationOfWork',
   );
 
@@ -1428,7 +1398,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const usageInfo = const IriTerm('https://schema.org/usageInfo');
+  static const usageInfo = IriTerm('https://schema.org/usageInfo');
 
   /// workTranslation [Expects: https://schema.org/CreativeWork]
   ///
@@ -1436,17 +1406,15 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const workTranslation = const IriTerm(
-    'https://schema.org/workTranslation',
-  );
+  static const workTranslation = IriTerm('https://schema.org/workTranslation');
 
   /// about [Expects: https://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event
+  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/DefinedTerm, https://schema.org/DefinedTermSet, https://schema.org/Event
   ///
-  static const about = const IriTerm('https://schema.org/about');
+  static const about = IriTerm('https://schema.org/about');
 
   /// actor [Expects: https://schema.org/PerformingGroup, https://schema.org/Person]
   ///
@@ -1454,7 +1422,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/Event, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/PodcastSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const actor = const IriTerm('https://schema.org/actor');
+  static const actor = IriTerm('https://schema.org/actor');
 
   /// encoding [Expects: https://schema.org/MediaObject]
   ///
@@ -1462,7 +1430,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const encoding = const IriTerm('https://schema.org/encoding');
+  static const encoding = IriTerm('https://schema.org/encoding');
 
   /// material [Expects: https://schema.org/Product, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1470,7 +1438,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const material = const IriTerm('https://schema.org/material');
+  static const material = IriTerm('https://schema.org/material');
 
   /// spatialCoverage [Expects: https://schema.org/Place]
   ///
@@ -1480,9 +1448,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const spatialCoverage = const IriTerm(
-    'https://schema.org/spatialCoverage',
-  );
+  static const spatialCoverage = IriTerm('https://schema.org/spatialCoverage');
 
   /// workExample [Expects: https://schema.org/CreativeWork]
   ///
@@ -1490,7 +1456,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const workExample = const IriTerm('https://schema.org/workExample');
+  static const workExample = IriTerm('https://schema.org/workExample');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -1498,7 +1464,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1506,7 +1472,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// hasPart [Expects: https://schema.org/CreativeWork]
   ///
@@ -1514,7 +1480,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const hasPart = const IriTerm('https://schema.org/hasPart');
+  static const hasPart = IriTerm('https://schema.org/hasPart');
 
   /// position [Expects: https://schema.org/Integer, https://schema.org/Text]
   ///
@@ -1522,7 +1488,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/ListItem
   ///
-  static const position = const IriTerm('https://schema.org/position');
+  static const position = IriTerm('https://schema.org/position');
 
   /// isPartOf [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1530,7 +1496,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isPartOf = const IriTerm('https://schema.org/isPartOf');
+  static const isPartOf = IriTerm('https://schema.org/isPartOf');
 
   /// publishingPrinciples [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1541,7 +1507,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -1552,15 +1518,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1568,7 +1526,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1578,7 +1536,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1588,7 +1546,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1598,7 +1556,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1608,7 +1566,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1618,7 +1576,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1628,7 +1586,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -1638,7 +1596,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1648,7 +1606,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1658,7 +1616,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -1668,7 +1626,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -1678,9 +1636,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -1688,7 +1644,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -1698,7 +1654,7 @@ class SchemaVideoGame {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

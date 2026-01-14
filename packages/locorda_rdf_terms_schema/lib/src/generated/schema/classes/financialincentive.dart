@@ -31,9 +31,7 @@ class SchemaFinancialIncentive {
 
   /// IRI term for the FinancialIncentive class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'https://schema.org/FinancialIncentive',
-  );
+  static const classIri = IriTerm('https://schema.org/FinancialIncentive');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -42,9 +40,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -52,7 +48,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -62,7 +58,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const eligibleWithSupplier = const IriTerm(
+  static const eligibleWithSupplier = IriTerm(
     'https://schema.org/eligibleWithSupplier',
   );
 
@@ -135,9 +131,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const incentiveAmount = const IriTerm(
-    'https://schema.org/incentiveAmount',
-  );
+  static const incentiveAmount = IriTerm('https://schema.org/incentiveAmount');
 
   /// incentiveStatus [Expects: https://schema.org/IncentiveStatus]
   ///
@@ -145,9 +139,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const incentiveStatus = const IriTerm(
-    'https://schema.org/incentiveStatus',
-  );
+  static const incentiveStatus = IriTerm('https://schema.org/incentiveStatus');
 
   /// incentiveType [Expects: https://schema.org/IncentiveType]
   ///
@@ -155,9 +147,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const incentiveType = const IriTerm(
-    'https://schema.org/incentiveType',
-  );
+  static const incentiveType = IriTerm('https://schema.org/incentiveType');
 
   /// incentivizedItem [Expects: https://schema.org/DefinedTerm, https://schema.org/Product]
   ///
@@ -179,7 +169,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const incentivizedItem = const IriTerm(
+  static const incentivizedItem = IriTerm(
     'https://schema.org/incentivizedItem',
   );
 
@@ -198,7 +188,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const incomeLimit = const IriTerm('https://schema.org/incomeLimit');
+  static const incomeLimit = IriTerm('https://schema.org/incomeLimit');
 
   /// interactionCount
   ///
@@ -206,7 +196,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -216,7 +206,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -224,9 +214,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// publisher [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -234,7 +222,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/FinancialIncentive
   ///
-  static const publisher = const IriTerm('https://schema.org/publisher');
+  static const publisher = IriTerm('https://schema.org/publisher');
 
   /// purchasePriceLimit [Expects: https://schema.org/MonetaryAmount]
   ///
@@ -242,7 +230,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const purchasePriceLimit = const IriTerm(
+  static const purchasePriceLimit = IriTerm(
     'https://schema.org/purchasePriceLimit',
   );
 
@@ -252,7 +240,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const purchaseType = const IriTerm('https://schema.org/purchaseType');
+  static const purchaseType = IriTerm('https://schema.org/purchaseType');
 
   /// qualifiedExpense [Expects: https://schema.org/IncentiveQualifiedExpenseType]
   ///
@@ -260,7 +248,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/FinancialIncentive
   ///
-  static const qualifiedExpense = const IriTerm(
+  static const qualifiedExpense = IriTerm(
     'https://schema.org/qualifiedExpense',
   );
 
@@ -270,7 +258,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -278,7 +266,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// validFrom [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -286,7 +274,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/LocationFeatureSpecification, https://schema.org/MonetaryAmount, https://schema.org/Offer, https://schema.org/OpeningHoursSpecification, https://schema.org/Permit, https://schema.org/PriceSpecification
   ///
-  static const validFrom = const IriTerm('https://schema.org/validFrom');
+  static const validFrom = IriTerm('https://schema.org/validFrom');
 
   /// validThrough [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -294,7 +282,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/JobPosting, https://schema.org/LocationFeatureSpecification, https://schema.org/MonetaryAmount, https://schema.org/Offer, https://schema.org/OpeningHoursSpecification, https://schema.org/PriceSpecification
   ///
-  static const validThrough = const IriTerm('https://schema.org/validThrough');
+  static const validThrough = IriTerm('https://schema.org/validThrough');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -302,9 +290,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -312,9 +298,17 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// provider [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -322,7 +316,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const provider = const IriTerm('https://schema.org/provider');
+  static const provider = IriTerm('https://schema.org/provider');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -330,7 +324,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// areaServed [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place, https://schema.org/Text]
   ///
@@ -338,7 +332,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const areaServed = const IriTerm('https://schema.org/areaServed');
+  static const areaServed = IriTerm('https://schema.org/areaServed');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -346,7 +340,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -354,7 +348,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -363,15 +357,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -379,7 +365,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -389,7 +375,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -399,7 +385,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -409,7 +395,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -419,7 +405,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -429,7 +415,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -439,7 +425,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -449,7 +435,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -459,7 +445,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -469,7 +455,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -479,7 +465,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -489,9 +475,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -499,7 +483,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -509,7 +493,7 @@ class SchemaFinancialIncentive {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

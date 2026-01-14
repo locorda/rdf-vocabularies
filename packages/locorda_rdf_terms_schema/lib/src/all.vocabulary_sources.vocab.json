@@ -21,9 +21,7 @@
     "void": {
       "type": "url",
       "namespace": "http://rdfs.org/ns/void#",
-      "source": "http://vocab.deri.ie/void.ttl",
-      "skipDownload": true,
-      "skipDownloadReason": "The source URL is currently blocking, the build waits forever.",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/void/versions/2011-03-06.n3",
       "generate": false
     },
     "owl": {
@@ -61,7 +59,7 @@
     "foaf": {
       "type": "url",
       "namespace": "http://xmlns.com/foaf/0.1/",
-      "source": "http://xmlns.com/foaf/spec/index.rdf",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2014-01-14.n3",
       "generate": false
     },
     "geo": {

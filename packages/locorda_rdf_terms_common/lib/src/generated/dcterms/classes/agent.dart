@@ -28,7 +28,7 @@ class DctermsAgent {
 
   /// IRI term for the Agent class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://purl.org/dc/terms/Agent');
+  static const classIri = IriTerm('http://purl.org/dc/terms/Agent');
 
   /// abstract_
   ///
@@ -36,7 +36,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const abstract_ = const IriTerm('http://purl.org/dc/terms/abstract');
+  static const abstract_ = IriTerm('http://purl.org/dc/terms/abstract');
 
   /// accessRights
   ///
@@ -44,9 +44,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const accessRights = const IriTerm(
-    'http://purl.org/dc/terms/accessRights',
-  );
+  static const accessRights = IriTerm('http://purl.org/dc/terms/accessRights');
 
   /// alternative [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -54,9 +52,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const alternative = const IriTerm(
-    'http://purl.org/dc/terms/alternative',
-  );
+  static const alternative = IriTerm('http://purl.org/dc/terms/alternative');
 
   /// audience
   ///
@@ -64,7 +60,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const audience = const IriTerm('http://purl.org/dc/terms/audience');
+  static const audience = IriTerm('http://purl.org/dc/terms/audience');
 
   /// available [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -72,7 +68,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const available = const IriTerm('http://purl.org/dc/terms/available');
+  static const available = IriTerm('http://purl.org/dc/terms/available');
 
   /// bibliographicCitation [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -80,7 +76,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const bibliographicCitation = const IriTerm(
+  static const bibliographicCitation = IriTerm(
     'http://purl.org/dc/terms/bibliographicCitation',
   );
 
@@ -90,9 +86,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const conformsTo = const IriTerm(
-    'http://purl.org/dc/terms/conformsTo',
-  );
+  static const conformsTo = IriTerm('http://purl.org/dc/terms/conformsTo');
 
   /// contributor
   ///
@@ -100,9 +94,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const contributor = const IriTerm(
-    'http://purl.org/dc/terms/contributor',
-  );
+  static const contributor = IriTerm('http://purl.org/dc/terms/contributor');
 
   /// coverage
   ///
@@ -110,7 +102,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const coverage = const IriTerm('http://purl.org/dc/terms/coverage');
+  static const coverage = IriTerm('http://purl.org/dc/terms/coverage');
 
   /// created [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -118,7 +110,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const created = const IriTerm('http://purl.org/dc/terms/created');
+  static const created = IriTerm('http://purl.org/dc/terms/created');
 
   /// creator
   ///
@@ -126,7 +118,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const creator = const IriTerm('http://purl.org/dc/terms/creator');
+  static const creator = IriTerm('http://purl.org/dc/terms/creator');
 
   /// date [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -134,7 +126,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const date = const IriTerm('http://purl.org/dc/terms/date');
+  static const date = IriTerm('http://purl.org/dc/terms/date');
 
   /// dateAccepted [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -142,9 +134,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateAccepted = const IriTerm(
-    'http://purl.org/dc/terms/dateAccepted',
-  );
+  static const dateAccepted = IriTerm('http://purl.org/dc/terms/dateAccepted');
 
   /// dateCopyrighted [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -152,7 +142,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateCopyrighted = const IriTerm(
+  static const dateCopyrighted = IriTerm(
     'http://purl.org/dc/terms/dateCopyrighted',
   );
 
@@ -162,7 +152,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const dateSubmitted = const IriTerm(
+  static const dateSubmitted = IriTerm(
     'http://purl.org/dc/terms/dateSubmitted',
   );
 
@@ -172,9 +162,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const description = const IriTerm(
-    'http://purl.org/dc/terms/description',
-  );
+  static const description = IriTerm('http://purl.org/dc/terms/description');
 
   /// educationLevel
   ///
@@ -182,7 +170,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const educationLevel = const IriTerm(
+  static const educationLevel = IriTerm(
     'http://purl.org/dc/terms/educationLevel',
   );
 
@@ -192,7 +180,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const extent = const IriTerm('http://purl.org/dc/terms/extent');
+  static const extent = IriTerm('http://purl.org/dc/terms/extent');
 
   /// format
   ///
@@ -200,7 +188,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const format = const IriTerm('http://purl.org/dc/terms/format');
+  static const format = IriTerm('http://purl.org/dc/terms/format');
 
   /// hasFormat
   ///
@@ -208,7 +196,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasFormat = const IriTerm('http://purl.org/dc/terms/hasFormat');
+  static const hasFormat = IriTerm('http://purl.org/dc/terms/hasFormat');
 
   /// hasPart
   ///
@@ -216,7 +204,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasPart = const IriTerm('http://purl.org/dc/terms/hasPart');
+  static const hasPart = IriTerm('http://purl.org/dc/terms/hasPart');
 
   /// hasVersion
   ///
@@ -224,9 +212,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const hasVersion = const IriTerm(
-    'http://purl.org/dc/terms/hasVersion',
-  );
+  static const hasVersion = IriTerm('http://purl.org/dc/terms/hasVersion');
 
   /// identifier [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -234,9 +220,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const identifier = const IriTerm(
-    'http://purl.org/dc/terms/identifier',
-  );
+  static const identifier = IriTerm('http://purl.org/dc/terms/identifier');
 
   /// instructionalMethod
   ///
@@ -244,7 +228,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const instructionalMethod = const IriTerm(
+  static const instructionalMethod = IriTerm(
     'http://purl.org/dc/terms/instructionalMethod',
   );
 
@@ -254,9 +238,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isFormatOf = const IriTerm(
-    'http://purl.org/dc/terms/isFormatOf',
-  );
+  static const isFormatOf = IriTerm('http://purl.org/dc/terms/isFormatOf');
 
   /// isPartOf
   ///
@@ -264,7 +246,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isPartOf = const IriTerm('http://purl.org/dc/terms/isPartOf');
+  static const isPartOf = IriTerm('http://purl.org/dc/terms/isPartOf');
 
   /// isReferencedBy
   ///
@@ -272,7 +254,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isReferencedBy = const IriTerm(
+  static const isReferencedBy = IriTerm(
     'http://purl.org/dc/terms/isReferencedBy',
   );
 
@@ -282,9 +264,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isReplacedBy = const IriTerm(
-    'http://purl.org/dc/terms/isReplacedBy',
-  );
+  static const isReplacedBy = IriTerm('http://purl.org/dc/terms/isReplacedBy');
 
   /// isRequiredBy
   ///
@@ -292,9 +272,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isRequiredBy = const IriTerm(
-    'http://purl.org/dc/terms/isRequiredBy',
-  );
+  static const isRequiredBy = IriTerm('http://purl.org/dc/terms/isRequiredBy');
 
   /// isVersionOf
   ///
@@ -302,9 +280,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const isVersionOf = const IriTerm(
-    'http://purl.org/dc/terms/isVersionOf',
-  );
+  static const isVersionOf = IriTerm('http://purl.org/dc/terms/isVersionOf');
 
   /// issued [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -312,7 +288,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const issued = const IriTerm('http://purl.org/dc/terms/issued');
+  static const issued = IriTerm('http://purl.org/dc/terms/issued');
 
   /// language
   ///
@@ -320,7 +296,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const language = const IriTerm('http://purl.org/dc/terms/language');
+  static const language = IriTerm('http://purl.org/dc/terms/language');
 
   /// license
   ///
@@ -328,7 +304,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const license = const IriTerm('http://purl.org/dc/terms/license');
+  static const license = IriTerm('http://purl.org/dc/terms/license');
 
   /// mediator
   ///
@@ -336,7 +312,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const mediator = const IriTerm('http://purl.org/dc/terms/mediator');
+  static const mediator = IriTerm('http://purl.org/dc/terms/mediator');
 
   /// medium
   ///
@@ -344,7 +320,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const medium = const IriTerm('http://purl.org/dc/terms/medium');
+  static const medium = IriTerm('http://purl.org/dc/terms/medium');
 
   /// modified [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -352,7 +328,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const modified = const IriTerm('http://purl.org/dc/terms/modified');
+  static const modified = IriTerm('http://purl.org/dc/terms/modified');
 
   /// provenance
   ///
@@ -360,9 +336,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const provenance = const IriTerm(
-    'http://purl.org/dc/terms/provenance',
-  );
+  static const provenance = IriTerm('http://purl.org/dc/terms/provenance');
 
   /// publisher
   ///
@@ -370,7 +344,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const publisher = const IriTerm('http://purl.org/dc/terms/publisher');
+  static const publisher = IriTerm('http://purl.org/dc/terms/publisher');
 
   /// references
   ///
@@ -378,9 +352,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const references = const IriTerm(
-    'http://purl.org/dc/terms/references',
-  );
+  static const references = IriTerm('http://purl.org/dc/terms/references');
 
   /// relation
   ///
@@ -388,7 +360,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const relation = const IriTerm('http://purl.org/dc/terms/relation');
+  static const relation = IriTerm('http://purl.org/dc/terms/relation');
 
   /// replaces
   ///
@@ -396,7 +368,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const replaces = const IriTerm('http://purl.org/dc/terms/replaces');
+  static const replaces = IriTerm('http://purl.org/dc/terms/replaces');
 
   /// requires
   ///
@@ -404,7 +376,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const requires = const IriTerm('http://purl.org/dc/terms/requires');
+  static const requires = IriTerm('http://purl.org/dc/terms/requires');
 
   /// rights
   ///
@@ -412,7 +384,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rights = const IriTerm('http://purl.org/dc/terms/rights');
+  static const rights = IriTerm('http://purl.org/dc/terms/rights');
 
   /// rightsHolder
   ///
@@ -420,9 +392,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const rightsHolder = const IriTerm(
-    'http://purl.org/dc/terms/rightsHolder',
-  );
+  static const rightsHolder = IriTerm('http://purl.org/dc/terms/rightsHolder');
 
   /// source
   ///
@@ -430,7 +400,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const source = const IriTerm('http://purl.org/dc/terms/source');
+  static const source = IriTerm('http://purl.org/dc/terms/source');
 
   /// spatial
   ///
@@ -438,7 +408,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const spatial = const IriTerm('http://purl.org/dc/terms/spatial');
+  static const spatial = IriTerm('http://purl.org/dc/terms/spatial');
 
   /// subject
   ///
@@ -446,7 +416,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const subject = const IriTerm('http://purl.org/dc/terms/subject');
+  static const subject = IriTerm('http://purl.org/dc/terms/subject');
 
   /// tableOfContents
   ///
@@ -454,7 +424,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const tableOfContents = const IriTerm(
+  static const tableOfContents = IriTerm(
     'http://purl.org/dc/terms/tableOfContents',
   );
 
@@ -464,7 +434,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const temporal = const IriTerm('http://purl.org/dc/terms/temporal');
+  static const temporal = IriTerm('http://purl.org/dc/terms/temporal');
 
   /// title [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -472,7 +442,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const title = const IriTerm('http://purl.org/dc/terms/title');
+  static const title = IriTerm('http://purl.org/dc/terms/title');
 
   /// type
   ///
@@ -480,7 +450,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const type = const IriTerm('http://purl.org/dc/terms/type');
+  static const type = IriTerm('http://purl.org/dc/terms/type');
 
   /// valid [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -488,7 +458,7 @@ class DctermsAgent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const valid = const IriTerm('http://purl.org/dc/terms/valid');
+  static const valid = IriTerm('http://purl.org/dc/terms/valid');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -496,7 +466,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -506,7 +476,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -516,7 +486,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -526,7 +496,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -536,7 +506,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -546,7 +516,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -556,7 +526,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -566,7 +536,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -576,7 +546,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -586,7 +556,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -596,7 +566,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -606,7 +576,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -616,7 +586,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -626,7 +596,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -636,9 +606,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -646,9 +614,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -656,7 +622,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -666,7 +632,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -676,18 +642,17 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
   /// mbox from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
-  /// A
-  /// personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.
+  /// A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMbox = const IriTerm('http://xmlns.com/foaf/0.1/mbox');
+  static const foafMbox = IriTerm('http://xmlns.com/foaf/0.1/mbox');
 
   /// mbox_sha1sum from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -695,7 +660,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMbox_sha1sum = const IriTerm(
+  static const foafMbox_sha1sum = IriTerm(
     'http://xmlns.com/foaf/0.1/mbox_sha1sum',
   );
 
@@ -705,7 +670,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafGender = const IriTerm('http://xmlns.com/foaf/0.1/gender');
+  static const foafGender = IriTerm('http://xmlns.com/foaf/0.1/gender');
 
   /// jabberID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -713,9 +678,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafJabberID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/jabberID',
-  );
+  static const foafJabberID = IriTerm('http://xmlns.com/foaf/0.1/jabberID');
 
   /// aimChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -723,9 +686,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAimChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/aimChatID',
-  );
+  static const foafAimChatID = IriTerm('http://xmlns.com/foaf/0.1/aimChatID');
 
   /// skypeID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -733,7 +694,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafSkypeID = const IriTerm('http://xmlns.com/foaf/0.1/skypeID');
+  static const foafSkypeID = IriTerm('http://xmlns.com/foaf/0.1/skypeID');
 
   /// icqChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -741,9 +702,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafIcqChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/icqChatID',
-  );
+  static const foafIcqChatID = IriTerm('http://xmlns.com/foaf/0.1/icqChatID');
 
   /// yahooChatID from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -751,7 +710,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafYahooChatID = const IriTerm(
+  static const foafYahooChatID = IriTerm(
     'http://xmlns.com/foaf/0.1/yahooChatID',
   );
 
@@ -761,9 +720,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMsnChatID = const IriTerm(
-    'http://xmlns.com/foaf/0.1/msnChatID',
-  );
+  static const foafMsnChatID = IriTerm('http://xmlns.com/foaf/0.1/msnChatID');
 
   /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -771,7 +728,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafName = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -779,9 +736,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafHomepage = const IriTerm(
-    'http://xmlns.com/foaf/0.1/homepage',
-  );
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// weblog from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -789,7 +744,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafWeblog = const IriTerm('http://xmlns.com/foaf/0.1/weblog');
+  static const foafWeblog = IriTerm('http://xmlns.com/foaf/0.1/weblog');
 
   /// openid from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -797,7 +752,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafOpenid = const IriTerm('http://xmlns.com/foaf/0.1/openid');
+  static const foafOpenid = IriTerm('http://xmlns.com/foaf/0.1/openid');
 
   /// tipjar from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -805,7 +760,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafTipjar = const IriTerm('http://xmlns.com/foaf/0.1/tipjar');
+  static const foafTipjar = IriTerm('http://xmlns.com/foaf/0.1/tipjar');
 
   /// made from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -813,16 +768,15 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafMade = const IriTerm('http://xmlns.com/foaf/0.1/made');
+  static const foafMade = IriTerm('http://xmlns.com/foaf/0.1/made');
 
   /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafMaker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -830,9 +784,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafDepiction = const IriTerm(
-    'http://xmlns.com/foaf/0.1/depiction',
-  );
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// interest from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -840,9 +792,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafInterest = const IriTerm(
-    'http://xmlns.com/foaf/0.1/interest',
-  );
+  static const foafInterest = IriTerm('http://xmlns.com/foaf/0.1/interest');
 
   /// topic_interest from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -850,7 +800,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafTopic_interest = const IriTerm(
+  static const foafTopic_interest = IriTerm(
     'http://xmlns.com/foaf/0.1/topic_interest',
   );
 
@@ -860,9 +810,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafFundedBy = const IriTerm(
-    'http://xmlns.com/foaf/0.1/fundedBy',
-  );
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -870,7 +818,17 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafLogo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
 
   /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -878,7 +836,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafPage = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -886,7 +844,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafTheme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// account from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/OnlineAccount]
   ///
@@ -894,7 +852,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAccount = const IriTerm('http://xmlns.com/foaf/0.1/account');
+  static const foafAccount = IriTerm('http://xmlns.com/foaf/0.1/account');
 
   /// holdsAccount from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/OnlineAccount]
   ///
@@ -902,7 +860,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafHoldsAccount = const IriTerm(
+  static const foafHoldsAccount = IriTerm(
     'http://xmlns.com/foaf/0.1/holdsAccount',
   );
 
@@ -912,9 +870,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafBirthday = const IriTerm(
-    'http://xmlns.com/foaf/0.1/birthday',
-  );
+  static const foafBirthday = IriTerm('http://xmlns.com/foaf/0.1/birthday');
 
   /// age from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -922,7 +878,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafAge = const IriTerm('http://xmlns.com/foaf/0.1/age');
+  static const foafAge = IriTerm('http://xmlns.com/foaf/0.1/age');
 
   /// status from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -930,7 +886,549 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const foafStatus = const IriTerm('http://xmlns.com/foaf/0.1/status');
+  static const foafStatus = IriTerm('http://xmlns.com/foaf/0.1/status');
+
+  /// activityIdeas from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to ideas for using a product or engaging in other forms of entertainment, particularly with children.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ActivityIdeas = IriTerm(
+    'https://ref.gs1.org/voc/activityIdeas',
+  );
+
+  /// allergenInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the allergen information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AllergenInfo = IriTerm(
+    'https://ref.gs1.org/voc/allergenInfo',
+  );
+
+  /// appDownload from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a related mobile app
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AppDownload = IriTerm('https://ref.gs1.org/voc/appDownload');
+
+  /// backgroundInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information typically from the owner of the identified entity about the creative background, thought leadership or influence of the identified entity. This may include the inspiration, innovation for a development process, literary approach or, the science or technology used.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BackgroundInfo = IriTerm(
+    'https://ref.gs1.org/voc/backgroundInfo',
+  );
+
+  /// brandHomepageClinical from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at clinical professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepageClinical = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepageClinical',
+  );
+
+  /// brandHomepagePatient from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at patients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepagePatient = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepagePatient',
+  );
+
+  /// careersInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about jobs, careers, or other employment opportunities associated to an organisation or location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CareersInfo = IriTerm('https://ref.gs1.org/voc/careersInfo');
+
+  /// certificationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to certification information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CertificationInfo = IriTerm(
+    'https://ref.gs1.org/voc/certificationInfo',
+  );
+
+  /// consumerHandlingStorageInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about safe handling and storage for consumer use.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ConsumerHandlingStorageInfo = IriTerm(
+    'https://ref.gs1.org/voc/consumerHandlingStorageInfo',
+  );
+
+  /// defaultLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLink = IriTerm('https://ref.gs1.org/voc/defaultLink');
+
+  /// defaultLinkMulti from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLinkMulti = IriTerm(
+    'https://ref.gs1.org/voc/defaultLinkMulti',
+  );
+
+  /// dpp from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a digital product passport.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Dpp = IriTerm('https://ref.gs1.org/voc/dpp');
+
+  /// eifu from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to electronic Instruction For Use instructions for Medical Devices.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Eifu = IriTerm('https://ref.gs1.org/voc/eifu');
+
+  /// epcis from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an EPCIS repository of visibility event data.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epcis = IriTerm('https://ref.gs1.org/voc/epcis');
+
+  /// epil from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an electronic patient information leaflet.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epil = IriTerm('https://ref.gs1.org/voc/epil');
+
+  /// eventsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1EventsInfo = IriTerm('https://ref.gs1.org/voc/eventsInfo');
+
+  /// faqs from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a set of frequently asked questions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Faqs = IriTerm('https://ref.gs1.org/voc/faqs');
+
+  /// handledBy from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HandledBy = IriTerm('https://ref.gs1.org/voc/handledBy');
+
+  /// hasRetailers from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a list of retailers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HasRetailers = IriTerm(
+    'https://ref.gs1.org/voc/hasRetailers',
+  );
+
+  /// homepage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Homepage = IriTerm('https://ref.gs1.org/voc/homepage');
+
+  /// ingredientsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to facts about ingredients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1IngredientsInfo = IriTerm(
+    'https://ref.gs1.org/voc/ingredientsInfo',
+  );
+
+  /// instructions from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to instructions, such as assembly instructions, usage tips etc.  It is not appropriate to use this link type for healthcare regulated content applications for which specific link types are available.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Instructions = IriTerm(
+    'https://ref.gs1.org/voc/instructions',
+  );
+
+  /// leaveReview from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link through which a review can be added.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LeaveReview = IriTerm('https://ref.gs1.org/voc/leaveReview');
+
+  /// linkType from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Provides a URL for related information or services. This is not expected to be used directly but provides a super property for all other link types in the GS1 ecosystem.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LinkType = IriTerm('https://ref.gs1.org/voc/linkType');
+
+  /// locationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LocationInfo = IriTerm(
+    'https://ref.gs1.org/voc/locationInfo',
+  );
+
+  /// logisticsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to B2B logistics information related to a physical location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LogisticsInfo = IriTerm(
+    'https://ref.gs1.org/voc/logisticsInfo',
+  );
+
+  /// loyaltyProgram from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about a loyalty program, including a member's current status and/or a registration option for new members
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LoyaltyProgram = IriTerm(
+    'https://ref.gs1.org/voc/loyaltyProgram',
+  );
+
+  /// masterData from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of structured master data for the entity. This is typically for B2B applications.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterData = IriTerm('https://ref.gs1.org/voc/masterData');
+
+  /// masterDataAvailableFor from gs1 vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// Links from a document, message or event to static data for specified identifiers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterDataAvailableFor = IriTerm(
+    'https://ref.gs1.org/voc/masterDataAvailableFor',
+  );
+
+  /// menuInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo .
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MenuInfo = IriTerm('https://ref.gs1.org/voc/menuInfo');
+
+  /// nutritionalInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to nutritional facts.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1NutritionalInfo = IriTerm(
+    'https://ref.gs1.org/voc/nutritionalInfo',
+  );
+
+  /// openingHoursInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to details on hours of operation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1OpeningHoursInfo = IriTerm(
+    'https://ref.gs1.org/voc/openingHoursInfo',
+  );
+
+  /// paymentLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a place where payments details are provided and/or payments can be made by the user.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PaymentLink = IriTerm('https://ref.gs1.org/voc/paymentLink');
+
+  /// pip from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Pip = IriTerm('https://ref.gs1.org/voc/pip');
+
+  /// promotion from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a promotion.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Promotion = IriTerm('https://ref.gs1.org/voc/promotion');
+
+  /// purchaseSuppliesOrAccessories from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about where supplies or accessories for the item can be purchased or ordered.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PurchaseSuppliesOrAccessories = IriTerm(
+    'https://ref.gs1.org/voc/purchaseSuppliesOrAccessories',
+  );
+
+  /// quickStartGuide from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the key features needed to be understood to begin using the item or interacting with something new.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1QuickStartGuide = IriTerm(
+    'https://ref.gs1.org/voc/quickStartGuide',
+  );
+
+  /// recallStatus from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about whether the product has been recalled or not, typically an API.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecallStatus = IriTerm(
+    'https://ref.gs1.org/voc/recallStatus',
+  );
+
+  /// recipeInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a recipe website.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecipeInfo = IriTerm('https://ref.gs1.org/voc/recipeInfo');
+
+  /// registerProduct from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry point for registering ownership of a product including for warranty purposes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegisterProduct = IriTerm(
+    'https://ref.gs1.org/voc/registerProduct',
+  );
+
+  /// registryEntry from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegistryEntry = IriTerm(
+    'https://ref.gs1.org/voc/registryEntry',
+  );
+
+  /// relatedImage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any image that depicts or relates to the identified entity (e.g., trade item, assets, business process, patient record, location, organisation, etc.)
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedImage = IriTerm(
+    'https://ref.gs1.org/voc/relatedImage',
+  );
+
+  /// relatedVideo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any video, or document that has an embedded video, that describes or relates to the identified item, organisation, or location in some way.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedVideo = IriTerm(
+    'https://ref.gs1.org/voc/relatedVideo',
+  );
+
+  /// reportFound from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a platform or service where users (company or a person) can report a found item associated with the identified entity (instance of an item). This link type is designed to assist in connecting the found item with its rightful owner or relevant authorities.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ReportFound = IriTerm('https://ref.gs1.org/voc/reportFound');
+
+  /// review from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to reviews.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Review = IriTerm('https://ref.gs1.org/voc/review');
+
+  /// safetyInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to safety information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SafetyInfo = IriTerm('https://ref.gs1.org/voc/safetyInfo');
+
+  /// scheduleTime from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ScheduleTime = IriTerm(
+    'https://ref.gs1.org/voc/scheduleTime',
+  );
+
+  /// serviceInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to service or maintenance instructions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ServiceInfo = IriTerm('https://ref.gs1.org/voc/serviceInfo');
+
+  /// smartLabel from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to the product's SmartLabel page.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SmartLabel = IriTerm('https://ref.gs1.org/voc/smartLabel');
+
+  /// smpc from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Smpc = IriTerm('https://ref.gs1.org/voc/smpc');
+
+  /// socialMedia from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a social media channel. The title will typically be replaced by the name of the channel.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SocialMedia = IriTerm('https://ref.gs1.org/voc/socialMedia');
+
+  /// statisticInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about statistics regarding an organisation, location, or other entity.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1StatisticInfo = IriTerm(
+    'https://ref.gs1.org/voc/statisticInfo',
+  );
+
+  /// subscribe from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a subscription form
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Subscribe = IriTerm('https://ref.gs1.org/voc/subscribe');
+
+  /// support from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of support such as a helpdesk, chat support, email etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Support = IriTerm('https://ref.gs1.org/voc/support');
+
+  /// sustainabilityInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information relating to sustainability and recycling requirements or processes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SustainabilityInfo = IriTerm(
+    'https://ref.gs1.org/voc/sustainabilityInfo',
+  );
+
+  /// traceability from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to traceability information (includes track and trace).  Traceability information may be provided for consumption by humans or computers. If the target is an EPCIS repository, use gs1:epcis instead.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Traceability = IriTerm(
+    'https://ref.gs1.org/voc/traceability',
+  );
+
+  /// tutorial from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a tutorial or set of tutorials, such as online classes, how-to videos etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Tutorial = IriTerm('https://ref.gs1.org/voc/tutorial');
+
+  /// userAgreement from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an agreement or waiver.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1UserAgreement = IriTerm(
+    'https://ref.gs1.org/voc/userAgreement',
+  );
+
+  /// verificationService from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a GS1 Lightweight Messaging Service for verifying the status of a product, organisation, or location and its identifier.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1VerificationService = IriTerm(
+    'https://ref.gs1.org/voc/verificationService',
+  );
+
+  /// whatsInTheBox from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of all the individual items in a packaged item.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1WhatsInTheBox = IriTerm(
+    'https://ref.gs1.org/voc/whatsInTheBox',
+  );
 
   /// masterWorkspace from pim vocabulary [Expects: http://www.w3.org/ns/pim/space#MasterWorkspace]
   ///
@@ -938,7 +1436,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const pimMasterWorkspace = const IriTerm(
+  static const pimMasterWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#masterWorkspace',
   );
 
@@ -948,28 +1446,8 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const pimPreferencesFile = const IriTerm(
+  static const pimPreferencesFile = IriTerm(
     'http://www.w3.org/ns/pim/space#preferencesFile',
-  );
-
-  /// interviewee from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
-  ///
-  /// An agent that is interviewed by another agent.
-  ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
-  ///
-  static const biboInterviewee = const IriTerm(
-    'http://purl.org/ontology/bibo/interviewee',
-  );
-
-  /// interviewer from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
-  ///
-  /// An agent that interview another agent.
-  ///
-  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
-  ///
-  static const biboInterviewer = const IriTerm(
-    'http://purl.org/ontology/bibo/interviewer',
   );
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
@@ -978,7 +1456,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 
@@ -988,7 +1466,7 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const biboPrefixName = const IriTerm(
+  static const biboPrefixName = IriTerm(
     'http://purl.org/ontology/bibo/prefixName',
   );
 
@@ -998,7 +1476,27 @@ class DctermsAgent {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const biboSuffixName = const IriTerm(
+  static const biboSuffixName = IriTerm(
     'http://purl.org/ontology/bibo/suffixName',
+  );
+
+  /// interviewer from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that interview another agent.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const biboInterviewer = IriTerm(
+    'http://purl.org/ontology/bibo/interviewer',
+  );
+
+  /// interviewee from bibo vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that is interviewed by another agent.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const biboInterviewee = IriTerm(
+    'http://purl.org/ontology/bibo/interviewee',
   );
 }

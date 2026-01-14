@@ -31,7 +31,7 @@ class SchemaArtery {
 
   /// IRI term for the Artery class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/Artery');
+  static const classIri = IriTerm('https://schema.org/Artery');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -40,9 +40,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// associatedPathophysiology [Expects: https://schema.org/Text]
   ///
@@ -50,7 +48,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure, https://schema.org/AnatomicalSystem, https://schema.org/SuperficialAnatomy
   ///
-  static const associatedPathophysiology = const IriTerm(
+  static const associatedPathophysiology = IriTerm(
     'https://schema.org/associatedPathophysiology',
   );
 
@@ -60,7 +58,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure, https://schema.org/MedicalProcedure
   ///
-  static const bodyLocation = const IriTerm('https://schema.org/bodyLocation');
+  static const bodyLocation = IriTerm('https://schema.org/bodyLocation');
 
   /// code [Expects: https://schema.org/MedicalCode]
   ///
@@ -68,7 +66,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const code = const IriTerm('https://schema.org/code');
+  static const code = IriTerm('https://schema.org/code');
 
   /// connectedTo [Expects: https://schema.org/AnatomicalStructure]
   ///
@@ -76,7 +74,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure
   ///
-  static const connectedTo = const IriTerm('https://schema.org/connectedTo');
+  static const connectedTo = IriTerm('https://schema.org/connectedTo');
 
   /// diagram [Expects: https://schema.org/ImageObject]
   ///
@@ -84,7 +82,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure
   ///
-  static const diagram = const IriTerm('https://schema.org/diagram');
+  static const diagram = IriTerm('https://schema.org/diagram');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -92,7 +90,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -102,7 +100,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const guideline = const IriTerm('https://schema.org/guideline');
+  static const guideline = IriTerm('https://schema.org/guideline');
 
   /// interactionCount
   ///
@@ -110,7 +108,7 @@ class SchemaArtery {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -120,7 +118,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug, https://schema.org/MedicalEntity
   ///
-  static const legalStatus = const IriTerm('https://schema.org/legalStatus');
+  static const legalStatus = IriTerm('https://schema.org/legalStatus');
 
   /// medicineSystem [Expects: https://schema.org/MedicineSystem]
   ///
@@ -128,9 +126,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const medicineSystem = const IriTerm(
-    'https://schema.org/medicineSystem',
-  );
+  static const medicineSystem = IriTerm('https://schema.org/medicineSystem');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -138,7 +134,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// partOfSystem [Expects: https://schema.org/AnatomicalSystem]
   ///
@@ -146,7 +142,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure
   ///
-  static const partOfSystem = const IriTerm('https://schema.org/partOfSystem');
+  static const partOfSystem = IriTerm('https://schema.org/partOfSystem');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -154,9 +150,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// recognizingAuthority [Expects: https://schema.org/Organization]
   ///
@@ -164,7 +158,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const recognizingAuthority = const IriTerm(
+  static const recognizingAuthority = IriTerm(
     'https://schema.org/recognizingAuthority',
   );
 
@@ -174,7 +168,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure, https://schema.org/AnatomicalSystem, https://schema.org/SuperficialAnatomy
   ///
-  static const relatedCondition = const IriTerm(
+  static const relatedCondition = IriTerm(
     'https://schema.org/relatedCondition',
   );
 
@@ -184,9 +178,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure, https://schema.org/AnatomicalSystem, https://schema.org/SuperficialAnatomy
   ///
-  static const relatedTherapy = const IriTerm(
-    'https://schema.org/relatedTherapy',
-  );
+  static const relatedTherapy = IriTerm('https://schema.org/relatedTherapy');
 
   /// relevantSpecialty [Expects: https://schema.org/MedicalSpecialty]
   ///
@@ -194,7 +186,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const relevantSpecialty = const IriTerm(
+  static const relevantSpecialty = IriTerm(
     'https://schema.org/relevantSpecialty',
   );
 
@@ -204,7 +196,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// study [Expects: https://schema.org/MedicalStudy]
   ///
@@ -212,7 +204,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const study = const IriTerm('https://schema.org/study');
+  static const study = IriTerm('https://schema.org/study');
 
   /// subStructure [Expects: https://schema.org/AnatomicalStructure]
   ///
@@ -220,7 +212,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/AnatomicalStructure
   ///
-  static const subStructure = const IriTerm('https://schema.org/subStructure');
+  static const subStructure = IriTerm('https://schema.org/subStructure');
 
   /// supplyTo [Expects: https://schema.org/AnatomicalStructure]
   ///
@@ -228,7 +220,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Artery
   ///
-  static const supplyTo = const IriTerm('https://schema.org/supplyTo');
+  static const supplyTo = IriTerm('https://schema.org/supplyTo');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -236,7 +228,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -244,9 +236,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// arterialBranch [Expects: https://schema.org/AnatomicalStructure]
   ///
@@ -254,9 +244,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Artery
   ///
-  static const arterialBranch = const IriTerm(
-    'https://schema.org/arterialBranch',
-  );
+  static const arterialBranch = IriTerm('https://schema.org/arterialBranch');
 
   /// funding [Expects: https://schema.org/Grant]
   ///
@@ -264,7 +252,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -272,9 +260,17 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -282,7 +278,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -290,7 +286,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -298,7 +294,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -307,15 +303,7 @@ class SchemaArtery {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -323,7 +311,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -333,7 +321,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -343,7 +331,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -353,7 +341,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -363,7 +351,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -373,7 +361,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -383,7 +371,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -393,7 +381,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -403,7 +391,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -413,7 +401,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -423,7 +411,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -433,9 +421,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -443,7 +429,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -453,7 +439,7 @@ class SchemaArtery {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

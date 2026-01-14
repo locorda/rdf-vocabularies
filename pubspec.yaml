@@ -35,6 +35,10 @@ melos:
       run: melos exec --dir-exists=test -- dart test
       description: Run `dart test` in all packages that have a `test` directory.
 
+    build:
+      run: dart run melos exec --depends-on=build_runner -- dart run build_runner build --delete-conflicting-outputs
+      description: Run `build_runner` in all packages that depend on it.
+
   version:
     # Synchronized versioning for all packages in the RDF suite
     updateGitTagRefs: true

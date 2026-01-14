@@ -23,7 +23,6 @@ export 'geo.dart';
 export 'geo/index.dart';
 export 'ldp.dart';
 export 'ldp/index.dart';
-
 export 'pim.dart';
 export 'pim/index.dart';
 export 'skos.dart';

@@ -28,9 +28,7 @@ class SchemaVideoObjectSnapshot {
 
   /// IRI term for the VideoObjectSnapshot class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'https://schema.org/VideoObjectSnapshot',
-  );
+  static const classIri = IriTerm('https://schema.org/VideoObjectSnapshot');
 
   /// abstract_ [Expects: https://schema.org/Text]
   ///
@@ -38,7 +36,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const abstract_ = const IriTerm('https://schema.org/abstract');
+  static const abstract_ = IriTerm('https://schema.org/abstract');
 
   /// accessMode [Expects: https://schema.org/Text]
   ///
@@ -46,7 +44,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessMode = const IriTerm('https://schema.org/accessMode');
+  static const accessMode = IriTerm('https://schema.org/accessMode');
 
   /// accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
@@ -54,7 +52,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessModeSufficient = const IriTerm(
+  static const accessModeSufficient = IriTerm(
     'https://schema.org/accessModeSufficient',
   );
 
@@ -64,7 +62,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityAPI = const IriTerm(
+  static const accessibilityAPI = IriTerm(
     'https://schema.org/accessibilityAPI',
   );
 
@@ -74,7 +72,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityControl = const IriTerm(
+  static const accessibilityControl = IriTerm(
     'https://schema.org/accessibilityControl',
   );
 
@@ -84,7 +82,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityFeature = const IriTerm(
+  static const accessibilityFeature = IriTerm(
     'https://schema.org/accessibilityFeature',
   );
 
@@ -94,7 +92,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilityHazard = const IriTerm(
+  static const accessibilityHazard = IriTerm(
     'https://schema.org/accessibilityHazard',
   );
 
@@ -104,7 +102,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accessibilitySummary = const IriTerm(
+  static const accessibilitySummary = IriTerm(
     'https://schema.org/accessibilitySummary',
   );
 
@@ -114,7 +112,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const accountablePerson = const IriTerm(
+  static const accountablePerson = IriTerm(
     'https://schema.org/accountablePerson',
   );
 
@@ -124,7 +122,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const acquireLicensePage = const IriTerm(
+  static const acquireLicensePage = IriTerm(
     'https://schema.org/acquireLicensePage',
   );
 
@@ -134,7 +132,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const actors = const IriTerm('https://schema.org/actors');
+  static const actors = IriTerm('https://schema.org/actors');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -143,9 +141,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// aggregateRating [Expects: https://schema.org/AggregateRating]
   ///
@@ -153,9 +149,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// alternativeHeadline [Expects: https://schema.org/Text]
   ///
@@ -163,7 +157,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const alternativeHeadline = const IriTerm(
+  static const alternativeHeadline = IriTerm(
     'https://schema.org/alternativeHeadline',
   );
 
@@ -173,7 +167,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const archivedAt = const IriTerm('https://schema.org/archivedAt');
+  static const archivedAt = IriTerm('https://schema.org/archivedAt');
 
   /// assesses [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -181,7 +175,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const assesses = const IriTerm('https://schema.org/assesses');
+  static const assesses = IriTerm('https://schema.org/assesses');
 
   /// associatedArticle [Expects: https://schema.org/NewsArticle]
   ///
@@ -189,7 +183,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const associatedArticle = const IriTerm(
+  static const associatedArticle = IriTerm(
     'https://schema.org/associatedArticle',
   );
 
@@ -199,9 +193,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/HyperToc, https://schema.org/HyperTocEntry
   ///
-  static const associatedMedia = const IriTerm(
-    'https://schema.org/associatedMedia',
-  );
+  static const associatedMedia = IriTerm('https://schema.org/associatedMedia');
 
   /// audio [Expects: https://schema.org/AudioObject, https://schema.org/Clip, https://schema.org/MusicRecording]
   ///
@@ -209,7 +201,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const audio = const IriTerm('https://schema.org/audio');
+  static const audio = IriTerm('https://schema.org/audio');
 
   /// author [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -217,7 +209,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Rating
   ///
-  static const author = const IriTerm('https://schema.org/author');
+  static const author = IriTerm('https://schema.org/author');
 
   /// awards [Expects: https://schema.org/Text]
   ///
@@ -225,7 +217,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const awards = const IriTerm('https://schema.org/awards');
+  static const awards = IriTerm('https://schema.org/awards');
 
   /// bitrate [Expects: https://schema.org/Text]
   ///
@@ -233,7 +225,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const bitrate = const IriTerm('https://schema.org/bitrate');
+  static const bitrate = IriTerm('https://schema.org/bitrate');
 
   /// character [Expects: https://schema.org/Person]
   ///
@@ -241,7 +233,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const character = const IriTerm('https://schema.org/character');
+  static const character = IriTerm('https://schema.org/character');
 
   /// citation [Expects: https://schema.org/CreativeWork, https://schema.org/Text]
   ///
@@ -249,7 +241,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const citation = const IriTerm('https://schema.org/citation');
+  static const citation = IriTerm('https://schema.org/citation');
 
   /// comment [Expects: https://schema.org/Comment]
   ///
@@ -257,7 +249,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/RsvpAction
   ///
-  static const comment = const IriTerm('https://schema.org/comment');
+  static const comment = IriTerm('https://schema.org/comment');
 
   /// commentCount [Expects: https://schema.org/Integer]
   ///
@@ -265,7 +257,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const commentCount = const IriTerm('https://schema.org/commentCount');
+  static const commentCount = IriTerm('https://schema.org/commentCount');
 
   /// conditionsOfAccess [Expects: https://schema.org/Text]
   ///
@@ -273,7 +265,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const conditionsOfAccess = const IriTerm(
+  static const conditionsOfAccess = IriTerm(
     'https://schema.org/conditionsOfAccess',
   );
 
@@ -283,9 +275,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentRating = const IriTerm(
-    'https://schema.org/contentRating',
-  );
+  static const contentRating = IriTerm('https://schema.org/contentRating');
 
   /// contentReferenceTime [Expects: https://schema.org/DateTime]
   ///
@@ -293,7 +283,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentReferenceTime = const IriTerm(
+  static const contentReferenceTime = IriTerm(
     'https://schema.org/contentReferenceTime',
   );
 
@@ -303,7 +293,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const contentSize = const IriTerm('https://schema.org/contentSize');
+  static const contentSize = IriTerm('https://schema.org/contentSize');
 
   /// contentUrl [Expects: https://schema.org/URL]
   ///
@@ -311,7 +301,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const contentUrl = const IriTerm('https://schema.org/contentUrl');
+  static const contentUrl = IriTerm('https://schema.org/contentUrl');
 
   /// contributor [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -319,7 +309,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const contributor = const IriTerm('https://schema.org/contributor');
+  static const contributor = IriTerm('https://schema.org/contributor');
 
   /// copyrightHolder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -327,9 +317,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightHolder = const IriTerm(
-    'https://schema.org/copyrightHolder',
-  );
+  static const copyrightHolder = IriTerm('https://schema.org/copyrightHolder');
 
   /// copyrightNotice [Expects: https://schema.org/Text]
   ///
@@ -337,9 +325,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightNotice = const IriTerm(
-    'https://schema.org/copyrightNotice',
-  );
+  static const copyrightNotice = IriTerm('https://schema.org/copyrightNotice');
 
   /// copyrightYear [Expects: https://schema.org/Number]
   ///
@@ -347,9 +333,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const copyrightYear = const IriTerm(
-    'https://schema.org/copyrightYear',
-  );
+  static const copyrightYear = IriTerm('https://schema.org/copyrightYear');
 
   /// correction [Expects: https://schema.org/CorrectionComment, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -357,7 +341,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const correction = const IriTerm('https://schema.org/correction');
+  static const correction = IriTerm('https://schema.org/correction');
 
   /// countryOfOrigin [Expects: https://schema.org/Country]
   ///
@@ -369,9 +353,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Movie, https://schema.org/Product, https://schema.org/TVEpisode, https://schema.org/TVSeason, https://schema.org/TVSeries
   ///
-  static const countryOfOrigin = const IriTerm(
-    'https://schema.org/countryOfOrigin',
-  );
+  static const countryOfOrigin = IriTerm('https://schema.org/countryOfOrigin');
 
   /// creativeWorkStatus [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -379,7 +361,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const creativeWorkStatus = const IriTerm(
+  static const creativeWorkStatus = IriTerm(
     'https://schema.org/creativeWorkStatus',
   );
 
@@ -389,7 +371,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const creditText = const IriTerm('https://schema.org/creditText');
+  static const creditText = IriTerm('https://schema.org/creditText');
 
   /// dateModified [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -397,7 +379,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const dateModified = const IriTerm('https://schema.org/dateModified');
+  static const dateModified = IriTerm('https://schema.org/dateModified');
 
   /// datePublished [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -405,9 +387,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const datePublished = const IriTerm(
-    'https://schema.org/datePublished',
-  );
+  static const datePublished = IriTerm('https://schema.org/datePublished');
 
   /// digitalSourceType [Expects: https://schema.org/IPTCDigitalSourceEnumeration]
   ///
@@ -415,7 +395,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const digitalSourceType = const IriTerm(
+  static const digitalSourceType = IriTerm(
     'https://schema.org/digitalSourceType',
   );
 
@@ -425,7 +405,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const directors = const IriTerm('https://schema.org/directors');
+  static const directors = IriTerm('https://schema.org/directors');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -433,7 +413,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -443,9 +423,15 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const discussionUrl = const IriTerm(
-    'https://schema.org/discussionUrl',
-  );
+  static const discussionUrl = IriTerm('https://schema.org/discussionUrl');
+
+  /// displayLocation [Expects: https://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
+  ///
+  static const displayLocation = IriTerm('https://schema.org/displayLocation');
 
   /// editEIDR [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -458,7 +444,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const editEIDR = const IriTerm('https://schema.org/editEIDR');
+  static const editEIDR = IriTerm('https://schema.org/editEIDR');
 
   /// editor [Expects: https://schema.org/Person]
   ///
@@ -466,7 +452,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const editor = const IriTerm('https://schema.org/editor');
+  static const editor = IriTerm('https://schema.org/editor');
 
   /// educationalAlignment [Expects: https://schema.org/AlignmentObject]
   ///
@@ -476,7 +462,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const educationalAlignment = const IriTerm(
+  static const educationalAlignment = IriTerm(
     'https://schema.org/educationalAlignment',
   );
 
@@ -486,7 +472,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/EducationalOccupationalCredential, https://schema.org/LearningResource
   ///
-  static const educationalLevel = const IriTerm(
+  static const educationalLevel = IriTerm(
     'https://schema.org/educationalLevel',
   );
 
@@ -496,9 +482,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const educationalUse = const IriTerm(
-    'https://schema.org/educationalUse',
-  );
+  static const educationalUse = IriTerm('https://schema.org/educationalUse');
 
   /// embedUrl [Expects: https://schema.org/URL]
   ///
@@ -506,7 +490,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const embedUrl = const IriTerm('https://schema.org/embedUrl');
+  static const embedUrl = IriTerm('https://schema.org/embedUrl');
 
   /// embeddedTextCaption [Expects: https://schema.org/Text]
   ///
@@ -514,7 +498,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/AudioObject, https://schema.org/ImageObject, https://schema.org/VideoObject
   ///
-  static const embeddedTextCaption = const IriTerm(
+  static const embeddedTextCaption = IriTerm(
     'https://schema.org/embeddedTextCaption',
   );
 
@@ -524,7 +508,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const encodings = const IriTerm('https://schema.org/encodings');
+  static const encodings = IriTerm('https://schema.org/encodings');
 
   /// endTime [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -532,7 +516,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const endTime = const IriTerm('https://schema.org/endTime');
+  static const endTime = IriTerm('https://schema.org/endTime');
 
   /// expires [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -540,7 +524,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const expires = const IriTerm('https://schema.org/expires');
+  static const expires = IriTerm('https://schema.org/expires');
 
   /// fileFormat [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -548,7 +532,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const fileFormat = const IriTerm('https://schema.org/fileFormat');
+  static const fileFormat = IriTerm('https://schema.org/fileFormat');
 
   /// funder [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -556,7 +540,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const funder = const IriTerm('https://schema.org/funder');
+  static const funder = IriTerm('https://schema.org/funder');
 
   /// headline [Expects: https://schema.org/Text]
   ///
@@ -564,7 +548,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const headline = const IriTerm('https://schema.org/headline');
+  static const headline = IriTerm('https://schema.org/headline');
 
   /// height [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -572,7 +556,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Person, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const height = const IriTerm('https://schema.org/height');
+  static const height = IriTerm('https://schema.org/height');
 
   /// ineligibleRegion [Expects: https://schema.org/GeoShape, https://schema.org/Place, https://schema.org/Text]
   ///
@@ -581,7 +565,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/MediaObject, https://schema.org/Offer
   ///
-  static const ineligibleRegion = const IriTerm(
+  static const ineligibleRegion = IriTerm(
     'https://schema.org/ineligibleRegion',
   );
 
@@ -591,7 +575,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -601,7 +585,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const interactivityType = const IriTerm(
+  static const interactivityType = IriTerm(
     'https://schema.org/interactivityType',
   );
 
@@ -611,7 +595,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const interpretedAsClaim = const IriTerm(
+  static const interpretedAsClaim = IriTerm(
     'https://schema.org/interpretedAsClaim',
   );
 
@@ -621,7 +605,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isBasedOnUrl = const IriTerm('https://schema.org/isBasedOnUrl');
+  static const isBasedOnUrl = IriTerm('https://schema.org/isBasedOnUrl');
 
   /// isFamilyFriendly [Expects: https://schema.org/Boolean]
   ///
@@ -629,7 +613,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const isFamilyFriendly = const IriTerm(
+  static const isFamilyFriendly = IriTerm(
     'https://schema.org/isFamilyFriendly',
   );
 
@@ -639,7 +623,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// learningResourceType [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -647,7 +631,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const learningResourceType = const IriTerm(
+  static const learningResourceType = IriTerm(
     'https://schema.org/learningResourceType',
   );
 
@@ -657,7 +641,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const license = const IriTerm('https://schema.org/license');
+  static const license = IriTerm('https://schema.org/license');
 
   /// locationCreated [Expects: https://schema.org/Place]
   ///
@@ -665,9 +649,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const locationCreated = const IriTerm(
-    'https://schema.org/locationCreated',
-  );
+  static const locationCreated = IriTerm('https://schema.org/locationCreated');
 
   /// maintainer [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -676,7 +658,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const maintainer = const IriTerm('https://schema.org/maintainer');
+  static const maintainer = IriTerm('https://schema.org/maintainer');
 
   /// materialExtent [Expects: https://schema.org/QuantitativeValue, https://schema.org/Text]
   ///
@@ -684,9 +666,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const materialExtent = const IriTerm(
-    'https://schema.org/materialExtent',
-  );
+  static const materialExtent = IriTerm('https://schema.org/materialExtent');
 
   /// mentions [Expects: https://schema.org/Thing]
   ///
@@ -694,7 +674,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const mentions = const IriTerm('https://schema.org/mentions');
+  static const mentions = IriTerm('https://schema.org/mentions');
 
   /// musicBy [Expects: https://schema.org/MusicGroup, https://schema.org/Person]
   ///
@@ -702,7 +682,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/Episode, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const musicBy = const IriTerm('https://schema.org/musicBy');
+  static const musicBy = IriTerm('https://schema.org/musicBy');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -710,7 +690,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// pattern [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -718,7 +698,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const pattern = const IriTerm('https://schema.org/pattern');
+  static const pattern = IriTerm('https://schema.org/pattern');
 
   /// playerType [Expects: https://schema.org/Text]
   ///
@@ -726,7 +706,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const playerType = const IriTerm('https://schema.org/playerType');
+  static const playerType = IriTerm('https://schema.org/playerType');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -734,9 +714,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// producer [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -744,7 +722,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const producer = const IriTerm('https://schema.org/producer');
+  static const producer = IriTerm('https://schema.org/producer');
 
   /// productionCompany [Expects: https://schema.org/Organization]
   ///
@@ -752,7 +730,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGameSeries
   ///
-  static const productionCompany = const IriTerm(
+  static const productionCompany = IriTerm(
     'https://schema.org/productionCompany',
   );
 
@@ -762,7 +740,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const publication = const IriTerm('https://schema.org/publication');
+  static const publication = IriTerm('https://schema.org/publication');
 
   /// publisher [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -770,7 +748,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/FinancialIncentive
   ///
-  static const publisher = const IriTerm('https://schema.org/publisher');
+  static const publisher = IriTerm('https://schema.org/publisher');
 
   /// publisherImprint [Expects: https://schema.org/Organization]
   ///
@@ -778,7 +756,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const publisherImprint = const IriTerm(
+  static const publisherImprint = IriTerm(
     'https://schema.org/publisherImprint',
   );
 
@@ -788,9 +766,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const regionsAllowed = const IriTerm(
-    'https://schema.org/regionsAllowed',
-  );
+  static const regionsAllowed = IriTerm('https://schema.org/regionsAllowed');
 
   /// releasedEvent [Expects: https://schema.org/PublicationEvent]
   ///
@@ -798,9 +774,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const releasedEvent = const IriTerm(
-    'https://schema.org/releasedEvent',
-  );
+  static const releasedEvent = IriTerm('https://schema.org/releasedEvent');
 
   /// requiresSubscription [Expects: https://schema.org/Boolean, https://schema.org/MediaSubscription]
   ///
@@ -808,7 +782,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/MediaObject
   ///
-  static const requiresSubscription = const IriTerm(
+  static const requiresSubscription = IriTerm(
     'https://schema.org/requiresSubscription',
   );
 
@@ -818,7 +792,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -826,7 +800,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// schemaVersion [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -835,9 +809,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVersion = const IriTerm(
-    'https://schema.org/schemaVersion',
-  );
+  static const schemaVersion = IriTerm('https://schema.org/schemaVersion');
 
   /// sdDatePublished [Expects: https://schema.org/Date]
   ///
@@ -845,9 +817,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdDatePublished = const IriTerm(
-    'https://schema.org/sdDatePublished',
-  );
+  static const sdDatePublished = IriTerm('https://schema.org/sdDatePublished');
 
   /// sdLicense [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -855,7 +825,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdLicense = const IriTerm('https://schema.org/sdLicense');
+  static const sdLicense = IriTerm('https://schema.org/sdLicense');
 
   /// sdPublisher [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -864,7 +834,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sdPublisher = const IriTerm('https://schema.org/sdPublisher');
+  static const sdPublisher = IriTerm('https://schema.org/sdPublisher');
 
   /// sha256 [Expects: https://schema.org/Text]
   ///
@@ -872,7 +842,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const sha256 = const IriTerm('https://schema.org/sha256');
+  static const sha256 = IriTerm('https://schema.org/sha256');
 
   /// size [Expects: https://schema.org/DefinedTerm, https://schema.org/QuantitativeValue, https://schema.org/SizeSpecification, https://schema.org/Text]
   ///
@@ -880,7 +850,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const size = const IriTerm('https://schema.org/size');
+  static const size = IriTerm('https://schema.org/size');
 
   /// sourceOrganization [Expects: https://schema.org/Organization]
   ///
@@ -888,7 +858,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const sourceOrganization = const IriTerm(
+  static const sourceOrganization = IriTerm(
     'https://schema.org/sourceOrganization',
   );
 
@@ -899,7 +869,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const spatial = const IriTerm('https://schema.org/spatial');
+  static const spatial = IriTerm('https://schema.org/spatial');
 
   /// startTime [Expects: https://schema.org/DateTime, https://schema.org/Time]
   ///
@@ -907,7 +877,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/FoodEstablishmentReservation, https://schema.org/InteractionCounter, https://schema.org/MediaObject, https://schema.org/Schedule
   ///
-  static const startTime = const IriTerm('https://schema.org/startTime');
+  static const startTime = IriTerm('https://schema.org/startTime');
 
   /// teaches [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -915,7 +885,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const teaches = const IriTerm('https://schema.org/teaches');
+  static const teaches = IriTerm('https://schema.org/teaches');
 
   /// temporal [Expects: https://schema.org/DateTime, https://schema.org/Text]
   ///
@@ -924,7 +894,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const temporal = const IriTerm('https://schema.org/temporal');
+  static const temporal = IriTerm('https://schema.org/temporal');
 
   /// text [Expects: https://schema.org/Text]
   ///
@@ -932,7 +902,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const text = const IriTerm('https://schema.org/text');
+  static const text = IriTerm('https://schema.org/text');
 
   /// thumbnail [Expects: https://schema.org/ImageObject]
   ///
@@ -940,7 +910,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const thumbnail = const IriTerm('https://schema.org/thumbnail');
+  static const thumbnail = IriTerm('https://schema.org/thumbnail');
 
   /// thumbnailUrl [Expects: https://schema.org/URL]
   ///
@@ -948,7 +918,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const thumbnailUrl = const IriTerm('https://schema.org/thumbnailUrl');
+  static const thumbnailUrl = IriTerm('https://schema.org/thumbnailUrl');
 
   /// timeRequired [Expects: https://schema.org/Duration]
   ///
@@ -956,7 +926,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const timeRequired = const IriTerm('https://schema.org/timeRequired');
+  static const timeRequired = IriTerm('https://schema.org/timeRequired');
 
   /// transcript [Expects: https://schema.org/Text]
   ///
@@ -964,7 +934,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/AudioObject, https://schema.org/VideoObject
   ///
-  static const transcript = const IriTerm('https://schema.org/transcript');
+  static const transcript = IriTerm('https://schema.org/transcript');
 
   /// translator [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -972,7 +942,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const translator = const IriTerm('https://schema.org/translator');
+  static const translator = IriTerm('https://schema.org/translator');
 
   /// typicalAgeRange [Expects: https://schema.org/Text]
   ///
@@ -980,9 +950,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const typicalAgeRange = const IriTerm(
-    'https://schema.org/typicalAgeRange',
-  );
+  static const typicalAgeRange = IriTerm('https://schema.org/typicalAgeRange');
 
   /// uploadDate [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -990,7 +958,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const uploadDate = const IriTerm('https://schema.org/uploadDate');
+  static const uploadDate = IriTerm('https://schema.org/uploadDate');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -998,7 +966,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// version [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -1006,7 +974,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const version = const IriTerm('https://schema.org/version');
+  static const version = IriTerm('https://schema.org/version');
 
   /// video [Expects: https://schema.org/Clip, https://schema.org/VideoObject]
   ///
@@ -1014,7 +982,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const video = const IriTerm('https://schema.org/video');
+  static const video = IriTerm('https://schema.org/video');
 
   /// videoFrameSize [Expects: https://schema.org/Text]
   ///
@@ -1022,9 +990,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/VideoObject
   ///
-  static const videoFrameSize = const IriTerm(
-    'https://schema.org/videoFrameSize',
-  );
+  static const videoFrameSize = IriTerm('https://schema.org/videoFrameSize');
 
   /// videoQuality [Expects: https://schema.org/Text]
   ///
@@ -1032,7 +998,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/VideoObject
   ///
-  static const videoQuality = const IriTerm('https://schema.org/videoQuality');
+  static const videoQuality = IriTerm('https://schema.org/videoQuality');
 
   /// width [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -1040,7 +1006,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const width = const IriTerm('https://schema.org/width');
+  static const width = IriTerm('https://schema.org/width');
 
   /// wordCount [Expects: https://schema.org/Integer]
   ///
@@ -1048,7 +1014,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Article, https://schema.org/CreativeWork
   ///
-  static const wordCount = const IriTerm('https://schema.org/wordCount');
+  static const wordCount = IriTerm('https://schema.org/wordCount');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -1056,9 +1022,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// audience [Expects: https://schema.org/Audience]
   ///
@@ -1066,7 +1030,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const audience = const IriTerm('https://schema.org/audience');
+  static const audience = IriTerm('https://schema.org/audience');
 
   /// award [Expects: https://schema.org/Text]
   ///
@@ -1074,7 +1038,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const award = const IriTerm('https://schema.org/award');
+  static const award = IriTerm('https://schema.org/award');
 
   /// caption [Expects: https://schema.org/MediaObject, https://schema.org/Text]
   ///
@@ -1082,7 +1046,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/AudioObject, https://schema.org/ImageObject, https://schema.org/VideoObject
   ///
-  static const caption = const IriTerm('https://schema.org/caption');
+  static const caption = IriTerm('https://schema.org/caption');
 
   /// contentLocation [Expects: https://schema.org/Place]
   ///
@@ -1090,9 +1054,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const contentLocation = const IriTerm(
-    'https://schema.org/contentLocation',
-  );
+  static const contentLocation = IriTerm('https://schema.org/contentLocation');
 
   /// creator [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1100,7 +1062,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/UserComments
   ///
-  static const creator = const IriTerm('https://schema.org/creator');
+  static const creator = IriTerm('https://schema.org/creator');
 
   /// dateCreated [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -1108,7 +1070,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const dateCreated = const IriTerm('https://schema.org/dateCreated');
+  static const dateCreated = IriTerm('https://schema.org/dateCreated');
 
   /// director [Expects: https://schema.org/Person]
   ///
@@ -1116,15 +1078,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/Event, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const director = const IriTerm('https://schema.org/director');
-
-  /// duration [Expects: https://schema.org/Duration, https://schema.org/QuantitativeValue]
-  ///
-  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
-  ///
-  /// Can be used on: https://schema.org/Audiobook, https://schema.org/Episode, https://schema.org/Event, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MusicRecording, https://schema.org/MusicRelease, https://schema.org/QuantitativeValueDistribution, https://schema.org/Schedule, https://schema.org/ServicePeriod
-  ///
-  static const duration = const IriTerm('https://schema.org/duration');
+  static const director = IriTerm('https://schema.org/director');
 
   /// encodesCreativeWork [Expects: https://schema.org/CreativeWork]
   ///
@@ -1132,7 +1086,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/MediaObject
   ///
-  static const encodesCreativeWork = const IriTerm(
+  static const encodesCreativeWork = IriTerm(
     'https://schema.org/encodesCreativeWork',
   );
 
@@ -1146,9 +1100,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const encodingFormat = const IriTerm(
-    'https://schema.org/encodingFormat',
-  );
+  static const encodingFormat = IriTerm('https://schema.org/encodingFormat');
 
   /// exampleOfWork [Expects: https://schema.org/CreativeWork]
   ///
@@ -1156,9 +1108,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const exampleOfWork = const IriTerm(
-    'https://schema.org/exampleOfWork',
-  );
+  static const exampleOfWork = IriTerm('https://schema.org/exampleOfWork');
 
   /// funding [Expects: https://schema.org/Grant]
   ///
@@ -1166,15 +1116,15 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
-  /// genre [Expects: https://schema.org/Text, https://schema.org/URL]
+  /// genre [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: https://schema.org/BroadcastChannel, https://schema.org/CreativeWork, https://schema.org/MusicGroup
   ///
-  static const genre = const IriTerm('https://schema.org/genre');
+  static const genre = IriTerm('https://schema.org/genre');
 
   /// inLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -1182,7 +1132,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/BroadcastService, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LinkRole, https://schema.org/PronounceableText, https://schema.org/WriteAction
   ///
-  static const inLanguage = const IriTerm('https://schema.org/inLanguage');
+  static const inLanguage = IriTerm('https://schema.org/inLanguage');
 
   /// interactionStatistic [Expects: https://schema.org/InteractionCounter]
   ///
@@ -1190,7 +1140,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const interactionStatistic = const IriTerm(
+  static const interactionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -1200,7 +1150,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -1210,7 +1160,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isBasedOn = const IriTerm('https://schema.org/isBasedOn');
+  static const isBasedOn = IriTerm('https://schema.org/isBasedOn');
 
   /// mainEntity [Expects: https://schema.org/Thing]
   ///
@@ -1218,7 +1168,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const mainEntity = const IriTerm('https://schema.org/mainEntity');
+  static const mainEntity = IriTerm('https://schema.org/mainEntity');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1226,7 +1176,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -1237,7 +1187,15 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/AggregateOffer, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/Event, https://schema.org/MenuItem, https://schema.org/Product, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const offers = const IriTerm('https://schema.org/offers');
+  static const offers = IriTerm('https://schema.org/offers');
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// provider [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1245,7 +1203,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const provider = const IriTerm('https://schema.org/provider');
+  static const provider = IriTerm('https://schema.org/provider');
 
   /// recordedAt [Expects: https://schema.org/Event]
   ///
@@ -1253,7 +1211,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const recordedAt = const IriTerm('https://schema.org/recordedAt');
+  static const recordedAt = IriTerm('https://schema.org/recordedAt');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -1261,7 +1219,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
   /// sponsor [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1269,7 +1227,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const sponsor = const IriTerm('https://schema.org/sponsor');
+  static const sponsor = IriTerm('https://schema.org/sponsor');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -1277,7 +1235,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// temporalCoverage [Expects: https://schema.org/DateTime, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1289,7 +1247,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const temporalCoverage = const IriTerm(
+  static const temporalCoverage = IriTerm(
     'https://schema.org/temporalCoverage',
   );
 
@@ -1299,7 +1257,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const translationOfWork = const IriTerm(
+  static const translationOfWork = IriTerm(
     'https://schema.org/translationOfWork',
   );
 
@@ -1311,7 +1269,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const usageInfo = const IriTerm('https://schema.org/usageInfo');
+  static const usageInfo = IriTerm('https://schema.org/usageInfo');
 
   /// workTranslation [Expects: https://schema.org/CreativeWork]
   ///
@@ -1319,17 +1277,15 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const workTranslation = const IriTerm(
-    'https://schema.org/workTranslation',
-  );
+  static const workTranslation = IriTerm('https://schema.org/workTranslation');
 
   /// about [Expects: https://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event
+  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/DefinedTerm, https://schema.org/DefinedTermSet, https://schema.org/Event
   ///
-  static const about = const IriTerm('https://schema.org/about');
+  static const about = IriTerm('https://schema.org/about');
 
   /// actor [Expects: https://schema.org/PerformingGroup, https://schema.org/Person]
   ///
@@ -1337,7 +1293,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Clip, https://schema.org/CreativeWorkSeason, https://schema.org/Episode, https://schema.org/Event, https://schema.org/Movie, https://schema.org/MovieSeries, https://schema.org/PodcastSeries, https://schema.org/RadioSeries, https://schema.org/TVSeries, https://schema.org/VideoGame, https://schema.org/VideoGameSeries, https://schema.org/VideoObject
   ///
-  static const actor = const IriTerm('https://schema.org/actor');
+  static const actor = IriTerm('https://schema.org/actor');
 
   /// encoding [Expects: https://schema.org/MediaObject]
   ///
@@ -1345,7 +1301,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const encoding = const IriTerm('https://schema.org/encoding');
+  static const encoding = IriTerm('https://schema.org/encoding');
 
   /// material [Expects: https://schema.org/Product, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1353,7 +1309,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const material = const IriTerm('https://schema.org/material');
+  static const material = IriTerm('https://schema.org/material');
 
   /// spatialCoverage [Expects: https://schema.org/Place]
   ///
@@ -1363,9 +1319,15 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const spatialCoverage = const IriTerm(
-    'https://schema.org/spatialCoverage',
-  );
+  static const spatialCoverage = IriTerm('https://schema.org/spatialCoverage');
+
+  /// duration [Expects: https://schema.org/Duration, https://schema.org/QuantitativeValue]
+  ///
+  /// The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601).
+  ///
+  /// Can be used on: https://schema.org/Audiobook, https://schema.org/Episode, https://schema.org/Event, https://schema.org/MediaObject, https://schema.org/Movie, https://schema.org/MusicRecording, https://schema.org/MusicRelease, https://schema.org/QuantitativeValueDistribution, https://schema.org/Schedule, https://schema.org/ServicePeriod
+  ///
+  static const duration = IriTerm('https://schema.org/duration');
 
   /// workExample [Expects: https://schema.org/CreativeWork]
   ///
@@ -1373,7 +1335,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const workExample = const IriTerm('https://schema.org/workExample');
+  static const workExample = IriTerm('https://schema.org/workExample');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -1381,7 +1343,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1389,7 +1351,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// hasPart [Expects: https://schema.org/CreativeWork]
   ///
@@ -1397,7 +1359,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const hasPart = const IriTerm('https://schema.org/hasPart');
+  static const hasPart = IriTerm('https://schema.org/hasPart');
 
   /// position [Expects: https://schema.org/Integer, https://schema.org/Text]
   ///
@@ -1405,7 +1367,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/ListItem
   ///
-  static const position = const IriTerm('https://schema.org/position');
+  static const position = IriTerm('https://schema.org/position');
 
   /// isPartOf [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1413,7 +1375,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const isPartOf = const IriTerm('https://schema.org/isPartOf');
+  static const isPartOf = IriTerm('https://schema.org/isPartOf');
 
   /// publishingPrinciples [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1424,7 +1386,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const publishingPrinciples = const IriTerm(
+  static const publishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -1435,15 +1397,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1451,7 +1405,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1461,7 +1415,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1471,7 +1425,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1481,7 +1435,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1491,7 +1445,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1501,7 +1455,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1511,7 +1465,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -1521,7 +1475,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1531,7 +1485,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1541,7 +1495,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -1551,7 +1505,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -1561,9 +1515,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -1571,7 +1523,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -1581,7 +1533,7 @@ class SchemaVideoObjectSnapshot {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

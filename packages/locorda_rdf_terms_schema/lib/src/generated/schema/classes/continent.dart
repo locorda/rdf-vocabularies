@@ -16,6 +16,11 @@ import 'package:locorda_rdf_core/core.dart';
 /// - Place (https://schema.org/Place)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (https://schema.org/Thing)
+/// - Thing (http://www.w3.org/2002/07/owl#Thing)
+///
+/// Equivalent to:
+/// - Continent (https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Continent)
+/// - Location (https://www.omg.org/spec/Commons/Locations/Location)
 ///
 /// This class provides access to all properties that can be used with Continent.
 /// [Class Reference](https://schema.org/Continent)
@@ -27,7 +32,7 @@ class SchemaContinent {
 
   /// IRI term for the Continent class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/Continent');
+  static const classIri = IriTerm('https://schema.org/Continent');
 
   /// additionalProperty [Expects: https://schema.org/PropertyValue]
   ///
@@ -36,7 +41,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/Place, https://schema.org/Product, https://schema.org/QualitativeValue, https://schema.org/QuantitativeValue
   ///
-  static const additionalProperty = const IriTerm(
+  static const additionalProperty = IriTerm(
     'https://schema.org/additionalProperty',
   );
 
@@ -47,9 +52,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// address [Expects: https://schema.org/PostalAddress, https://schema.org/Text]
   ///
@@ -57,7 +60,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const address = const IriTerm('https://schema.org/address');
+  static const address = IriTerm('https://schema.org/address');
 
   /// aggregateRating [Expects: https://schema.org/AggregateRating]
   ///
@@ -65,9 +68,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// amenityFeature [Expects: https://schema.org/LocationFeatureSpecification]
   ///
@@ -75,9 +76,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Accommodation, https://schema.org/FloorPlan, https://schema.org/LodgingBusiness, https://schema.org/Place
   ///
-  static const amenityFeature = const IriTerm(
-    'https://schema.org/amenityFeature',
-  );
+  static const amenityFeature = IriTerm('https://schema.org/amenityFeature');
 
   /// branchCode [Expects: https://schema.org/Text]
   ///
@@ -86,7 +85,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const branchCode = const IriTerm('https://schema.org/branchCode');
+  static const branchCode = IriTerm('https://schema.org/branchCode');
 
   /// containedIn [Expects: https://schema.org/Place]
   ///
@@ -94,7 +93,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containedIn = const IriTerm('https://schema.org/containedIn');
+  static const containedIn = IriTerm('https://schema.org/containedIn');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -102,7 +101,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -112,7 +111,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Place
   ///
-  static const events = const IriTerm('https://schema.org/events');
+  static const events = IriTerm('https://schema.org/events');
 
   /// faxNumber [Expects: https://schema.org/Text]
   ///
@@ -120,7 +119,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const faxNumber = const IriTerm('https://schema.org/faxNumber');
+  static const faxNumber = IriTerm('https://schema.org/faxNumber');
 
   /// geo [Expects: https://schema.org/GeoCoordinates, https://schema.org/GeoShape]
   ///
@@ -128,7 +127,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const geo = const IriTerm('https://schema.org/geo');
+  static const geo = IriTerm('https://schema.org/geo');
 
   /// geoContains [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -136,7 +135,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoContains = const IriTerm('https://schema.org/geoContains');
+  static const geoContains = IriTerm('https://schema.org/geoContains');
 
   /// geoCoveredBy [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -144,7 +143,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCoveredBy = const IriTerm('https://schema.org/geoCoveredBy');
+  static const geoCoveredBy = IriTerm('https://schema.org/geoCoveredBy');
 
   /// geoCovers [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -152,7 +151,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCovers = const IriTerm('https://schema.org/geoCovers');
+  static const geoCovers = IriTerm('https://schema.org/geoCovers');
 
   /// geoCrosses [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -160,7 +159,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoCrosses = const IriTerm('https://schema.org/geoCrosses');
+  static const geoCrosses = IriTerm('https://schema.org/geoCrosses');
 
   /// geoDisjoint [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -168,7 +167,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoDisjoint = const IriTerm('https://schema.org/geoDisjoint');
+  static const geoDisjoint = IriTerm('https://schema.org/geoDisjoint');
 
   /// geoEquals [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -176,7 +175,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoEquals = const IriTerm('https://schema.org/geoEquals');
+  static const geoEquals = IriTerm('https://schema.org/geoEquals');
 
   /// geoIntersects [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -184,9 +183,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoIntersects = const IriTerm(
-    'https://schema.org/geoIntersects',
-  );
+  static const geoIntersects = IriTerm('https://schema.org/geoIntersects');
 
   /// geoOverlaps [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -194,7 +191,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoOverlaps = const IriTerm('https://schema.org/geoOverlaps');
+  static const geoOverlaps = IriTerm('https://schema.org/geoOverlaps');
 
   /// geoTouches [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -202,7 +199,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoTouches = const IriTerm('https://schema.org/geoTouches');
+  static const geoTouches = IriTerm('https://schema.org/geoTouches');
 
   /// geoWithin [Expects: https://schema.org/GeospatialGeometry, https://schema.org/Place]
   ///
@@ -210,7 +207,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeospatialGeometry, https://schema.org/Place
   ///
-  static const geoWithin = const IriTerm('https://schema.org/geoWithin');
+  static const geoWithin = IriTerm('https://schema.org/geoWithin');
 
   /// globalLocationNumber [Expects: https://schema.org/Text]
   ///
@@ -218,7 +215,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const globalLocationNumber = const IriTerm(
+  static const globalLocationNumber = IriTerm(
     'https://schema.org/globalLocationNumber',
   );
 
@@ -228,7 +225,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
+  static const hasCertification = IriTerm(
     'https://schema.org/hasCertification',
   );
 
@@ -238,7 +235,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const hasDriveThroughService = const IriTerm(
+  static const hasDriveThroughService = IriTerm(
     'https://schema.org/hasDriveThroughService',
   );
 
@@ -248,7 +245,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'https://schema.org/hasGS1DigitalLink',
   );
 
@@ -258,7 +255,7 @@ class SchemaContinent {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -268,7 +265,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const isicV4 = const IriTerm('https://schema.org/isicV4');
+  static const isicV4 = IriTerm('https://schema.org/isicV4');
 
   /// keywords [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -276,7 +273,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// latitude [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -284,7 +281,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
   ///
-  static const latitude = const IriTerm('https://schema.org/latitude');
+  static const latitude = IriTerm('https://schema.org/latitude');
 
   /// logo [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -292,7 +289,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Certification, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const logo = const IriTerm('https://schema.org/logo');
+  static const logo = IriTerm('https://schema.org/logo');
 
   /// longitude [Expects: https://schema.org/Number, https://schema.org/Text]
   ///
@@ -300,7 +297,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/GeoCoordinates, https://schema.org/Place
   ///
-  static const longitude = const IriTerm('https://schema.org/longitude');
+  static const longitude = IriTerm('https://schema.org/longitude');
 
   /// map [Expects: https://schema.org/URL]
   ///
@@ -308,7 +305,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const map = const IriTerm('https://schema.org/map');
+  static const map = IriTerm('https://schema.org/map');
 
   /// maps [Expects: https://schema.org/URL]
   ///
@@ -316,7 +313,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const maps = const IriTerm('https://schema.org/maps');
+  static const maps = IriTerm('https://schema.org/maps');
 
   /// maximumAttendeeCapacity [Expects: https://schema.org/Integer]
   ///
@@ -324,7 +321,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Event, https://schema.org/Place
   ///
-  static const maximumAttendeeCapacity = const IriTerm(
+  static const maximumAttendeeCapacity = IriTerm(
     'https://schema.org/maximumAttendeeCapacity',
   );
 
@@ -334,7 +331,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// openingHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
   ///
@@ -342,7 +339,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const openingHoursSpecification = const IriTerm(
+  static const openingHoursSpecification = IriTerm(
     'https://schema.org/openingHoursSpecification',
   );
 
@@ -352,7 +349,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const photos = const IriTerm('https://schema.org/photos');
+  static const photos = IriTerm('https://schema.org/photos');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -360,9 +357,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// publicAccess [Expects: https://schema.org/Boolean]
   ///
@@ -370,7 +365,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const publicAccess = const IriTerm('https://schema.org/publicAccess');
+  static const publicAccess = IriTerm('https://schema.org/publicAccess');
 
   /// reviews [Expects: https://schema.org/Review]
   ///
@@ -378,7 +373,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -386,7 +381,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// slogan [Expects: https://schema.org/Text]
   ///
@@ -394,7 +389,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const slogan = const IriTerm('https://schema.org/slogan');
+  static const slogan = IriTerm('https://schema.org/slogan');
 
   /// smokingAllowed [Expects: https://schema.org/Boolean]
   ///
@@ -402,9 +397,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const smokingAllowed = const IriTerm(
-    'https://schema.org/smokingAllowed',
-  );
+  static const smokingAllowed = IriTerm('https://schema.org/smokingAllowed');
 
   /// specialOpeningHoursSpecification [Expects: https://schema.org/OpeningHoursSpecification]
   ///
@@ -413,7 +406,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const specialOpeningHoursSpecification = const IriTerm(
+  static const specialOpeningHoursSpecification = IriTerm(
     'https://schema.org/specialOpeningHoursSpecification',
   );
 
@@ -423,7 +416,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const telephone = const IriTerm('https://schema.org/telephone');
+  static const telephone = IriTerm('https://schema.org/telephone');
 
   /// tourBookingPage [Expects: https://schema.org/URL]
   ///
@@ -431,9 +424,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Accommodation, https://schema.org/ApartmentComplex, https://schema.org/Place
   ///
-  static const tourBookingPage = const IriTerm(
-    'https://schema.org/tourBookingPage',
-  );
+  static const tourBookingPage = IriTerm('https://schema.org/tourBookingPage');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -441,7 +432,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -449,9 +440,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// containsPlace [Expects: https://schema.org/Place]
   ///
@@ -459,9 +448,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containsPlace = const IriTerm(
-    'https://schema.org/containsPlace',
-  );
+  static const containsPlace = IriTerm('https://schema.org/containsPlace');
 
   /// event [Expects: https://schema.org/Event]
   ///
@@ -469,7 +456,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/InformAction, https://schema.org/InviteAction, https://schema.org/JoinAction, https://schema.org/LeaveAction, https://schema.org/Organization, https://schema.org/Place, https://schema.org/PlayAction
   ///
-  static const event = const IriTerm('https://schema.org/event');
+  static const event = IriTerm('https://schema.org/event');
 
   /// isAccessibleForFree [Expects: https://schema.org/Boolean]
   ///
@@ -477,7 +464,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const isAccessibleForFree = const IriTerm(
+  static const isAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -487,9 +474,17 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// photo [Expects: https://schema.org/ImageObject, https://schema.org/Photograph]
   ///
@@ -497,7 +492,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const photo = const IriTerm('https://schema.org/photo');
+  static const photo = IriTerm('https://schema.org/photo');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -505,7 +500,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -513,7 +508,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// containedInPlace [Expects: https://schema.org/Place]
   ///
@@ -521,7 +516,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const containedInPlace = const IriTerm(
+  static const containedInPlace = IriTerm(
     'https://schema.org/containedInPlace',
   );
 
@@ -531,7 +526,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Place
   ///
-  static const hasMap = const IriTerm('https://schema.org/hasMap');
+  static const hasMap = IriTerm('https://schema.org/hasMap');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -539,7 +534,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -547,7 +542,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -556,15 +551,7 @@ class SchemaContinent {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -572,7 +559,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -582,7 +569,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -592,7 +579,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -602,7 +589,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -612,7 +599,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -622,7 +609,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -632,7 +619,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -642,7 +629,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -652,7 +639,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -662,8 +649,28 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
+  );
+
+  /// bottomDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that does not relate any individual to any data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomDataProperty',
+  );
+
+  /// bottomObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that does not relate any two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
   /// deprecated from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -672,8 +679,18 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
+  );
+
+  /// differentFrom from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are different.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlDifferentFrom = IriTerm(
+    'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
   /// members from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
@@ -682,8 +699,34 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
+
+  /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are equal.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
+
+  /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that relates every individual to every data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topDataProperty',
+  );
+
+  /// topObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that relates every two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -692,9 +735,83 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
+
+  /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A name for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
+
+  /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A homepage for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
+
+  /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that  made this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
+
+  /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
+  ///
+  /// A depiction of some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
+
+  /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// An organization funding a project or person.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+
+  /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A logo representing some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
+
+  /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A page or document about this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
+
+  /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A theme.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -702,7 +819,7 @@ class SchemaContinent {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

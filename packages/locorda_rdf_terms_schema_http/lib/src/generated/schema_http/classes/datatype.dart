@@ -27,7 +27,7 @@ class SchemaHttpDataType {
 
   /// IRI term for the DataType class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/DataType');
+  static const classIri = IriTerm('http://schema.org/DataType');
 
   /// interactionCount
   ///
@@ -35,17 +35,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -53,7 +43,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -63,7 +53,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -73,7 +63,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Class
   ///
-  static const rdfsSubClassOf = const IriTerm(
+  static const rdfsSubClassOf = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#subClassOf',
   );
 
@@ -83,7 +73,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -93,7 +83,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -103,7 +93,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -113,7 +103,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -123,7 +113,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -133,7 +123,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -143,7 +133,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -153,7 +143,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -163,7 +153,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -173,7 +163,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Class
   ///
-  static const owlEquivalentClass = const IriTerm(
+  static const owlEquivalentClass = IriTerm(
     'http://www.w3.org/2002/07/owl#equivalentClass',
   );
 
@@ -183,7 +173,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Class
   ///
-  static const owlIntersectionOf = const IriTerm(
+  static const owlIntersectionOf = IriTerm(
     'http://www.w3.org/2002/07/owl#intersectionOf',
   );
 
@@ -193,9 +183,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// oneOf from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
   ///
@@ -203,7 +191,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Class
   ///
-  static const owlOneOf = const IriTerm('http://www.w3.org/2002/07/owl#oneOf');
+  static const owlOneOf = IriTerm('http://www.w3.org/2002/07/owl#oneOf');
 
   /// unionOf from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
   ///
@@ -211,9 +199,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Class
   ///
-  static const owlUnionOf = const IriTerm(
-    'http://www.w3.org/2002/07/owl#unionOf',
-  );
+  static const owlUnionOf = IriTerm('http://www.w3.org/2002/07/owl#unionOf');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -221,7 +207,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -232,7 +218,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAdditionalType = const IriTerm(
+  static const schemaAdditionalType = IriTerm(
     'https://schema.org/additionalType',
   );
 
@@ -242,7 +228,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDisambiguatingDescription = const IriTerm(
+  static const schemaDisambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -252,7 +238,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaName = const IriTerm('https://schema.org/name');
+  static const schemaName = IriTerm('https://schema.org/name');
 
   /// potentialAction from schema vocabulary [Expects: https://schema.org/Action]
   ///
@@ -260,7 +246,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaPotentialAction = const IriTerm(
+  static const schemaPotentialAction = IriTerm(
     'https://schema.org/potentialAction',
   );
 
@@ -270,7 +256,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSameAs = const IriTerm('https://schema.org/sameAs');
+  static const schemaSameAs = IriTerm('https://schema.org/sameAs');
 
   /// url from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -278,7 +264,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaUrl = const IriTerm('https://schema.org/url');
+  static const schemaUrl = IriTerm('https://schema.org/url');
 
   /// alternateName from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -286,7 +272,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAlternateName = const IriTerm(
+  static const schemaAlternateName = IriTerm(
     'https://schema.org/alternateName',
   );
 
@@ -296,9 +282,17 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaMainEntityOfPage = const IriTerm(
+  static const schemaMainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaOwner = IriTerm('https://schema.org/owner');
 
   /// subjectOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -306,7 +300,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSubjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const schemaSubjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -314,9 +308,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDescription = const IriTerm(
-    'https://schema.org/description',
-  );
+  static const schemaDescription = IriTerm('https://schema.org/description');
 
   /// image from schema vocabulary [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -324,7 +316,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaImage = const IriTerm('https://schema.org/image');
+  static const schemaImage = IriTerm('https://schema.org/image');
 
   /// identifier from schema vocabulary [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -333,9 +325,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaIdentifier = const IriTerm(
-    'https://schema.org/identifier',
-  );
+  static const schemaIdentifier = IriTerm('https://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -343,7 +333,7 @@ class SchemaHttpDataType {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

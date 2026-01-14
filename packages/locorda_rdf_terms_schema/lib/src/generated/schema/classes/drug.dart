@@ -21,6 +21,8 @@ import 'package:locorda_rdf_core/core.dart';
 /// Equivalent to:
 /// - 105590001 (http://purl.bioontology.org/ontology/SNOMEDCT/105590001)
 /// - 410942007 (http://purl.bioontology.org/ontology/SNOMEDCT/410942007)
+/// - Product (https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/Product)
+/// - TradeProduct (http://unece.org/vocab#TradeProduct)
 ///
 /// This class provides access to all properties that can be used with Drug.
 /// [Class Reference](https://schema.org/Drug)
@@ -32,7 +34,7 @@ class SchemaDrug {
 
   /// IRI term for the Drug class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/Drug');
+  static const classIri = IriTerm('https://schema.org/Drug');
 
   /// activeIngredient [Expects: https://schema.org/Text]
   ///
@@ -40,7 +42,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug, https://schema.org/DrugStrength, https://schema.org/Substance
   ///
-  static const activeIngredient = const IriTerm(
+  static const activeIngredient = IriTerm(
     'https://schema.org/activeIngredient',
   );
 
@@ -51,7 +53,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/Place, https://schema.org/Product, https://schema.org/QualitativeValue, https://schema.org/QuantitativeValue
   ///
-  static const additionalProperty = const IriTerm(
+  static const additionalProperty = IriTerm(
     'https://schema.org/additionalProperty',
   );
 
@@ -62,9 +64,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// administrationRoute [Expects: https://schema.org/Text]
   ///
@@ -72,7 +72,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const administrationRoute = const IriTerm(
+  static const administrationRoute = IriTerm(
     'https://schema.org/administrationRoute',
   );
 
@@ -82,9 +82,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const aggregateRating = const IriTerm(
-    'https://schema.org/aggregateRating',
-  );
+  static const aggregateRating = IriTerm('https://schema.org/aggregateRating');
 
   /// alcoholWarning [Expects: https://schema.org/Text]
   ///
@@ -92,9 +90,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const alcoholWarning = const IriTerm(
-    'https://schema.org/alcoholWarning',
-  );
+  static const alcoholWarning = IriTerm('https://schema.org/alcoholWarning');
 
   /// asin [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -105,7 +101,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const asin = const IriTerm('https://schema.org/asin');
+  static const asin = IriTerm('https://schema.org/asin');
 
   /// availableStrength [Expects: https://schema.org/DrugStrength]
   ///
@@ -113,7 +109,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const availableStrength = const IriTerm(
+  static const availableStrength = IriTerm(
     'https://schema.org/availableStrength',
   );
 
@@ -123,7 +119,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const awards = const IriTerm('https://schema.org/awards');
+  static const awards = IriTerm('https://schema.org/awards');
 
   /// brand [Expects: https://schema.org/Brand, https://schema.org/Organization]
   ///
@@ -131,7 +127,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const brand = const IriTerm('https://schema.org/brand');
+  static const brand = IriTerm('https://schema.org/brand');
 
   /// breastfeedingWarning [Expects: https://schema.org/Text]
   ///
@@ -139,7 +135,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const breastfeedingWarning = const IriTerm(
+  static const breastfeedingWarning = IriTerm(
     'https://schema.org/breastfeedingWarning',
   );
 
@@ -149,7 +145,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const clincalPharmacology = const IriTerm(
+  static const clincalPharmacology = IriTerm(
     'https://schema.org/clincalPharmacology',
   );
 
@@ -159,7 +155,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const code = const IriTerm('https://schema.org/code');
+  static const code = IriTerm('https://schema.org/code');
 
   /// color [Expects: https://schema.org/Text]
   ///
@@ -167,7 +163,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const color = const IriTerm('https://schema.org/color');
+  static const color = IriTerm('https://schema.org/color');
 
   /// colorSwatch [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -175,7 +171,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const colorSwatch = const IriTerm('https://schema.org/colorSwatch');
+  static const colorSwatch = IriTerm('https://schema.org/colorSwatch');
 
   /// countryOfAssembly [Expects: https://schema.org/Text]
   ///
@@ -183,7 +179,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const countryOfAssembly = const IriTerm(
+  static const countryOfAssembly = IriTerm(
     'https://schema.org/countryOfAssembly',
   );
 
@@ -193,7 +189,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const countryOfLastProcessing = const IriTerm(
+  static const countryOfLastProcessing = IriTerm(
     'https://schema.org/countryOfLastProcessing',
   );
 
@@ -207,9 +203,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Movie, https://schema.org/Product, https://schema.org/TVEpisode, https://schema.org/TVSeason, https://schema.org/TVSeries
   ///
-  static const countryOfOrigin = const IriTerm(
-    'https://schema.org/countryOfOrigin',
-  );
+  static const countryOfOrigin = IriTerm('https://schema.org/countryOfOrigin');
 
   /// depth [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -217,7 +211,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/OfferShippingDetails, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const depth = const IriTerm('https://schema.org/depth');
+  static const depth = IriTerm('https://schema.org/depth');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -225,9 +219,17 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
+
+  /// displayLocation [Expects: https://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
+  ///
+  static const displayLocation = IriTerm('https://schema.org/displayLocation');
 
   /// dosageForm [Expects: https://schema.org/Text]
   ///
@@ -235,7 +237,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const dosageForm = const IriTerm('https://schema.org/dosageForm');
+  static const dosageForm = IriTerm('https://schema.org/dosageForm');
 
   /// doseSchedule [Expects: https://schema.org/DoseSchedule]
   ///
@@ -243,7 +245,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug, https://schema.org/TherapeuticProcedure
   ///
-  static const doseSchedule = const IriTerm('https://schema.org/doseSchedule');
+  static const doseSchedule = IriTerm('https://schema.org/doseSchedule');
 
   /// drugClass [Expects: https://schema.org/DrugClass]
   ///
@@ -251,7 +253,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const drugClass = const IriTerm('https://schema.org/drugClass');
+  static const drugClass = IriTerm('https://schema.org/drugClass');
 
   /// drugUnit [Expects: https://schema.org/Text]
   ///
@@ -259,7 +261,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug, https://schema.org/DrugCost
   ///
-  static const drugUnit = const IriTerm('https://schema.org/drugUnit');
+  static const drugUnit = IriTerm('https://schema.org/drugUnit');
 
   /// foodWarning [Expects: https://schema.org/Text]
   ///
@@ -267,7 +269,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const foodWarning = const IriTerm('https://schema.org/foodWarning');
+  static const foodWarning = IriTerm('https://schema.org/foodWarning');
 
   /// gtin12 [Expects: https://schema.org/Text]
   ///
@@ -275,7 +277,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const gtin12 = const IriTerm('https://schema.org/gtin12');
+  static const gtin12 = IriTerm('https://schema.org/gtin12');
 
   /// gtin13 [Expects: https://schema.org/Text]
   ///
@@ -283,7 +285,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const gtin13 = const IriTerm('https://schema.org/gtin13');
+  static const gtin13 = IriTerm('https://schema.org/gtin13');
 
   /// gtin14 [Expects: https://schema.org/Text]
   ///
@@ -291,7 +293,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const gtin14 = const IriTerm('https://schema.org/gtin14');
+  static const gtin14 = IriTerm('https://schema.org/gtin14');
 
   /// gtin8 [Expects: https://schema.org/Text]
   ///
@@ -299,7 +301,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const gtin8 = const IriTerm('https://schema.org/gtin8');
+  static const gtin8 = IriTerm('https://schema.org/gtin8');
 
   /// guideline [Expects: https://schema.org/MedicalGuideline]
   ///
@@ -307,7 +309,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const guideline = const IriTerm('https://schema.org/guideline');
+  static const guideline = IriTerm('https://schema.org/guideline');
 
   /// hasAdultConsideration [Expects: https://schema.org/AdultOrientedEnumeration]
   ///
@@ -315,7 +317,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Product
   ///
-  static const hasAdultConsideration = const IriTerm(
+  static const hasAdultConsideration = IriTerm(
     'https://schema.org/hasAdultConsideration',
   );
 
@@ -325,7 +327,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const hasCertification = const IriTerm(
+  static const hasCertification = IriTerm(
     'https://schema.org/hasCertification',
   );
 
@@ -335,7 +337,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const hasEnergyConsumptionDetails = const IriTerm(
+  static const hasEnergyConsumptionDetails = IriTerm(
     'https://schema.org/hasEnergyConsumptionDetails',
   );
 
@@ -345,7 +347,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const hasGS1DigitalLink = const IriTerm(
+  static const hasGS1DigitalLink = IriTerm(
     'https://schema.org/hasGS1DigitalLink',
   );
 
@@ -355,9 +357,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/Offer, https://schema.org/Product, https://schema.org/SizeSpecification
   ///
-  static const hasMeasurement = const IriTerm(
-    'https://schema.org/hasMeasurement',
-  );
+  static const hasMeasurement = IriTerm('https://schema.org/hasMeasurement');
 
   /// hasMerchantReturnPolicy [Expects: https://schema.org/MerchantReturnPolicy]
   ///
@@ -365,7 +365,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Product
   ///
-  static const hasMerchantReturnPolicy = const IriTerm(
+  static const hasMerchantReturnPolicy = IriTerm(
     'https://schema.org/hasMerchantReturnPolicy',
   );
 
@@ -375,7 +375,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Person, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const height = const IriTerm('https://schema.org/height');
+  static const height = IriTerm('https://schema.org/height');
 
   /// inProductGroupWithID [Expects: https://schema.org/Text]
   ///
@@ -383,7 +383,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const inProductGroupWithID = const IriTerm(
+  static const inProductGroupWithID = IriTerm(
     'https://schema.org/inProductGroupWithID',
   );
 
@@ -393,7 +393,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const includedInHealthInsurancePlan = const IriTerm(
+  static const includedInHealthInsurancePlan = IriTerm(
     'https://schema.org/includedInHealthInsurancePlan',
   );
 
@@ -403,9 +403,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const interactingDrug = const IriTerm(
-    'https://schema.org/interactingDrug',
-  );
+  static const interactingDrug = IriTerm('https://schema.org/interactingDrug');
 
   /// interactionCount
   ///
@@ -413,7 +411,7 @@ class SchemaDrug {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -423,7 +421,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const isAccessoryOrSparePartFor = const IriTerm(
+  static const isAccessoryOrSparePartFor = IriTerm(
     'https://schema.org/isAccessoryOrSparePartFor',
   );
 
@@ -433,7 +431,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const isAvailableGenerically = const IriTerm(
+  static const isAvailableGenerically = IriTerm(
     'https://schema.org/isAvailableGenerically',
   );
 
@@ -443,9 +441,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const isConsumableFor = const IriTerm(
-    'https://schema.org/isConsumableFor',
-  );
+  static const isConsumableFor = IriTerm('https://schema.org/isConsumableFor');
 
   /// isFamilyFriendly [Expects: https://schema.org/Boolean]
   ///
@@ -453,7 +449,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const isFamilyFriendly = const IriTerm(
+  static const isFamilyFriendly = IriTerm(
     'https://schema.org/isFamilyFriendly',
   );
 
@@ -463,9 +459,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug
   ///
-  static const isProprietary = const IriTerm(
-    'https://schema.org/isProprietary',
-  );
+  static const isProprietary = IriTerm('https://schema.org/isProprietary');
 
   /// isRelatedTo [Expects: https://schema.org/Product, https://schema.org/Service]
   ///
@@ -473,7 +467,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Service
   ///
-  static const isRelatedTo = const IriTerm('https://schema.org/isRelatedTo');
+  static const isRelatedTo = IriTerm('https://schema.org/isRelatedTo');
 
   /// isSimilarTo [Expects: https://schema.org/Product, https://schema.org/Service]
   ///
@@ -481,7 +475,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Service
   ///
-  static const isSimilarTo = const IriTerm('https://schema.org/isSimilarTo');
+  static const isSimilarTo = IriTerm('https://schema.org/isSimilarTo');
 
   /// itemCondition [Expects: https://schema.org/OfferItemCondition]
   ///
@@ -489,9 +483,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const itemCondition = const IriTerm(
-    'https://schema.org/itemCondition',
-  );
+  static const itemCondition = IriTerm('https://schema.org/itemCondition');
 
   /// keywords [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -499,7 +491,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const keywords = const IriTerm('https://schema.org/keywords');
+  static const keywords = IriTerm('https://schema.org/keywords');
 
   /// labelDetails [Expects: https://schema.org/URL]
   ///
@@ -507,7 +499,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const labelDetails = const IriTerm('https://schema.org/labelDetails');
+  static const labelDetails = IriTerm('https://schema.org/labelDetails');
 
   /// legalStatus [Expects: https://schema.org/DrugLegalStatus, https://schema.org/MedicalEnumeration, https://schema.org/Text]
   ///
@@ -515,7 +507,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug, https://schema.org/MedicalEntity
   ///
-  static const legalStatus = const IriTerm('https://schema.org/legalStatus');
+  static const legalStatus = IriTerm('https://schema.org/legalStatus');
 
   /// logo [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -523,7 +515,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Certification, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const logo = const IriTerm('https://schema.org/logo');
+  static const logo = IriTerm('https://schema.org/logo');
 
   /// manufacturer [Expects: https://schema.org/Organization]
   ///
@@ -531,7 +523,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const manufacturer = const IriTerm('https://schema.org/manufacturer');
+  static const manufacturer = IriTerm('https://schema.org/manufacturer');
 
   /// maximumIntake [Expects: https://schema.org/MaximumDoseSchedule]
   ///
@@ -539,9 +531,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug, https://schema.org/DrugStrength, https://schema.org/Substance
   ///
-  static const maximumIntake = const IriTerm(
-    'https://schema.org/maximumIntake',
-  );
+  static const maximumIntake = IriTerm('https://schema.org/maximumIntake');
 
   /// mechanismOfAction [Expects: https://schema.org/Text]
   ///
@@ -549,7 +539,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug
   ///
-  static const mechanismOfAction = const IriTerm(
+  static const mechanismOfAction = IriTerm(
     'https://schema.org/mechanismOfAction',
   );
 
@@ -559,9 +549,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const medicineSystem = const IriTerm(
-    'https://schema.org/medicineSystem',
-  );
+  static const medicineSystem = IriTerm('https://schema.org/medicineSystem');
 
   /// mobileUrl [Expects: https://schema.org/Text]
   ///
@@ -572,7 +560,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Product
   ///
-  static const mobileUrl = const IriTerm('https://schema.org/mobileUrl');
+  static const mobileUrl = IriTerm('https://schema.org/mobileUrl');
 
   /// model [Expects: https://schema.org/ProductModel, https://schema.org/Text]
   ///
@@ -580,7 +568,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const model = const IriTerm('https://schema.org/model');
+  static const model = IriTerm('https://schema.org/model');
 
   /// mpn [Expects: https://schema.org/Text]
   ///
@@ -588,7 +576,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const mpn = const IriTerm('https://schema.org/mpn');
+  static const mpn = IriTerm('https://schema.org/mpn');
 
   /// name [Expects: https://schema.org/Text]
   ///
@@ -596,7 +584,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// negativeNotes [Expects: https://schema.org/ItemList, https://schema.org/ListItem, https://schema.org/Text, https://schema.org/WebContent]
   ///
@@ -609,9 +597,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Review
   ///
-  static const negativeNotes = const IriTerm(
-    'https://schema.org/negativeNotes',
-  );
+  static const negativeNotes = IriTerm('https://schema.org/negativeNotes');
 
   /// nonProprietaryName [Expects: https://schema.org/Text]
   ///
@@ -619,7 +605,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug
   ///
-  static const nonProprietaryName = const IriTerm(
+  static const nonProprietaryName = IriTerm(
     'https://schema.org/nonProprietaryName',
   );
 
@@ -629,7 +615,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const nsn = const IriTerm('https://schema.org/nsn');
+  static const nsn = IriTerm('https://schema.org/nsn');
 
   /// overdosage [Expects: https://schema.org/Text]
   ///
@@ -637,7 +623,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const overdosage = const IriTerm('https://schema.org/overdosage');
+  static const overdosage = IriTerm('https://schema.org/overdosage');
 
   /// pattern [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -645,7 +631,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const pattern = const IriTerm('https://schema.org/pattern');
+  static const pattern = IriTerm('https://schema.org/pattern');
 
   /// positiveNotes [Expects: https://schema.org/ItemList, https://schema.org/ListItem, https://schema.org/Text, https://schema.org/WebContent]
   ///
@@ -657,9 +643,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Review
   ///
-  static const positiveNotes = const IriTerm(
-    'https://schema.org/positiveNotes',
-  );
+  static const positiveNotes = IriTerm('https://schema.org/positiveNotes');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -667,9 +651,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// pregnancyCategory [Expects: https://schema.org/DrugPregnancyCategory]
   ///
@@ -677,7 +659,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const pregnancyCategory = const IriTerm(
+  static const pregnancyCategory = IriTerm(
     'https://schema.org/pregnancyCategory',
   );
 
@@ -687,7 +669,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const pregnancyWarning = const IriTerm(
+  static const pregnancyWarning = IriTerm(
     'https://schema.org/pregnancyWarning',
   );
 
@@ -697,9 +679,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const prescribingInfo = const IriTerm(
-    'https://schema.org/prescribingInfo',
-  );
+  static const prescribingInfo = IriTerm('https://schema.org/prescribingInfo');
 
   /// prescriptionStatus [Expects: https://schema.org/DrugPrescriptionStatus, https://schema.org/Text]
   ///
@@ -707,7 +687,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const prescriptionStatus = const IriTerm(
+  static const prescriptionStatus = IriTerm(
     'https://schema.org/prescriptionStatus',
   );
 
@@ -717,7 +697,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const productID = const IriTerm('https://schema.org/productID');
+  static const productID = IriTerm('https://schema.org/productID');
 
   /// productionDate [Expects: https://schema.org/Date]
   ///
@@ -725,9 +705,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Vehicle
   ///
-  static const productionDate = const IriTerm(
-    'https://schema.org/productionDate',
-  );
+  static const productionDate = IriTerm('https://schema.org/productionDate');
 
   /// proprietaryName [Expects: https://schema.org/Text]
   ///
@@ -735,9 +713,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/DietarySupplement, https://schema.org/Drug
   ///
-  static const proprietaryName = const IriTerm(
-    'https://schema.org/proprietaryName',
-  );
+  static const proprietaryName = IriTerm('https://schema.org/proprietaryName');
 
   /// purchaseDate [Expects: https://schema.org/Date]
   ///
@@ -745,7 +721,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/Vehicle
   ///
-  static const purchaseDate = const IriTerm('https://schema.org/purchaseDate');
+  static const purchaseDate = IriTerm('https://schema.org/purchaseDate');
 
   /// recognizingAuthority [Expects: https://schema.org/Organization]
   ///
@@ -753,7 +729,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const recognizingAuthority = const IriTerm(
+  static const recognizingAuthority = IriTerm(
     'https://schema.org/recognizingAuthority',
   );
 
@@ -763,7 +739,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const relatedDrug = const IriTerm('https://schema.org/relatedDrug');
+  static const relatedDrug = IriTerm('https://schema.org/relatedDrug');
 
   /// releaseDate [Expects: https://schema.org/Date]
   ///
@@ -771,7 +747,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product
   ///
-  static const releaseDate = const IriTerm('https://schema.org/releaseDate');
+  static const releaseDate = IriTerm('https://schema.org/releaseDate');
 
   /// relevantSpecialty [Expects: https://schema.org/MedicalSpecialty]
   ///
@@ -779,7 +755,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const relevantSpecialty = const IriTerm(
+  static const relevantSpecialty = IriTerm(
     'https://schema.org/relevantSpecialty',
   );
 
@@ -789,7 +765,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const reviews = const IriTerm('https://schema.org/reviews');
+  static const reviews = IriTerm('https://schema.org/reviews');
 
   /// rxcui [Expects: https://schema.org/Text]
   ///
@@ -797,7 +773,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const rxcui = const IriTerm('https://schema.org/rxcui');
+  static const rxcui = IriTerm('https://schema.org/rxcui');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -805,7 +781,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// size [Expects: https://schema.org/DefinedTerm, https://schema.org/QuantitativeValue, https://schema.org/SizeSpecification, https://schema.org/Text]
   ///
@@ -813,7 +789,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const size = const IriTerm('https://schema.org/size');
+  static const size = IriTerm('https://schema.org/size');
 
   /// sku [Expects: https://schema.org/Text]
   ///
@@ -821,7 +797,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const sku = const IriTerm('https://schema.org/sku');
+  static const sku = IriTerm('https://schema.org/sku');
 
   /// slogan [Expects: https://schema.org/Text]
   ///
@@ -829,7 +805,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const slogan = const IriTerm('https://schema.org/slogan');
+  static const slogan = IriTerm('https://schema.org/slogan');
 
   /// study [Expects: https://schema.org/MedicalStudy]
   ///
@@ -837,7 +813,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MedicalEntity
   ///
-  static const study = const IriTerm('https://schema.org/study');
+  static const study = IriTerm('https://schema.org/study');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -845,7 +821,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// warning [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -853,7 +829,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const warning = const IriTerm('https://schema.org/warning');
+  static const warning = IriTerm('https://schema.org/warning');
 
   /// weight [Expects: https://schema.org/Mass, https://schema.org/QuantitativeValue]
   ///
@@ -861,7 +837,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/OfferShippingDetails, https://schema.org/Person, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const weight = const IriTerm('https://schema.org/weight');
+  static const weight = IriTerm('https://schema.org/weight');
 
   /// width [Expects: https://schema.org/Distance, https://schema.org/QuantitativeValue]
   ///
@@ -869,7 +845,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/MediaObject, https://schema.org/OfferShippingDetails, https://schema.org/Product, https://schema.org/ShippingConditions, https://schema.org/VisualArtwork
   ///
-  static const width = const IriTerm('https://schema.org/width');
+  static const width = IriTerm('https://schema.org/width');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -877,9 +853,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// audience [Expects: https://schema.org/Audience]
   ///
@@ -887,7 +861,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const audience = const IriTerm('https://schema.org/audience');
+  static const audience = IriTerm('https://schema.org/audience');
 
   /// award [Expects: https://schema.org/Text]
   ///
@@ -895,15 +869,15 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const award = const IriTerm('https://schema.org/award');
+  static const award = IriTerm('https://schema.org/award');
 
   /// category [Expects: https://schema.org/CategoryCode, https://schema.org/PhysicalActivityCategory, https://schema.org/Text, https://schema.org/Thing, https://schema.org/URL]
   ///
   /// A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
   ///
-  /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/Invoice, https://schema.org/Offer, https://schema.org/PhysicalActivity, https://schema.org/Product, https://schema.org/Recommendation, https://schema.org/Service, https://schema.org/SpecialAnnouncement
+  /// Can be used on: https://schema.org/ActionAccessSpecification, https://schema.org/Guide, https://schema.org/Invoice, https://schema.org/Offer, https://schema.org/PhysicalActivity, https://schema.org/Product, https://schema.org/Recommendation, https://schema.org/Service, https://schema.org/SpecialAnnouncement
   ///
-  static const category = const IriTerm('https://schema.org/category');
+  static const category = IriTerm('https://schema.org/category');
 
   /// clinicalPharmacology [Expects: https://schema.org/Text]
   ///
@@ -911,7 +885,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Drug
   ///
-  static const clinicalPharmacology = const IriTerm(
+  static const clinicalPharmacology = IriTerm(
     'https://schema.org/clinicalPharmacology',
   );
 
@@ -921,7 +895,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const funding = const IriTerm('https://schema.org/funding');
+  static const funding = IriTerm('https://schema.org/funding');
 
   /// isVariantOf [Expects: https://schema.org/ProductGroup, https://schema.org/ProductModel]
   ///
@@ -929,7 +903,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Product, https://schema.org/ProductModel
   ///
-  static const isVariantOf = const IriTerm('https://schema.org/isVariantOf');
+  static const isVariantOf = IriTerm('https://schema.org/isVariantOf');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -937,7 +911,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -948,7 +922,15 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/AggregateOffer, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/Event, https://schema.org/MenuItem, https://schema.org/Product, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const offers = const IriTerm('https://schema.org/offers');
+  static const offers = IriTerm('https://schema.org/offers');
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// review [Expects: https://schema.org/Review]
   ///
@@ -956,7 +938,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const review = const IriTerm('https://schema.org/review');
+  static const review = IriTerm('https://schema.org/review');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -964,7 +946,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// material [Expects: https://schema.org/Product, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -972,7 +954,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const material = const IriTerm('https://schema.org/material');
+  static const material = IriTerm('https://schema.org/material');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -980,7 +962,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// gtin [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -995,7 +977,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Demand, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const gtin = const IriTerm('https://schema.org/gtin');
+  static const gtin = IriTerm('https://schema.org/gtin');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1003,7 +985,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1012,15 +994,7 @@ class SchemaDrug {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -1028,7 +1002,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -1038,7 +1012,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -1048,7 +1022,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -1058,7 +1032,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -1068,7 +1042,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -1078,7 +1052,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -1088,7 +1062,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -1098,7 +1072,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -1108,7 +1082,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -1118,7 +1092,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -1128,7 +1102,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -1138,9 +1112,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -1148,7 +1120,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -1158,7 +1130,7 @@ class SchemaDrug {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

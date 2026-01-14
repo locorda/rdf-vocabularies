@@ -23,7 +23,7 @@ class Pim {
   ///
   ///
   ///
-  static const ConfigurationFile = const IriTerm(
+  static const ConfigurationFile = IriTerm(
     'http://www.w3.org/ns/pim/space#ConfigurationFile',
   );
 
@@ -33,7 +33,7 @@ class Pim {
   /// who has access to it.
   ///
   ///
-  static const ControlledStorage = const IriTerm(
+  static const ControlledStorage = IriTerm(
     'http://www.w3.org/ns/pim/space#ControlledStorage',
   );
 
@@ -43,7 +43,7 @@ class Pim {
   /// information about the other workspaces.
   /// As a user, you normally don't have to worry about it.
   ///
-  static const MasterWorkspace = const IriTerm(
+  static const MasterWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#MasterWorkspace',
   );
 
@@ -53,7 +53,7 @@ class Pim {
   /// you cannot give access to anyone else.
   ///
   ///
-  static const PersonalStorage = const IriTerm(
+  static const PersonalStorage = IriTerm(
     'http://www.w3.org/ns/pim/space#PersonalStorage',
   );
 
@@ -61,7 +61,7 @@ class Pim {
   ///
   /// Aceess may not be open to the public. Contains preferences resources.
   ///
-  static const PreferencesWorkspace = const IriTerm(
+  static const PreferencesWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#PreferencesWorkspace',
   );
 
@@ -69,7 +69,7 @@ class Pim {
   ///
   /// Access only by the you, the user.
   ///
-  static const PrivateWorkspace = const IriTerm(
+  static const PrivateWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#PrivateWorkspace',
   );
 
@@ -79,7 +79,7 @@ class Pim {
   /// and all data is accessible to anyone without control.
   ///
   ///
-  static const PublicStorage = const IriTerm(
+  static const PublicStorage = IriTerm(
     'http://www.w3.org/ns/pim/space#PublicStorage',
   );
 
@@ -88,7 +88,7 @@ class Pim {
   /// Aceess is open to the public. Anything in a public workspace
   /// can be accesed by anyone.
   ///
-  static const PublicWorkspace = const IriTerm(
+  static const PublicWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#PublicWorkspace',
   );
 
@@ -96,7 +96,7 @@ class Pim {
   ///
   /// Access is to some but not all people.
   ///
-  static const SharedWorkspace = const IriTerm(
+  static const SharedWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#SharedWorkspace',
   );
 
@@ -105,9 +105,7 @@ class Pim {
   /// A storage is a space of URIs in which you have access to data.
   ///
   ///
-  static const Storage = const IriTerm(
-    'http://www.w3.org/ns/pim/space#Storage',
-  );
+  static const Storage = IriTerm('http://www.w3.org/ns/pim/space#Storage');
 
   /// IRI for pim:Workspace
   ///
@@ -116,9 +114,7 @@ class Pim {
   /// workspaces, some being user private, some shared, and some public.
   ///
   ///
-  static const Workspace = const IriTerm(
-    'http://www.w3.org/ns/pim/space#Workspace',
-  );
+  static const Workspace = IriTerm('http://www.w3.org/ns/pim/space#Workspace');
 
   /// IRI for pim:masterWorkspace [Expects: http://www.w3.org/ns/pim/space#MasterWorkspace]
   ///
@@ -126,7 +122,7 @@ class Pim {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const masterWorkspace = const IriTerm(
+  static const masterWorkspace = IriTerm(
     'http://www.w3.org/ns/pim/space#masterWorkspace',
   );
 
@@ -136,7 +132,7 @@ class Pim {
   ///
   /// Can be used on: http://xmlns.com/foaf/0.1/Agent
   ///
-  static const preferencesFile = const IriTerm(
+  static const preferencesFile = IriTerm(
     'http://www.w3.org/ns/pim/space#preferencesFile',
   );
 
@@ -147,9 +143,7 @@ class Pim {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const storage = const IriTerm(
-    'http://www.w3.org/ns/pim/space#storage',
-  );
+  static const storage = IriTerm('http://www.w3.org/ns/pim/space#storage');
 
   /// IRI for pim:uriPrefix
   ///
@@ -159,9 +153,7 @@ class Pim {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const uriPrefix = const IriTerm(
-    'http://www.w3.org/ns/pim/space#uriPrefix',
-  );
+  static const uriPrefix = IriTerm('http://www.w3.org/ns/pim/space#uriPrefix');
 
   /// IRI for pim:workspace [Expects: http://www.w3.org/ns/pim/space#Workspace]
   ///
@@ -169,7 +161,5 @@ class Pim {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const workspace = const IriTerm(
-    'http://www.w3.org/ns/pim/space#workspace',
-  );
+  static const workspace = IriTerm('http://www.w3.org/ns/pim/space#workspace');
 }

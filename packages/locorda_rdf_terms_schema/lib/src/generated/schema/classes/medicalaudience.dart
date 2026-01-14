@@ -28,7 +28,7 @@ class SchemaMedicalAudience {
 
   /// IRI term for the MedicalAudience class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/MedicalAudience');
+  static const classIri = IriTerm('https://schema.org/MedicalAudience');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -37,9 +37,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// audienceType [Expects: https://schema.org/Text]
   ///
@@ -47,7 +45,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Audience
   ///
-  static const audienceType = const IriTerm('https://schema.org/audienceType');
+  static const audienceType = IriTerm('https://schema.org/audienceType');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -55,7 +53,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -65,9 +63,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Audience
   ///
-  static const geographicArea = const IriTerm(
-    'https://schema.org/geographicArea',
-  );
+  static const geographicArea = IriTerm('https://schema.org/geographicArea');
 
   /// healthCondition [Expects: https://schema.org/MedicalCondition]
   ///
@@ -75,9 +71,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/MedicalStudy, https://schema.org/Patient, https://schema.org/PeopleAudience
   ///
-  static const healthCondition = const IriTerm(
-    'https://schema.org/healthCondition',
-  );
+  static const healthCondition = IriTerm('https://schema.org/healthCondition');
 
   /// interactionCount
   ///
@@ -85,7 +79,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -95,7 +89,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -103,9 +97,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// requiredGender [Expects: https://schema.org/Text]
   ///
@@ -113,9 +105,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience
   ///
-  static const requiredGender = const IriTerm(
-    'https://schema.org/requiredGender',
-  );
+  static const requiredGender = IriTerm('https://schema.org/requiredGender');
 
   /// requiredMaxAge [Expects: https://schema.org/Integer]
   ///
@@ -123,9 +113,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience
   ///
-  static const requiredMaxAge = const IriTerm(
-    'https://schema.org/requiredMaxAge',
-  );
+  static const requiredMaxAge = IriTerm('https://schema.org/requiredMaxAge');
 
   /// requiredMinAge [Expects: https://schema.org/Integer]
   ///
@@ -133,9 +121,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience
   ///
-  static const requiredMinAge = const IriTerm(
-    'https://schema.org/requiredMinAge',
-  );
+  static const requiredMinAge = IriTerm('https://schema.org/requiredMinAge');
 
   /// sameAs [Expects: https://schema.org/URL]
   ///
@@ -143,7 +129,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// suggestedAge [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -151,7 +137,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience, https://schema.org/SizeSpecification
   ///
-  static const suggestedAge = const IriTerm('https://schema.org/suggestedAge');
+  static const suggestedAge = IriTerm('https://schema.org/suggestedAge');
 
   /// suggestedGender [Expects: https://schema.org/GenderType, https://schema.org/Text]
   ///
@@ -159,9 +145,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience, https://schema.org/SizeSpecification
   ///
-  static const suggestedGender = const IriTerm(
-    'https://schema.org/suggestedGender',
-  );
+  static const suggestedGender = IriTerm('https://schema.org/suggestedGender');
 
   /// suggestedMaxAge [Expects: https://schema.org/Number]
   ///
@@ -169,9 +153,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience
   ///
-  static const suggestedMaxAge = const IriTerm(
-    'https://schema.org/suggestedMaxAge',
-  );
+  static const suggestedMaxAge = IriTerm('https://schema.org/suggestedMaxAge');
 
   /// suggestedMeasurement [Expects: https://schema.org/QuantitativeValue]
   ///
@@ -179,7 +161,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience, https://schema.org/SizeSpecification
   ///
-  static const suggestedMeasurement = const IriTerm(
+  static const suggestedMeasurement = IriTerm(
     'https://schema.org/suggestedMeasurement',
   );
 
@@ -189,9 +171,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/PeopleAudience
   ///
-  static const suggestedMinAge = const IriTerm(
-    'https://schema.org/suggestedMinAge',
-  );
+  static const suggestedMinAge = IriTerm('https://schema.org/suggestedMinAge');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -199,7 +179,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -207,9 +187,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -217,9 +195,17 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -227,7 +213,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -235,7 +221,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -243,7 +229,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -252,15 +238,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -268,7 +246,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -278,7 +256,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -288,7 +266,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -298,7 +276,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -308,7 +286,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -318,7 +296,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -328,7 +306,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -338,7 +316,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -348,7 +326,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -358,7 +336,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -368,7 +346,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -378,9 +356,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -388,7 +364,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -398,7 +374,7 @@ class SchemaMedicalAudience {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

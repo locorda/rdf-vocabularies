@@ -21,9 +21,7 @@
     "void": {
       "type": "url",
       "namespace": "http://rdfs.org/ns/void#",
-      "source": "http://vocab.deri.ie/void.ttl",
-      "skipDownload": true,
-      "skipDownloadReason": "The source URL is currently blocking, the build waits forever.",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/void/versions/2011-03-06.n3",
       "generate": false
     },
     "owl": {
@@ -61,8 +59,169 @@
     "foaf": {
       "type": "url",
       "namespace": "http://xmlns.com/foaf/0.1/",
-      "source": "http://xmlns.com/foaf/spec/index.rdf",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2014-01-14.n3",
       "generate": true
+    },
+    "gen": {
+      "type": "url",
+      "namespace": "http://www.w3.org/2006/gen/ont#",
+      "source": "https://www.w3.org/2006/gen/ont.rdf",
+      "generate": false
+    },
+    "cmnsloc": {
+      "type": "url",
+      "namespace": "https://www.omg.org/spec/Commons/Locations/",
+      "source": "https://www.omg.org/spec/Commons/20250801/Locations.ttl",
+      "generate": false
+    },
+    "fibodocs": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/Documents.ttl",
+      "generate": false
+    },
+    "fibocontracts": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Agreements/Contracts.ttl",
+      "generate": false
+    },
+    "fibofe": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/FunctionalEntities/FunctionalEntities.ttl",
+      "generate": false
+    },
+    "fibopub": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/FunctionalEntities/Publishers.ttl",
+      "generate": false
+    },
+    "fibolifecycles": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/Lifecycles.ttl",
+      "generate": false
+    },
+    "fibofpas": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FBC/ProductsAndServices/FinancialProductsAndServices.ttl",
+      "generate": false
+    },
+    "fiboagree": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Agreements/Agreements.ttl",
+      "generate": false
+    },
+    "fiboocc": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/DatesAndTimes/Occurrences.ttl",
+      "generate": false
+    },
+    "fibofindates": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/DatesAndTimes/FinancialDates.ttl",
+      "generate": false
+    },
+    "fibobeo": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/FormalBusinessOrganizations.ttl",
+      "generate": false
+    },
+    "fibocorpbodies": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/CorporateBodies.ttl",
+      "generate": false
+    },
+    "fibocorps": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/Corporations/Corporations.ttl",
+      "generate": false
+    },
+    "fiboaddr": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Places/Addresses.ttl",
+      "generate": false
+    },
+    "fiboprodserv": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/ProductsAndServices/ProductsAndServices.ttl",
+      "generate": false
+    },
+    "fiboown": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/OwnershipAndControl/Ownership.ttl",
+      "generate": false
+    },
+    "fibolegal": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Law/LegalCapacity.ttl",
+      "generate": false
+    },
+    "fiboobj": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/GoalsAndObjectives/Objectives.ttl",
+      "generate": false
+    },
+    "fiboparties": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Parties/Parties.ttl",
+      "generate": false
+    },
+    "fiboclassif": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/ClassificationSchemes.ttl",
+      "generate": false
+    },
+    "fibolegalcore": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Law/LegalCore.ttl",
+      "generate": false
+    },
+    "fibolegalpersons": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/LegalPersons.ttl",
+      "generate": false
+    },
+    "fiboidx": {
+      "type": "url",
+      "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/",
+      "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/IdentifiersAndIndices.ttl",
+      "generate": false
+    },
+    "cmnscls": {
+      "type": "url",
+      "namespace": "https://www.omg.org/spec/Commons/Classifiers/",
+      "source": "https://www.omg.org/spec/Commons/20250801/Classifiers.ttl",
+      "generate": false
+    },
+    "gs1": {
+      "type": "url",
+      "namespace": "https://ref.gs1.org/voc/",
+      "source": "https://ref.gs1.org/voc/data/gs1Voc.ttl",
+      "contentType": "text/turtle",
+      "parsingFlags": [
+        "allowMissingDotAfterPrefix",
+        "allowPrefixWithoutAtSign"
+      ],
+      "generate": false
     },
     "geo": {
       "type": "url",
@@ -147,6 +306,37 @@
         "allowPrefixWithoutAtSign"
       ],
       "generate": true
+    },
+    "prov": {
+      "type": "url",
+      "namespace": "http://www.w3.org/ns/prov#",
+      "source": "http://www.w3.org/ns/prov.ttl",
+      "generate": false
+    },
+    "dcat": {
+      "type": "url",
+      "namespace": "http://www.w3.org/ns/dcat#",
+      "source": "https://www.w3.org/ns/dcat.ttl",
+      "generate": false
+    },
+    "hydra": {
+      "type": "url",
+      "namespace": "http://www.w3.org/ns/hydra/core#",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/hydra/versions/2015-01-11.n3",
+      "generate": false
+    },
+    "bibo": {
+      "type": "url",
+      "namespace": "http://purl.org/ontology/bibo/",
+      "source": "https://lov.linkeddata.es/dataset/lov/vocabs/bibo/versions/2009-11-04.n3",
+      "generate": false
+    },
+    "sioc": {
+      "type": "url",
+      "namespace": "http://rdfs.org/sioc/ns#",
+      "source": "http://rdfs.org/sioc/ns",
+      "contentType": "application/rdf+xml",
+      "generate": false
     }
   }
 }

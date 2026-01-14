@@ -33,7 +33,7 @@ class DcmitypeDataset {
 
   /// IRI term for the Dataset class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://purl.org/dc/dcmitype/Dataset');
+  static const classIri = IriTerm('http://purl.org/dc/dcmitype/Dataset');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -41,7 +41,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -51,7 +51,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -61,7 +61,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -71,7 +71,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -81,7 +81,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -91,7 +91,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -101,8 +101,204 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
+  );
+
+  /// entities from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of entities that are described in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidEntities = IriTerm('http://rdfs.org/ns/void#entities');
+
+  /// sparqlEndpoint from void vocabulary
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidSparqlEndpoint = IriTerm(
+    'http://rdfs.org/ns/void#sparqlEndpoint',
+  );
+
+  /// openSearchDescription from void vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// An OpenSearch description document for a free-text search service over a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidOpenSearchDescription = IriTerm(
+    'http://rdfs.org/ns/void#openSearchDescription',
+  );
+
+  /// dataDump from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
+  ///
+  /// An RDF dump, partial or complete, of a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDataDump = IriTerm('http://rdfs.org/ns/void#dataDump');
+
+  /// subset from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidSubset = IriTerm('http://rdfs.org/ns/void#subset');
+
+  /// vocabulary from void vocabulary
+  ///
+  /// A vocabulary that is used in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidVocabulary = IriTerm('http://rdfs.org/ns/void#vocabulary');
+
+  /// documents from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of documents, for datasets that are published as a set of individual documents, such as RDF/XML documents or RDFa-annotated web pages. Non-RDF documents, such as web pages in HTML or images, are usually not included in this count. This property is intended for datasets where the total number of triples or entities is hard to determine. void:triples or void:entities should be preferred where practical.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDocuments = IriTerm('http://rdfs.org/ns/void#documents');
+
+  /// property from void vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property]
+  ///
+  /// The rdf:Property that is the predicate of all triples in a property-based partition.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidProperty = IriTerm('http://rdfs.org/ns/void#property');
+
+  /// uriLookupEndpoint from void vocabulary
+  ///
+  /// Defines a simple URI look-up protocol for accessing a dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriLookupEndpoint = IriTerm(
+    'http://rdfs.org/ns/void#uriLookupEndpoint',
+  );
+
+  /// distinctSubjects from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct subjects in a void:Dataset. In other words, the number of distinct resources that occur in the subject position of triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDistinctSubjects = IriTerm(
+    'http://rdfs.org/ns/void#distinctSubjects',
+  );
+
+  /// exampleResource from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidExampleResource = IriTerm(
+    'http://rdfs.org/ns/void#exampleResource',
+  );
+
+  /// propertyPartition from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// A subset of a void:Dataset that contains only the triples of a certain rdf:Property.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidPropertyPartition = IriTerm(
+    'http://rdfs.org/ns/void#propertyPartition',
+  );
+
+  /// class_ from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
+  ///
+  /// The rdfs:Class that is the rdf:type of all entities in a class-based partition.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClass_ = IriTerm('http://rdfs.org/ns/void#class');
+
+  /// properties from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct properties in a void:Dataset. In other words, the number of distinct resources that occur in the predicate position of triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidProperties = IriTerm('http://rdfs.org/ns/void#properties');
+
+  /// rootResource from void vocabulary
+  ///
+  /// A top concept or entry point for a void:Dataset that is structured in a tree-like fashion. All resources in a dataset can be reached by following links from its root resources in a small number of steps.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidRootResource = IriTerm(
+    'http://rdfs.org/ns/void#rootResource',
+  );
+
+  /// classPartition from void vocabulary [Expects: http://rdfs.org/ns/void#Dataset]
+  ///
+  /// A subset of a void:Dataset that contains only the entities of a certain rdfs:Class.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClassPartition = IriTerm(
+    'http://rdfs.org/ns/void#classPartition',
+  );
+
+  /// uriRegexPattern from void vocabulary
+  ///
+  /// Defines a regular expression pattern matching URIs in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriRegexPattern = IriTerm(
+    'http://rdfs.org/ns/void#uriRegexPattern',
+  );
+
+  /// uriSpace from void vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A URI that is a common string prefix of all the entity URIs in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidUriSpace = IriTerm('http://rdfs.org/ns/void#uriSpace');
+
+  /// feature from void vocabulary [Expects: http://rdfs.org/ns/void#TechnicalFeature]
+  ///
+  ///
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidFeature = IriTerm('http://rdfs.org/ns/void#feature');
+
+  /// classes from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct classes in a void:Dataset. In other words, the number of distinct resources occuring as objects of rdf:type triples in the dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidClasses = IriTerm('http://rdfs.org/ns/void#classes');
+
+  /// triples from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of triples contained in a void:Dataset.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidTriples = IriTerm('http://rdfs.org/ns/void#triples');
+
+  /// distinctObjects from void vocabulary [Expects: http://www.w3.org/2001/XMLSchema#integer]
+  ///
+  /// The total number of distinct objects in a void:Dataset. In other words, the number of distinct resources that occur in the object position of triples in the dataset. Literals are included in this count.
+  ///
+  /// Can be used on: http://rdfs.org/ns/void#Dataset
+  ///
+  static const voidDistinctObjects = IriTerm(
+    'http://rdfs.org/ns/void#distinctObjects',
   );
 
   /// annotatedProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -111,7 +307,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -121,7 +317,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -131,7 +327,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -141,7 +337,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomDataProperty = const IriTerm(
+  static const owlBottomDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomDataProperty',
   );
 
@@ -151,7 +347,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlBottomObjectProperty = const IriTerm(
+  static const owlBottomObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
@@ -161,7 +357,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -171,7 +367,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlDifferentFrom = const IriTerm(
+  static const owlDifferentFrom = IriTerm(
     'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
@@ -181,9 +377,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -191,9 +385,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlSameAs = const IriTerm(
-    'http://www.w3.org/2002/07/owl#sameAs',
-  );
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
 
   /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -201,7 +393,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopDataProperty = const IriTerm(
+  static const owlTopDataProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topDataProperty',
   );
 
@@ -211,7 +403,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const owlTopObjectProperty = const IriTerm(
+  static const owlTopObjectProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
@@ -221,7 +413,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -231,7 +423,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafName = const IriTerm('http://xmlns.com/foaf/0.1/name');
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
 
   /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -239,18 +431,15 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafHomepage = const IriTerm(
-    'http://xmlns.com/foaf/0.1/homepage',
-  );
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
 
   /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
-  /// An agent that
-  /// made this thing.
+  /// An agent that  made this thing.
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafMaker = const IriTerm('http://xmlns.com/foaf/0.1/maker');
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
 
   /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
   ///
@@ -258,9 +447,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafDepiction = const IriTerm(
-    'http://xmlns.com/foaf/0.1/depiction',
-  );
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
 
   /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -268,9 +455,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafFundedBy = const IriTerm(
-    'http://xmlns.com/foaf/0.1/fundedBy',
-  );
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
 
   /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -278,7 +463,17 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafLogo = const IriTerm('http://xmlns.com/foaf/0.1/logo');
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
 
   /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
   ///
@@ -286,7 +481,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafPage = const IriTerm('http://xmlns.com/foaf/0.1/page');
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
 
   /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
   ///
@@ -294,7 +489,549 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2002/07/owl#Thing
   ///
-  static const foafTheme = const IriTerm('http://xmlns.com/foaf/0.1/theme');
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
+
+  /// activityIdeas from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to ideas for using a product or engaging in other forms of entertainment, particularly with children.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ActivityIdeas = IriTerm(
+    'https://ref.gs1.org/voc/activityIdeas',
+  );
+
+  /// allergenInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the allergen information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AllergenInfo = IriTerm(
+    'https://ref.gs1.org/voc/allergenInfo',
+  );
+
+  /// appDownload from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a related mobile app
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1AppDownload = IriTerm('https://ref.gs1.org/voc/appDownload');
+
+  /// backgroundInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information typically from the owner of the identified entity about the creative background, thought leadership or influence of the identified entity. This may include the inspiration, innovation for a development process, literary approach or, the science or technology used.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BackgroundInfo = IriTerm(
+    'https://ref.gs1.org/voc/backgroundInfo',
+  );
+
+  /// brandHomepageClinical from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at clinical professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepageClinical = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepageClinical',
+  );
+
+  /// brandHomepagePatient from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a brand presence aimed at patients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1BrandHomepagePatient = IriTerm(
+    'https://ref.gs1.org/voc/brandHomepagePatient',
+  );
+
+  /// careersInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about jobs, careers, or other employment opportunities associated to an organisation or location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CareersInfo = IriTerm('https://ref.gs1.org/voc/careersInfo');
+
+  /// certificationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to certification information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1CertificationInfo = IriTerm(
+    'https://ref.gs1.org/voc/certificationInfo',
+  );
+
+  /// consumerHandlingStorageInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about safe handling and storage for consumer use.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ConsumerHandlingStorageInfo = IriTerm(
+    'https://ref.gs1.org/voc/consumerHandlingStorageInfo',
+  );
+
+  /// defaultLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// The default link for a given identified item to which a resolver will redirect unless there is information in the request that is a better match.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLink = IriTerm('https://ref.gs1.org/voc/defaultLink');
+
+  /// defaultLinkMulti from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A set of 'default links' that may be differentiated by information in the HTTP request headers sent to a resolver to enable a better match than the single default link.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1DefaultLinkMulti = IriTerm(
+    'https://ref.gs1.org/voc/defaultLinkMulti',
+  );
+
+  /// dpp from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a digital product passport.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Dpp = IriTerm('https://ref.gs1.org/voc/dpp');
+
+  /// eifu from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to electronic Instruction For Use instructions for Medical Devices.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Eifu = IriTerm('https://ref.gs1.org/voc/eifu');
+
+  /// epcis from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an EPCIS repository of visibility event data.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epcis = IriTerm('https://ref.gs1.org/voc/epcis');
+
+  /// epil from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an electronic patient information leaflet.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Epil = IriTerm('https://ref.gs1.org/voc/epil');
+
+  /// eventsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to event details.  For a page specifically for scheduling a reservation or booking an appointment, see gs1:scheduleTime.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1EventsInfo = IriTerm('https://ref.gs1.org/voc/eventsInfo');
+
+  /// faqs from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a set of frequently asked questions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Faqs = IriTerm('https://ref.gs1.org/voc/faqs');
+
+  /// handledBy from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Used when one resolver redirects all request URIs that match a given pattern without further processing, such as from GS1 to a brand-operated service. See section 7.7.1 of the Digital Link standard, version 1.1.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HandledBy = IriTerm('https://ref.gs1.org/voc/handledBy');
+
+  /// hasRetailers from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a list of retailers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1HasRetailers = IriTerm(
+    'https://ref.gs1.org/voc/hasRetailers',
+  );
+
+  /// homepage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to general information about an organisation or brand. Typically the homepage of an organisation's website. It may include links to further information such as certifications, careers, payments, reservations, etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Homepage = IriTerm('https://ref.gs1.org/voc/homepage');
+
+  /// ingredientsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to facts about ingredients.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1IngredientsInfo = IriTerm(
+    'https://ref.gs1.org/voc/ingredientsInfo',
+  );
+
+  /// instructions from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to instructions, such as assembly instructions, usage tips etc.  It is not appropriate to use this link type for healthcare regulated content applications for which specific link types are available.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Instructions = IriTerm(
+    'https://ref.gs1.org/voc/instructions',
+  );
+
+  /// leaveReview from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link through which a review can be added.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LeaveReview = IriTerm('https://ref.gs1.org/voc/leaveReview');
+
+  /// linkType from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// Provides a URL for related information or services. This is not expected to be used directly but provides a super property for all other link types in the GS1 ecosystem.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LinkType = IriTerm('https://ref.gs1.org/voc/linkType');
+
+  /// locationInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LocationInfo = IriTerm(
+    'https://ref.gs1.org/voc/locationInfo',
+  );
+
+  /// logisticsInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to B2B logistics information related to a physical location.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LogisticsInfo = IriTerm(
+    'https://ref.gs1.org/voc/logisticsInfo',
+  );
+
+  /// loyaltyProgram from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about a loyalty program, including a member's current status and/or a registration option for new members
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1LoyaltyProgram = IriTerm(
+    'https://ref.gs1.org/voc/loyaltyProgram',
+  );
+
+  /// masterData from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of structured master data for the entity. This is typically for B2B applications.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterData = IriTerm('https://ref.gs1.org/voc/masterData');
+
+  /// masterDataAvailableFor from gs1 vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// Links from a document, message or event to static data for specified identifiers.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MasterDataAvailableFor = IriTerm(
+    'https://ref.gs1.org/voc/masterDataAvailableFor',
+  );
+
+  /// menuInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to menu details. This may include food menus, services, or other offerings provided by an organisation or at a location.  For details specific to allergens only, see gs1:allergenInfo .  For details specific to nutrition information only, see gs1:nutritionalInfo .  For details specific to ingredients only, see gs1:ingredientsInfo .
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1MenuInfo = IriTerm('https://ref.gs1.org/voc/menuInfo');
+
+  /// nutritionalInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to nutritional facts.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1NutritionalInfo = IriTerm(
+    'https://ref.gs1.org/voc/nutritionalInfo',
+  );
+
+  /// openingHoursInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to details on hours of operation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1OpeningHoursInfo = IriTerm(
+    'https://ref.gs1.org/voc/openingHoursInfo',
+  );
+
+  /// paymentLink from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a place where payments details are provided and/or payments can be made by the user.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PaymentLink = IriTerm('https://ref.gs1.org/voc/paymentLink');
+
+  /// pip from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Pip = IriTerm('https://ref.gs1.org/voc/pip');
+
+  /// promotion from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a promotion.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Promotion = IriTerm('https://ref.gs1.org/voc/promotion');
+
+  /// purchaseSuppliesOrAccessories from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about where supplies or accessories for the item can be purchased or ordered.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1PurchaseSuppliesOrAccessories = IriTerm(
+    'https://ref.gs1.org/voc/purchaseSuppliesOrAccessories',
+  );
+
+  /// quickStartGuide from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of the key features needed to be understood to begin using the item or interacting with something new.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1QuickStartGuide = IriTerm(
+    'https://ref.gs1.org/voc/quickStartGuide',
+  );
+
+  /// recallStatus from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about whether the product has been recalled or not, typically an API.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecallStatus = IriTerm(
+    'https://ref.gs1.org/voc/recallStatus',
+  );
+
+  /// recipeInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a recipe website.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RecipeInfo = IriTerm('https://ref.gs1.org/voc/recipeInfo');
+
+  /// registerProduct from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry point for registering ownership of a product including for warranty purposes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegisterProduct = IriTerm(
+    'https://ref.gs1.org/voc/registerProduct',
+  );
+
+  /// registryEntry from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an entry in a register, such as a business register or register of locations. Such registers may act as alternative identifiers, such as official company numbers, LEIs, other location identifiers etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RegistryEntry = IriTerm(
+    'https://ref.gs1.org/voc/registryEntry',
+  );
+
+  /// relatedImage from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any image that depicts or relates to the identified entity (e.g., trade item, assets, business process, patient record, location, organisation, etc.)
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedImage = IriTerm(
+    'https://ref.gs1.org/voc/relatedImage',
+  );
+
+  /// relatedVideo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to any video, or document that has an embedded video, that describes or relates to the identified item, organisation, or location in some way.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1RelatedVideo = IriTerm(
+    'https://ref.gs1.org/voc/relatedVideo',
+  );
+
+  /// reportFound from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a platform or service where users (company or a person) can report a found item associated with the identified entity (instance of an item). This link type is designed to assist in connecting the found item with its rightful owner or relevant authorities.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ReportFound = IriTerm('https://ref.gs1.org/voc/reportFound');
+
+  /// review from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to reviews.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Review = IriTerm('https://ref.gs1.org/voc/review');
+
+  /// safetyInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to safety information.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SafetyInfo = IriTerm('https://ref.gs1.org/voc/safetyInfo');
+
+  /// scheduleTime from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a site that offers information on scheduling, appointments, or reservations. This may or may not allow the user to book the reservation.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ScheduleTime = IriTerm(
+    'https://ref.gs1.org/voc/scheduleTime',
+  );
+
+  /// serviceInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to service or maintenance instructions.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1ServiceInfo = IriTerm('https://ref.gs1.org/voc/serviceInfo');
+
+  /// smartLabel from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to the product's SmartLabel page.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SmartLabel = IriTerm('https://ref.gs1.org/voc/smartLabel');
+
+  /// smpc from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to Summary Product Characteristics. To be used specifically when linking to information for healthcare professionals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Smpc = IriTerm('https://ref.gs1.org/voc/smpc');
+
+  /// socialMedia from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a social media channel. The title will typically be replaced by the name of the channel.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SocialMedia = IriTerm('https://ref.gs1.org/voc/socialMedia');
+
+  /// statisticInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information about statistics regarding an organisation, location, or other entity.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1StatisticInfo = IriTerm(
+    'https://ref.gs1.org/voc/statisticInfo',
+  );
+
+  /// subscribe from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a subscription form
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Subscribe = IriTerm('https://ref.gs1.org/voc/subscribe');
+
+  /// support from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a source of support such as a helpdesk, chat support, email etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Support = IriTerm('https://ref.gs1.org/voc/support');
+
+  /// sustainabilityInfo from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to information relating to sustainability and recycling requirements or processes.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1SustainabilityInfo = IriTerm(
+    'https://ref.gs1.org/voc/sustainabilityInfo',
+  );
+
+  /// traceability from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to traceability information (includes track and trace).  Traceability information may be provided for consumption by humans or computers. If the target is an EPCIS repository, use gs1:epcis instead.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Traceability = IriTerm(
+    'https://ref.gs1.org/voc/traceability',
+  );
+
+  /// tutorial from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a tutorial or set of tutorials, such as online classes, how-to videos etc.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1Tutorial = IriTerm('https://ref.gs1.org/voc/tutorial');
+
+  /// userAgreement from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to an agreement or waiver.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1UserAgreement = IriTerm(
+    'https://ref.gs1.org/voc/userAgreement',
+  );
+
+  /// verificationService from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a GS1 Lightweight Messaging Service for verifying the status of a product, organisation, or location and its identifier.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1VerificationService = IriTerm(
+    'https://ref.gs1.org/voc/verificationService',
+  );
+
+  /// whatsInTheBox from gs1 vocabulary [Expects: http://www.w3.org/2001/XMLSchema#anyURI]
+  ///
+  /// A link to a description of all the individual items in a packaged item.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const gs1WhatsInTheBox = IriTerm(
+    'https://ref.gs1.org/voc/whatsInTheBox',
+  );
 
   /// abstract_ from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -302,7 +1039,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAbstract_ = const IriTerm('https://schema.org/abstract');
+  static const schemaAbstract_ = IriTerm('https://schema.org/abstract');
 
   /// accessMode from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -310,9 +1047,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessMode = const IriTerm(
-    'https://schema.org/accessMode',
-  );
+  static const schemaAccessMode = IriTerm('https://schema.org/accessMode');
 
   /// accessModeSufficient from schema vocabulary [Expects: https://schema.org/ItemList]
   ///
@@ -320,7 +1055,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessModeSufficient = const IriTerm(
+  static const schemaAccessModeSufficient = IriTerm(
     'https://schema.org/accessModeSufficient',
   );
 
@@ -330,7 +1065,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityAPI = const IriTerm(
+  static const schemaAccessibilityAPI = IriTerm(
     'https://schema.org/accessibilityAPI',
   );
 
@@ -340,7 +1075,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityControl = const IriTerm(
+  static const schemaAccessibilityControl = IriTerm(
     'https://schema.org/accessibilityControl',
   );
 
@@ -350,7 +1085,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityFeature = const IriTerm(
+  static const schemaAccessibilityFeature = IriTerm(
     'https://schema.org/accessibilityFeature',
   );
 
@@ -360,7 +1095,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilityHazard = const IriTerm(
+  static const schemaAccessibilityHazard = IriTerm(
     'https://schema.org/accessibilityHazard',
   );
 
@@ -370,7 +1105,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccessibilitySummary = const IriTerm(
+  static const schemaAccessibilitySummary = IriTerm(
     'https://schema.org/accessibilitySummary',
   );
 
@@ -380,7 +1115,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAccountablePerson = const IriTerm(
+  static const schemaAccountablePerson = IriTerm(
     'https://schema.org/accountablePerson',
   );
 
@@ -390,7 +1125,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAcquireLicensePage = const IriTerm(
+  static const schemaAcquireLicensePage = IriTerm(
     'https://schema.org/acquireLicensePage',
   );
 
@@ -401,7 +1136,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAdditionalType = const IriTerm(
+  static const schemaAdditionalType = IriTerm(
     'https://schema.org/additionalType',
   );
 
@@ -411,7 +1146,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAggregateRating = const IriTerm(
+  static const schemaAggregateRating = IriTerm(
     'https://schema.org/aggregateRating',
   );
 
@@ -421,7 +1156,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAlternativeHeadline = const IriTerm(
+  static const schemaAlternativeHeadline = IriTerm(
     'https://schema.org/alternativeHeadline',
   );
 
@@ -431,9 +1166,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaArchivedAt = const IriTerm(
-    'https://schema.org/archivedAt',
-  );
+  static const schemaArchivedAt = IriTerm('https://schema.org/archivedAt');
 
   /// assesses from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -441,7 +1174,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const schemaAssesses = const IriTerm('https://schema.org/assesses');
+  static const schemaAssesses = IriTerm('https://schema.org/assesses');
 
   /// associatedMedia from schema vocabulary [Expects: https://schema.org/MediaObject]
   ///
@@ -449,7 +1182,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/HyperToc, https://schema.org/HyperTocEntry
   ///
-  static const schemaAssociatedMedia = const IriTerm(
+  static const schemaAssociatedMedia = IriTerm(
     'https://schema.org/associatedMedia',
   );
 
@@ -459,7 +1192,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaAudio = const IriTerm('https://schema.org/audio');
+  static const schemaAudio = IriTerm('https://schema.org/audio');
 
   /// author from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -467,7 +1200,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Rating
   ///
-  static const schemaAuthor = const IriTerm('https://schema.org/author');
+  static const schemaAuthor = IriTerm('https://schema.org/author');
 
   /// awards from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -475,7 +1208,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const schemaAwards = const IriTerm('https://schema.org/awards');
+  static const schemaAwards = IriTerm('https://schema.org/awards');
 
   /// catalog from schema vocabulary [Expects: https://schema.org/DataCatalog]
   ///
@@ -483,7 +1216,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset
   ///
-  static const schemaCatalog = const IriTerm('https://schema.org/catalog');
+  static const schemaCatalog = IriTerm('https://schema.org/catalog');
 
   /// character from schema vocabulary [Expects: https://schema.org/Person]
   ///
@@ -491,7 +1224,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCharacter = const IriTerm('https://schema.org/character');
+  static const schemaCharacter = IriTerm('https://schema.org/character');
 
   /// citation from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Text]
   ///
@@ -499,7 +1232,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCitation = const IriTerm('https://schema.org/citation');
+  static const schemaCitation = IriTerm('https://schema.org/citation');
 
   /// comment from schema vocabulary [Expects: https://schema.org/Comment]
   ///
@@ -507,7 +1240,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/RsvpAction
   ///
-  static const schemaComment = const IriTerm('https://schema.org/comment');
+  static const schemaComment = IriTerm('https://schema.org/comment');
 
   /// commentCount from schema vocabulary [Expects: https://schema.org/Integer]
   ///
@@ -515,9 +1248,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCommentCount = const IriTerm(
-    'https://schema.org/commentCount',
-  );
+  static const schemaCommentCount = IriTerm('https://schema.org/commentCount');
 
   /// conditionsOfAccess from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -525,7 +1256,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaConditionsOfAccess = const IriTerm(
+  static const schemaConditionsOfAccess = IriTerm(
     'https://schema.org/conditionsOfAccess',
   );
 
@@ -535,7 +1266,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentRating = const IriTerm(
+  static const schemaContentRating = IriTerm(
     'https://schema.org/contentRating',
   );
 
@@ -545,7 +1276,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentReferenceTime = const IriTerm(
+  static const schemaContentReferenceTime = IriTerm(
     'https://schema.org/contentReferenceTime',
   );
 
@@ -555,9 +1286,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaContributor = const IriTerm(
-    'https://schema.org/contributor',
-  );
+  static const schemaContributor = IriTerm('https://schema.org/contributor');
 
   /// copyrightHolder from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -565,7 +1294,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightHolder = const IriTerm(
+  static const schemaCopyrightHolder = IriTerm(
     'https://schema.org/copyrightHolder',
   );
 
@@ -575,7 +1304,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightNotice = const IriTerm(
+  static const schemaCopyrightNotice = IriTerm(
     'https://schema.org/copyrightNotice',
   );
 
@@ -585,7 +1314,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCopyrightYear = const IriTerm(
+  static const schemaCopyrightYear = IriTerm(
     'https://schema.org/copyrightYear',
   );
 
@@ -595,9 +1324,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCorrection = const IriTerm(
-    'https://schema.org/correction',
-  );
+  static const schemaCorrection = IriTerm('https://schema.org/correction');
 
   /// countryOfOrigin from schema vocabulary [Expects: https://schema.org/Country]
   ///
@@ -609,7 +1336,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Movie, https://schema.org/Product, https://schema.org/TVEpisode, https://schema.org/TVSeason, https://schema.org/TVSeries
   ///
-  static const schemaCountryOfOrigin = const IriTerm(
+  static const schemaCountryOfOrigin = IriTerm(
     'https://schema.org/countryOfOrigin',
   );
 
@@ -619,7 +1346,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCreativeWorkStatus = const IriTerm(
+  static const schemaCreativeWorkStatus = IriTerm(
     'https://schema.org/creativeWorkStatus',
   );
 
@@ -629,9 +1356,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaCreditText = const IriTerm(
-    'https://schema.org/creditText',
-  );
+  static const schemaCreditText = IriTerm('https://schema.org/creditText');
 
   /// datasetTimeInterval from schema vocabulary [Expects: https://schema.org/DateTime]
   ///
@@ -639,7 +1364,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset
   ///
-  static const schemaDatasetTimeInterval = const IriTerm(
+  static const schemaDatasetTimeInterval = IriTerm(
     'https://schema.org/datasetTimeInterval',
   );
 
@@ -649,9 +1374,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const schemaDateModified = const IriTerm(
-    'https://schema.org/dateModified',
-  );
+  static const schemaDateModified = IriTerm('https://schema.org/dateModified');
 
   /// datePublished from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -659,7 +1382,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const schemaDatePublished = const IriTerm(
+  static const schemaDatePublished = IriTerm(
     'https://schema.org/datePublished',
   );
 
@@ -669,7 +1392,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaDigitalSourceType = const IriTerm(
+  static const schemaDigitalSourceType = IriTerm(
     'https://schema.org/digitalSourceType',
   );
 
@@ -679,7 +1402,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDisambiguatingDescription = const IriTerm(
+  static const schemaDisambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -689,8 +1412,18 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaDiscussionUrl = const IriTerm(
+  static const schemaDiscussionUrl = IriTerm(
     'https://schema.org/discussionUrl',
+  );
+
+  /// displayLocation from schema vocabulary [Expects: https://schema.org/Place]
+  ///
+  /// The location at which an item can be viewed or experienced in-person.
+  ///
+  /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
+  ///
+  static const schemaDisplayLocation = IriTerm(
+    'https://schema.org/displayLocation',
   );
 
   /// distribution from schema vocabulary [Expects: https://schema.org/DataDownload]
@@ -699,9 +1432,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset
   ///
-  static const schemaDistribution = const IriTerm(
-    'https://schema.org/distribution',
-  );
+  static const schemaDistribution = IriTerm('https://schema.org/distribution');
 
   /// editEIDR from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -714,7 +1445,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEditEIDR = const IriTerm('https://schema.org/editEIDR');
+  static const schemaEditEIDR = IriTerm('https://schema.org/editEIDR');
 
   /// editor from schema vocabulary [Expects: https://schema.org/Person]
   ///
@@ -722,7 +1453,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEditor = const IriTerm('https://schema.org/editor');
+  static const schemaEditor = IriTerm('https://schema.org/editor');
 
   /// educationalAlignment from schema vocabulary [Expects: https://schema.org/AlignmentObject]
   ///
@@ -732,7 +1463,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaEducationalAlignment = const IriTerm(
+  static const schemaEducationalAlignment = IriTerm(
     'https://schema.org/educationalAlignment',
   );
 
@@ -742,7 +1473,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/EducationalOccupationalCredential, https://schema.org/LearningResource
   ///
-  static const schemaEducationalLevel = const IriTerm(
+  static const schemaEducationalLevel = IriTerm(
     'https://schema.org/educationalLevel',
   );
 
@@ -752,7 +1483,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaEducationalUse = const IriTerm(
+  static const schemaEducationalUse = IriTerm(
     'https://schema.org/educationalUse',
   );
 
@@ -762,7 +1493,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEncodings = const IriTerm('https://schema.org/encodings');
+  static const schemaEncodings = IriTerm('https://schema.org/encodings');
 
   /// expires from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -770,7 +1501,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Certification, https://schema.org/CreativeWork
   ///
-  static const schemaExpires = const IriTerm('https://schema.org/expires');
+  static const schemaExpires = IriTerm('https://schema.org/expires');
 
   /// fileFormat from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -778,9 +1509,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaFileFormat = const IriTerm(
-    'https://schema.org/fileFormat',
-  );
+  static const schemaFileFormat = IriTerm('https://schema.org/fileFormat');
 
   /// funder from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -788,7 +1517,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MonetaryGrant, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaFunder = const IriTerm('https://schema.org/funder');
+  static const schemaFunder = IriTerm('https://schema.org/funder');
 
   /// headline from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -796,7 +1525,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaHeadline = const IriTerm('https://schema.org/headline');
+  static const schemaHeadline = IriTerm('https://schema.org/headline');
 
   /// includedDataCatalog from schema vocabulary [Expects: https://schema.org/DataCatalog]
   ///
@@ -804,7 +1533,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset
   ///
-  static const schemaIncludedDataCatalog = const IriTerm(
+  static const schemaIncludedDataCatalog = IriTerm(
     'https://schema.org/includedDataCatalog',
   );
 
@@ -814,7 +1543,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaInteractivityType = const IriTerm(
+  static const schemaInteractivityType = IriTerm(
     'https://schema.org/interactivityType',
   );
 
@@ -824,7 +1553,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const schemaInterpretedAsClaim = const IriTerm(
+  static const schemaInterpretedAsClaim = IriTerm(
     'https://schema.org/interpretedAsClaim',
   );
 
@@ -834,9 +1563,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsBasedOnUrl = const IriTerm(
-    'https://schema.org/isBasedOnUrl',
-  );
+  static const schemaIsBasedOnUrl = IriTerm('https://schema.org/isBasedOnUrl');
 
   /// isFamilyFriendly from schema vocabulary [Expects: https://schema.org/Boolean]
   ///
@@ -844,7 +1571,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Product
   ///
-  static const schemaIsFamilyFriendly = const IriTerm(
+  static const schemaIsFamilyFriendly = IriTerm(
     'https://schema.org/isFamilyFriendly',
   );
 
@@ -854,7 +1581,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Blog, https://schema.org/CreativeWorkSeries, https://schema.org/Dataset, https://schema.org/WebSite
   ///
-  static const schemaIssn = const IriTerm('https://schema.org/issn');
+  static const schemaIssn = IriTerm('https://schema.org/issn');
 
   /// keywords from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -862,7 +1589,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const schemaKeywords = const IriTerm('https://schema.org/keywords');
+  static const schemaKeywords = IriTerm('https://schema.org/keywords');
 
   /// learningResourceType from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -870,7 +1597,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/LearningResource
   ///
-  static const schemaLearningResourceType = const IriTerm(
+  static const schemaLearningResourceType = IriTerm(
     'https://schema.org/learningResourceType',
   );
 
@@ -880,7 +1607,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaLicense = const IriTerm('https://schema.org/license');
+  static const schemaLicense = IriTerm('https://schema.org/license');
 
   /// locationCreated from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -888,7 +1615,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaLocationCreated = const IriTerm(
+  static const schemaLocationCreated = IriTerm(
     'https://schema.org/locationCreated',
   );
 
@@ -899,9 +1626,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMaintainer = const IriTerm(
-    'https://schema.org/maintainer',
-  );
+  static const schemaMaintainer = IriTerm('https://schema.org/maintainer');
 
   /// materialExtent from schema vocabulary [Expects: https://schema.org/QuantitativeValue, https://schema.org/Text]
   ///
@@ -909,7 +1634,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMaterialExtent = const IriTerm(
+  static const schemaMaterialExtent = IriTerm(
     'https://schema.org/materialExtent',
   );
 
@@ -919,7 +1644,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/DataCatalog, https://schema.org/DataDownload, https://schema.org/Dataset, https://schema.org/Observation, https://schema.org/PropertyValue, https://schema.org/StatisticalVariable
   ///
-  static const schemaMeasurementMethod = const IriTerm(
+  static const schemaMeasurementMethod = IriTerm(
     'https://schema.org/measurementMethod',
   );
 
@@ -929,7 +1654,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMentions = const IriTerm('https://schema.org/mentions');
+  static const schemaMentions = IriTerm('https://schema.org/mentions');
 
   /// name from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -937,7 +1662,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaName = const IriTerm('https://schema.org/name');
+  static const schemaName = IriTerm('https://schema.org/name');
 
   /// pattern from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -945,7 +1670,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaPattern = const IriTerm('https://schema.org/pattern');
+  static const schemaPattern = IriTerm('https://schema.org/pattern');
 
   /// potentialAction from schema vocabulary [Expects: https://schema.org/Action]
   ///
@@ -953,7 +1678,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaPotentialAction = const IriTerm(
+  static const schemaPotentialAction = IriTerm(
     'https://schema.org/potentialAction',
   );
 
@@ -963,7 +1688,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaProducer = const IriTerm('https://schema.org/producer');
+  static const schemaProducer = IriTerm('https://schema.org/producer');
 
   /// publication from schema vocabulary [Expects: https://schema.org/PublicationEvent]
   ///
@@ -971,9 +1696,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaPublication = const IriTerm(
-    'https://schema.org/publication',
-  );
+  static const schemaPublication = IriTerm('https://schema.org/publication');
 
   /// publisher from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -981,7 +1704,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/FinancialIncentive
   ///
-  static const schemaPublisher = const IriTerm('https://schema.org/publisher');
+  static const schemaPublisher = IriTerm('https://schema.org/publisher');
 
   /// publisherImprint from schema vocabulary [Expects: https://schema.org/Organization]
   ///
@@ -989,7 +1712,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaPublisherImprint = const IriTerm(
+  static const schemaPublisherImprint = IriTerm(
     'https://schema.org/publisherImprint',
   );
 
@@ -999,7 +1722,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaReleasedEvent = const IriTerm(
+  static const schemaReleasedEvent = IriTerm(
     'https://schema.org/releasedEvent',
   );
 
@@ -1009,7 +1732,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
-  static const schemaReviews = const IriTerm('https://schema.org/reviews');
+  static const schemaReviews = IriTerm('https://schema.org/reviews');
 
   /// sameAs from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -1017,7 +1740,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSameAs = const IriTerm('https://schema.org/sameAs');
+  static const schemaSameAs = IriTerm('https://schema.org/sameAs');
 
   /// schemaVersion from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1026,7 +1749,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSchemaVersion = const IriTerm(
+  static const schemaSchemaVersion = IriTerm(
     'https://schema.org/schemaVersion',
   );
 
@@ -1036,7 +1759,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdDatePublished = const IriTerm(
+  static const schemaSdDatePublished = IriTerm(
     'https://schema.org/sdDatePublished',
   );
 
@@ -1046,7 +1769,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdLicense = const IriTerm('https://schema.org/sdLicense');
+  static const schemaSdLicense = IriTerm('https://schema.org/sdLicense');
 
   /// sdPublisher from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1055,9 +1778,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSdPublisher = const IriTerm(
-    'https://schema.org/sdPublisher',
-  );
+  static const schemaSdPublisher = IriTerm('https://schema.org/sdPublisher');
 
   /// size from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/QuantitativeValue, https://schema.org/SizeSpecification, https://schema.org/Text]
   ///
@@ -1065,7 +1786,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaSize = const IriTerm('https://schema.org/size');
+  static const schemaSize = IriTerm('https://schema.org/size');
 
   /// sourceOrganization from schema vocabulary [Expects: https://schema.org/Organization]
   ///
@@ -1073,7 +1794,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSourceOrganization = const IriTerm(
+  static const schemaSourceOrganization = IriTerm(
     'https://schema.org/sourceOrganization',
   );
 
@@ -1084,7 +1805,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSpatial = const IriTerm('https://schema.org/spatial');
+  static const schemaSpatial = IriTerm('https://schema.org/spatial');
 
   /// teaches from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text]
   ///
@@ -1092,7 +1813,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/EducationEvent, https://schema.org/LearningResource
   ///
-  static const schemaTeaches = const IriTerm('https://schema.org/teaches');
+  static const schemaTeaches = IriTerm('https://schema.org/teaches');
 
   /// temporal from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Text]
   ///
@@ -1101,7 +1822,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTemporal = const IriTerm('https://schema.org/temporal');
+  static const schemaTemporal = IriTerm('https://schema.org/temporal');
 
   /// text from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1109,7 +1830,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaText = const IriTerm('https://schema.org/text');
+  static const schemaText = IriTerm('https://schema.org/text');
 
   /// thumbnail from schema vocabulary [Expects: https://schema.org/ImageObject]
   ///
@@ -1117,7 +1838,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaThumbnail = const IriTerm('https://schema.org/thumbnail');
+  static const schemaThumbnail = IriTerm('https://schema.org/thumbnail');
 
   /// thumbnailUrl from schema vocabulary [Expects: https://schema.org/URL]
   ///
@@ -1125,9 +1846,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaThumbnailUrl = const IriTerm(
-    'https://schema.org/thumbnailUrl',
-  );
+  static const schemaThumbnailUrl = IriTerm('https://schema.org/thumbnailUrl');
 
   /// timeRequired from schema vocabulary [Expects: https://schema.org/Duration]
   ///
@@ -1135,9 +1854,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTimeRequired = const IriTerm(
-    'https://schema.org/timeRequired',
-  );
+  static const schemaTimeRequired = IriTerm('https://schema.org/timeRequired');
 
   /// translator from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1145,9 +1862,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaTranslator = const IriTerm(
-    'https://schema.org/translator',
-  );
+  static const schemaTranslator = IriTerm('https://schema.org/translator');
 
   /// typicalAgeRange from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1155,7 +1870,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event
   ///
-  static const schemaTypicalAgeRange = const IriTerm(
+  static const schemaTypicalAgeRange = IriTerm(
     'https://schema.org/typicalAgeRange',
   );
 
@@ -1165,7 +1880,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaUrl = const IriTerm('https://schema.org/url');
+  static const schemaUrl = IriTerm('https://schema.org/url');
 
   /// variableMeasured from schema vocabulary [Expects: https://schema.org/Property, https://schema.org/PropertyValue, https://schema.org/StatisticalVariable, https://schema.org/Text]
   ///
@@ -1173,7 +1888,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset, https://schema.org/Observation
   ///
-  static const schemaVariableMeasured = const IriTerm(
+  static const schemaVariableMeasured = IriTerm(
     'https://schema.org/variableMeasured',
   );
 
@@ -1183,7 +1898,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVersion = const IriTerm('https://schema.org/version');
+  static const schemaVersion = IriTerm('https://schema.org/version');
 
   /// video from schema vocabulary [Expects: https://schema.org/Clip, https://schema.org/VideoObject]
   ///
@@ -1191,7 +1906,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaVideo = const IriTerm('https://schema.org/video');
+  static const schemaVideo = IriTerm('https://schema.org/video');
 
   /// wordCount from schema vocabulary [Expects: https://schema.org/Integer]
   ///
@@ -1199,7 +1914,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Article, https://schema.org/CreativeWork
   ///
-  static const schemaWordCount = const IriTerm('https://schema.org/wordCount');
+  static const schemaWordCount = IriTerm('https://schema.org/wordCount');
 
   /// alternateName from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1207,7 +1922,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaAlternateName = const IriTerm(
+  static const schemaAlternateName = IriTerm(
     'https://schema.org/alternateName',
   );
 
@@ -1217,7 +1932,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LodgingBusiness, https://schema.org/PlayAction, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAudience = const IriTerm('https://schema.org/audience');
+  static const schemaAudience = IriTerm('https://schema.org/audience');
 
   /// award from schema vocabulary [Expects: https://schema.org/Text]
   ///
@@ -1225,7 +1940,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaAward = const IriTerm('https://schema.org/award');
+  static const schemaAward = IriTerm('https://schema.org/award');
 
   /// contentLocation from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -1233,7 +1948,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaContentLocation = const IriTerm(
+  static const schemaContentLocation = IriTerm(
     'https://schema.org/contentLocation',
   );
 
@@ -1243,7 +1958,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/UserComments
   ///
-  static const schemaCreator = const IriTerm('https://schema.org/creator');
+  static const schemaCreator = IriTerm('https://schema.org/creator');
 
   /// dateCreated from schema vocabulary [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
@@ -1251,9 +1966,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/DataFeedItem
   ///
-  static const schemaDateCreated = const IriTerm(
-    'https://schema.org/dateCreated',
-  );
+  static const schemaDateCreated = IriTerm('https://schema.org/dateCreated');
 
   /// encodingFormat from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1265,7 +1978,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/MediaObject
   ///
-  static const schemaEncodingFormat = const IriTerm(
+  static const schemaEncodingFormat = IriTerm(
     'https://schema.org/encodingFormat',
   );
 
@@ -1275,7 +1988,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaExampleOfWork = const IriTerm(
+  static const schemaExampleOfWork = IriTerm(
     'https://schema.org/exampleOfWork',
   );
 
@@ -1285,15 +1998,15 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/BioChemEntity, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/MedicalEntity, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Product
   ///
-  static const schemaFunding = const IriTerm('https://schema.org/funding');
+  static const schemaFunding = IriTerm('https://schema.org/funding');
 
-  /// genre from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/URL]
+  /// genre from schema vocabulary [Expects: https://schema.org/DefinedTerm, https://schema.org/Text, https://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: https://schema.org/BroadcastChannel, https://schema.org/CreativeWork, https://schema.org/MusicGroup
   ///
-  static const schemaGenre = const IriTerm('https://schema.org/genre');
+  static const schemaGenre = IriTerm('https://schema.org/genre');
 
   /// inLanguage from schema vocabulary [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -1301,9 +2014,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/BroadcastService, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/LinkRole, https://schema.org/PronounceableText, https://schema.org/WriteAction
   ///
-  static const schemaInLanguage = const IriTerm(
-    'https://schema.org/inLanguage',
-  );
+  static const schemaInLanguage = IriTerm('https://schema.org/inLanguage');
 
   /// interactionStatistic from schema vocabulary [Expects: https://schema.org/InteractionCounter]
   ///
@@ -1311,7 +2022,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaInteractionStatistic = const IriTerm(
+  static const schemaInteractionStatistic = IriTerm(
     'https://schema.org/interactionStatistic',
   );
 
@@ -1321,7 +2032,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Place
   ///
-  static const schemaIsAccessibleForFree = const IriTerm(
+  static const schemaIsAccessibleForFree = IriTerm(
     'https://schema.org/isAccessibleForFree',
   );
 
@@ -1331,7 +2042,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsBasedOn = const IriTerm('https://schema.org/isBasedOn');
+  static const schemaIsBasedOn = IriTerm('https://schema.org/isBasedOn');
 
   /// mainEntity from schema vocabulary [Expects: https://schema.org/Thing]
   ///
@@ -1339,9 +2050,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaMainEntity = const IriTerm(
-    'https://schema.org/mainEntity',
-  );
+  static const schemaMainEntity = IriTerm('https://schema.org/mainEntity');
 
   /// mainEntityOfPage from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1349,7 +2058,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaMainEntityOfPage = const IriTerm(
+  static const schemaMainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
 
@@ -1365,7 +2074,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/DataCatalog, https://schema.org/DataDownload, https://schema.org/Dataset, https://schema.org/Observation, https://schema.org/PropertyValue, https://schema.org/StatisticalVariable
   ///
-  static const schemaMeasurementTechnique = const IriTerm(
+  static const schemaMeasurementTechnique = IriTerm(
     'https://schema.org/measurementTechnique',
   );
 
@@ -1376,7 +2085,15 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/AggregateOffer, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/Event, https://schema.org/MenuItem, https://schema.org/Product, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const schemaOffers = const IriTerm('https://schema.org/offers');
+  static const schemaOffers = IriTerm('https://schema.org/offers');
+
+  /// owner from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const schemaOwner = IriTerm('https://schema.org/owner');
 
   /// provider from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1384,7 +2101,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Action, https://schema.org/CreativeWork, https://schema.org/EducationalOccupationalProgram, https://schema.org/FinancialIncentive, https://schema.org/Invoice, https://schema.org/ParcelDelivery, https://schema.org/Reservation, https://schema.org/Service, https://schema.org/Trip
   ///
-  static const schemaProvider = const IriTerm('https://schema.org/provider');
+  static const schemaProvider = IriTerm('https://schema.org/provider');
 
   /// recordedAt from schema vocabulary [Expects: https://schema.org/Event]
   ///
@@ -1392,9 +2109,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaRecordedAt = const IriTerm(
-    'https://schema.org/recordedAt',
-  );
+  static const schemaRecordedAt = IriTerm('https://schema.org/recordedAt');
 
   /// review from schema vocabulary [Expects: https://schema.org/Review]
   ///
@@ -1402,7 +2117,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Brand, https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product, https://schema.org/Service
   ///
-  static const schemaReview = const IriTerm('https://schema.org/review');
+  static const schemaReview = IriTerm('https://schema.org/review');
 
   /// sponsor from schema vocabulary [Expects: https://schema.org/Organization, https://schema.org/Person]
   ///
@@ -1410,7 +2125,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Event, https://schema.org/Grant, https://schema.org/MedicalStudy, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaSponsor = const IriTerm('https://schema.org/sponsor');
+  static const schemaSponsor = IriTerm('https://schema.org/sponsor');
 
   /// subjectOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -1418,7 +2133,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaSubjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const schemaSubjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// temporalCoverage from schema vocabulary [Expects: https://schema.org/DateTime, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1430,7 +2145,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTemporalCoverage = const IriTerm(
+  static const schemaTemporalCoverage = IriTerm(
     'https://schema.org/temporalCoverage',
   );
 
@@ -1440,7 +2155,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaTranslationOfWork = const IriTerm(
+  static const schemaTranslationOfWork = IriTerm(
     'https://schema.org/translationOfWork',
   );
 
@@ -1452,7 +2167,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaUsageInfo = const IriTerm('https://schema.org/usageInfo');
+  static const schemaUsageInfo = IriTerm('https://schema.org/usageInfo');
 
   /// workTranslation from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1460,17 +2175,17 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaWorkTranslation = const IriTerm(
+  static const schemaWorkTranslation = IriTerm(
     'https://schema.org/workTranslation',
   );
 
   /// about from schema vocabulary [Expects: https://schema.org/Thing]
   ///
-  /// The subject matter of the content.
+  /// The subject matter of an object.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/Event
+  /// Can be used on: https://schema.org/Certification, https://schema.org/CommunicateAction, https://schema.org/CreativeWork, https://schema.org/DefinedTerm, https://schema.org/DefinedTermSet, https://schema.org/Event
   ///
-  static const schemaAbout = const IriTerm('https://schema.org/about');
+  static const schemaAbout = IriTerm('https://schema.org/about');
 
   /// encoding from schema vocabulary [Expects: https://schema.org/MediaObject]
   ///
@@ -1478,7 +2193,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaEncoding = const IriTerm('https://schema.org/encoding');
+  static const schemaEncoding = IriTerm('https://schema.org/encoding');
 
   /// material from schema vocabulary [Expects: https://schema.org/Product, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -1486,7 +2201,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Product
   ///
-  static const schemaMaterial = const IriTerm('https://schema.org/material');
+  static const schemaMaterial = IriTerm('https://schema.org/material');
 
   /// spatialCoverage from schema vocabulary [Expects: https://schema.org/Place]
   ///
@@ -1496,7 +2211,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaSpatialCoverage = const IriTerm(
+  static const schemaSpatialCoverage = IriTerm(
     'https://schema.org/spatialCoverage',
   );
 
@@ -1506,7 +2221,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Dataset
   ///
-  static const schemaIncludedInDataCatalog = const IriTerm(
+  static const schemaIncludedInDataCatalog = IriTerm(
     'https://schema.org/includedInDataCatalog',
   );
 
@@ -1516,9 +2231,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaWorkExample = const IriTerm(
-    'https://schema.org/workExample',
-  );
+  static const schemaWorkExample = IriTerm('https://schema.org/workExample');
 
   /// description from schema vocabulary [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -1526,9 +2239,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaDescription = const IriTerm(
-    'https://schema.org/description',
-  );
+  static const schemaDescription = IriTerm('https://schema.org/description');
 
   /// image from schema vocabulary [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -1536,7 +2247,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaImage = const IriTerm('https://schema.org/image');
+  static const schemaImage = IriTerm('https://schema.org/image');
 
   /// hasPart from schema vocabulary [Expects: https://schema.org/CreativeWork]
   ///
@@ -1544,7 +2255,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaHasPart = const IriTerm('https://schema.org/hasPart');
+  static const schemaHasPart = IriTerm('https://schema.org/hasPart');
 
   /// position from schema vocabulary [Expects: https://schema.org/Integer, https://schema.org/Text]
   ///
@@ -1552,7 +2263,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/ListItem
   ///
-  static const schemaPosition = const IriTerm('https://schema.org/position');
+  static const schemaPosition = IriTerm('https://schema.org/position');
 
   /// isPartOf from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1560,7 +2271,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
-  static const schemaIsPartOf = const IriTerm('https://schema.org/isPartOf');
+  static const schemaIsPartOf = IriTerm('https://schema.org/isPartOf');
 
   /// publishingPrinciples from schema vocabulary [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -1571,7 +2282,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/CreativeWork, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const schemaPublishingPrinciples = const IriTerm(
+  static const schemaPublishingPrinciples = IriTerm(
     'https://schema.org/publishingPrinciples',
   );
 
@@ -1582,9 +2293,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const schemaIdentifier = const IriTerm(
-    'https://schema.org/identifier',
-  );
+  static const schemaIdentifier = IriTerm('https://schema.org/identifier');
 
   /// distribution from dcat vocabulary [Expects: http://www.w3.org/ns/dcat#Distribution]
   ///
@@ -1592,7 +2301,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/ns/dcat#Dataset
   ///
-  static const dcatDistribution = const IriTerm(
+  static const dcatDistribution = IriTerm(
     'http://www.w3.org/ns/dcat#distribution',
   );
 
@@ -1602,7 +2311,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/ns/dcat#Resource
   ///
-  static const dcatQualifiedRelation = const IriTerm(
+  static const dcatQualifiedRelation = IriTerm(
     'http://www.w3.org/ns/dcat#qualifiedRelation',
   );
 
@@ -1612,7 +2321,7 @@ class DcmitypeDataset {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

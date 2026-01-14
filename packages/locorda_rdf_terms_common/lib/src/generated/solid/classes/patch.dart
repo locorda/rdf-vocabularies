@@ -24,9 +24,7 @@ class SolidPatch {
 
   /// IRI term for the Patch class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#Patch',
-  );
+  static const classIri = IriTerm('http://www.w3.org/ns/solid/terms#Patch');
 
   /// account
   ///
@@ -34,9 +32,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const account = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#account',
-  );
+  static const account = IriTerm('http://www.w3.org/ns/solid/terms#account');
 
   /// deletes [Expects: http://www.w3.org/2000/10/swap/log#Formula]
   ///
@@ -44,9 +40,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/ns/solid/terms#Patch
   ///
-  static const deletes = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#deletes',
-  );
+  static const deletes = IriTerm('http://www.w3.org/ns/solid/terms#deletes');
 
   /// forClass
   ///
@@ -54,9 +48,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const forClass = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#forClass',
-  );
+  static const forClass = IriTerm('http://www.w3.org/ns/solid/terms#forClass');
 
   /// inbox
   ///
@@ -64,7 +56,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const inbox = const IriTerm('http://www.w3.org/ns/solid/terms#inbox');
+  static const inbox = IriTerm('http://www.w3.org/ns/solid/terms#inbox');
 
   /// inserts [Expects: http://www.w3.org/2000/10/swap/log#Formula]
   ///
@@ -72,9 +64,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/ns/solid/terms#Patch
   ///
-  static const inserts = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#inserts',
-  );
+  static const inserts = IriTerm('http://www.w3.org/ns/solid/terms#inserts');
 
   /// instance
   ///
@@ -82,9 +72,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const instance = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#instance',
-  );
+  static const instance = IriTerm('http://www.w3.org/ns/solid/terms#instance');
 
   /// instanceContainer
   ///
@@ -92,7 +80,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const instanceContainer = const IriTerm(
+  static const instanceContainer = IriTerm(
     'http://www.w3.org/ns/solid/terms#instanceContainer',
   );
 
@@ -102,7 +90,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const loginEndpoint = const IriTerm(
+  static const loginEndpoint = IriTerm(
     'http://www.w3.org/ns/solid/terms#loginEndpoint',
   );
 
@@ -112,7 +100,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const logoutEndpoint = const IriTerm(
+  static const logoutEndpoint = IriTerm(
     'http://www.w3.org/ns/solid/terms#logoutEndpoint',
   );
 
@@ -122,7 +110,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const notification = const IriTerm(
+  static const notification = IriTerm(
     'http://www.w3.org/ns/solid/terms#notification',
   );
 
@@ -132,7 +120,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const oidcIssuer = const IriTerm(
+  static const oidcIssuer = IriTerm(
     'http://www.w3.org/ns/solid/terms#oidcIssuer',
   );
 
@@ -142,7 +130,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const owner = const IriTerm('http://www.w3.org/ns/solid/terms#owner');
+  static const owner = IriTerm('http://www.w3.org/ns/solid/terms#owner');
 
   /// patches [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -150,9 +138,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/ns/solid/terms#Patch
   ///
-  static const patches = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#patches',
-  );
+  static const patches = IriTerm('http://www.w3.org/ns/solid/terms#patches');
 
   /// privateTypeIndex [Expects: http://www.w3.org/ns/solid/terms#UnlistedDocument]
   ///
@@ -160,7 +146,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const privateTypeIndex = const IriTerm(
+  static const privateTypeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#privateTypeIndex',
   );
 
@@ -170,7 +156,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const publicTypeIndex = const IriTerm(
+  static const publicTypeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#publicTypeIndex',
   );
 
@@ -180,7 +166,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const privateLabelIndex = const IriTerm(
+  static const privateLabelIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#privateLabelIndex',
   );
 
@@ -192,7 +178,7 @@ class SolidPatch {
   ///
   /// [See also](https://solidproject.org/TR/2024/protocol-20240512#server-storage-description)
   ///
-  static const storageDescription = const IriTerm(
+  static const storageDescription = IriTerm(
     'http://www.w3.org/ns/solid/terms#storageDescription',
   );
 
@@ -202,7 +188,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const typeIndex = const IriTerm(
+  static const typeIndex = IriTerm(
     'http://www.w3.org/ns/solid/terms#typeIndex',
   );
 
@@ -212,9 +198,7 @@ class SolidPatch {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const timeline = const IriTerm(
-    'http://www.w3.org/ns/solid/terms#timeline',
-  );
+  static const timeline = IriTerm('http://www.w3.org/ns/solid/terms#timeline');
 
   /// where [Expects: http://www.w3.org/2000/10/swap/log#Formula]
   ///
@@ -222,7 +206,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/ns/solid/terms#Patch
   ///
-  static const where = const IriTerm('http://www.w3.org/ns/solid/terms#where');
+  static const where = IriTerm('http://www.w3.org/ns/solid/terms#where');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -230,7 +214,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -240,7 +224,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -250,7 +234,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -260,7 +244,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -270,7 +254,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -280,7 +264,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -290,7 +274,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -300,7 +284,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -310,7 +294,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -320,7 +304,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -330,7 +314,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -340,9 +324,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -350,7 +332,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -360,7 +342,7 @@ class SolidPatch {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

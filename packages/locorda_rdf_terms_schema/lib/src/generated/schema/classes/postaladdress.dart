@@ -16,7 +16,18 @@ import 'package:locorda_rdf_core/core.dart';
 /// - Intangible (https://schema.org/Intangible)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - StructuredValue (https://schema.org/StructuredValue)
+/// - Thing (http://www.w3.org/2002/07/owl#Thing)
 /// - Thing (https://schema.org/Thing)
+///
+/// Equivalent to:
+/// - Address (https://www.omg.org/spec/Commons/Locations/Address)
+/// - ContactPoint (https://ref.gs1.org/voc/ContactPoint)
+/// - ContactPoint (https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ContactPoint)
+/// - Kind (http://www.w3.org/2006/vcard/ns#Kind)
+/// - PostalAddress (https://ref.gs1.org/voc/PostalAddress)
+/// - PostalAddress (https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostalAddress)
+/// - TradeAddress (http://unece.org/vocab#TradeAddress)
+/// - VCard (http://www.w3.org/2006/vcard/ns#VCard)
 ///
 /// This class provides access to all properties that can be used with PostalAddress.
 /// [Class Reference](https://schema.org/PostalAddress)
@@ -28,7 +39,7 @@ class SchemaPostalAddress {
 
   /// IRI term for the PostalAddress class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('https://schema.org/PostalAddress');
+  static const classIri = IriTerm('https://schema.org/PostalAddress');
 
   /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
   ///
@@ -37,9 +48,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'https://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('https://schema.org/additionalType');
 
   /// addressCountry [Expects: https://schema.org/Country, https://schema.org/Text]
   ///
@@ -47,9 +56,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/PostalAddress
   ///
-  static const addressCountry = const IriTerm(
-    'https://schema.org/addressCountry',
-  );
+  static const addressCountry = IriTerm('https://schema.org/addressCountry');
 
   /// addressLocality [Expects: https://schema.org/Text]
   ///
@@ -57,19 +64,15 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/PostalAddress
   ///
-  static const addressLocality = const IriTerm(
-    'https://schema.org/addressLocality',
-  );
+  static const addressLocality = IriTerm('https://schema.org/addressLocality');
 
-  /// addressRegion [Expects: https://schema.org/Text]
+  /// addressRegion [Expects: https://schema.org/AdministrativeArea, https://schema.org/Text]
   ///
   /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country).
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/PostalAddress
   ///
-  static const addressRegion = const IriTerm(
-    'https://schema.org/addressRegion',
-  );
+  static const addressRegion = IriTerm('https://schema.org/addressRegion');
 
   /// availableLanguage [Expects: https://schema.org/Language, https://schema.org/Text]
   ///
@@ -77,7 +80,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Course, https://schema.org/LodgingBusiness, https://schema.org/ServiceChannel, https://schema.org/TouristAttraction
   ///
-  static const availableLanguage = const IriTerm(
+  static const availableLanguage = IriTerm(
     'https://schema.org/availableLanguage',
   );
 
@@ -87,9 +90,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint
   ///
-  static const contactOption = const IriTerm(
-    'https://schema.org/contactOption',
-  );
+  static const contactOption = IriTerm('https://schema.org/contactOption');
 
   /// contactType [Expects: https://schema.org/Text]
   ///
@@ -97,7 +98,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint
   ///
-  static const contactType = const IriTerm('https://schema.org/contactType');
+  static const contactType = IriTerm('https://schema.org/contactType');
 
   /// disambiguatingDescription [Expects: https://schema.org/Text]
   ///
@@ -105,7 +106,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'https://schema.org/disambiguatingDescription',
   );
 
@@ -115,7 +116,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person
   ///
-  static const email = const IriTerm('https://schema.org/email');
+  static const email = IriTerm('https://schema.org/email');
 
   /// extendedAddress [Expects: https://schema.org/Text]
   ///
@@ -123,9 +124,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/PostalAddress
   ///
-  static const extendedAddress = const IriTerm(
-    'https://schema.org/extendedAddress',
-  );
+  static const extendedAddress = IriTerm('https://schema.org/extendedAddress');
 
   /// faxNumber [Expects: https://schema.org/Text]
   ///
@@ -133,7 +132,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const faxNumber = const IriTerm('https://schema.org/faxNumber');
+  static const faxNumber = IriTerm('https://schema.org/faxNumber');
 
   /// hoursAvailable [Expects: https://schema.org/OpeningHoursSpecification]
   ///
@@ -141,9 +140,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/LocationFeatureSpecification, https://schema.org/Service
   ///
-  static const hoursAvailable = const IriTerm(
-    'https://schema.org/hoursAvailable',
-  );
+  static const hoursAvailable = IriTerm('https://schema.org/hoursAvailable');
 
   /// interactionCount
   ///
@@ -151,7 +148,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
+  static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
 
@@ -161,7 +158,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const name = const IriTerm('https://schema.org/name');
+  static const name = IriTerm('https://schema.org/name');
 
   /// postOfficeBoxNumber [Expects: https://schema.org/Text]
   ///
@@ -169,7 +166,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/PostalAddress
   ///
-  static const postOfficeBoxNumber = const IriTerm(
+  static const postOfficeBoxNumber = IriTerm(
     'https://schema.org/postOfficeBoxNumber',
   );
 
@@ -179,7 +176,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/GeoCoordinates, https://schema.org/GeoShape, https://schema.org/PostalAddress
   ///
-  static const postalCode = const IriTerm('https://schema.org/postalCode');
+  static const postalCode = IriTerm('https://schema.org/postalCode');
 
   /// potentialAction [Expects: https://schema.org/Action]
   ///
@@ -187,9 +184,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'https://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
   /// productSupported [Expects: https://schema.org/Product, https://schema.org/Text]
   ///
@@ -197,7 +192,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint
   ///
-  static const productSupported = const IriTerm(
+  static const productSupported = IriTerm(
     'https://schema.org/productSupported',
   );
 
@@ -207,7 +202,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('https://schema.org/sameAs');
+  static const sameAs = IriTerm('https://schema.org/sameAs');
 
   /// streetAddress [Expects: https://schema.org/Text]
   ///
@@ -215,9 +210,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/PostalAddress
   ///
-  static const streetAddress = const IriTerm(
-    'https://schema.org/streetAddress',
-  );
+  static const streetAddress = IriTerm('https://schema.org/streetAddress');
 
   /// telephone [Expects: https://schema.org/Text]
   ///
@@ -225,7 +218,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Person, https://schema.org/Place
   ///
-  static const telephone = const IriTerm('https://schema.org/telephone');
+  static const telephone = IriTerm('https://schema.org/telephone');
 
   /// url [Expects: https://schema.org/URL]
   ///
@@ -233,7 +226,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const url = const IriTerm('https://schema.org/url');
+  static const url = IriTerm('https://schema.org/url');
 
   /// alternateName [Expects: https://schema.org/Text]
   ///
@@ -241,9 +234,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const alternateName = const IriTerm(
-    'https://schema.org/alternateName',
-  );
+  static const alternateName = IriTerm('https://schema.org/alternateName');
 
   /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
   ///
@@ -251,9 +242,17 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
+  static const mainEntityOfPage = IriTerm(
     'https://schema.org/mainEntityOfPage',
   );
+
+  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: https://schema.org/Thing
+  ///
+  static const owner = IriTerm('https://schema.org/owner');
 
   /// serviceArea [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place]
   ///
@@ -261,7 +260,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const serviceArea = const IriTerm('https://schema.org/serviceArea');
+  static const serviceArea = IriTerm('https://schema.org/serviceArea');
 
   /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
   ///
@@ -269,7 +268,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('https://schema.org/subjectOf');
+  static const subjectOf = IriTerm('https://schema.org/subjectOf');
 
   /// areaServed [Expects: https://schema.org/AdministrativeArea, https://schema.org/GeoShape, https://schema.org/Place, https://schema.org/Text]
   ///
@@ -277,7 +276,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/ContactPoint, https://schema.org/DeliveryChargeSpecification, https://schema.org/Demand, https://schema.org/FinancialIncentive, https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Service
   ///
-  static const areaServed = const IriTerm('https://schema.org/areaServed');
+  static const areaServed = IriTerm('https://schema.org/areaServed');
 
   /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
   ///
@@ -285,7 +284,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const description = const IriTerm('https://schema.org/description');
+  static const description = IriTerm('https://schema.org/description');
 
   /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
   ///
@@ -293,7 +292,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const image = const IriTerm('https://schema.org/image');
+  static const image = IriTerm('https://schema.org/image');
 
   /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
   ///
@@ -302,15 +301,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: https://schema.org/Thing
   ///
-  static const identifier = const IriTerm('https://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('https://schema.org/source');
+  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -318,7 +309,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -328,7 +319,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -338,7 +329,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -348,7 +339,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -358,7 +349,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -368,7 +359,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -378,7 +369,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -388,7 +379,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -398,7 +389,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -408,8 +399,28 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
+  );
+
+  /// bottomDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that does not relate any individual to any data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomDataProperty',
+  );
+
+  /// bottomObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that does not relate any two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlBottomObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#bottomObjectProperty',
   );
 
   /// deprecated from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -418,8 +429,18 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
+  );
+
+  /// differentFrom from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are different.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlDifferentFrom = IriTerm(
+    'http://www.w3.org/2002/07/owl#differentFrom',
   );
 
   /// members from owl vocabulary [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
@@ -428,8 +449,34 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
+
+  /// sameAs from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The property that determines that two given individuals are equal.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlSameAs = IriTerm('http://www.w3.org/2002/07/owl#sameAs');
+
+  /// topDataProperty from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// The data property that relates every individual to every data value.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopDataProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topDataProperty',
+  );
+
+  /// topObjectProperty from owl vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// The object property that relates every two individuals.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const owlTopObjectProperty = IriTerm(
+    'http://www.w3.org/2002/07/owl#topObjectProperty',
   );
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
@@ -438,9 +485,83 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
+
+  /// name from foaf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
+  ///
+  /// A name for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafName = IriTerm('http://xmlns.com/foaf/0.1/name');
+
+  /// homepage from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A homepage for some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafHomepage = IriTerm('http://xmlns.com/foaf/0.1/homepage');
+
+  /// maker from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Agent]
+  ///
+  /// An agent that  made this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafMaker = IriTerm('http://xmlns.com/foaf/0.1/maker');
+
+  /// depiction from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Image]
+  ///
+  /// A depiction of some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafDepiction = IriTerm('http://xmlns.com/foaf/0.1/depiction');
+
+  /// fundedBy from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// An organization funding a project or person.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafFundedBy = IriTerm('http://xmlns.com/foaf/0.1/fundedBy');
+
+  /// logo from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A logo representing some thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafLogo = IriTerm('http://xmlns.com/foaf/0.1/logo');
+
+  /// isPrimaryTopicOf from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A document that this thing is the primary topic of.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafIsPrimaryTopicOf = IriTerm(
+    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+  );
+
+  /// page from foaf vocabulary [Expects: http://xmlns.com/foaf/0.1/Document]
+  ///
+  /// A page or document about this thing.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafPage = IriTerm('http://xmlns.com/foaf/0.1/page');
+
+  /// theme from foaf vocabulary [Expects: http://www.w3.org/2002/07/owl#Thing]
+  ///
+  /// A theme.
+  ///
+  /// Can be used on: http://www.w3.org/2002/07/owl#Thing
+  ///
+  static const foafTheme = IriTerm('http://xmlns.com/foaf/0.1/theme');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///
@@ -448,7 +569,7 @@ class SchemaPostalAddress {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }

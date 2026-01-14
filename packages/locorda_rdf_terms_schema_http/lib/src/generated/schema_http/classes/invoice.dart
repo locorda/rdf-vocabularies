@@ -13,8 +13,12 @@ import 'package:locorda_rdf_core/core.dart';
 ///
 /// Inherits from:
 /// - Intangible (http://schema.org/Intangible)
+/// - LegalDocument (https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (http://schema.org/Thing)
+///
+/// Equivalent to:
+/// - Invoice (http://unece.org/vocab#Invoice)
 ///
 /// This class provides access to all properties that can be used with Invoice.
 /// [Class Reference](http://schema.org/Invoice)
@@ -26,7 +30,7 @@ class SchemaHttpInvoice {
 
   /// IRI term for the Invoice class
   /// Use this to specify that a resource is of this type.
-  static const classIri = const IriTerm('http://schema.org/Invoice');
+  static const classIri = IriTerm('http://schema.org/Invoice');
 
   /// accountId [Expects: http://schema.org/Text]
   ///
@@ -34,7 +38,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const accountId = const IriTerm('http://schema.org/accountId');
+  static const accountId = IriTerm('http://schema.org/accountId');
 
   /// additionalType [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
@@ -43,9 +47,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const additionalType = const IriTerm(
-    'http://schema.org/additionalType',
-  );
+  static const additionalType = IriTerm('http://schema.org/additionalType');
 
   /// billingPeriod [Expects: http://schema.org/Duration]
   ///
@@ -53,7 +55,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const billingPeriod = const IriTerm('http://schema.org/billingPeriod');
+  static const billingPeriod = IriTerm('http://schema.org/billingPeriod');
 
   /// confirmationNumber [Expects: http://schema.org/Text]
   ///
@@ -61,7 +63,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const confirmationNumber = const IriTerm(
+  static const confirmationNumber = IriTerm(
     'http://schema.org/confirmationNumber',
   );
 
@@ -71,7 +73,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const customer = const IriTerm('http://schema.org/customer');
+  static const customer = IriTerm('http://schema.org/customer');
 
   /// disambiguatingDescription [Expects: http://schema.org/Text]
   ///
@@ -79,7 +81,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const disambiguatingDescription = const IriTerm(
+  static const disambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
@@ -89,9 +91,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on all classes in this vocabulary
   ///
-  static const interactionCount = const IriTerm(
-    'http://schema.org/interactionCount',
-  );
+  static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
   /// minimumPaymentDue [Expects: http://schema.org/MonetaryAmount, http://schema.org/PriceSpecification]
   ///
@@ -99,7 +99,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const minimumPaymentDue = const IriTerm(
+  static const minimumPaymentDue = IriTerm(
     'http://schema.org/minimumPaymentDue',
   );
 
@@ -109,7 +109,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const name = const IriTerm('http://schema.org/name');
+  static const name = IriTerm('http://schema.org/name');
 
   /// paymentDue [Expects: http://schema.org/DateTime]
   ///
@@ -117,7 +117,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const paymentDue = const IriTerm('http://schema.org/paymentDue');
+  static const paymentDue = IriTerm('http://schema.org/paymentDue');
 
   /// paymentMethod [Expects: http://schema.org/PaymentMethod, http://schema.org/Text]
   ///
@@ -125,7 +125,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const paymentMethod = const IriTerm('http://schema.org/paymentMethod');
+  static const paymentMethod = IriTerm('http://schema.org/paymentMethod');
 
   /// paymentMethodId [Expects: http://schema.org/Text]
   ///
@@ -133,9 +133,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const paymentMethodId = const IriTerm(
-    'http://schema.org/paymentMethodId',
-  );
+  static const paymentMethodId = IriTerm('http://schema.org/paymentMethodId');
 
   /// paymentStatus [Expects: http://schema.org/PaymentStatusType, http://schema.org/Text]
   ///
@@ -143,7 +141,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const paymentStatus = const IriTerm('http://schema.org/paymentStatus');
+  static const paymentStatus = IriTerm('http://schema.org/paymentStatus');
 
   /// potentialAction [Expects: http://schema.org/Action]
   ///
@@ -151,9 +149,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const potentialAction = const IriTerm(
-    'http://schema.org/potentialAction',
-  );
+  static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
   /// referencesOrder [Expects: http://schema.org/Order]
   ///
@@ -161,9 +157,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const referencesOrder = const IriTerm(
-    'http://schema.org/referencesOrder',
-  );
+  static const referencesOrder = IriTerm('http://schema.org/referencesOrder');
 
   /// sameAs [Expects: http://schema.org/URL]
   ///
@@ -171,7 +165,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const sameAs = const IriTerm('http://schema.org/sameAs');
+  static const sameAs = IriTerm('http://schema.org/sameAs');
 
   /// scheduledPaymentDate [Expects: http://schema.org/Date]
   ///
@@ -179,7 +173,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const scheduledPaymentDate = const IriTerm(
+  static const scheduledPaymentDate = IriTerm(
     'http://schema.org/scheduledPaymentDate',
   );
 
@@ -189,9 +183,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice
   ///
-  static const totalPaymentDue = const IriTerm(
-    'http://schema.org/totalPaymentDue',
-  );
+  static const totalPaymentDue = IriTerm('http://schema.org/totalPaymentDue');
 
   /// url [Expects: http://schema.org/URL]
   ///
@@ -199,7 +191,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const url = const IriTerm('http://schema.org/url');
+  static const url = IriTerm('http://schema.org/url');
 
   /// alternateName [Expects: http://schema.org/Text]
   ///
@@ -207,7 +199,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const alternateName = const IriTerm('http://schema.org/alternateName');
+  static const alternateName = IriTerm('http://schema.org/alternateName');
 
   /// broker [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -215,15 +207,15 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order, http://schema.org/Reservation, http://schema.org/Service
   ///
-  static const broker = const IriTerm('http://schema.org/broker');
+  static const broker = IriTerm('http://schema.org/broker');
 
   /// category [Expects: http://schema.org/CategoryCode, http://schema.org/PhysicalActivityCategory, http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
   /// A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
   ///
-  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
+  /// Can be used on: http://schema.org/ActionAccessSpecification, http://schema.org/Guide, http://schema.org/Invoice, http://schema.org/Offer, http://schema.org/PhysicalActivity, http://schema.org/Product, http://schema.org/Recommendation, http://schema.org/Service, http://schema.org/SpecialAnnouncement
   ///
-  static const category = const IriTerm('http://schema.org/category');
+  static const category = IriTerm('http://schema.org/category');
 
   /// mainEntityOfPage [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
@@ -231,9 +223,15 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const mainEntityOfPage = const IriTerm(
-    'http://schema.org/mainEntityOfPage',
-  );
+  static const mainEntityOfPage = IriTerm('http://schema.org/mainEntityOfPage');
+
+  /// owner [Expects: http://schema.org/Organization, http://schema.org/Person]
+  ///
+  /// A person or organization who owns this Thing.
+  ///
+  /// Can be used on: http://schema.org/Thing
+  ///
+  static const owner = IriTerm('http://schema.org/owner');
 
   /// paymentDueDate [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
@@ -241,9 +239,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Invoice, http://schema.org/Order
   ///
-  static const paymentDueDate = const IriTerm(
-    'http://schema.org/paymentDueDate',
-  );
+  static const paymentDueDate = IriTerm('http://schema.org/paymentDueDate');
 
   /// provider [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
@@ -251,7 +247,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/FinancialIncentive, http://schema.org/Invoice, http://schema.org/ParcelDelivery, http://schema.org/Reservation, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const provider = const IriTerm('http://schema.org/provider');
+  static const provider = IriTerm('http://schema.org/provider');
 
   /// subjectOf [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
@@ -259,7 +255,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const subjectOf = const IriTerm('http://schema.org/subjectOf');
+  static const subjectOf = IriTerm('http://schema.org/subjectOf');
 
   /// description [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
@@ -267,7 +263,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const description = const IriTerm('http://schema.org/description');
+  static const description = IriTerm('http://schema.org/description');
 
   /// image [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
@@ -275,7 +271,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const image = const IriTerm('http://schema.org/image');
+  static const image = IriTerm('http://schema.org/image');
 
   /// identifier [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
@@ -284,15 +280,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const identifier = const IriTerm('http://schema.org/identifier');
-
-  /// source
-  ///
-  ///
-  ///
-  /// Can be used on all classes in this vocabulary
-  ///
-  static const source = const IriTerm('http://schema.org/source');
+  static const identifier = IriTerm('http://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///
@@ -300,7 +288,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfType = const IriTerm(
+  static const rdfType = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
   );
 
@@ -310,7 +298,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfValue = const IriTerm(
+  static const rdfValue = IriTerm(
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
   );
 
@@ -320,7 +308,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsComment = const IriTerm(
+  static const rdfsComment = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#comment',
   );
 
@@ -330,7 +318,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsLabel = const IriTerm(
+  static const rdfsLabel = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#label',
   );
 
@@ -340,7 +328,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsSeeAlso = const IriTerm(
+  static const rdfsSeeAlso = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#seeAlso',
   );
 
@@ -350,7 +338,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsIsDefinedBy = const IriTerm(
+  static const rdfsIsDefinedBy = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#isDefinedBy',
   );
 
@@ -360,7 +348,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const rdfsMember = const IriTerm(
+  static const rdfsMember = IriTerm(
     'http://www.w3.org/2000/01/rdf-schema#member',
   );
 
@@ -370,7 +358,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedProperty = const IriTerm(
+  static const owlAnnotatedProperty = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedProperty',
   );
 
@@ -380,7 +368,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedSource = const IriTerm(
+  static const owlAnnotatedSource = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedSource',
   );
 
@@ -390,7 +378,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlAnnotatedTarget = const IriTerm(
+  static const owlAnnotatedTarget = IriTerm(
     'http://www.w3.org/2002/07/owl#annotatedTarget',
   );
 
@@ -400,7 +388,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlDeprecated = const IriTerm(
+  static const owlDeprecated = IriTerm(
     'http://www.w3.org/2002/07/owl#deprecated',
   );
 
@@ -410,9 +398,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlMembers = const IriTerm(
-    'http://www.w3.org/2002/07/owl#members',
-  );
+  static const owlMembers = IriTerm('http://www.w3.org/2002/07/owl#members');
 
   /// versionInfo from owl vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Resource]
   ///
@@ -420,7 +406,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const owlVersionInfo = const IriTerm(
+  static const owlVersionInfo = IriTerm(
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
@@ -430,7 +416,7 @@ class SchemaHttpInvoice {
   ///
   /// Can be used on: http://www.w3.org/2000/01/rdf-schema#Resource
   ///
-  static const biboAbstract_ = const IriTerm(
+  static const biboAbstract_ = IriTerm(
     'http://purl.org/ontology/bibo/abstract',
   );
 }
