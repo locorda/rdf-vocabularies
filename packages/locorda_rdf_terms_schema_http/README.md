@@ -8,7 +8,7 @@
 
 [🌐 **Official Homepage**](https://kkalass.github.io/rdf_vocabularies/)
 
-`locorda_rdf_terms_schema_http` provides type-safe access to the **Schema.org vocabulary with HTTP URIs** as Dart constants for use with [`rdf_core`](https://pub.dev/packages/rdf_core).
+`locorda_rdf_terms_schema_http` provides type-safe access to the **Schema.org vocabulary with HTTP URIs** as Dart constants for use with [`locorda_rdf_core`](https://pub.dev/packages/locorda_rdf_core).
 
 This package contains the **legacy Schema.org vocabulary** (~36MB) using HTTP URIs (`http://schema.org/...`) for compatibility with existing data and systems.
 
@@ -31,10 +31,10 @@ The library is designed for both RDF newcomers and experts, offering structured 
 
 If you are looking for more rdf-related functionality, have a look at our companion projects:
 
-* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [rdf_core](https://github.com/kkalass/rdf_core) 
-* encode and decode rdf/xml format: [rdf_xml](https://github.com/kkalass/rdf_xml) 
-* generate your own easy-to-use constants for other vocabularies with a build_runner: [rdf_vocabulary_to_dart](https://github.com/kkalass/rdf_vocabulary_to_dart)
-* map Dart Objects ↔️ RDF: [rdf_mapper](https://github.com/kkalass/rdf_mapper)
+* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [locorda_rdf_core](https://github.com/kkalass/locorda_rdf_core) 
+* encode and decode rdf/xml format: [locorda_rdf_xml](https://github.com/kkalass/locorda_rdf_xml) 
+* generate your own easy-to-use constants for other vocabularies with a build_runner: [locorda_rdf_terms_generator](https://github.com/kkalass/locorda_rdf_terms_generator)
+* map Dart Objects ↔️ RDF: [locorda_rdf_mapper](https://github.com/kkalass/locorda_rdf_mapper)
 
 ---
 
@@ -46,7 +46,7 @@ Add the package to your project:
 
 ```sh
 # Install Schema.org HTTP vocabulary (~36MB)
-dart pub add locorda_rdf_terms_schema_http rdf_core
+dart pub add locorda_rdf_terms_schema_http locorda_rdf_core
 
 # Recommended: Also add core vocabularies for RDF, RDFS, OWL, etc. (+5MB)
 dart pub add locorda_rdf_terms_common
@@ -144,7 +144,7 @@ For comprehensive RDF support, combine with core vocabularies:
 
 ```sh
 # Add both packages for complete coverage
-dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema_http rdf_core
+dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema_http locorda_rdf_core
 ```
 
 ```dart

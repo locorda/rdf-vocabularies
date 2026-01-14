@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.4.5] - 2025-09-23
 
 ### Changed
-- **Dependency updates**: Updated all underlying packages with rdf_core ^0.9.15 and rdf_vocabulary_to_dart ^0.9.2
+- **Dependency updates**: Updated all underlying packages with locorda_rdf_core ^0.9.15 and locorda_rdf_terms_generator ^0.9.2
 - **Vocabulary regeneration**: All vocabulary files regenerated with latest code generation improvements
   - Enhanced code generation with improved type safety and documentation
   - Updated all core and Schema.org vocabulary class definitions
@@ -81,23 +81,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.3.1] - 2025-07-24
 
 ### Changed
-- Updated `rdf_core` dependency to ^0.9.11
+- Updated `locorda_rdf_core` dependency to ^0.9.11
 - Ran `dart pub upgrade`
 
 ## [0.3.0] - 2025-05-14
 
 ### Changed
-- Updated `rdf_core` dependency to ^0.9.0
+- Updated `locorda_rdf_core` dependency to ^0.9.0
 
 ## [0.2.0] - 2025-05-13
 
 ### Changed
-- Updated `rdf_core` dependency from ^0.7.6 to ^0.8.1
-- Updated `rdf_vocabulary_to_dart` dependency from ^0.7.2 to ^0.8.0
+- Updated `locorda_rdf_core` dependency from ^0.7.6 to ^0.8.1
+- Updated `locorda_rdf_terms_generator` dependency from ^0.7.2 to ^0.8.0
 - Improved documentation and examples
 
 ### Compatible
-- Maintains compatibility with the latest version of `rdf_core`
+- Maintains compatibility with the latest version of `locorda_rdf_core`
 
 ## [0.1.0] - 2025-05-09
 

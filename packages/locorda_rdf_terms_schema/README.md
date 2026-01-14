@@ -8,7 +8,7 @@
 
 [🌐 **Official Homepage**](https://kkalass.github.io/rdf_vocabularies/)
 
-`locorda_rdf_terms_schema` provides type-safe access to the **Schema.org vocabulary with HTTPS URIs** as Dart constants for use with [`rdf_core`](https://pub.dev/packages/rdf_core).
+`locorda_rdf_terms_schema` provides type-safe access to the **Schema.org vocabulary with HTTPS URIs** as Dart constants for use with [`locorda_rdf_core`](https://pub.dev/packages/locorda_rdf_core).
 
 This package contains the **modern Schema.org vocabulary** (~35MB) using HTTPS URIs (`https://schema.org/...`), which is the current standard.
 
@@ -31,10 +31,10 @@ The library is designed for both RDF newcomers and experts, offering structured 
 
 If you are looking for more rdf-related functionality, have a look at our companion projects:
 
-* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [rdf_core](https://github.com/kkalass/rdf_core) 
-* encode and decode rdf/xml format: [rdf_xml](https://github.com/kkalass/rdf_xml) 
-* generate your own easy-to-use constants for other vocabularies with a build_runner: [rdf_vocabulary_to_dart](https://github.com/kkalass/rdf_vocabulary_to_dart)
-* map Dart Objects ↔️ RDF: [rdf_mapper](https://github.com/kkalass/rdf_mapper)
+* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [locorda_rdf_core](https://github.com/kkalass/locorda_rdf_core) 
+* encode and decode rdf/xml format: [locorda_rdf_xml](https://github.com/kkalass/locorda_rdf_xml) 
+* generate your own easy-to-use constants for other vocabularies with a build_runner: [locorda_rdf_terms_generator](https://github.com/kkalass/locorda_rdf_terms_generator)
+* map Dart Objects ↔️ RDF: [locorda_rdf_mapper](https://github.com/kkalass/locorda_rdf_mapper)
 
 ---
 
@@ -50,7 +50,7 @@ If you are looking for more rdf-related functionality, have a look at our compan
 - **Dual Interface**: Choose between class-specific access for beginners or full vocabulary access for experts
 - **Comprehensive Coverage**: Access terms from popular RDF vocabularies (Schema.org, FOAF, Dublin Core, etc.)
 - **Rich Documentation**: Each term includes its original description from the vocabulary
-- **Seamless Integration**: Works perfectly with the `rdf_core` library
+- **Seamless Integration**: Works perfectly with the `locorda_rdf_core` library
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ Add the package to your project:
 
 ```sh
 # Install Schema.org HTTPS vocabulary (~35MB)
-dart pub add locorda_rdf_terms_schema rdf_core
+dart pub add locorda_rdf_terms_schema locorda_rdf_core
 
 # Recommended: Also add core vocabularies for RDF, RDFS, OWL, etc. (+5MB)
 dart pub add locorda_rdf_terms_common
@@ -160,7 +160,7 @@ For comprehensive RDF support, combine with core vocabularies:
 
 ```sh
 # Add both packages for complete coverage
-dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema rdf_core
+dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema locorda_rdf_core
 ```
 
 ```dart

@@ -1,14 +1,14 @@
 # RDF Vocabularies for Dart - Type-safe RDF Constants
 
-[![build](https://github.com/kkalass/rdf_vocabularies/actions/workflows/ci.yml/badge.svg)](https://github.com/kkalass/rdf_vocabularies/actions)
-[![license](https://img.shields.io/github/license/kkalass/rdf_vocabularies.svg)](https://github.com/kkalass/rdf_vocabularies/blob/main/LICENSE)
+[![build](https://github.com/locorda/rdf_vocabularies/actions/workflows/ci.yml/badge.svg)](https://github.com/locorda/rdf_vocabularies/actions)
+[![license](https://img.shields.io/github/license/locorda/rdf_vocabularies.svg)](https://github.com/locorda/rdf_vocabularies/blob/main/LICENSE)
 
 
 ## Overview
 
-[🌐 **Official Homepage**](https://kkalass.github.io/rdf_vocabularies/)
+[🌐 **Official Homepage**](https://locorda.dev/rdf_vocabularies/)
 
-`rdf_vocabularies` provides type-safe access to standard RDF vocabulary terms as Dart constants for use with [`rdf_core`](https://pub.dev/packages/rdf_core). 
+`rdf_vocabularies` provides type-safe access to standard RDF vocabulary terms as Dart constants for use with [`locorda_rdf_core`](https://pub.dev/packages/locorda_rdf_core). 
 
 The library uses a **multi-package architecture** for optimal package size while maintaining full backward compatibility.
 
@@ -24,16 +24,16 @@ Starting with version 0.4.0, this project uses a multi-package architecture to o
 
 | Package | Version | Size | Content | Use Case | Source |
 |---------|---------|------|---------|----------|---------|
-| **[`rdf_vocabularies`](https://pub.dev/packages/rdf_vocabularies)** | [![pub package](https://img.shields.io/pub/v/rdf_vocabularies.svg)](https://pub.dev/packages/rdf_vocabularies) | ~77MB | All vocabularies | Full compatibility | [📁 Source](packages/rdf_vocabularies/) |
+| **[`locorda_rdf_terms`](https://pub.dev/packages/locorda_rdf_terms)** | [![pub package](https://img.shields.io/pub/v/locorda_rdf_terms.svg)](https://pub.dev/packages/locorda_rdf_terms) | ~77MB | All vocabularies | Full compatibility | [📁 Source](packages/locorda_rdf_terms/) |
 | **[`locorda_rdf_terms_common`](https://pub.dev/packages/locorda_rdf_terms_common)** | [![pub package](https://img.shields.io/pub/v/locorda_rdf_terms_common.svg)](https://pub.dev/packages/locorda_rdf_terms_common) | ~5MB | Core RDF vocabularies | Most use cases | [📁 Source](packages/locorda_rdf_terms_common/) |
 | **[`locorda_rdf_terms_schema`](https://pub.dev/packages/locorda_rdf_terms_schema)** | [![pub package](https://img.shields.io/pub/v/locorda_rdf_terms_schema.svg)](https://pub.dev/packages/locorda_rdf_terms_schema) | ~35MB | Schema.org (HTTPS) | Schema.org apps | [📁 Source](packages/locorda_rdf_terms_schema/) |
 | **[`locorda_rdf_terms_schema_http`](https://pub.dev/packages/locorda_rdf_terms_schema_http)** | [![pub package](https://img.shields.io/pub/v/locorda_rdf_terms_schema_http.svg)](https://pub.dev/packages/locorda_rdf_terms_schema_http) | ~36MB | Schema.org (HTTP) | Legacy compatibility | [📁 Source](packages/locorda_rdf_terms_schema_http/) |
 
-> **💡 Size Note**: The `rdf_vocabularies` meta-package automatically downloads all other packages as dependencies, resulting in a total download of ~77MB. For size optimization, use individual packages.
+> **💡 Size Note**: The `locorda_rdf_terms` meta-package automatically downloads all other packages as dependencies, resulting in a total download of ~77MB. For size optimization, use individual packages.
 
 ### 🎯 Choose Your Package
 
-- **For full compatibility**: Use `rdf_vocabularies` (meta-package) - **downloads all vocabularies (~77MB total)**
+- **For full compatibility**: Use `locorda_rdf_terms` (meta-package) - **downloads all vocabularies (~77MB total)**
 - **For size optimization**: Use `locorda_rdf_terms_common` (~5MB) for common vocabularies only
 - **For Schema.org apps**: Use `locorda_rdf_terms_common` + `locorda_rdf_terms_schema` (~40MB total)
 - **For legacy support**: Add `locorda_rdf_terms_schema_http` for HTTP Schema.org URIs
@@ -44,10 +44,10 @@ Starting with version 0.4.0, this project uses a multi-package architecture to o
 
 If you are looking for more rdf-related functionality, have a look at our companion projects:
 
-* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [rdf_core](https://github.com/kkalass/rdf_core) 
-* encode and decode rdf/xml format: [rdf_xml](https://github.com/kkalass/rdf_xml) 
-* generate your own easy-to-use constants for other vocabularies with a build_runner: [rdf_vocabulary_to_dart](https://github.com/kkalass/rdf_vocabulary_to_dart)
-* map Dart Objects ↔️ RDF: [rdf_mapper](https://github.com/kkalass/rdf_mapper)
+* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [locorda_rdf_core](https://github.com/locorda/rdf/packages/locorda_rdf_core) 
+* encode and decode rdf/xml format: [locorda_rdf_xml](https://github.com/locorda/rdf/packages/locorda_rdf_xml) 
+* generate your own easy-to-use constants for other vocabularies with a build_runner: [locorda_rdf_terms_generator](https://github.com/locorda/rdf/packages/locorda_rdf_terms_generator)
+* map Dart Objects ↔️ RDF: [locorda_rdf_mapper](https://github.com/locorda/rdf/packages/locorda_rdf_mapper)
 
 ---
 
@@ -59,15 +59,15 @@ Add one or more packages to your `pubspec.yaml`:
 
 ```sh
 # Option 1: Meta-package with all vocabularies (⚠️ ~77MB total download)
-dart pub add rdf_vocabularies rdf_core
+dart pub add locorda_rdf_terms locorda_rdf_core
 
 # Option 2: Individual packages for size optimization (recommended)
 
 # Core vocabularies (~5MB)
-dart pub add locorda_rdf_terms_common rdf_core        
+dart pub add locorda_rdf_terms_common locorda_rdf_core        
 
 # Add only if you need Schema.org (+35MB)
-dart pub add locorda_rdf_terms_schema rdf_core        
+dart pub add locorda_rdf_terms_schema locorda_rdf_core        
 ```
 
 ### Basic Usage

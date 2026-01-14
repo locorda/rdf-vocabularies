@@ -33,10 +33,10 @@ The library is designed for both RDF newcomers and experts, offering structured 
 
 If you are looking for more rdf-related functionality, have a look at our companion projects:
 
-* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [rdf_core](https://github.com/kkalass/rdf_core) 
-* encode and decode rdf/xml format: [rdf_xml](https://github.com/kkalass/rdf_xml) 
-* generate your own easy-to-use constants for other vocabularies with a build_runner: [rdf_vocabulary_to_dart](https://github.com/kkalass/rdf_vocabulary_to_dart)
-* map Dart Objects ↔️ RDF: [rdf_mapper](https://github.com/kkalass/rdf_mapper)
+* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [locorda_rdf_core](https://github.com/kkalass/locorda_rdf_core) 
+* encode and decode rdf/xml format: [locorda_rdf_xml](https://github.com/kkalass/locorda_rdf_xml) 
+* generate your own easy-to-use constants for other vocabularies with a build_runner: [locorda_rdf_terms_generator](https://github.com/kkalass/locorda_rdf_terms_generator)
+* map Dart Objects ↔️ RDF: [locorda_rdf_mapper](https://github.com/kkalass/locorda_rdf_mapper)
 
 ---
 
@@ -48,10 +48,10 @@ Add the package to your project:
 
 ```sh
 # Install the meta-package (includes all vocabularies - ~77MB total download)
-dart pub add rdf_vocabularies rdf_core
+dart pub add rdf_vocabularies locorda_rdf_core
 
 # Or for size optimization, use individual packages instead:
-# dart pub add locorda_rdf_terms_common rdf_core  # Only ~5MB
+# dart pub add locorda_rdf_terms_common locorda_rdf_core  # Only ~5MB
 ```
 
 > **💡 Size Optimization**: Consider using `locorda_rdf_terms_common` instead for most use cases to reduce download size from ~77MB to ~5MB.
@@ -152,13 +152,13 @@ For size optimization, consider these individual packages:
 
 ```sh
 # Core vocabularies only (~5MB) - recommended for most apps
-dart pub add locorda_rdf_terms_common rdf_core
+dart pub add locorda_rdf_terms_common locorda_rdf_core
 
 # Add Schema.org HTTPS if needed (+35MB)
-dart pub add locorda_rdf_terms_schema rdf_core
+dart pub add locorda_rdf_terms_schema locorda_rdf_core
 
 # Add Schema.org HTTP for legacy compatibility (+36MB)  
-dart pub add locorda_rdf_terms_schema_http rdf_core
+dart pub add locorda_rdf_terms_schema_http locorda_rdf_core
 ```
 
 ## Migration from v0.3.x
