@@ -417,7 +417,7 @@ class SchemaHttpDuration {
   ///
   /// Can be used on: https://www.omg.org/spec/Commons/DatesAndTimes/Duration
   ///
-  static const DatesAndTimesHasDurationValue = IriTerm(
+  static const datesAndTimesHasDurationValue = IriTerm(
     'https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue',
   );
 

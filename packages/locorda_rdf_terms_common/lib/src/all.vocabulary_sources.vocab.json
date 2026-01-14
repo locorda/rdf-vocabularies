@@ -288,7 +288,7 @@
       ],
       "generate": false
     },
-    "schemaHttp": {
+    "schema-http": {
       "type": "url",
       "namespace": "http://schema.org/",
       "source": "https://schema.org/version/latest/schemaorg-current-http.ttl",
