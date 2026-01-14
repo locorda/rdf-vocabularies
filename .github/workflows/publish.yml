@@ -1,0 +1,24 @@
+name: Publish to pub.dev (DEPRECATED)
+
+# This workflow is deprecated - publishing is now handled directly by tool/release.dart
+# See tool/workspace_release.dart for the new publishing logic
+
+on:
+  # Disabled - publishing now happens directly via release script
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'This workflow is deprecated. Use tool/release.dart instead.'
+        required: true
+        default: 'deprecated'
+
+jobs:
+  deprecated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deprecated workflow
+        run: |
+          echo "⚠️  This workflow is deprecated!"
+          echo "📝 Publishing is now handled directly by tool/release.dart"
+          echo "🚀 Run 'dart run tool/release.dart' instead"
+          exit 1

@@ -1,0 +1,30 @@
+# Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test output
+coverage/
+
+# Misc
+*.log
+
+# Root level should not have pubspec.lock
+/pubspec.lock
+
+# Documentation
+# Generated API docs in individual packages should not be committed
+packages/*/doc/api/
+# Only commit the aggregated documentation for GitHub Pages
+!doc/
+pubspec_overrides.yaml

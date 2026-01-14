@@ -1,0 +1,42 @@
+name: locorda_rdf_vocabularies_workspace
+description: Workspace root for the RDF Vocabularies multi-package project. Contains all individual packages.
+version: 0.11.0-dev
+publish_to: none  # This is a workspace root, not a publishable package
+
+environment:
+  sdk: ^3.7.0
+
+# This is the workspace root for the multi-package RDF vocabularies project.
+# The actual publishable packages are located in the packages/ directory:
+# - packages/locorda_rdf_terms: Meta-package that exports all vocabularies
+# - packages/locorda_rdf_terms_common: Core RDF vocabularies (RDF, RDFS, OWL, FOAF, etc.)
+# - packages/locorda_rdf_terms_schema: Schema.org HTTPS vocabulary
+# - packages/locorda_rdf_terms_schema_http: Schema.org HTTP vocabulary
+workspace:
+  - packages/locorda_rdf_terms
+  - packages/locorda_rdf_terms_common
+  - packages/locorda_rdf_terms_schema
+  - packages/locorda_rdf_terms_schema_http
+
+dev_dependencies:
+  melos: ^7.3.0
+
+melos:
+  scripts:
+    analyze:
+      run: melos exec -- dart analyze .
+      description: Run `dart analyze` in all packages.
+
+    format:
+      run: melos exec -- dart format .
+      description: Run `dart format` in all packages.
+
+    test:
+      run: melos exec --dir-exists=test -- dart test
+      description: Run `dart test` in all packages that have a `test` directory.
+
+  version:
+    # Synchronized versioning for all packages in the RDF suite
+    updateGitTagRefs: true
+    includeCommitId: true
+    linkToCommits: true
