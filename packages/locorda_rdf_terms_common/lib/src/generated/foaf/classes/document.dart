@@ -924,294 +924,294 @@ class FoafDocument {
     'https://ref.gs1.org/voc/whatsInTheBox',
   );
 
-  /// abstract_ from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// abstract_ from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An abstract is a short description that summarizes a {[CreativeWork]}.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAbstract_ = IriTerm('http://schema.org/abstract');
+  static const schemaHttpAbstract_ = IriTerm('http://schema.org/abstract');
 
-  /// accessMode from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessMode from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessMode = IriTerm('http://schema.org/accessMode');
+  static const schemaHttpAccessMode = IriTerm('http://schema.org/accessMode');
 
-  /// accessModeSufficient from schemahttp vocabulary [Expects: http://schema.org/ItemList]
+  /// accessModeSufficient from schema-http vocabulary [Expects: http://schema.org/ItemList]
   ///
   /// A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessModeSufficient = IriTerm(
+  static const schemaHttpAccessModeSufficient = IriTerm(
     'http://schema.org/accessModeSufficient',
   );
 
-  /// accessibilityAPI from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessibilityAPI from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Indicates that the resource is compatible with the referenced accessibility API. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityAPI-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityAPI = IriTerm(
+  static const schemaHttpAccessibilityAPI = IriTerm(
     'http://schema.org/accessibilityAPI',
   );
 
-  /// accessibilityControl from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessibilityControl from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Identifies input methods that are sufficient to fully control the described resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityControl-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityControl = IriTerm(
+  static const schemaHttpAccessibilityControl = IriTerm(
     'http://schema.org/accessibilityControl',
   );
 
-  /// accessibilityFeature from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessibilityFeature from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityFeature-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityFeature = IriTerm(
+  static const schemaHttpAccessibilityFeature = IriTerm(
     'http://schema.org/accessibilityFeature',
   );
 
-  /// accessibilityHazard from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessibilityHazard from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityHazard-vocabulary).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilityHazard = IriTerm(
+  static const schemaHttpAccessibilityHazard = IriTerm(
     'http://schema.org/accessibilityHazard',
   );
 
-  /// accessibilitySummary from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// accessibilitySummary from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as "short descriptions are present but long descriptions will be needed for non-visual users" or "short descriptions are present and no long descriptions are needed".
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccessibilitySummary = IriTerm(
+  static const schemaHttpAccessibilitySummary = IriTerm(
     'http://schema.org/accessibilitySummary',
   );
 
-  /// accountablePerson from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// accountablePerson from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// Specifies the Person that is legally accountable for the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAccountablePerson = IriTerm(
+  static const schemaHttpAccountablePerson = IriTerm(
     'http://schema.org/accountablePerson',
   );
 
-  /// acquireLicensePage from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// acquireLicensePage from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// Indicates a page documenting how licenses can be purchased or otherwise acquired, for the current item.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAcquireLicensePage = IriTerm(
+  static const schemaHttpAcquireLicensePage = IriTerm(
     'http://schema.org/acquireLicensePage',
   );
 
-  /// additionalType from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// additionalType from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
   /// use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="http://schema.org/docs/styleguide.html">style guide</a>.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAdditionalType = IriTerm(
+  static const schemaHttpAdditionalType = IriTerm(
     'http://schema.org/additionalType',
   );
 
-  /// aggregateRating from schemahttp vocabulary [Expects: http://schema.org/AggregateRating]
+  /// aggregateRating from schema-http vocabulary [Expects: http://schema.org/AggregateRating]
   ///
   /// The overall rating, based on a collection of reviews or ratings, of the item.
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAggregateRating = IriTerm(
+  static const schemaHttpAggregateRating = IriTerm(
     'http://schema.org/aggregateRating',
   );
 
-  /// alternativeHeadline from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// alternativeHeadline from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A secondary title of the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAlternativeHeadline = IriTerm(
+  static const schemaHttpAlternativeHeadline = IriTerm(
     'http://schema.org/alternativeHeadline',
   );
 
-  /// archivedAt from schemahttp vocabulary [Expects: http://schema.org/URL, http://schema.org/WebPage]
+  /// archivedAt from schema-http vocabulary [Expects: http://schema.org/URL, http://schema.org/WebPage]
   ///
   /// Indicates a page or other link involved in archival of a {[CreativeWork]}. In the case of {[MediaReview]}, the items in a {[MediaReviewItem]} may often become inaccessible, but be archived by archival, journalistic, activist, or law enforcement organizations. In such cases, the referenced page may not directly publish the content.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpArchivedAt = IriTerm('http://schema.org/archivedAt');
+  static const schemaHttpArchivedAt = IriTerm('http://schema.org/archivedAt');
 
-  /// assesses from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// assesses from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The item being described is intended to assess the competency or learning outcome defined by the referenced term.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const schemahttpAssesses = IriTerm('http://schema.org/assesses');
+  static const schemaHttpAssesses = IriTerm('http://schema.org/assesses');
 
-  /// associatedMedia from schemahttp vocabulary [Expects: http://schema.org/MediaObject]
+  /// associatedMedia from schema-http vocabulary [Expects: http://schema.org/MediaObject]
   ///
   /// A media object that encodes this CreativeWork. This property is a synonym for encoding.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/HyperToc, http://schema.org/HyperTocEntry
   ///
-  static const schemahttpAssociatedMedia = IriTerm(
+  static const schemaHttpAssociatedMedia = IriTerm(
     'http://schema.org/associatedMedia',
   );
 
-  /// audio from schemahttp vocabulary [Expects: http://schema.org/AudioObject, http://schema.org/Clip, http://schema.org/MusicRecording]
+  /// audio from schema-http vocabulary [Expects: http://schema.org/AudioObject, http://schema.org/Clip, http://schema.org/MusicRecording]
   ///
   /// An embedded audio object.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpAudio = IriTerm('http://schema.org/audio');
+  static const schemaHttpAudio = IriTerm('http://schema.org/audio');
 
-  /// author from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// author from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Rating
   ///
-  static const schemahttpAuthor = IriTerm('http://schema.org/author');
+  static const schemaHttpAuthor = IriTerm('http://schema.org/author');
 
-  /// awards from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// awards from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Awards won by or for this item.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpAwards = IriTerm('http://schema.org/awards');
+  static const schemaHttpAwards = IriTerm('http://schema.org/awards');
 
-  /// character from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// character from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// Fictional person connected with a creative work.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCharacter = IriTerm('http://schema.org/character');
+  static const schemaHttpCharacter = IriTerm('http://schema.org/character');
 
-  /// citation from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Text]
+  /// citation from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Text]
   ///
   /// A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCitation = IriTerm('http://schema.org/citation');
+  static const schemaHttpCitation = IriTerm('http://schema.org/citation');
 
-  /// comment from schemahttp vocabulary [Expects: http://schema.org/Comment]
+  /// comment from schema-http vocabulary [Expects: http://schema.org/Comment]
   ///
   /// Comments, typically from users.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/RsvpAction
   ///
-  static const schemahttpComment = IriTerm('http://schema.org/comment');
+  static const schemaHttpComment = IriTerm('http://schema.org/comment');
 
-  /// commentCount from schemahttp vocabulary [Expects: http://schema.org/Integer]
+  /// commentCount from schema-http vocabulary [Expects: http://schema.org/Integer]
   ///
   /// The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCommentCount = IriTerm(
+  static const schemaHttpCommentCount = IriTerm(
     'http://schema.org/commentCount',
   );
 
-  /// conditionsOfAccess from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// conditionsOfAccess from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Conditions that affect the availability of, or method(s) of access to, an item. Typically used for real world items such as an {[ArchiveComponent]} held by an {[ArchiveOrganization]}. This property is not suitable for use as a general Web access control mechanism. It is expressed only in natural language.\n\nFor example "Available by appointment from the Reading Room" or "Accessible only from logged-in accounts ".
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpConditionsOfAccess = IriTerm(
+  static const schemaHttpConditionsOfAccess = IriTerm(
     'http://schema.org/conditionsOfAccess',
   );
 
-  /// contentRating from schemahttp vocabulary [Expects: http://schema.org/Rating, http://schema.org/Text]
+  /// contentRating from schema-http vocabulary [Expects: http://schema.org/Rating, http://schema.org/Text]
   ///
   /// Official rating of a piece of content&#x2014;for example, 'MPAA PG-13'.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentRating = IriTerm(
+  static const schemaHttpContentRating = IriTerm(
     'http://schema.org/contentRating',
   );
 
-  /// contentReferenceTime from schemahttp vocabulary [Expects: http://schema.org/DateTime]
+  /// contentReferenceTime from schema-http vocabulary [Expects: http://schema.org/DateTime]
   ///
   /// The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentReferenceTime = IriTerm(
+  static const schemaHttpContentReferenceTime = IriTerm(
     'http://schema.org/contentReferenceTime',
   );
 
-  /// contributor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// contributor from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A secondary contributor to the CreativeWork or Event.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpContributor = IriTerm('http://schema.org/contributor');
+  static const schemaHttpContributor = IriTerm('http://schema.org/contributor');
 
-  /// copyrightHolder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// copyrightHolder from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The party holding the legal copyright to the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightHolder = IriTerm(
+  static const schemaHttpCopyrightHolder = IriTerm(
     'http://schema.org/copyrightHolder',
   );
 
-  /// copyrightNotice from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// copyrightNotice from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Text of a notice appropriate for describing the copyright aspects of this Creative Work, ideally indicating the owner of the copyright for the Work.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightNotice = IriTerm(
+  static const schemaHttpCopyrightNotice = IriTerm(
     'http://schema.org/copyrightNotice',
   );
 
-  /// copyrightYear from schemahttp vocabulary [Expects: http://schema.org/Number]
+  /// copyrightYear from schema-http vocabulary [Expects: http://schema.org/Number]
   ///
   /// The year during which the claimed copyright for the CreativeWork was first asserted.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCopyrightYear = IriTerm(
+  static const schemaHttpCopyrightYear = IriTerm(
     'http://schema.org/copyrightYear',
   );
 
-  /// correction from schemahttp vocabulary [Expects: http://schema.org/CorrectionComment, http://schema.org/Text, http://schema.org/URL]
+  /// correction from schema-http vocabulary [Expects: http://schema.org/CorrectionComment, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Indicates a correction to a {[CreativeWork]}, either via a {[CorrectionComment]}, textually or in another document.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCorrection = IriTerm('http://schema.org/correction');
+  static const schemaHttpCorrection = IriTerm('http://schema.org/correction');
 
-  /// countryOfOrigin from schemahttp vocabulary [Expects: http://schema.org/Country]
+  /// countryOfOrigin from schema-http vocabulary [Expects: http://schema.org/Country]
   ///
   /// The country of origin of something, including products as well as creative  works such as movie and TV content.
   ///
@@ -1221,89 +1221,89 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Movie, http://schema.org/Product, http://schema.org/TVEpisode, http://schema.org/TVSeason, http://schema.org/TVSeries
   ///
-  static const schemahttpCountryOfOrigin = IriTerm(
+  static const schemaHttpCountryOfOrigin = IriTerm(
     'http://schema.org/countryOfOrigin',
   );
 
-  /// creativeWorkStatus from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// creativeWorkStatus from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The status of a creative work in terms of its stage in a lifecycle. Example terms include Incomplete, Draft, Published, Obsolete. Some organizations define a set of terms for the stages of their publication lifecycle.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCreativeWorkStatus = IriTerm(
+  static const schemaHttpCreativeWorkStatus = IriTerm(
     'http://schema.org/creativeWorkStatus',
   );
 
-  /// creditText from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// creditText from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Text that can be used to credit person(s) and/or organization(s) associated with a published Creative Work.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpCreditText = IriTerm('http://schema.org/creditText');
+  static const schemaHttpCreditText = IriTerm('http://schema.org/creditText');
 
-  /// dateModified from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
+  /// dateModified from schema-http vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
   /// The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const schemahttpDateModified = IriTerm(
+  static const schemaHttpDateModified = IriTerm(
     'http://schema.org/dateModified',
   );
 
-  /// datePublished from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
+  /// datePublished from schema-http vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
   /// Date of first publication or broadcast. For example the date a {[CreativeWork]} was broadcast or a {[Certification]} was issued.
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const schemahttpDatePublished = IriTerm(
+  static const schemaHttpDatePublished = IriTerm(
     'http://schema.org/datePublished',
   );
 
-  /// digitalSourceType from schemahttp vocabulary [Expects: http://schema.org/IPTCDigitalSourceEnumeration]
+  /// digitalSourceType from schema-http vocabulary [Expects: http://schema.org/IPTCDigitalSourceEnumeration]
   ///
   /// Indicates an IPTCDigitalSourceEnumeration code indicating the nature of the digital source(s) for some {[CreativeWork]}.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpDigitalSourceType = IriTerm(
+  static const schemaHttpDigitalSourceType = IriTerm(
     'http://schema.org/digitalSourceType',
   );
 
-  /// disambiguatingDescription from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// disambiguatingDescription from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDisambiguatingDescription = IriTerm(
+  static const schemaHttpDisambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
-  /// discussionUrl from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// discussionUrl from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// A link to the page containing the comments of the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpDiscussionUrl = IriTerm(
+  static const schemaHttpDiscussionUrl = IriTerm(
     'http://schema.org/discussionUrl',
   );
 
-  /// displayLocation from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// displayLocation from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The location at which an item can be viewed or experienced in-person.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpDisplayLocation = IriTerm(
+  static const schemaHttpDisplayLocation = IriTerm(
     'http://schema.org/displayLocation',
   );
 
-  /// editEIDR from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// editEIDR from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) {[identifier]} representing a specific edit / edition for a work of film or television.
   ///
@@ -1314,17 +1314,17 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEditEIDR = IriTerm('http://schema.org/editEIDR');
+  static const schemaHttpEditEIDR = IriTerm('http://schema.org/editEIDR');
 
-  /// editor from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// editor from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// Specifies the Person who edited the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEditor = IriTerm('http://schema.org/editor');
+  static const schemaHttpEditor = IriTerm('http://schema.org/editor');
 
-  /// educationalAlignment from schemahttp vocabulary [Expects: http://schema.org/AlignmentObject]
+  /// educationalAlignment from schema-http vocabulary [Expects: http://schema.org/AlignmentObject]
   ///
   /// An alignment to an established educational framework.
   ///
@@ -1332,480 +1332,480 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalAlignment = IriTerm(
+  static const schemaHttpEducationalAlignment = IriTerm(
     'http://schema.org/educationalAlignment',
   );
 
-  /// educationalLevel from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
+  /// educationalLevel from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// The level in terms of progression through an educational or training context. Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/EducationalOccupationalCredential, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalLevel = IriTerm(
+  static const schemaHttpEducationalLevel = IriTerm(
     'http://schema.org/educationalLevel',
   );
 
-  /// educationalUse from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// educationalUse from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The purpose of a work in the context of education; for example, 'assignment', 'group work'.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpEducationalUse = IriTerm(
+  static const schemaHttpEducationalUse = IriTerm(
     'http://schema.org/educationalUse',
   );
 
-  /// encodings from schemahttp vocabulary [Expects: http://schema.org/MediaObject]
+  /// encodings from schema-http vocabulary [Expects: http://schema.org/MediaObject]
   ///
   /// A media object that encodes this CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEncodings = IriTerm('http://schema.org/encodings');
+  static const schemaHttpEncodings = IriTerm('http://schema.org/encodings');
 
-  /// expires from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
+  /// expires from schema-http vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
   /// Date the content expires and is no longer useful or available. For example a {[VideoObject]} or {[NewsArticle]} whose availability or relevance is time-limited, a {[ClaimReview]} fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date, or a {[Certification]} the validity has expired.
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CreativeWork
   ///
-  static const schemahttpExpires = IriTerm('http://schema.org/expires');
+  static const schemaHttpExpires = IriTerm('http://schema.org/expires');
 
-  /// fileFormat from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// fileFormat from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// Media type, typically MIME format (see [IANA site](http://www.iana.org/assignments/media-types/media-types.xhtml)) of the content, e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, 'encoding' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpFileFormat = IriTerm('http://schema.org/fileFormat');
+  static const schemaHttpFileFormat = IriTerm('http://schema.org/fileFormat');
 
-  /// funder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// funder from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization that supports (sponsors) something through some kind of financial contribution.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpFunder = IriTerm('http://schema.org/funder');
+  static const schemaHttpFunder = IriTerm('http://schema.org/funder');
 
-  /// headline from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// headline from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Headline of the article.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpHeadline = IriTerm('http://schema.org/headline');
+  static const schemaHttpHeadline = IriTerm('http://schema.org/headline');
 
-  /// interactivityType from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// interactivityType from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpInteractivityType = IriTerm(
+  static const schemaHttpInteractivityType = IriTerm(
     'http://schema.org/interactivityType',
   );
 
-  /// interpretedAsClaim from schemahttp vocabulary [Expects: http://schema.org/Claim]
+  /// interpretedAsClaim from schema-http vocabulary [Expects: http://schema.org/Claim]
   ///
   /// Used to indicate a specific claim contained, implied, translated or refined from the content of a {[MediaObject]} or other {[CreativeWork]}. The interpreting party can be indicated using {[claimInterpreter]}.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const schemahttpInterpretedAsClaim = IriTerm(
+  static const schemaHttpInterpretedAsClaim = IriTerm(
     'http://schema.org/interpretedAsClaim',
   );
 
-  /// isBasedOnUrl from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Product, http://schema.org/URL]
+  /// isBasedOnUrl from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Product, http://schema.org/URL]
   ///
   /// A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsBasedOnUrl = IriTerm(
+  static const schemaHttpIsBasedOnUrl = IriTerm(
     'http://schema.org/isBasedOnUrl',
   );
 
-  /// isFamilyFriendly from schemahttp vocabulary [Expects: http://schema.org/Boolean]
+  /// isFamilyFriendly from schema-http vocabulary [Expects: http://schema.org/Boolean]
   ///
   /// Indicates whether this content is family friendly.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Product
   ///
-  static const schemahttpIsFamilyFriendly = IriTerm(
+  static const schemaHttpIsFamilyFriendly = IriTerm(
     'http://schema.org/isFamilyFriendly',
   );
 
-  /// keywords from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
+  /// keywords from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const schemahttpKeywords = IriTerm('http://schema.org/keywords');
+  static const schemaHttpKeywords = IriTerm('http://schema.org/keywords');
 
-  /// learningResourceType from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// learningResourceType from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/LearningResource
   ///
-  static const schemahttpLearningResourceType = IriTerm(
+  static const schemaHttpLearningResourceType = IriTerm(
     'http://schema.org/learningResourceType',
   );
 
-  /// license from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// license from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// A license document that applies to this content, typically indicated by URL.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpLicense = IriTerm('http://schema.org/license');
+  static const schemaHttpLicense = IriTerm('http://schema.org/license');
 
-  /// locationCreated from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// locationCreated from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpLocationCreated = IriTerm(
+  static const schemaHttpLocationCreated = IriTerm(
     'http://schema.org/locationCreated',
   );
 
-  /// maintainer from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// maintainer from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A maintainer of a {[Dataset]}, software package ({[SoftwareApplication]}), or other {[Project]}. A maintainer is a {[Person]} or {[Organization]} that manages contributions to, and/or publication of, some (typically complex) artifact. It is common for distributions of software and data to be based on "upstream" sources. When {[maintainer]} is applied to a specific version of something e.g. a particular version or packaging of a {[Dataset]}, it is always  possible that the upstream source has a different maintainer. The {[isBasedOn]} property can be used to indicate such relationships between datasets to make the different maintenance roles clear. Similarly in the case of software, a package may have dedicated maintainers working on integration into software distributions such as Ubuntu, as well as upstream maintainers of the underlying work.
   ///
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMaintainer = IriTerm('http://schema.org/maintainer');
+  static const schemaHttpMaintainer = IriTerm('http://schema.org/maintainer');
 
-  /// materialExtent from schemahttp vocabulary [Expects: http://schema.org/QuantitativeValue, http://schema.org/Text]
+  /// materialExtent from schema-http vocabulary [Expects: http://schema.org/QuantitativeValue, http://schema.org/Text]
   ///
   /// The quantity of the materials being described or an expression of the physical space they occupy.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMaterialExtent = IriTerm(
+  static const schemaHttpMaterialExtent = IriTerm(
     'http://schema.org/materialExtent',
   );
 
-  /// mentions from schemahttp vocabulary [Expects: http://schema.org/Thing]
+  /// mentions from schema-http vocabulary [Expects: http://schema.org/Thing]
   ///
   /// Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMentions = IriTerm('http://schema.org/mentions');
+  static const schemaHttpMentions = IriTerm('http://schema.org/mentions');
 
-  /// name from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// name from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The name of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpName = IriTerm('http://schema.org/name');
+  static const schemaHttpName = IriTerm('http://schema.org/name');
 
-  /// pattern from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// pattern from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpPattern = IriTerm('http://schema.org/pattern');
+  static const schemaHttpPattern = IriTerm('http://schema.org/pattern');
 
-  /// potentialAction from schemahttp vocabulary [Expects: http://schema.org/Action]
+  /// potentialAction from schema-http vocabulary [Expects: http://schema.org/Action]
   ///
   /// Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpPotentialAction = IriTerm(
+  static const schemaHttpPotentialAction = IriTerm(
     'http://schema.org/potentialAction',
   );
 
-  /// producer from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// producer from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The person or organization who produced the work (e.g. music album, movie, TV/radio series etc.).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpProducer = IriTerm('http://schema.org/producer');
+  static const schemaHttpProducer = IriTerm('http://schema.org/producer');
 
-  /// publication from schemahttp vocabulary [Expects: http://schema.org/PublicationEvent]
+  /// publication from schema-http vocabulary [Expects: http://schema.org/PublicationEvent]
   ///
   /// A publication event associated with the item.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpPublication = IriTerm('http://schema.org/publication');
+  static const schemaHttpPublication = IriTerm('http://schema.org/publication');
 
-  /// publisher from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// publisher from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The publisher of the article in question.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/FinancialIncentive
   ///
-  static const schemahttpPublisher = IriTerm('http://schema.org/publisher');
+  static const schemaHttpPublisher = IriTerm('http://schema.org/publisher');
 
-  /// publisherImprint from schemahttp vocabulary [Expects: http://schema.org/Organization]
+  /// publisherImprint from schema-http vocabulary [Expects: http://schema.org/Organization]
   ///
   /// The publishing division which published the comic.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpPublisherImprint = IriTerm(
+  static const schemaHttpPublisherImprint = IriTerm(
     'http://schema.org/publisherImprint',
   );
 
-  /// releasedEvent from schemahttp vocabulary [Expects: http://schema.org/PublicationEvent]
+  /// releasedEvent from schema-http vocabulary [Expects: http://schema.org/PublicationEvent]
   ///
   /// The place and time the release was issued, expressed as a PublicationEvent.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpReleasedEvent = IriTerm(
+  static const schemaHttpReleasedEvent = IriTerm(
     'http://schema.org/releasedEvent',
   );
 
-  /// reviews from schemahttp vocabulary [Expects: http://schema.org/Review]
+  /// reviews from schema-http vocabulary [Expects: http://schema.org/Review]
   ///
   /// Review of the item.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
-  static const schemahttpReviews = IriTerm('http://schema.org/reviews');
+  static const schemaHttpReviews = IriTerm('http://schema.org/reviews');
 
-  /// sameAs from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// sameAs from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSameAs = IriTerm('http://schema.org/sameAs');
+  static const schemaHttpSameAs = IriTerm('http://schema.org/sameAs');
 
-  /// schemaVersion from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// schemaVersion from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// Indicates (by URL or string) a particular version of a schema used in some CreativeWork. This property was created primarily to
   /// indicate the use of a specific schema.org release, e.g. ```10.0``` as a simple string, or more explicitly via URL, ```http://schema.org/docs/releases.html#v10.0```. There may be situations in which other schemas might usefully be referenced this way, e.g. ```http://dublincore.org/specifications/dublin-core/dces/1999-07-02/``` but this has not been carefully explored in the community.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSchemaVersion = IriTerm(
+  static const schemaHttpSchemaVersion = IriTerm(
     'http://schema.org/schemaVersion',
   );
 
-  /// sdDatePublished from schemahttp vocabulary [Expects: http://schema.org/Date]
+  /// sdDatePublished from schema-http vocabulary [Expects: http://schema.org/Date]
   ///
   /// Indicates the date on which the current structured data was generated / published. Typically used alongside {[sdPublisher]}.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdDatePublished = IriTerm(
+  static const schemaHttpSdDatePublished = IriTerm(
     'http://schema.org/sdDatePublished',
   );
 
-  /// sdLicense from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// sdLicense from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// A license document that applies to this structured data, typically indicated by URL.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdLicense = IriTerm('http://schema.org/sdLicense');
+  static const schemaHttpSdLicense = IriTerm('http://schema.org/sdLicense');
 
-  /// sdPublisher from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// sdPublisher from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// Indicates the party responsible for generating and publishing the current structured data markup, typically in cases where the structured data is derived automatically from existing published content but published on a different site. For example, student projects and open data initiatives often re-publish existing content with more explicitly structured metadata. The
   /// {[sdPublisher]} property helps make such practices more explicit.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSdPublisher = IriTerm('http://schema.org/sdPublisher');
+  static const schemaHttpSdPublisher = IriTerm('http://schema.org/sdPublisher');
 
-  /// size from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/QuantitativeValue, http://schema.org/SizeSpecification, http://schema.org/Text]
+  /// size from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/QuantitativeValue, http://schema.org/SizeSpecification, http://schema.org/Text]
   ///
   /// A standardized size of a product or creative work, specified either through a simple textual string (for example 'XL', '32Wx34L'), a  QuantitativeValue with a unitCode, or a comprehensive and structured {[SizeSpecification]}; in other cases, the {[width]}, {[height]}, {[depth]} and {[weight]} properties may be more applicable.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpSize = IriTerm('http://schema.org/size');
+  static const schemaHttpSize = IriTerm('http://schema.org/size');
 
-  /// sourceOrganization from schemahttp vocabulary [Expects: http://schema.org/Organization]
+  /// sourceOrganization from schema-http vocabulary [Expects: http://schema.org/Organization]
   ///
   /// The Organization on whose behalf the creator was working.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSourceOrganization = IriTerm(
+  static const schemaHttpSourceOrganization = IriTerm(
     'http://schema.org/sourceOrganization',
   );
 
-  /// spatial from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// spatial from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The "spatial" property can be used in cases when more specific properties
   /// (e.g. {[locationCreated]}, {[spatialCoverage]}, {[contentLocation]}) are not known to be appropriate.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSpatial = IriTerm('http://schema.org/spatial');
+  static const schemaHttpSpatial = IriTerm('http://schema.org/spatial');
 
-  /// teaches from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// teaches from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The item being described is intended to help a person learn the competency or learning outcome defined by the referenced term.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/EducationEvent, http://schema.org/LearningResource
   ///
-  static const schemahttpTeaches = IriTerm('http://schema.org/teaches');
+  static const schemaHttpTeaches = IriTerm('http://schema.org/teaches');
 
-  /// temporal from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text]
+  /// temporal from schema-http vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text]
   ///
   /// The "temporal" property can be used in cases where more specific properties
   /// (e.g. {[temporalCoverage]}, {[dateCreated]}, {[dateModified]}, {[datePublished]}) are not known to be appropriate.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTemporal = IriTerm('http://schema.org/temporal');
+  static const schemaHttpTemporal = IriTerm('http://schema.org/temporal');
 
-  /// text from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// text from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The textual content of this CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpText = IriTerm('http://schema.org/text');
+  static const schemaHttpText = IriTerm('http://schema.org/text');
 
-  /// thumbnail from schemahttp vocabulary [Expects: http://schema.org/ImageObject]
+  /// thumbnail from schema-http vocabulary [Expects: http://schema.org/ImageObject]
   ///
   /// Thumbnail image for an image or video.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpThumbnail = IriTerm('http://schema.org/thumbnail');
+  static const schemaHttpThumbnail = IriTerm('http://schema.org/thumbnail');
 
-  /// thumbnailUrl from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// thumbnailUrl from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// A thumbnail image relevant to the Thing.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpThumbnailUrl = IriTerm(
+  static const schemaHttpThumbnailUrl = IriTerm(
     'http://schema.org/thumbnailUrl',
   );
 
-  /// timeRequired from schemahttp vocabulary [Expects: http://schema.org/Duration]
+  /// timeRequired from schema-http vocabulary [Expects: http://schema.org/Duration]
   ///
   /// Approximate or typical time it usually takes to work with or through the content of this work for the typical or target audience.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTimeRequired = IriTerm(
+  static const schemaHttpTimeRequired = IriTerm(
     'http://schema.org/timeRequired',
   );
 
-  /// translator from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// translator from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market, or that translates during some event.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpTranslator = IriTerm('http://schema.org/translator');
+  static const schemaHttpTranslator = IriTerm('http://schema.org/translator');
 
-  /// typicalAgeRange from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// typicalAgeRange from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The typical expected age range, e.g. '7-9', '11-'.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event
   ///
-  static const schemahttpTypicalAgeRange = IriTerm(
+  static const schemaHttpTypicalAgeRange = IriTerm(
     'http://schema.org/typicalAgeRange',
   );
 
-  /// url from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// url from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpUrl = IriTerm('http://schema.org/url');
+  static const schemaHttpUrl = IriTerm('http://schema.org/url');
 
-  /// version from schemahttp vocabulary [Expects: http://schema.org/Number, http://schema.org/Text]
+  /// version from schema-http vocabulary [Expects: http://schema.org/Number, http://schema.org/Text]
   ///
   /// The version of the CreativeWork embodied by a specified resource.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpVersion = IriTerm('http://schema.org/version');
+  static const schemaHttpVersion = IriTerm('http://schema.org/version');
 
-  /// video from schemahttp vocabulary [Expects: http://schema.org/Clip, http://schema.org/VideoObject]
+  /// video from schema-http vocabulary [Expects: http://schema.org/Clip, http://schema.org/VideoObject]
   ///
   /// An embedded video object.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpVideo = IriTerm('http://schema.org/video');
+  static const schemaHttpVideo = IriTerm('http://schema.org/video');
 
-  /// wordCount from schemahttp vocabulary [Expects: http://schema.org/Integer]
+  /// wordCount from schema-http vocabulary [Expects: http://schema.org/Integer]
   ///
   /// The number of words in the text of the CreativeWork such as an Article, Book, etc.
   ///
   /// Can be used on: http://schema.org/Article, http://schema.org/CreativeWork
   ///
-  static const schemahttpWordCount = IriTerm('http://schema.org/wordCount');
+  static const schemaHttpWordCount = IriTerm('http://schema.org/wordCount');
 
-  /// alternateName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// alternateName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An alias for the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAlternateName = IriTerm(
+  static const schemaHttpAlternateName = IriTerm(
     'http://schema.org/alternateName',
   );
 
-  /// audience from schemahttp vocabulary [Expects: http://schema.org/Audience]
+  /// audience from schema-http vocabulary [Expects: http://schema.org/Audience]
   ///
   /// An intended audience, i.e. a group for whom something was created.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LodgingBusiness, http://schema.org/PlayAction, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAudience = IriTerm('http://schema.org/audience');
+  static const schemaHttpAudience = IriTerm('http://schema.org/audience');
 
-  /// award from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// award from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An award won by or for this item.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAward = IriTerm('http://schema.org/award');
+  static const schemaHttpAward = IriTerm('http://schema.org/award');
 
-  /// contentLocation from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// contentLocation from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The location depicted or described in the content. For example, the location in a photograph or painting.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpContentLocation = IriTerm(
+  static const schemaHttpContentLocation = IriTerm(
     'http://schema.org/contentLocation',
   );
 
-  /// creator from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// creator from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/UserComments
   ///
-  static const schemahttpCreator = IriTerm('http://schema.org/creator');
+  static const schemaHttpCreator = IriTerm('http://schema.org/creator');
 
-  /// dateCreated from schemahttp vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
+  /// dateCreated from schema-http vocabulary [Expects: http://schema.org/Date, http://schema.org/DateTime]
   ///
   /// The date on which the CreativeWork was created or the item was added to a DataFeed.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/DataFeedItem
   ///
-  static const schemahttpDateCreated = IriTerm('http://schema.org/dateCreated');
+  static const schemaHttpDateCreated = IriTerm('http://schema.org/dateCreated');
 
-  /// encodingFormat from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// encodingFormat from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// Media type typically expressed using a MIME format (see [IANA site](http://www.iana.org/assignments/media-types/media-types.xhtml) and [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)), e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc.
   ///
@@ -1815,148 +1815,148 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/MediaObject
   ///
-  static const schemahttpEncodingFormat = IriTerm(
+  static const schemaHttpEncodingFormat = IriTerm(
     'http://schema.org/encodingFormat',
   );
 
-  /// exampleOfWork from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
+  /// exampleOfWork from schema-http vocabulary [Expects: http://schema.org/CreativeWork]
   ///
   /// A creative work that this work is an example/instance/realization/derivation of.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpExampleOfWork = IriTerm(
+  static const schemaHttpExampleOfWork = IriTerm(
     'http://schema.org/exampleOfWork',
   );
 
-  /// funding from schemahttp vocabulary [Expects: http://schema.org/Grant]
+  /// funding from schema-http vocabulary [Expects: http://schema.org/Grant]
   ///
   /// A {[Grant]} that directly or indirectly provide funding or sponsorship for this item. See also {[ownershipFundingInfo]}.
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpFunding = IriTerm('http://schema.org/funding');
+  static const schemaHttpFunding = IriTerm('http://schema.org/funding');
 
-  /// genre from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
+  /// genre from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text, http://schema.org/URL]
   ///
   /// Genre of the creative work, broadcast channel or group.
   ///
   /// Can be used on: http://schema.org/BroadcastChannel, http://schema.org/CreativeWork, http://schema.org/MusicGroup
   ///
-  static const schemahttpGenre = IriTerm('http://schema.org/genre');
+  static const schemaHttpGenre = IriTerm('http://schema.org/genre');
 
-  /// inLanguage from schemahttp vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
+  /// inLanguage from schema-http vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
   /// The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also {[availableLanguage]}.
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/LinkRole, http://schema.org/PronounceableText, http://schema.org/WriteAction
   ///
-  static const schemahttpInLanguage = IriTerm('http://schema.org/inLanguage');
+  static const schemaHttpInLanguage = IriTerm('http://schema.org/inLanguage');
 
-  /// interactionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
+  /// interactionStatistic from schema-http vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
   /// The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpInteractionStatistic = IriTerm(
+  static const schemaHttpInteractionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
-  /// isAccessibleForFree from schemahttp vocabulary [Expects: http://schema.org/Boolean]
+  /// isAccessibleForFree from schema-http vocabulary [Expects: http://schema.org/Boolean]
   ///
   /// A flag to signal that the item, event, or place is accessible for free.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Place
   ///
-  static const schemahttpIsAccessibleForFree = IriTerm(
+  static const schemaHttpIsAccessibleForFree = IriTerm(
     'http://schema.org/isAccessibleForFree',
   );
 
-  /// isBasedOn from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Product, http://schema.org/URL]
+  /// isBasedOn from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Product, http://schema.org/URL]
   ///
   /// A resource from which this work is derived or from which it is a modification or adaptation.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsBasedOn = IriTerm('http://schema.org/isBasedOn');
+  static const schemaHttpIsBasedOn = IriTerm('http://schema.org/isBasedOn');
 
-  /// mainEntity from schemahttp vocabulary [Expects: http://schema.org/Thing]
+  /// mainEntity from schema-http vocabulary [Expects: http://schema.org/Thing]
   ///
   /// Indicates the primary entity described in some page or other CreativeWork.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpMainEntity = IriTerm('http://schema.org/mainEntity');
+  static const schemaHttpMainEntity = IriTerm('http://schema.org/mainEntity');
 
-  /// mainEntityOfPage from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// mainEntityOfPage from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpMainEntityOfPage = IriTerm(
+  static const schemaHttpMainEntityOfPage = IriTerm(
     'http://schema.org/mainEntityOfPage',
   );
 
-  /// offers from schemahttp vocabulary [Expects: http://schema.org/Demand, http://schema.org/Offer]
+  /// offers from schema-http vocabulary [Expects: http://schema.org/Demand, http://schema.org/Offer]
   ///
   /// An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event. Use {[businessFunction]} to indicate the kind of transaction offered, i.e. sell, lease, etc. This property can also be used to describe a {[Demand]}. While this property is listed as expected on a number of common types, it can be used in others. In that case, using a second type, such as Product or a subtype of Product, can clarify the nature of the offer.
   ///
   ///
   /// Can be used on: http://schema.org/AggregateOffer, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/Event, http://schema.org/MenuItem, http://schema.org/Product, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const schemahttpOffers = IriTerm('http://schema.org/offers');
+  static const schemaHttpOffers = IriTerm('http://schema.org/offers');
 
-  /// owner from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// owner from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization who owns this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpOwner = IriTerm('http://schema.org/owner');
+  static const schemaHttpOwner = IriTerm('http://schema.org/owner');
 
-  /// provider from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// provider from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.
   ///
   /// Can be used on: http://schema.org/Action, http://schema.org/CreativeWork, http://schema.org/EducationalOccupationalProgram, http://schema.org/FinancialIncentive, http://schema.org/Invoice, http://schema.org/ParcelDelivery, http://schema.org/Reservation, http://schema.org/Service, http://schema.org/Trip
   ///
-  static const schemahttpProvider = IriTerm('http://schema.org/provider');
+  static const schemaHttpProvider = IriTerm('http://schema.org/provider');
 
-  /// recordedAt from schemahttp vocabulary [Expects: http://schema.org/Event]
+  /// recordedAt from schema-http vocabulary [Expects: http://schema.org/Event]
   ///
   /// The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpRecordedAt = IriTerm('http://schema.org/recordedAt');
+  static const schemaHttpRecordedAt = IriTerm('http://schema.org/recordedAt');
 
-  /// review from schemahttp vocabulary [Expects: http://schema.org/Review]
+  /// review from schema-http vocabulary [Expects: http://schema.org/Review]
   ///
   /// A review of the item.
   ///
   /// Can be used on: http://schema.org/Brand, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpReview = IriTerm('http://schema.org/review');
+  static const schemaHttpReview = IriTerm('http://schema.org/review');
 
-  /// sponsor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// sponsor from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization that supports a thing through a pledge, promise, or financial contribution. E.g. a sponsor of a Medical Study or a corporate sponsor of an event.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSponsor = IriTerm('http://schema.org/sponsor');
+  static const schemaHttpSponsor = IriTerm('http://schema.org/sponsor');
 
-  /// subjectOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
+  /// subjectOf from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
   /// A CreativeWork or Event about this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSubjectOf = IriTerm('http://schema.org/subjectOf');
+  static const schemaHttpSubjectOf = IriTerm('http://schema.org/subjectOf');
 
-  /// temporalCoverage from schemahttp vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text, http://schema.org/URL]
+  /// temporalCoverage from schema-http vocabulary [Expects: http://schema.org/DateTime, http://schema.org/Text, http://schema.org/URL]
   ///
   /// The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in [ISO 8601 time interval format](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals). In
   /// the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written "2011/2012"). Other forms of content, e.g. ScholarlyArticle, Book, TVSeries or TVEpisode, may indicate their temporalCoverage in broader terms - textually or via well-known URL.
@@ -1966,21 +1966,21 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTemporalCoverage = IriTerm(
+  static const schemaHttpTemporalCoverage = IriTerm(
     'http://schema.org/temporalCoverage',
   );
 
-  /// translationOfWork from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
+  /// translationOfWork from schema-http vocabulary [Expects: http://schema.org/CreativeWork]
   ///
   /// The work that this work has been translated from. E.g. 物种起源 is a translationOf “On the Origin of Species”.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpTranslationOfWork = IriTerm(
+  static const schemaHttpTranslationOfWork = IriTerm(
     'http://schema.org/translationOfWork',
   );
 
-  /// usageInfo from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// usageInfo from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// The schema.org {[usageInfo]} property indicates further information about a {[CreativeWork]}. This property is applicable both to works that are freely available and to those that require payment or other transactions. It can reference additional information, e.g. community expectations on preferred linking and citation conventions, as well as purchasing details. For something that can be commercially licensed, usageInfo can provide detailed, resource-specific information about licensing options.
   ///
@@ -1988,43 +1988,43 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpUsageInfo = IriTerm('http://schema.org/usageInfo');
+  static const schemaHttpUsageInfo = IriTerm('http://schema.org/usageInfo');
 
-  /// workTranslation from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
+  /// workTranslation from schema-http vocabulary [Expects: http://schema.org/CreativeWork]
   ///
   /// A work that is a translation of the content of this work. E.g. 西遊記 has an English workTranslation “Journey to the West”, a German workTranslation “Monkeys Pilgerfahrt” and a Vietnamese  translation Tây du ký bình khảo.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpWorkTranslation = IriTerm(
+  static const schemaHttpWorkTranslation = IriTerm(
     'http://schema.org/workTranslation',
   );
 
-  /// about from schemahttp vocabulary [Expects: http://schema.org/Thing]
+  /// about from schema-http vocabulary [Expects: http://schema.org/Thing]
   ///
   /// The subject matter of an object.
   ///
   /// Can be used on: http://schema.org/Certification, http://schema.org/CommunicateAction, http://schema.org/CreativeWork, http://schema.org/DefinedTerm, http://schema.org/DefinedTermSet, http://schema.org/Event
   ///
-  static const schemahttpAbout = IriTerm('http://schema.org/about');
+  static const schemaHttpAbout = IriTerm('http://schema.org/about');
 
-  /// encoding from schemahttp vocabulary [Expects: http://schema.org/MediaObject]
+  /// encoding from schema-http vocabulary [Expects: http://schema.org/MediaObject]
   ///
   /// A media object that encodes this CreativeWork. This property is a synonym for associatedMedia.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpEncoding = IriTerm('http://schema.org/encoding');
+  static const schemaHttpEncoding = IriTerm('http://schema.org/encoding');
 
-  /// material from schemahttp vocabulary [Expects: http://schema.org/Product, http://schema.org/Text, http://schema.org/URL]
+  /// material from schema-http vocabulary [Expects: http://schema.org/Product, http://schema.org/Text, http://schema.org/URL]
   ///
   /// A material that something is made from, e.g. leather, wool, cotton, paper.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Product
   ///
-  static const schemahttpMaterial = IriTerm('http://schema.org/material');
+  static const schemaHttpMaterial = IriTerm('http://schema.org/material');
 
-  /// spatialCoverage from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// spatialCoverage from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of
   /// contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates
@@ -2032,59 +2032,59 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpSpatialCoverage = IriTerm(
+  static const schemaHttpSpatialCoverage = IriTerm(
     'http://schema.org/spatialCoverage',
   );
 
-  /// workExample from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
+  /// workExample from schema-http vocabulary [Expects: http://schema.org/CreativeWork]
   ///
   /// Example/instance/realization/derivation of the concept of this creative work. E.g. the paperback edition, first edition, or e-book.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpWorkExample = IriTerm('http://schema.org/workExample');
+  static const schemaHttpWorkExample = IriTerm('http://schema.org/workExample');
 
-  /// description from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
+  /// description from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
   /// A description of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDescription = IriTerm('http://schema.org/description');
+  static const schemaHttpDescription = IriTerm('http://schema.org/description');
 
-  /// image from schemahttp vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
+  /// image from schema-http vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
   /// An image of the item. This can be a {[URL]} or a fully described {[ImageObject]}.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpImage = IriTerm('http://schema.org/image');
+  static const schemaHttpImage = IriTerm('http://schema.org/image');
 
-  /// hasPart from schemahttp vocabulary [Expects: http://schema.org/CreativeWork]
+  /// hasPart from schema-http vocabulary [Expects: http://schema.org/CreativeWork]
   ///
   /// Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense).
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpHasPart = IriTerm('http://schema.org/hasPart');
+  static const schemaHttpHasPart = IriTerm('http://schema.org/hasPart');
 
-  /// position from schemahttp vocabulary [Expects: http://schema.org/Integer, http://schema.org/Text]
+  /// position from schema-http vocabulary [Expects: http://schema.org/Integer, http://schema.org/Text]
   ///
   /// The position of an item in a series or sequence of items.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/ListItem
   ///
-  static const schemahttpPosition = IriTerm('http://schema.org/position');
+  static const schemaHttpPosition = IriTerm('http://schema.org/position');
 
-  /// isPartOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// isPartOf from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of.
   ///
   /// Can be used on: http://schema.org/CreativeWork
   ///
-  static const schemahttpIsPartOf = IriTerm('http://schema.org/isPartOf');
+  static const schemaHttpIsPartOf = IriTerm('http://schema.org/isPartOf');
 
-  /// publishingPrinciples from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// publishingPrinciples from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// The publishingPrinciples property indicates (typically via {[URL]}) a document describing the editorial principles of an {[Organization]} (or individual, e.g. a {[Person]} writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a {[CreativeWork]} (e.g. {[NewsArticle]}) the principles are those of the party primarily responsible for the creation of the {[CreativeWork]}.
   ///
@@ -2093,18 +2093,18 @@ class FoafDocument {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpPublishingPrinciples = IriTerm(
+  static const schemaHttpPublishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
-  /// identifier from schemahttp vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
+  /// identifier from schema-http vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
   /// The identifier property represents any kind of identifier for any kind of {[Thing]}, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
   ///
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpIdentifier = IriTerm('http://schema.org/identifier');
+  static const schemaHttpIdentifier = IriTerm('http://schema.org/identifier');
 
   /// numPages from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///

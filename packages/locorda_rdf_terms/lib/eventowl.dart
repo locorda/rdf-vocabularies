@@ -1,1 +1,1 @@
-export 'package:locorda_rdf_terms_common/eventowl.dart';
+export 'package:locorda_rdf_terms_common/event.dart';

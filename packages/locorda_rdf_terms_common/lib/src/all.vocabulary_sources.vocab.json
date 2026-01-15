@@ -43,7 +43,7 @@
       "skipDownload": true,
       "skipDownloadReason": "Licensed vocabulary, requires authentication for access"
     },
-    "eventowl": {
+    "event": {
       "type": "url",
       "namespace": "http://purl.org/NET/c4dm/event.owl#",
       "source": "https://motools.sf.net/event/event.n3",
@@ -68,145 +68,145 @@
       "source": "https://www.w3.org/2006/gen/ont.rdf",
       "generate": false
     },
-    "cmnsloc": {
+    "cmns-loc": {
       "type": "url",
       "namespace": "https://www.omg.org/spec/Commons/Locations/",
       "source": "https://www.omg.org/spec/Commons/20250801/Locations.ttl",
       "generate": false
     },
-    "fibodocs": {
+    "fibo-fnd-arr-doc": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/Documents.ttl",
       "generate": false
     },
-    "fibocontracts": {
+    "fibo-fnd-agr-ctr": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Agreements/Contracts.ttl",
       "generate": false
     },
-    "fibofe": {
+    "fibo-be-fct-fct": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/FunctionalEntities/FunctionalEntities.ttl",
       "generate": false
     },
-    "fibopub": {
+    "fibo-be-fct-pub": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/FunctionalEntities/Publishers.ttl",
       "generate": false
     },
-    "fibolifecycles": {
+    "fibo-fnd-arr-lfc": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/Lifecycles.ttl",
       "generate": false
     },
-    "fibofpas": {
+    "fibo-fbc-pas-fpas": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FBC/ProductsAndServices/FinancialProductsAndServices.ttl",
       "generate": false
     },
-    "fiboagree": {
+    "fibo-fnd-agr-agr": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Agreements/Agreements.ttl",
       "generate": false
     },
-    "fiboocc": {
+    "fibo-fnd-dt-oc": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/DatesAndTimes/Occurrences.ttl",
       "generate": false
     },
-    "fibofindates": {
+    "fibo-fnd-dt-fd": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/DatesAndTimes/FinancialDates.ttl",
       "generate": false
     },
-    "fibobeo": {
+    "fibo-be-le-fbo": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/FormalBusinessOrganizations.ttl",
       "generate": false
     },
-    "fibocorpbodies": {
+    "fibo-be-le-cb": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/CorporateBodies.ttl",
       "generate": false
     },
-    "fibocorps": {
+    "fibo-be-corp-corp": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/Corporations/Corporations.ttl",
       "generate": false
     },
-    "fiboaddr": {
+    "fibo-fnd-plc-adr": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Places/Addresses.ttl",
       "generate": false
     },
-    "fiboprodserv": {
+    "fibo-fnd-pas-pas": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/ProductsAndServices/ProductsAndServices.ttl",
       "generate": false
     },
-    "fiboown": {
+    "fibo-fnd-oac-own": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/OwnershipAndControl/Ownership.ttl",
       "generate": false
     },
-    "fibolegal": {
+    "fibo-fnd-law-lcap": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Law/LegalCapacity.ttl",
       "generate": false
     },
-    "fiboobj": {
+    "fibo-fnd-gao-obj": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/GoalsAndObjectives/Objectives.ttl",
       "generate": false
     },
-    "fiboparties": {
+    "fibo-fnd-pty-pty": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Parties/Parties.ttl",
       "generate": false
     },
-    "fiboclassif": {
+    "fibo-fnd-arr-cls": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/ClassificationSchemes.ttl",
       "generate": false
     },
-    "fibolegalcore": {
+    "fibo-fnd-law-cor": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Law/LegalCore.ttl",
       "generate": false
     },
-    "fibolegalpersons": {
+    "fibo-be-le-lp": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/LegalEntities/LegalPersons.ttl",
       "generate": false
     },
-    "fiboidx": {
+    "fibo-fnd-arr-id": {
       "type": "url",
       "namespace": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/",
       "source": "https://spec.edmcouncil.org/fibo/ontology/master/latest/FND/Arrangements/IdentifiersAndIndices.ttl",
       "generate": false
     },
-    "cmnscls": {
+    "cmns-cls": {
       "type": "url",
       "namespace": "https://www.omg.org/spec/Commons/Classifiers/",
       "source": "https://www.omg.org/spec/Commons/20250801/Classifiers.ttl",

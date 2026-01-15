@@ -7,27 +7,27 @@
 
 import 'package:locorda_rdf_core/core.dart';
 
-/// Product class from Eventowl vocabulary
+/// Factor class from Event vocabulary
 ///
 ///
-/// Everything produced by an event
+/// Everything used as a factor in an event
 ///
 ///
 /// Inherits from:
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (http://www.w3.org/2002/07/owl#Thing)
 ///
-/// This class provides access to all properties that can be used with Product.
-/// [Class Reference](http://purl.org/NET/c4dm/event.owl#Product)
+/// This class provides access to all properties that can be used with Factor.
+/// [Class Reference](http://purl.org/NET/c4dm/event.owl#Factor)
 ///
 /// [Vocabulary Reference](http://purl.org/NET/c4dm/event.owl#)
-class EventowlProduct {
+class EventFactor {
   // Private constructor prevents instantiation
-  const EventowlProduct._();
+  const EventFactor._();
 
-  /// IRI term for the Product class
+  /// IRI term for the Factor class
   /// Use this to specify that a resource is of this type.
-  static const classIri = IriTerm('http://purl.org/NET/c4dm/event.owl#Product');
+  static const classIri = IriTerm('http://purl.org/NET/c4dm/event.owl#Factor');
 
   /// isAgentIn
   ///

@@ -7,7 +7,7 @@
 
 import 'package:locorda_rdf_core/core.dart';
 
-/// Universal Properties for the Eventowl vocabulary
+/// Universal Properties for the Event vocabulary
 ///
 /// Universal properties are RDF properties that have no explicitly defined domain
 /// and can therefore be applied to any resource within this vocabulary's context.
@@ -15,11 +15,11 @@ import 'package:locorda_rdf_core/core.dart';
 /// used with any subject, but best practice is to use them only within
 /// the intended vocabulary context.
 ///
-/// This class collects all such properties from the Eventowl vocabulary to make them
+/// This class collects all such properties from the Event vocabulary to make them
 /// easily accessible without cluttering the class-specific property interfaces.
-class EventowlUniversalProperties {
+class EventUniversalProperties {
   // Private constructor prevents instantiation
-  const EventowlUniversalProperties._();
+  const EventUniversalProperties._();
 
   /// isAgentIn
   ///

@@ -923,121 +923,121 @@ class FoafPersonalProfileDocument {
     'https://ref.gs1.org/voc/whatsInTheBox',
   );
 
-  /// additionalType from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// additionalType from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
   /// use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="http://schema.org/docs/styleguide.html">style guide</a>.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAdditionalType = IriTerm(
+  static const schemaHttpAdditionalType = IriTerm(
     'http://schema.org/additionalType',
   );
 
-  /// disambiguatingDescription from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// disambiguatingDescription from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDisambiguatingDescription = IriTerm(
+  static const schemaHttpDisambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
-  /// name from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// name from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The name of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpName = IriTerm('http://schema.org/name');
+  static const schemaHttpName = IriTerm('http://schema.org/name');
 
-  /// potentialAction from schemahttp vocabulary [Expects: http://schema.org/Action]
+  /// potentialAction from schema-http vocabulary [Expects: http://schema.org/Action]
   ///
   /// Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpPotentialAction = IriTerm(
+  static const schemaHttpPotentialAction = IriTerm(
     'http://schema.org/potentialAction',
   );
 
-  /// sameAs from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// sameAs from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSameAs = IriTerm('http://schema.org/sameAs');
+  static const schemaHttpSameAs = IriTerm('http://schema.org/sameAs');
 
-  /// url from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// url from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpUrl = IriTerm('http://schema.org/url');
+  static const schemaHttpUrl = IriTerm('http://schema.org/url');
 
-  /// alternateName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// alternateName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An alias for the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAlternateName = IriTerm(
+  static const schemaHttpAlternateName = IriTerm(
     'http://schema.org/alternateName',
   );
 
-  /// mainEntityOfPage from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// mainEntityOfPage from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpMainEntityOfPage = IriTerm(
+  static const schemaHttpMainEntityOfPage = IriTerm(
     'http://schema.org/mainEntityOfPage',
   );
 
-  /// owner from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// owner from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization who owns this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpOwner = IriTerm('http://schema.org/owner');
+  static const schemaHttpOwner = IriTerm('http://schema.org/owner');
 
-  /// subjectOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
+  /// subjectOf from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
   /// A CreativeWork or Event about this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSubjectOf = IriTerm('http://schema.org/subjectOf');
+  static const schemaHttpSubjectOf = IriTerm('http://schema.org/subjectOf');
 
-  /// description from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
+  /// description from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
   /// A description of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDescription = IriTerm('http://schema.org/description');
+  static const schemaHttpDescription = IriTerm('http://schema.org/description');
 
-  /// image from schemahttp vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
+  /// image from schema-http vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
   /// An image of the item. This can be a {[URL]} or a fully described {[ImageObject]}.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpImage = IriTerm('http://schema.org/image');
+  static const schemaHttpImage = IriTerm('http://schema.org/image');
 
-  /// identifier from schemahttp vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
+  /// identifier from schema-http vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
   /// The identifier property represents any kind of identifier for any kind of {[Thing]}, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
   ///
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpIdentifier = IriTerm('http://schema.org/identifier');
+  static const schemaHttpIdentifier = IriTerm('http://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///

@@ -1252,414 +1252,414 @@ class FoafPerson {
     'http://www.w3.org/ns/pim/space#preferencesFile',
   );
 
-  /// additionalName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// additionalName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An additional name for a Person, can be used for a middle name.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAdditionalName = IriTerm(
+  static const schemaHttpAdditionalName = IriTerm(
     'http://schema.org/additionalName',
   );
 
-  /// additionalType from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
+  /// additionalType from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/URL]
   ///
   /// An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
   /// use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="http://schema.org/docs/styleguide.html">style guide</a>.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAdditionalType = IriTerm(
+  static const schemaHttpAdditionalType = IriTerm(
     'http://schema.org/additionalType',
   );
 
-  /// address from schemahttp vocabulary [Expects: http://schema.org/PostalAddress, http://schema.org/Text]
+  /// address from schema-http vocabulary [Expects: http://schema.org/PostalAddress, http://schema.org/Text]
   ///
   /// Physical address of the item.
   ///
   /// Can be used on: http://schema.org/GeoCoordinates, http://schema.org/GeoShape, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpAddress = IriTerm('http://schema.org/address');
+  static const schemaHttpAddress = IriTerm('http://schema.org/address');
 
-  /// affiliation from schemahttp vocabulary [Expects: http://schema.org/Organization]
+  /// affiliation from schema-http vocabulary [Expects: http://schema.org/Organization]
   ///
   /// An organization that this person is affiliated with. For example, a school/university, a club, or a team.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAffiliation = IriTerm('http://schema.org/affiliation');
+  static const schemaHttpAffiliation = IriTerm('http://schema.org/affiliation');
 
-  /// agentInteractionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
+  /// agentInteractionStatistic from schema-http vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
   /// The number of completed interactions for this entity, in a particular role (the 'agent'), in a particular action (indicated in the statistic), and in a particular context (i.e. interactionService).
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpAgentInteractionStatistic = IriTerm(
+  static const schemaHttpAgentInteractionStatistic = IriTerm(
     'http://schema.org/agentInteractionStatistic',
   );
 
-  /// awards from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// awards from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Awards won by or for this item.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpAwards = IriTerm('http://schema.org/awards');
+  static const schemaHttpAwards = IriTerm('http://schema.org/awards');
 
-  /// birthDate from schemahttp vocabulary [Expects: http://schema.org/Date]
+  /// birthDate from schema-http vocabulary [Expects: http://schema.org/Date]
   ///
   /// Date of birth.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpBirthDate = IriTerm('http://schema.org/birthDate');
+  static const schemaHttpBirthDate = IriTerm('http://schema.org/birthDate');
 
-  /// birthPlace from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// birthPlace from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The place where the person was born.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpBirthPlace = IriTerm('http://schema.org/birthPlace');
+  static const schemaHttpBirthPlace = IriTerm('http://schema.org/birthPlace');
 
-  /// brand from schemahttp vocabulary [Expects: http://schema.org/Brand, http://schema.org/Organization]
+  /// brand from schema-http vocabulary [Expects: http://schema.org/Brand, http://schema.org/Organization]
   ///
   /// The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpBrand = IriTerm('http://schema.org/brand');
+  static const schemaHttpBrand = IriTerm('http://schema.org/brand');
 
-  /// callSign from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// callSign from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A [callsign](https://en.wikipedia.org/wiki/Call_sign), as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.
   ///
   /// Can be used on: http://schema.org/BroadcastService, http://schema.org/Person, http://schema.org/Vehicle
   ///
-  static const schemahttpCallSign = IriTerm('http://schema.org/callSign');
+  static const schemaHttpCallSign = IriTerm('http://schema.org/callSign');
 
-  /// children from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// children from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A child of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpChildren = IriTerm('http://schema.org/children');
+  static const schemaHttpChildren = IriTerm('http://schema.org/children');
 
-  /// colleagues from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// colleagues from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A colleague of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpColleagues = IriTerm('http://schema.org/colleagues');
+  static const schemaHttpColleagues = IriTerm('http://schema.org/colleagues');
 
-  /// contactPoints from schemahttp vocabulary [Expects: http://schema.org/ContactPoint]
+  /// contactPoints from schema-http vocabulary [Expects: http://schema.org/ContactPoint]
   ///
   /// A contact point for a person or organization.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpContactPoints = IriTerm(
+  static const schemaHttpContactPoints = IriTerm(
     'http://schema.org/contactPoints',
   );
 
-  /// deathDate from schemahttp vocabulary [Expects: http://schema.org/Date]
+  /// deathDate from schema-http vocabulary [Expects: http://schema.org/Date]
   ///
   /// Date of death.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpDeathDate = IriTerm('http://schema.org/deathDate');
+  static const schemaHttpDeathDate = IriTerm('http://schema.org/deathDate');
 
-  /// deathPlace from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// deathPlace from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// The place where the person died.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpDeathPlace = IriTerm('http://schema.org/deathPlace');
+  static const schemaHttpDeathPlace = IriTerm('http://schema.org/deathPlace');
 
-  /// disambiguatingDescription from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// disambiguatingDescription from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDisambiguatingDescription = IriTerm(
+  static const schemaHttpDisambiguatingDescription = IriTerm(
     'http://schema.org/disambiguatingDescription',
   );
 
-  /// duns from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// duns from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The Dun & Bradstreet DUNS number for identifying an organization or business person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpDuns = IriTerm('http://schema.org/duns');
+  static const schemaHttpDuns = IriTerm('http://schema.org/duns');
 
-  /// email from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// email from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Email address.
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpEmail = IriTerm('http://schema.org/email');
+  static const schemaHttpEmail = IriTerm('http://schema.org/email');
 
-  /// familyName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// familyName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Family name. In the U.S., the last name of a Person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpFamilyName = IriTerm('http://schema.org/familyName');
+  static const schemaHttpFamilyName = IriTerm('http://schema.org/familyName');
 
-  /// faxNumber from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// faxNumber from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The fax number.
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpFaxNumber = IriTerm('http://schema.org/faxNumber');
+  static const schemaHttpFaxNumber = IriTerm('http://schema.org/faxNumber');
 
-  /// follows from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// follows from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// The most generic uni-directional social relation.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpFollows = IriTerm('http://schema.org/follows');
+  static const schemaHttpFollows = IriTerm('http://schema.org/follows');
 
-  /// funder from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// funder from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization that supports (sponsors) something through some kind of financial contribution.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MonetaryGrant, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpFunder = IriTerm('http://schema.org/funder');
+  static const schemaHttpFunder = IriTerm('http://schema.org/funder');
 
-  /// gender from schemahttp vocabulary [Expects: http://schema.org/GenderType, http://schema.org/Text]
+  /// gender from schema-http vocabulary [Expects: http://schema.org/GenderType, http://schema.org/Text]
   ///
   /// Gender of something, typically a {[Person]}, but possibly also fictional characters, animals, etc. While http://schema.org/Male and http://schema.org/Female may be used, text strings are also acceptable for people who are not a binary gender. The {[gender]} property can also be used in an extended sense to cover e.g. the gender of sports teams. As with the gender of individuals, we do not try to enumerate all possibilities. A mixed-gender {[SportsTeam]} can be indicated with a text value of "Mixed".
   ///
   /// Can be used on: http://schema.org/Person, http://schema.org/SportsTeam
   ///
-  static const schemahttpGender = IriTerm('http://schema.org/gender');
+  static const schemaHttpGender = IriTerm('http://schema.org/gender');
 
-  /// givenName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// givenName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// Given name. In the U.S., the first name of a Person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpGivenName = IriTerm('http://schema.org/givenName');
+  static const schemaHttpGivenName = IriTerm('http://schema.org/givenName');
 
-  /// globalLocationNumber from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// globalLocationNumber from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpGlobalLocationNumber = IriTerm(
+  static const schemaHttpGlobalLocationNumber = IriTerm(
     'http://schema.org/globalLocationNumber',
   );
 
-  /// hasCertification from schemahttp vocabulary [Expects: http://schema.org/Certification]
+  /// hasCertification from schema-http vocabulary [Expects: http://schema.org/Certification]
   ///
   /// Certification information about a product, organization, service, place, or person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpHasCertification = IriTerm(
+  static const schemaHttpHasCertification = IriTerm(
     'http://schema.org/hasCertification',
   );
 
-  /// hasCredential from schemahttp vocabulary [Expects: http://schema.org/EducationalOccupationalCredential]
+  /// hasCredential from schema-http vocabulary [Expects: http://schema.org/EducationalOccupationalCredential]
   ///
   /// A credential awarded to the Person or Organization.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpHasCredential = IriTerm(
+  static const schemaHttpHasCredential = IriTerm(
     'http://schema.org/hasCredential',
   );
 
-  /// hasOccupation from schemahttp vocabulary [Expects: http://schema.org/Occupation]
+  /// hasOccupation from schema-http vocabulary [Expects: http://schema.org/Occupation]
   ///
   /// The Person's occupation. For past professions, use Role for expressing dates.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHasOccupation = IriTerm(
+  static const schemaHttpHasOccupation = IriTerm(
     'http://schema.org/hasOccupation',
   );
 
-  /// hasOfferCatalog from schemahttp vocabulary [Expects: http://schema.org/OfferCatalog]
+  /// hasOfferCatalog from schema-http vocabulary [Expects: http://schema.org/OfferCatalog]
   ///
   /// Indicates an OfferCatalog listing for this Organization, Person, or Service.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Service
   ///
-  static const schemahttpHasOfferCatalog = IriTerm(
+  static const schemaHttpHasOfferCatalog = IriTerm(
     'http://schema.org/hasOfferCatalog',
   );
 
-  /// hasPOS from schemahttp vocabulary [Expects: http://schema.org/Place]
+  /// hasPOS from schema-http vocabulary [Expects: http://schema.org/Place]
   ///
   /// Points-of-Sales operated by the organization or person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpHasPOS = IriTerm('http://schema.org/hasPOS');
+  static const schemaHttpHasPOS = IriTerm('http://schema.org/hasPOS');
 
-  /// height from schemahttp vocabulary [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
+  /// height from schema-http vocabulary [Expects: http://schema.org/Distance, http://schema.org/QuantitativeValue]
   ///
   /// The height of the item.
   ///
   /// Can be used on: http://schema.org/MediaObject, http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpHeight = IriTerm('http://schema.org/height');
+  static const schemaHttpHeight = IriTerm('http://schema.org/height');
 
-  /// homeLocation from schemahttp vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
+  /// homeLocation from schema-http vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
   ///
   /// A contact location for a person's residence.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHomeLocation = IriTerm(
+  static const schemaHttpHomeLocation = IriTerm(
     'http://schema.org/homeLocation',
   );
 
-  /// honorificPrefix from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// honorificPrefix from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHonorificPrefix = IriTerm(
+  static const schemaHttpHonorificPrefix = IriTerm(
     'http://schema.org/honorificPrefix',
   );
 
-  /// honorificSuffix from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// honorificSuffix from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An honorific suffix following a Person's name such as M.D./PhD/MSCSW.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpHonorificSuffix = IriTerm(
+  static const schemaHttpHonorificSuffix = IriTerm(
     'http://schema.org/honorificSuffix',
   );
 
-  /// isicV4 from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// isicV4 from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpIsicV4 = IriTerm('http://schema.org/isicV4');
+  static const schemaHttpIsicV4 = IriTerm('http://schema.org/isicV4');
 
-  /// jobTitle from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// jobTitle from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// The job title of the person (for example, Financial Manager).
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpJobTitle = IriTerm('http://schema.org/jobTitle');
+  static const schemaHttpJobTitle = IriTerm('http://schema.org/jobTitle');
 
-  /// knows from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// knows from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// The most generic bi-directional social/work relation.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpKnows = IriTerm('http://schema.org/knows');
+  static const schemaHttpKnows = IriTerm('http://schema.org/knows');
 
-  /// knowsAbout from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
+  /// knowsAbout from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/Thing, http://schema.org/URL]
   ///
   /// Of a {[Person]}, and less typically of an {[Organization]}, to indicate a topic that is known about - suggesting possible expertise but not implying it. We do not distinguish skill levels here, or relate this to educational content, events, objectives or {[JobPosting]} descriptions.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpKnowsAbout = IriTerm('http://schema.org/knowsAbout');
+  static const schemaHttpKnowsAbout = IriTerm('http://schema.org/knowsAbout');
 
-  /// knowsLanguage from schemahttp vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
+  /// knowsLanguage from schema-http vocabulary [Expects: http://schema.org/Language, http://schema.org/Text]
   ///
   /// Of a {[Person]}, and less typically of an {[Organization]}, to indicate a known language. We do not distinguish skill levels or reading/writing/speaking/signing here. Use language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47).
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpKnowsLanguage = IriTerm(
+  static const schemaHttpKnowsLanguage = IriTerm(
     'http://schema.org/knowsLanguage',
   );
 
-  /// lifeEvent from schemahttp vocabulary [Expects: http://schema.org/Event]
+  /// lifeEvent from schema-http vocabulary [Expects: http://schema.org/Event]
   ///
   /// A life event like baptism, communions, Bar Mitzvahs, Aqiqah, Namakarana, Miyamairi, burial, ....
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpLifeEvent = IriTerm('http://schema.org/lifeEvent');
+  static const schemaHttpLifeEvent = IriTerm('http://schema.org/lifeEvent');
 
-  /// naics from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// naics from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The North American Industry Classification System (NAICS) code for a particular organization or business person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpNaics = IriTerm('http://schema.org/naics');
+  static const schemaHttpNaics = IriTerm('http://schema.org/naics');
 
-  /// name from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// name from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The name of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpName = IriTerm('http://schema.org/name');
+  static const schemaHttpName = IriTerm('http://schema.org/name');
 
-  /// nationality from schemahttp vocabulary [Expects: http://schema.org/Country]
+  /// nationality from schema-http vocabulary [Expects: http://schema.org/Country]
   ///
   /// Nationality of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpNationality = IriTerm('http://schema.org/nationality');
+  static const schemaHttpNationality = IriTerm('http://schema.org/nationality');
 
-  /// netWorth from schemahttp vocabulary [Expects: http://schema.org/MonetaryAmount, http://schema.org/PriceSpecification]
+  /// netWorth from schema-http vocabulary [Expects: http://schema.org/MonetaryAmount, http://schema.org/PriceSpecification]
   ///
   /// The total financial value of the person as calculated by subtracting the total value of liabilities from the total value of assets.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpNetWorth = IriTerm('http://schema.org/netWorth');
+  static const schemaHttpNetWorth = IriTerm('http://schema.org/netWorth');
 
-  /// parents from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// parents from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A parents of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpParents = IriTerm('http://schema.org/parents');
+  static const schemaHttpParents = IriTerm('http://schema.org/parents');
 
-  /// performerIn from schemahttp vocabulary [Expects: http://schema.org/Event]
+  /// performerIn from schema-http vocabulary [Expects: http://schema.org/Event]
   ///
   /// Event that this person is a performer or participant in.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpPerformerIn = IriTerm('http://schema.org/performerIn');
+  static const schemaHttpPerformerIn = IriTerm('http://schema.org/performerIn');
 
-  /// potentialAction from schemahttp vocabulary [Expects: http://schema.org/Action]
+  /// potentialAction from schema-http vocabulary [Expects: http://schema.org/Action]
   ///
   /// Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpPotentialAction = IriTerm(
+  static const schemaHttpPotentialAction = IriTerm(
     'http://schema.org/potentialAction',
   );
 
-  /// pronouns from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/StructuredValue, http://schema.org/Text]
+  /// pronouns from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/StructuredValue, http://schema.org/Text]
   ///
   /// A short string listing or describing pronouns for a person. Typically the person concerned is the best authority as pronouns are a critical part of personal identity and expression. Publishers and consumers of this information are reminded to treat this data responsibly, take country-specific laws related to gender expression into account, and be wary of out-of-date data and drawing unwarranted inferences about the person being described.
   ///
@@ -1668,267 +1668,267 @@ class FoafPerson {
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpPronouns = IriTerm('http://schema.org/pronouns');
+  static const schemaHttpPronouns = IriTerm('http://schema.org/pronouns');
 
-  /// relatedTo from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// relatedTo from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// The most generic familial relation.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpRelatedTo = IriTerm('http://schema.org/relatedTo');
+  static const schemaHttpRelatedTo = IriTerm('http://schema.org/relatedTo');
 
-  /// sameAs from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// sameAs from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSameAs = IriTerm('http://schema.org/sameAs');
+  static const schemaHttpSameAs = IriTerm('http://schema.org/sameAs');
 
-  /// seeks from schemahttp vocabulary [Expects: http://schema.org/Demand]
+  /// seeks from schema-http vocabulary [Expects: http://schema.org/Demand]
   ///
   /// A pointer to products or services sought by the organization or person (demand).
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSeeks = IriTerm('http://schema.org/seeks');
+  static const schemaHttpSeeks = IriTerm('http://schema.org/seeks');
 
-  /// siblings from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// siblings from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A sibling of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSiblings = IriTerm('http://schema.org/siblings');
+  static const schemaHttpSiblings = IriTerm('http://schema.org/siblings');
 
-  /// skills from schemahttp vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
+  /// skills from schema-http vocabulary [Expects: http://schema.org/DefinedTerm, http://schema.org/Text]
   ///
   /// A statement of knowledge, skill, ability, task or any other assertion expressing a competency that is either claimed by a person, an organization or desired or required to fulfill a role or to work in an occupation.
   ///
   /// Can be used on: http://schema.org/JobPosting, http://schema.org/Occupation, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSkills = IriTerm('http://schema.org/skills');
+  static const schemaHttpSkills = IriTerm('http://schema.org/skills');
 
-  /// spouse from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// spouse from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// The person's spouse.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSpouse = IriTerm('http://schema.org/spouse');
+  static const schemaHttpSpouse = IriTerm('http://schema.org/spouse');
 
-  /// taxID from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// taxID from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpTaxID = IriTerm('http://schema.org/taxID');
+  static const schemaHttpTaxID = IriTerm('http://schema.org/taxID');
 
-  /// telephone from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// telephone from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The telephone number.
   ///
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
-  static const schemahttpTelephone = IriTerm('http://schema.org/telephone');
+  static const schemaHttpTelephone = IriTerm('http://schema.org/telephone');
 
-  /// url from schemahttp vocabulary [Expects: http://schema.org/URL]
+  /// url from schema-http vocabulary [Expects: http://schema.org/URL]
   ///
   /// URL of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpUrl = IriTerm('http://schema.org/url');
+  static const schemaHttpUrl = IriTerm('http://schema.org/url');
 
-  /// vatID from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// vatID from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// The Value-added Tax ID of the organization or person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpVatID = IriTerm('http://schema.org/vatID');
+  static const schemaHttpVatID = IriTerm('http://schema.org/vatID');
 
-  /// weight from schemahttp vocabulary [Expects: http://schema.org/Mass, http://schema.org/QuantitativeValue]
+  /// weight from schema-http vocabulary [Expects: http://schema.org/Mass, http://schema.org/QuantitativeValue]
   ///
   /// The weight of the product or person.
   ///
   /// Can be used on: http://schema.org/OfferShippingDetails, http://schema.org/Person, http://schema.org/Product, http://schema.org/ShippingConditions, http://schema.org/VisualArtwork
   ///
-  static const schemahttpWeight = IriTerm('http://schema.org/weight');
+  static const schemaHttpWeight = IriTerm('http://schema.org/weight');
 
-  /// workLocation from schemahttp vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
+  /// workLocation from schema-http vocabulary [Expects: http://schema.org/ContactPoint, http://schema.org/Place]
   ///
   /// A contact location for a person's place of work.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpWorkLocation = IriTerm(
+  static const schemaHttpWorkLocation = IriTerm(
     'http://schema.org/workLocation',
   );
 
-  /// worksFor from schemahttp vocabulary [Expects: http://schema.org/Organization]
+  /// worksFor from schema-http vocabulary [Expects: http://schema.org/Organization]
   ///
   /// Organizations that the person works for.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpWorksFor = IriTerm('http://schema.org/worksFor');
+  static const schemaHttpWorksFor = IriTerm('http://schema.org/worksFor');
 
-  /// alternateName from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// alternateName from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An alias for the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpAlternateName = IriTerm(
+  static const schemaHttpAlternateName = IriTerm(
     'http://schema.org/alternateName',
   );
 
-  /// alumniOf from schemahttp vocabulary [Expects: http://schema.org/EducationalOrganization, http://schema.org/Organization]
+  /// alumniOf from schema-http vocabulary [Expects: http://schema.org/EducationalOrganization, http://schema.org/Organization]
   ///
   /// An organization that the person is an alumni of.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpAlumniOf = IriTerm('http://schema.org/alumniOf');
+  static const schemaHttpAlumniOf = IriTerm('http://schema.org/alumniOf');
 
-  /// award from schemahttp vocabulary [Expects: http://schema.org/Text]
+  /// award from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
   /// An award won by or for this item.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product, http://schema.org/Service
   ///
-  static const schemahttpAward = IriTerm('http://schema.org/award');
+  static const schemaHttpAward = IriTerm('http://schema.org/award');
 
-  /// colleague from schemahttp vocabulary [Expects: http://schema.org/Person, http://schema.org/URL]
+  /// colleague from schema-http vocabulary [Expects: http://schema.org/Person, http://schema.org/URL]
   ///
   /// A colleague of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpColleague = IriTerm('http://schema.org/colleague');
+  static const schemaHttpColleague = IriTerm('http://schema.org/colleague');
 
-  /// contactPoint from schemahttp vocabulary [Expects: http://schema.org/ContactPoint]
+  /// contactPoint from schema-http vocabulary [Expects: http://schema.org/ContactPoint]
   ///
   /// A contact point for a person or organization.
   ///
   /// Can be used on: http://schema.org/HealthInsurancePlan, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpContactPoint = IriTerm(
+  static const schemaHttpContactPoint = IriTerm(
     'http://schema.org/contactPoint',
   );
 
-  /// funding from schemahttp vocabulary [Expects: http://schema.org/Grant]
+  /// funding from schema-http vocabulary [Expects: http://schema.org/Grant]
   ///
   /// A {[Grant]} that directly or indirectly provide funding or sponsorship for this item. See also {[ownershipFundingInfo]}.
   ///
   /// Can be used on: http://schema.org/BioChemEntity, http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/MedicalEntity, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Product
   ///
-  static const schemahttpFunding = IriTerm('http://schema.org/funding');
+  static const schemaHttpFunding = IriTerm('http://schema.org/funding');
 
-  /// interactionStatistic from schemahttp vocabulary [Expects: http://schema.org/InteractionCounter]
+  /// interactionStatistic from schema-http vocabulary [Expects: http://schema.org/InteractionCounter]
   ///
   /// The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpInteractionStatistic = IriTerm(
+  static const schemaHttpInteractionStatistic = IriTerm(
     'http://schema.org/interactionStatistic',
   );
 
-  /// mainEntityOfPage from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// mainEntityOfPage from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpMainEntityOfPage = IriTerm(
+  static const schemaHttpMainEntityOfPage = IriTerm(
     'http://schema.org/mainEntityOfPage',
   );
 
-  /// makesOffer from schemahttp vocabulary [Expects: http://schema.org/Offer]
+  /// makesOffer from schema-http vocabulary [Expects: http://schema.org/Offer]
   ///
   /// A pointer to products or services offered by the organization or person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpMakesOffer = IriTerm('http://schema.org/makesOffer');
+  static const schemaHttpMakesOffer = IriTerm('http://schema.org/makesOffer');
 
-  /// owner from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// owner from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization who owns this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpOwner = IriTerm('http://schema.org/owner');
+  static const schemaHttpOwner = IriTerm('http://schema.org/owner');
 
-  /// owns from schemahttp vocabulary [Expects: http://schema.org/Thing]
+  /// owns from schema-http vocabulary [Expects: http://schema.org/Thing]
   ///
   /// Things owned by the organization or person.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpOwns = IriTerm('http://schema.org/owns');
+  static const schemaHttpOwns = IriTerm('http://schema.org/owns');
 
-  /// parent from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// parent from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A parent of this person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpParent = IriTerm('http://schema.org/parent');
+  static const schemaHttpParent = IriTerm('http://schema.org/parent');
 
-  /// sibling from schemahttp vocabulary [Expects: http://schema.org/Person]
+  /// sibling from schema-http vocabulary [Expects: http://schema.org/Person]
   ///
   /// A sibling of the person.
   ///
   /// Can be used on: http://schema.org/Person
   ///
-  static const schemahttpSibling = IriTerm('http://schema.org/sibling');
+  static const schemaHttpSibling = IriTerm('http://schema.org/sibling');
 
-  /// sponsor from schemahttp vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
+  /// sponsor from schema-http vocabulary [Expects: http://schema.org/Organization, http://schema.org/Person]
   ///
   /// A person or organization that supports a thing through a pledge, promise, or financial contribution. E.g. a sponsor of a Medical Study or a corporate sponsor of an event.
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Event, http://schema.org/Grant, http://schema.org/MedicalStudy, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpSponsor = IriTerm('http://schema.org/sponsor');
+  static const schemaHttpSponsor = IriTerm('http://schema.org/sponsor');
 
-  /// subjectOf from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
+  /// subjectOf from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/Event]
   ///
   /// A CreativeWork or Event about this Thing.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpSubjectOf = IriTerm('http://schema.org/subjectOf');
+  static const schemaHttpSubjectOf = IriTerm('http://schema.org/subjectOf');
 
-  /// memberOf from schemahttp vocabulary [Expects: http://schema.org/MemberProgramTier, http://schema.org/Organization, http://schema.org/ProgramMembership]
+  /// memberOf from schema-http vocabulary [Expects: http://schema.org/MemberProgramTier, http://schema.org/Organization, http://schema.org/ProgramMembership]
   ///
   /// An Organization (or ProgramMembership) to which this Person or Organization belongs.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpMemberOf = IriTerm('http://schema.org/memberOf');
+  static const schemaHttpMemberOf = IriTerm('http://schema.org/memberOf');
 
-  /// description from schemahttp vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
+  /// description from schema-http vocabulary [Expects: http://schema.org/Text, http://schema.org/TextObject]
   ///
   /// A description of the item.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpDescription = IriTerm('http://schema.org/description');
+  static const schemaHttpDescription = IriTerm('http://schema.org/description');
 
-  /// image from schemahttp vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
+  /// image from schema-http vocabulary [Expects: http://schema.org/ImageObject, http://schema.org/URL]
   ///
   /// An image of the item. This can be a {[URL]} or a fully described {[ImageObject]}.
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpImage = IriTerm('http://schema.org/image');
+  static const schemaHttpImage = IriTerm('http://schema.org/image');
 
-  /// publishingPrinciples from schemahttp vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
+  /// publishingPrinciples from schema-http vocabulary [Expects: http://schema.org/CreativeWork, http://schema.org/URL]
   ///
   /// The publishingPrinciples property indicates (typically via {[URL]}) a document describing the editorial principles of an {[Organization]} (or individual, e.g. a {[Person]} writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a {[CreativeWork]} (e.g. {[NewsArticle]}) the principles are those of the party primarily responsible for the creation of the {[CreativeWork]}.
   ///
@@ -1937,18 +1937,18 @@ class FoafPerson {
   ///
   /// Can be used on: http://schema.org/CreativeWork, http://schema.org/Organization, http://schema.org/Person
   ///
-  static const schemahttpPublishingPrinciples = IriTerm(
+  static const schemaHttpPublishingPrinciples = IriTerm(
     'http://schema.org/publishingPrinciples',
   );
 
-  /// identifier from schemahttp vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
+  /// identifier from schema-http vocabulary [Expects: http://schema.org/PropertyValue, http://schema.org/Text, http://schema.org/URL]
   ///
   /// The identifier property represents any kind of identifier for any kind of {[Thing]}, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
   ///
   ///
   /// Can be used on: http://schema.org/Thing
   ///
-  static const schemahttpIdentifier = IriTerm('http://schema.org/identifier');
+  static const schemaHttpIdentifier = IriTerm('http://schema.org/identifier');
 
   /// abstract_ from bibo vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Literal]
   ///

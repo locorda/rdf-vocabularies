@@ -8,4 +8,4 @@
 export 'classes/event.dart';
 export 'classes/factor.dart';
 export 'classes/product.dart';
-export 'eventowl_universal.dart';
+export 'event_universal.dart';

@@ -7,7 +7,7 @@
 
 import 'package:locorda_rdf_core/core.dart';
 
-/// Event class from Eventowl vocabulary
+/// Event class from Event vocabulary
 ///
 ///
 /// An arbitrary classification of a space/time region, by a
@@ -23,9 +23,9 @@ import 'package:locorda_rdf_core/core.dart';
 /// [Class Reference](http://purl.org/NET/c4dm/event.owl#Event)
 ///
 /// [Vocabulary Reference](http://purl.org/NET/c4dm/event.owl#)
-class EventowlEvent {
+class EventEvent {
   // Private constructor prevents instantiation
-  const EventowlEvent._();
+  const EventEvent._();
 
   /// IRI term for the Event class
   /// Use this to specify that a resource is of this type.

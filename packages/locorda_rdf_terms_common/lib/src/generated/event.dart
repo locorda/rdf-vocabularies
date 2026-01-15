@@ -7,19 +7,19 @@
 
 import 'package:locorda_rdf_core/core.dart';
 
-/// Main Eventowl vocabulary class containing all terms
+/// Main Event vocabulary class containing all terms
 ///
 /// Contains all terms defined in the http://purl.org/NET/c4dm/event.owl# vocabulary.
-class Eventowl {
+class Event {
   // Private constructor prevents instantiation
-  const Eventowl._();
+  const Event._();
 
-  /// Base IRI for Eventowl vocabulary
+  /// Base IRI for Event vocabulary
   /// [Spec](http://purl.org/NET/c4dm/event.owl#)
   static const String namespace = 'http://purl.org/NET/c4dm/event.owl#';
-  static const String prefix = 'eventowl';
+  static const String prefix = 'event';
 
-  /// IRI for eventowl:Event
+  /// IRI for event:Event
   ///
   ///
   /// An arbitrary classification of a space/time region, by a
@@ -27,9 +27,9 @@ class Eventowl {
   /// passive factors, products, and a location in space/time.
   ///
   ///
-  static const Event = IriTerm('http://purl.org/NET/c4dm/event.owl#Event');
+  static const EventClass = IriTerm('http://purl.org/NET/c4dm/event.owl#Event');
 
-  /// IRI for eventowl:Product
+  /// IRI for event:Product
   ///
   ///
   /// Everything produced by an event
@@ -37,7 +37,7 @@ class Eventowl {
   ///
   static const Product = IriTerm('http://purl.org/NET/c4dm/event.owl#Product');
 
-  /// IRI for eventowl:Factor
+  /// IRI for event:Factor
   ///
   ///
   /// Everything used as a factor in an event
@@ -45,7 +45,7 @@ class Eventowl {
   ///
   static const Factor = IriTerm('http://purl.org/NET/c4dm/event.owl#Factor');
 
-  /// IRI for eventowl:agent [Expects: http://xmlns.com/foaf/0.1/Agent]
+  /// IRI for event:agent [Expects: http://xmlns.com/foaf/0.1/Agent]
   ///
   ///
   /// Relates an event to an active agent (a person, a computer, ... :-) )
@@ -55,7 +55,7 @@ class Eventowl {
   ///
   static const agent = IriTerm('http://purl.org/NET/c4dm/event.owl#agent');
 
-  /// IRI for eventowl:factor
+  /// IRI for event:factor
   ///
   ///
   /// Relates an event to a passive factor (a tool, an instrument, an abstract cause...)
@@ -65,7 +65,7 @@ class Eventowl {
   ///
   static const factor = IriTerm('http://purl.org/NET/c4dm/event.owl#factor');
 
-  /// IRI for eventowl:literal_factor
+  /// IRI for event:literal_factor
   ///
   ///
   /// Relates an event to a factor which can be described as a literal. This property
@@ -79,7 +79,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#literal_factor',
   );
 
-  /// IRI for eventowl:product
+  /// IRI for event:product
   ///
   ///
   /// Relates an event to something produced during the event---a sound, a pie, whatever...
@@ -89,7 +89,7 @@ class Eventowl {
   ///
   static const product = IriTerm('http://purl.org/NET/c4dm/event.owl#product');
 
-  /// IRI for eventowl:sub_event [Expects: http://purl.org/NET/c4dm/event.owl#Event]
+  /// IRI for event:sub_event [Expects: http://purl.org/NET/c4dm/event.owl#Event]
   ///
   ///
   /// This property provides a way to split a complex event (for example, a performance involving several
@@ -102,7 +102,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#sub_event',
   );
 
-  /// IRI for eventowl:time [Expects: http://www.w3.org/2006/time#TemporalEntity]
+  /// IRI for event:time [Expects: http://www.w3.org/2006/time#TemporalEntity]
   ///
   ///
   /// Relates an event to a time object, classifying a time region (either instantaneous or having an extent).
@@ -114,7 +114,7 @@ class Eventowl {
   ///
   static const time = IriTerm('http://purl.org/NET/c4dm/event.owl#time');
 
-  /// IRI for eventowl:place [Expects: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing]
+  /// IRI for event:place [Expects: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing]
   ///
   ///
   /// Relates an event to a spatial object.
@@ -124,7 +124,7 @@ class Eventowl {
   ///
   static const place = IriTerm('http://purl.org/NET/c4dm/event.owl#place');
 
-  /// IRI for eventowl:isAgentIn
+  /// IRI for event:isAgentIn
   ///
   ///
   ///
@@ -134,7 +134,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#isAgentIn',
   );
 
-  /// IRI for eventowl:isFactorOf
+  /// IRI for event:isFactorOf
   ///
   ///
   ///
@@ -144,7 +144,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#isFactorOf',
   );
 
-  /// IRI for eventowl:producedIn
+  /// IRI for event:producedIn
   ///
   ///
   ///
@@ -154,7 +154,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#producedIn',
   );
 
-  /// IRI for eventowl:hasFactor
+  /// IRI for event:hasFactor
   ///
   ///
   ///
@@ -164,7 +164,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#hasFactor',
   );
 
-  /// IRI for eventowl:hasAgent
+  /// IRI for event:hasAgent
   ///
   ///
   ///
@@ -174,7 +174,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#hasAgent',
   );
 
-  /// IRI for eventowl:hasProduct
+  /// IRI for event:hasProduct
   ///
   ///
   ///
@@ -184,7 +184,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#hasProduct',
   );
 
-  /// IRI for eventowl:hasLiteralFactor
+  /// IRI for event:hasLiteralFactor
   ///
   ///
   ///
@@ -194,7 +194,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#hasLiteralFactor',
   );
 
-  /// IRI for eventowl:agent_in
+  /// IRI for event:agent_in
   ///
   ///
   ///
@@ -204,7 +204,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#agent_in',
   );
 
-  /// IRI for eventowl:factor_of
+  /// IRI for event:factor_of
   ///
   ///
   ///
@@ -214,7 +214,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#factor_of',
   );
 
-  /// IRI for eventowl:produced_in
+  /// IRI for event:produced_in
   ///
   ///
   ///
@@ -224,7 +224,7 @@ class Eventowl {
     'http://purl.org/NET/c4dm/event.owl#produced_in',
   );
 
-  /// IRI for eventowl:hasSubEvent
+  /// IRI for event:hasSubEvent
   ///
   ///
   ///
