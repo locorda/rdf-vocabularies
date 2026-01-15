@@ -1,2 +1,2 @@
-export 'src/generated/vs.dart';
-export 'src/generated/vs/index.dart';
+export 'src/vocab/generated/vs.dart';
+export 'src/vocab/generated/vs/index.dart';

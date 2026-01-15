@@ -1,2 +1,2 @@
-export 'src/generated/schema.dart';
-export 'src/generated/schema/index.dart';
+export 'src/vocab/generated/schema.dart';
+export 'src/vocab/generated/schema/index.dart';

@@ -1,2 +1,2 @@
-export 'src/generated/geo.dart';
-export 'src/generated/geo/index.dart';
+export 'src/vocab/generated/geo.dart';
+export 'src/vocab/generated/geo/index.dart';

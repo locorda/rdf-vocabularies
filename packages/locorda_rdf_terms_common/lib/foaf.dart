@@ -1,2 +1,2 @@
-export 'src/generated/foaf.dart';
-export 'src/generated/foaf/index.dart';
+export 'src/vocab/generated/foaf.dart';
+export 'src/vocab/generated/foaf/index.dart';

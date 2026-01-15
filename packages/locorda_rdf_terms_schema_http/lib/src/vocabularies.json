@@ -1,0 +1,7 @@
+{
+  "vocabularies": {
+    "schema-http": {
+      "generate": true
+    }
+  }
+}

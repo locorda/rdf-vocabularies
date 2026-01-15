@@ -1,2 +1,2 @@
-export 'src/generated/dcmitype.dart';
-export 'src/generated/dcmitype/index.dart';
+export 'src/vocab/generated/dcmitype.dart';
+export 'src/vocab/generated/dcmitype/index.dart';

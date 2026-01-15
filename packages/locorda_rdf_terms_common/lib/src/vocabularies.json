@@ -1,0 +1,49 @@
+{
+  "vocabularies": {
+    "dc": {
+      "generate": true
+    },
+    "event": {
+      "generate": true
+    },
+    "dcterms": {
+      "generate": true
+    },
+    "dcat": {
+      "generate": true
+    },
+    "foaf": {
+      "generate": true
+    },
+    "geo": {
+      "generate": true
+    },
+    "contact": {
+      "generate": true
+    },
+    "pim": {
+      "generate": true
+    },
+    "vs": {
+      "generate": true
+    },
+    "dcmitype": {
+      "generate": true
+    },
+    "skos": {
+      "generate": true
+    },
+    "vcard": {
+      "generate": true
+    },
+    "acl": {
+      "generate": true
+    },
+    "ldp": {
+      "generate": true
+    },
+    "solid": {
+      "generate": true
+    }
+  }
+}
