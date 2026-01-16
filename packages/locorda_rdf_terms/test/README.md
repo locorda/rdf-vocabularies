@@ -1,6 +1,6 @@
 # RDF Vocabularies Meta-Package Tests
 
-This directory contains comprehensive tests for the `rdf_vocabularies` meta-package that verifies the correct integration of all split packages.
+This directory contains comprehensive tests for the `locorda_rdf_terms` meta-package that verifies the correct integration of all split packages.
 
 ## Test Files
 

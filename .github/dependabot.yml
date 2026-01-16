@@ -28,6 +28,6 @@ updates:
       interval: "weekly"
   
   - package-ecosystem: "pub"
-    directory: "/packages/rdf_vocabularies"
+    directory: "/packages/locorda_rdf_terms"
     schedule:
       interval: "weekly"

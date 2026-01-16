@@ -35,26 +35,26 @@ jobs:
             
             ## 📦 Packages Released
             
-            | Package | Version | Size | Content |
-            |---------|---------|------|---------|
-            | [`locorda_rdf_terms_common`](https://pub.dev/packages/locorda_rdf_terms_common) | ${{ steps.version.outputs.version }} | ~5MB | Core RDF vocabularies |
-            | [`locorda_rdf_terms_schema`](https://pub.dev/packages/locorda_rdf_terms_schema) | ${{ steps.version.outputs.version }} | ~35MB | Schema.org (HTTPS) |
-            | [`locorda_rdf_terms_schema_http`](https://pub.dev/packages/locorda_rdf_terms_schema_http) | ${{ steps.version.outputs.version }} | ~36MB | Schema.org (HTTP) |
-            | [`rdf_vocabularies`](https://pub.dev/packages/rdf_vocabularies) | ${{ steps.version.outputs.version }} | ~77MB | Meta-package (all vocabularies) |
+            | Package | Version | Content |
+            |---------|---------|---------|
+            | [`locorda_rdf_terms_common`](https://pub.dev/packages/locorda_rdf_terms_common) | ${{ steps.version.outputs.version }} | Essential vocabularies (FOAF, Dublin Core, SKOS, etc.) |
+            | [`locorda_rdf_terms_schema`](https://pub.dev/packages/locorda_rdf_terms_schema) | ${{ steps.version.outputs.version }} | Schema.org (HTTPS) |
+            | [`locorda_rdf_terms_schema_http`](https://pub.dev/packages/locorda_rdf_terms_schema_http) | ${{ steps.version.outputs.version }} | Schema.org (HTTP) |
+            | [`locorda_rdf_terms`](https://pub.dev/packages/locorda_rdf_terms) | ${{ steps.version.outputs.version }} | All vocabularies |
             
             ## 🚀 Installation
             
             ```sh
-            # Core vocabularies (recommended for most projects)
+            # Essential vocabularies (recommended for most projects)
             dart pub add locorda_rdf_terms_common
             
-            # Or full package for backward compatibility
-            dart pub add rdf_vocabularies
+            # Or full package with all vocabularies
+            dart pub add locorda_rdf_terms
             ```
             
             ## 📚 Documentation
             
-            - [Official Homepage](https://kkalass.github.io/rdf_vocabularies/)
-            - [Package Documentation](https://pub.dev/documentation/rdf_vocabularies/latest/)
+            - [Official Homepage](https://locorda.dev/rdf-vocabularies/)
+            - [Package Documentation](https://pub.dev/documentation/locorda_rdf_terms/latest/)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

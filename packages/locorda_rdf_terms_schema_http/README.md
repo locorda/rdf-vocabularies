@@ -1,25 +1,19 @@
-# RDF Vocabularies Schema HTTP - Schema.org HTTP Vocabulary
+# locorda_rdf_terms_schema_http - Schema.org HTTP Vocabulary
 
 [![pub package](https://img.shields.io/pub/v/locorda_rdf_terms_schema_http.svg)](https://pub.dev/packages/locorda_rdf_terms_schema_http)
-[![build](https://github.com/kkalass/rdf_vocabularies/actions/workflows/ci.yml/badge.svg)](https://github.com/kkalass/rdf_vocabularies/actions)
-[![license](https://img.shields.io/github/license/kkalass/rdf_vocabularies.svg)](https://github.com/kkalass/rdf_vocabularies/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/locorda/rdf-vocabularies/blob/main/LICENSE)
 
 ## Overview
 
-[🌐 **Official Homepage**](https://kkalass.github.io/rdf_vocabularies/)
+[🌐 **Official Homepage**](https://locorda.dev/rdf-vocabularies/)
 
 `locorda_rdf_terms_schema_http` provides type-safe access to the **Schema.org vocabulary with HTTP URIs** as Dart constants for use with [`locorda_rdf_core`](https://pub.dev/packages/locorda_rdf_core).
 
-This package contains the **legacy Schema.org vocabulary** (~36MB) using HTTP URIs (`http://schema.org/...`) for compatibility with existing data and systems.
+This package contains the complete legacy Schema.org vocabulary (~5MB compressed) using HTTP URIs (`http://schema.org/...`) for compatibility with existing data and systems.
 
 ## 📦 Package Selection Guide
 
-| Package | Download Size | Content | Best For |
-|---------|---------------|---------|----------|
-| **`locorda_rdf_terms_schema_http`** (this package) | **~36MB** | Schema.org HTTP | Legacy compatibility |
-| **[`locorda_rdf_terms_schema`](https://pub.dev/packages/locorda_rdf_terms_schema)** | ~35MB | Schema.org HTTPS | Modern Schema.org apps |
-| **[`locorda_rdf_terms_common`](https://pub.dev/packages/locorda_rdf_terms_common)** | ~5MB | Core RDF vocabularies | Essential vocabularies |
-| **[`rdf_vocabularies`](https://pub.dev/packages/rdf_vocabularies)** | ~77MB | All vocabularies | Full compatibility |
+For an overview of all available packages and guidance on which to choose, see the [Package Selection Guide](https://github.com/locorda/rdf-vocabularies#-package-architecture) in the main repository README.
 
 > **💡 Recommendation**: Use `locorda_rdf_terms_schema` (HTTPS) for new projects. Use this package only for legacy compatibility.
 
@@ -27,14 +21,12 @@ The library is designed for both RDF newcomers and experts, offering structured 
 
 ---
 
-## Part of a whole family of projects
+## Related Projects
 
-If you are looking for more rdf-related functionality, have a look at our companion projects:
+Part of the Locorda RDF ecosystem:
 
-* basic graph classes as well as turtle/jsonld/n-triple encoding and decoding: [locorda_rdf_core](https://github.com/kkalass/locorda_rdf_core) 
-* encode and decode rdf/xml format: [locorda_rdf_xml](https://github.com/kkalass/locorda_rdf_xml) 
-* generate your own easy-to-use constants for other vocabularies with a build_runner: [locorda_rdf_terms_generator](https://github.com/kkalass/locorda_rdf_terms_generator)
-* map Dart Objects ↔️ RDF: [locorda_rdf_mapper](https://github.com/kkalass/locorda_rdf_mapper)
+* **[locorda/rdf-vocabularies](https://github.com/locorda/rdf-vocabularies)** - This repository with all vocabulary packages
+* **[locorda/rdf](https://github.com/locorda/rdf)** - Core RDF functionality: graph classes, codecs (Turtle, JSON-LD, N-Triples, RDF/XML), vocabulary generator, and object mapping
 
 ---
 
@@ -45,10 +37,10 @@ If you are looking for more rdf-related functionality, have a look at our compan
 Add the package to your project:
 
 ```sh
-# Install Schema.org HTTP vocabulary (~36MB)
-dart pub add locorda_rdf_terms_schema_http locorda_rdf_core
+# Install Schema.org HTTP vocabulary (~5MB compressed)
+dart pub add locorda_rdf_terms_schema_http
 
-# Recommended: Also add core vocabularies for RDF, RDFS, OWL, etc. (+5MB)
+# Recommended: Also add essential vocabularies (FOAF, Dublin Core, etc.)
 dart pub add locorda_rdf_terms_common
 ```
 
@@ -89,6 +81,30 @@ void main() {
 ```
 
 **Benefits**: IDE autocompletion, compile-time validation, HTTP URI compatibility.
+
+### Cross-Vocabulary Properties
+
+Class-specific constants include commonly used properties from related vocabularies, enabling seamless vocabulary mixing:
+
+```dart
+import 'package:locorda_rdf_core/core.dart';
+import 'package:locorda_rdf_terms_schema_http/schema_http.dart';
+
+void main() {
+  final personIri = IriTerm('http://example.org/person/jane_doe');
+  
+  // SchemaHttpPerson includes common FOAF properties - discover them via IDE autocompletion!
+  final graph = RdfGraph.fromTriples([
+    Triple(personIri, SchemaHttpPerson.rdfType, SchemaHttpPerson.classIri),
+    Triple(personIri, SchemaHttpPerson.name, LiteralTerm.string('Jane Doe')),
+    Triple(personIri, SchemaHttpPerson.email, LiteralTerm.string('jane@example.com')),
+    Triple(personIri, SchemaHttpPerson.foafAge, LiteralTerm.integer(42)),  // FOAF property!
+    Triple(personIri, SchemaHttpPerson.foafKnows, otherPersonIri),  // FOAF relationship!
+  ]);
+}
+```
+
+**Benefits**: Discover related properties via IDE autocompletion, natural vocabulary mixing, no need to learn all vocabularies upfront.
 
 ### For RDF Experts: Direct Schema.org HTTP Access
 
@@ -138,13 +154,13 @@ Schema.org is available in two URI variants:
 
 Both packages contain identical Schema.org content - only the URI scheme differs.
 
-## Combining with Core Vocabularies
+## Combining with Essential Vocabularies
 
-For comprehensive RDF support, combine with core vocabularies:
+For comprehensive RDF support, combine with essential vocabularies:
 
 ```sh
 # Add both packages for complete coverage
-dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema_http locorda_rdf_core
+dart pub add locorda_rdf_terms_common locorda_rdf_terms_schema_http
 ```
 
 ```dart
@@ -179,19 +195,24 @@ dart pub add locorda_rdf_terms_schema
 
 ## Performance Characteristics
 
-- **Zero Runtime Overhead**: Nearly all content consists of compile-time constants
-- **Large but Focused**: ~36MB download for complete Schema.org coverage
+- **Zero Runtime Overhead**: All vocabulary terms are compile-time constants
+- **Large but Focused**: ~5MB compressed download for complete Schema.org coverage
 - **Type Safety**: Catch vocabulary usage errors at compile time
-- **IDE Integration**: Get autocompletion and documentation directly in your editor
+- **IDE Integration**: Full autocompletion and inline documentation
+- **Tree Shaking**: Unused vocabulary terms are eliminated from production builds
+
+## Custom Vocabulary Selection
+
+This package was generated using [`locorda_rdf_terms_generator`](https://github.com/locorda/rdf/tree/main/packages/locorda_rdf_terms_generator). If you need a different vocabulary selection or want to include vocabularies not provided here, you can use the generator to create your own custom package tailored to your specific needs.
 
 ## 🤝 Contributing
 
 Contributions, bug reports, and feature requests are welcome!
 
 - Fork the repo and submit a PR
-- See [CONTRIBUTING.md](https://github.com/kkalass/rdf_vocabularies/blob/main/CONTRIBUTING.md) for guidelines
-- Join the discussion in [GitHub Issues](https://github.com/kkalass/rdf_vocabularies/issues)
+- See [CONTRIBUTING.md](https://github.com/locorda/rdf-vocabularies/blob/main/CONTRIBUTING.md) for guidelines
+- Join the discussion in [GitHub Issues](https://github.com/locorda/rdf-vocabularies/issues)
 
 ---
 
-© 2025 Klas Kalaß. Licensed under the MIT License.
+© 2025-2026 Klas Kalaß. Licensed under the MIT License.

@@ -12,7 +12,7 @@ import 'package:locorda_rdf_terms/vcard.dart';
 
 /// Tests for the meta-package integration.
 ///
-/// This test suite verifies that the rdf_vocabularies meta-package
+/// This test suite verifies that the locorda_rdf_terms meta-package
 /// correctly exports all vocabularies from the split packages and
 /// maintains backward compatibility.
 void main() {
@@ -96,7 +96,7 @@ void main() {
       });
 
       test('Schema.org HTTP vocabulary is accessible', () {
-        expect(SchemaHttp.prefix, equals('schemahttp'));
+        expect(SchemaHttp.prefix, equals('schema-http'));
         expect(SchemaHttp.Person.value, equals('http://schema.org/Person'));
         expect(SchemaHttp.name.value, equals('http://schema.org/name'));
         expect(SchemaHttp.address.value, equals('http://schema.org/address'));
@@ -181,7 +181,7 @@ void main() {
 
         expect(Rdf.prefix, equals('rdf'));
         expect(Schema.prefix, equals('schema'));
-        expect(SchemaHttp.prefix, equals('schemahttp'));
+        expect(SchemaHttp.prefix, equals('schema-http'));
       });
     });
 
@@ -197,7 +197,7 @@ void main() {
 
         // Schema vocabularies should be clearly identified
         expect(Schema.prefix, equals('schema'));
-        expect(SchemaHttp.prefix, equals('schemahttp'));
+        expect(SchemaHttp.prefix, equals('schema-http'));
       });
     });
   });

@@ -15,7 +15,7 @@ jobs:
           - packages/locorda_rdf_terms_common
           - packages/locorda_rdf_terms_schema
           - packages/locorda_rdf_terms_schema_http
-          - packages/rdf_vocabularies
+          - packages/locorda_rdf_terms
     steps:
       - uses: actions/checkout@v4
       - uses: dart-lang/setup-dart@v1

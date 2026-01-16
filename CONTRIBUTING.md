@@ -1,6 +1,6 @@
-# Contributing to rdf_vocabularies
+# Contributing to rdf-vocabularies
 
-Thank you for your interest in contributing to `rdf_vocabularies`! We welcome contributions of all kinds—bug reports, feature requests, documentation improvements, and code.
+Thank you for your interest in contributing to `rdf-vocabularies`! We welcome contributions of all kinds—bug reports, feature requests, documentation improvements, and code.
 
 ## How to Contribute
 

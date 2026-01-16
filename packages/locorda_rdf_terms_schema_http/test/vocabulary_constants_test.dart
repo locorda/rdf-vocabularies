@@ -15,7 +15,7 @@ void main() {
 
     test('Vocabulary prefixes are correct', () {
       // Test prefix values
-      expect(SchemaHttp.prefix, equals('schemahttp'));
+      expect(SchemaHttp.prefix, equals('schema-http'));
     });
   });
 

@@ -29,7 +29,7 @@ void main() {
     test('Schema vocabularies are properly separated', () {
       // Verify that Schema.org vocabularies are distinct
       expect(Schema.prefix, equals('schema'));
-      expect(SchemaHttp.prefix, equals('schemahttp'));
+      expect(SchemaHttp.prefix, equals('schema-http'));
 
       // They should have different base URIs
       expect(Schema.Person.value, contains('https://schema.org/'));
