@@ -22,11 +22,11 @@ The project is organized as a **multi-package monorepo** for optimal package siz
 
 | Package | Size | Content | Use Case |
 |---------|------|---------|----------|
-| **[`locorda_rdf_terms_core`](https://pub.dev/packages/locorda_rdf_terms_core)** | ~27KB | RDF/RDFS/OWL/XSD | Foundation for all RDF work |
-| **[`locorda_rdf_terms_common`](https://pub.dev/packages/locorda_rdf_terms_common)** | ~800KB | Essential vocabularies (FOAF, Dublin Core, SKOS, etc.) | Most applications |
-| **[`locorda_rdf_terms_schema`](https://pub.dev/packages/locorda_rdf_terms_schema)** | ~5MB | Schema.org (HTTPS) | Schema.org applications |
-| **[`locorda_rdf_terms_schema_http`](https://pub.dev/packages/locorda_rdf_terms_schema_http)** | ~5MB | Schema.org (HTTP) | Legacy compatibility |
-| **[`locorda_rdf_terms`](https://pub.dev/packages/locorda_rdf_terms)** | ~12MB | All vocabularies | Full compatibility |
+| **[`locorda_rdf_terms_core`](https://github.com/locorda/rdf/tree/main/packages/locorda_rdf_terms_core)** | ~27KB | RDF/RDFS/OWL/XSD | Foundation for all RDF work |
+| **[`locorda_rdf_terms_common`](https://github.com/locorda/rdf-vocabularies/tree/main/packages/locorda_rdf_terms_common)** | ~800KB | Essential vocabularies (FOAF, Dublin Core, SKOS, etc.) | Most applications |
+| **[`locorda_rdf_terms_schema`](https://github.com/locorda/rdf-vocabularies/tree/main/packages/locorda_rdf_terms_schema)** | ~5MB | Schema.org (HTTPS) | Schema.org applications |
+| **[`locorda_rdf_terms_schema_http`](https://github.com/locorda/rdf-vocabularies/tree/main/packages/locorda_rdf_terms_schema_http)** | ~5MB | Schema.org (HTTP) | Legacy compatibility |
+| **[`locorda_rdf_terms`](https://github.com/locorda/rdf-vocabularies/tree/main/packages/locorda_rdf_terms)** | ~12MB | All vocabularies | Full compatibility |
 
 > 📌 **Note**: `locorda_rdf_terms_core` is maintained in the [locorda/rdf](https://github.com/locorda/rdf) repository, while all other packages are in this repository.
 
