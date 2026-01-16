@@ -16,6 +16,26 @@ The project is organized as a **multi-package monorepo** for optimal package siz
 
 ---
 
+## Why Not Just Use Strings?
+
+**The Problem with String-based RDF:**
+
+❌ `Triple(subject, predicate, IriTerm('http://schema.org/Person'))` - Typos detected only at runtime  
+❌ `Triple(subject, IriTerm('http://xmlns.com/foaf/0.1/knows'), ...)` - No IDE assistance  
+❌ **Which properties work together?** - You need to manually research that `foaf:knows` can be used with `schema:Person`  
+❌ **Hidden vocabulary relationships** - Cross-vocabulary patterns remain undiscovered without deep domain knowledge
+
+**The Type-Safe Solution:**
+
+✅ `Triple(subject, SchemaPerson.rdfType, SchemaPerson.classIri)` - **Compile-time validation**  
+✅ `SchemaPerson.` → IDE shows `foafKnows`, `foafAge`, etc. - **Discover cross-vocabulary properties through autocompletion**  
+✅ **Hover documentation** - VS Code/IntelliJ shows ontology descriptions and property domains directly  
+✅ **Vocabulary mixing made easy** - Common properties from related vocabularies are included in class-specific constants
+
+**Result:** Catch errors before runtime, discover valid property combinations through IDE tooling, and learn vocabulary relationships naturally without manual research.
+
+---
+
 ## Package Architecture
 
 ### 📦 Available Packages
@@ -114,9 +134,14 @@ void main() {
   
   // SchemaPerson includes common FOAF properties - discover them via IDE autocompletion!
   final graph = RdfGraph.fromTriples([
+    // Related RDF properties like rdf:type are accessible through SchemaPerson context 
     Triple(personIri, SchemaPerson.rdfType, SchemaPerson.classIri),
+
+    // Pure schema.org properties for schema:Person
     Triple(personIri, SchemaPerson.name, LiteralTerm.string('Jane Doe')),
     Triple(personIri, SchemaPerson.email, LiteralTerm.string('jane@example.com')),
+
+    // Related FOAF properties like foaf:age etc. are accessible through SchemaPerson context
     Triple(personIri, SchemaPerson.foafAge, LiteralTerm.integer(42)),  // FOAF property!
     Triple(personIri, SchemaPerson.foafKnows, otherPersonIri),  // FOAF relationship!
   ]);
@@ -222,6 +247,9 @@ melos format
 
 # Analyze all packages
 melos analyze
+
+# Re-generate all Dart constants from freshly fetched vocabulary source files. 
+melos generate
 ```
 
 ### Key Benefits

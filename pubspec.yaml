@@ -35,7 +35,7 @@ melos:
       run: dart run melos exec --dir-exists=test -- dart test
       description: Run `dart test` in all packages that have a `test` directory.
 
-    build:
+    generate:
       run: dart run melos exec --depends-on=build_runner -- dart run build_runner build --delete-conflicting-outputs
       description: Run `build_runner` in all packages that depend on it.
 
