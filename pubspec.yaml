@@ -1,6 +1,6 @@
 name: locorda_rdf_vocabularies_workspace
 description: Workspace root for the RDF Vocabularies multi-package project. Contains all individual packages.
-version: 0.11.0-dev
+version: 0.11.0-dev.1
 publish_to: none  # This is a workspace root, not a publishable package
 
 environment:
