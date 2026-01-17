@@ -1,6 +1,6 @@
 name: locorda_rdf_terms_schema
 description: Schema.org vocabulary (HTTPS variant) as Dart constants for type-safe RDF development
-version: 0.11.0-dev.1
+version: 0.11.0
 resolution: workspace
 homepage: https://locorda.dev/rdf-vocabularies/
 repository: https://github.com/locorda/rdf-vocabularies
