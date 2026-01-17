@@ -1,6 +1,30 @@
 ## 0.11.0
 
- - Graduate package to a stable release. See pre-releases prior to this version for changelog entries.
+**Stable Release** - Graduate package to production-ready status.
+
+### Added
+- Event vocabulary (http://purl.org/NET/c4dm/event.owl#) with Event, Product, and Factor classes
+- DCAT vocabulary for data catalog descriptions
+- Support for FIBO vocabularies (12 new vocabularies including CorporateBodies, Corporations, Addresses, etc.)
+- PROV-O and Hydra vocabularies using LOV (Linked Open Vocabularies) sources
+
+### Changed
+- Migrate to latest generator with simplified lib/src/vocabularies.json configuration (removed build.yaml)
+- Update vocabulary sources to use reliable cached/mirrored versions to avoid parsing issues
+- Switch to Turtle (.ttl) format where possible for better reliability
+- FOAF vocabulary now uses LOV cached version
+- Standardize prefix naming convention (e.g., schema-http properties use camelCase)
+
+### Documentation
+- Add 'Why Not Just Use Strings?' section highlighting type-safety benefits
+- Comprehensive documentation overhaul for locorda organization migration
+- Improve vocabulary generator guide with step-by-step instructions
+- Document Cross-Vocabulary Properties feature with practical examples
+
+### Project
+- Migrate from github.com/kkalass/rdf_vocabularies to locorda/rdf-vocabularies ecosystem
+- Update all repository URLs and documentation links to locorda.dev domain
+- Copyright updated to 2025-2026
 
 ## [0.4.5] - 2025-09-23
 

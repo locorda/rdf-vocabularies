@@ -1,6 +1,19 @@
 ## 0.11.0
 
- - Graduate package to a stable release. See pre-releases prior to this version for changelog entries.
+**Stable Release** - Graduate package to production-ready status.
+
+### Documentation
+- Add 'Why Not Just Use Strings?' section highlighting type-safety benefits and cross-vocabulary property discovery
+- Comprehensive documentation overhaul for locorda organization migration
+- Improve vocabulary generator guide in CONTRIBUTING.md with step-by-step instructions
+- Professional README improvements with corrected package information and better structure
+- Document Cross-Vocabulary Properties feature with practical examples
+
+### Project
+- Migrate from github.com/kkalass/rdf_vocabularies to locorda/rdf-vocabularies ecosystem
+- Update all repository URLs and documentation links to locorda.dev domain
+- Copyright updated to 2025-2026
+- Rename melos script 'build' to 'generate' for clarity
 
 ## [0.4.5] - 2025-09-23
 

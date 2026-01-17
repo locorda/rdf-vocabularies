@@ -1,6 +1,24 @@
 ## 0.11.0
 
- - Graduate package to a stable release. See pre-releases prior to this version for changelog entries.
+**Stable Release** - Graduate package to production-ready status.
+
+### Changed
+- Migrate to latest generator with simplified lib/src/vocabularies.json configuration (removed build.yaml)
+- Standardize prefix naming convention (schema-http properties now use camelCase, e.g., schemaHttpAdditionalType)
+- Improve prefix handling for Schema.org HTTP variant
+- Regenerate all Schema.org HTTP vocabulary classes with latest generator improvements
+- Add new Schema.org classes (AuthenticateAction, LoginAction, etc.)
+
+### Documentation
+- Add 'Why Not Just Use Strings?' section highlighting type-safety benefits
+- Comprehensive documentation overhaul for locorda organization migration
+- Professional README improvements with corrected package information
+- Document Cross-Vocabulary Properties feature with practical examples
+
+### Project
+- Migrate from github.com/kkalass/rdf_vocabularies to locorda/rdf-vocabularies ecosystem
+- Update all repository URLs and documentation links to locorda.dev domain
+- Copyright updated to 2025-2026
 
 ## [0.4.5] - 2025-09-23
 
