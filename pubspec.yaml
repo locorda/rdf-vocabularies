@@ -44,3 +44,6 @@ melos:
     updateGitTagRefs: true
     includeCommitId: true
     linkToCommits: true
+    changelog:
+      packageFilters:
+        noPrivate: true
