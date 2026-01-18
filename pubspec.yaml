@@ -30,10 +30,18 @@ melos:
     format:
       run: dart run melos exec -- dart format .
       description: Run `dart format` in all packages.
+    
+    format:check:
+      run: dart run melos exec -- dart format --output=none --set-exit-if-changed .
+      description: Check if all packages are formatted correctly.
 
     test:
       run: dart run melos exec --dir-exists=test -- dart test
       description: Run `dart test` in all packages that have a `test` directory.
+    
+    publish:check:
+      run: dart run melos exec -- dart pub publish --dry-run
+      description: Check if all packages are ready to be published to pub.dev.
 
     generate:
       run: dart run melos exec --depends-on=build_runner -- dart run build_runner build --delete-conflicting-outputs
