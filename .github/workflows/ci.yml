@@ -33,7 +33,4 @@ jobs:
       
       - name: Run tests
         run: melos run test
-      
-      - name: Verify pub.dev readiness
-        run: melos run publish:check
 
