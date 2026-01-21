@@ -6,7 +6,7 @@
 
 ## Overview
 
-[🌐 **Official Homepage**](https://locorda.dev/rdf-vocabularies/)
+[🌐 **Official Homepage**](https://locorda.dev/rdf/vocabularies/)
 
 **Stop wrestling with RDF vocabulary URIs.** This workspace provides type-safe Dart constants for standard RDF vocabularies, eliminating typos, enabling IDE autocompletion, and catching vocabulary errors at compile time.
 

@@ -5,7 +5,7 @@
 
 ## Overview
 
-[🌐 **Official Homepage**](https://locorda.dev/rdf-vocabularies/)
+[🌐 **Official Homepage**](https://locorda.dev/rdf/vocabularies/schema_http/)
 
 `locorda_rdf_terms_schema_http` provides type-safe access to the **Schema.org vocabulary with HTTP URIs** as Dart constants for use with [`locorda_rdf_core`](https://pub.dev/packages/locorda_rdf_core).
 

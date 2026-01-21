@@ -5,7 +5,7 @@
 
 ## Overview
 
-[🌐 **Official Homepage**](https://locorda.dev/rdf-vocabularies/)
+[🌐 **Official Homepage**](https://locorda.dev/rdf/vocabularies/)
 
 **Meta-package** that includes all RDF vocabularies for maximum convenience and backward compatibility. This package automatically includes:
 

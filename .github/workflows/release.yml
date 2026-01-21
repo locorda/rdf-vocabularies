@@ -54,7 +54,7 @@ jobs:
             
             ## 📚 Documentation
             
-            - [Official Homepage](https://locorda.dev/rdf-vocabularies/)
+            - [Official Homepage](https://locorda.dev/rdf/vocabularies/)
             - [Package Documentation](https://pub.dev/documentation/locorda_rdf_terms/latest/)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
