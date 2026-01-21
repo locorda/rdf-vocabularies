@@ -1,6 +1,6 @@
 name: locorda_rdf_terms
 description: A collection of well known RDF vocabularies as Dart constants, grouped in classes.
-version: 0.11.0
+version: 0.11.4
 resolution: workspace
 homepage: https://locorda.dev/rdf/vocabularies/
 repository: https://github.com/locorda/rdf-vocabularies
@@ -21,9 +21,9 @@ environment:
 
 dependencies:
   locorda_rdf_terms_core: ^0.11.4
-  locorda_rdf_terms_common: ^0.11.0
-  locorda_rdf_terms_schema: ^0.11.0
-  locorda_rdf_terms_schema_http: ^0.11.0
+  locorda_rdf_terms_common: ^0.11.4
+  locorda_rdf_terms_schema: ^0.11.4
+  locorda_rdf_terms_schema_http: ^0.11.4
   locorda_rdf_core: ^0.11.4
 
 dev_dependencies:

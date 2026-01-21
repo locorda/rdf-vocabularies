@@ -1,3 +1,9 @@
+## 0.11.4
+
+ - Synchronized with locorda_rdf_core version number
+
+ - **DOCS**: fixed links to locorda.dev homepage(s).
+
 ## 0.11.0
 
 **Stable Release** - Graduate package to production-ready status.

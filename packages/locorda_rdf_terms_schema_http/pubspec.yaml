@@ -1,6 +1,6 @@
 name: locorda_rdf_terms_schema_http
 description: Schema.org vocabulary (HTTP variant) as Dart constants for legacy system compatibility
-version: 0.11.0
+version: 0.11.4
 resolution: workspace
 homepage: https://locorda.dev/rdf/vocabularies/schema_http/
 repository: https://github.com/locorda/rdf-vocabularies

@@ -1,6 +1,6 @@
 name: locorda_rdf_terms_common
 description: Core RDF vocabularies as Dart constants - essential semantic web vocabularies (RDF, RDFS, OWL, FOAF, Dublin Core, etc.)
-version: 0.11.0
+version: 0.11.4
 resolution: workspace
 homepage: https://locorda.dev/rdf/vocabularies/common/
 repository: https://github.com/locorda/rdf-vocabularies
