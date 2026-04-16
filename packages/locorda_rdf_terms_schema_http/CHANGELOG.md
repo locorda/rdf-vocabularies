@@ -1,3 +1,5 @@
+## 0.12.0
+
 ## 0.11.4
 
  - Synchronized with locorda_rdf_core version number

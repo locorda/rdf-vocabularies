@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-04-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`locorda_rdf_terms` - `v0.12.0`](#locorda_rdf_terms---v0120)
+ - [`locorda_rdf_terms_common` - `v0.12.0`](#locorda_rdf_terms_common---v0120)
+ - [`locorda_rdf_terms_schema` - `v0.12.0`](#locorda_rdf_terms_schema---v0120)
+ - [`locorda_rdf_terms_schema_http` - `v0.12.0`](#locorda_rdf_terms_schema_http---v0120)
+
+---
+
+#### `locorda_rdf_terms` - `v0.12.0`
+
+ - Bump "locorda_rdf_terms" to `0.12.0`.
+
+#### `locorda_rdf_terms_common` - `v0.12.0`
+
+#### `locorda_rdf_terms_schema` - `v0.12.0`
+
+#### `locorda_rdf_terms_schema_http` - `v0.12.0`
+
+
 ## 2026-01-21
 
 ### Changes
