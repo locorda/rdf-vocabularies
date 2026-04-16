@@ -29,7 +29,7 @@ class Vcard {
 
   /// IRI for vcard:Address
   ///
-  /// To specify the components of the delivery address for the object
+  /// To specify the components of the delivery address for the  object
   ///
   static const Address = IriTerm('http://www.w3.org/2006/vcard/ns#Address');
 
@@ -145,7 +145,7 @@ class Vcard {
 
   /// IRI for vcard:Group
   ///
-  /// Object representing a group of persons or entities. A group object will usually contain hasMember properties to specify the members of the group.
+  /// Object representing a group of persons or entities.  A group object will usually contain hasMember properties to specify the members of the group.
   ///
   static const Group = IriTerm('http://www.w3.org/2006/vcard/ns#Group');
 
@@ -261,7 +261,8 @@ class Vcard {
 
   /// IRI for vcard:Organization
   ///
-  /// An object representing an organization. An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+  /// An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+  ///
   ///
   static const Organization = IriTerm(
     'http://www.w3.org/2006/vcard/ns#Organization',
@@ -377,7 +378,7 @@ class Vcard {
 
   /// IRI for vcard:VCard
   ///
-  /// The vCard class is equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)
+  /// The vCard class is  equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)
   ///
   static const VCard = IriTerm('http://www.w3.org/2006/vcard/ns#VCard');
 
@@ -581,7 +582,7 @@ class Vcard {
 
   /// IRI for vcard:hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

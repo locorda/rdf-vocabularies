@@ -202,7 +202,8 @@ class SkosOrderedCollection {
 
   /// memberList [Expects: http://www.w3.org/1999/02/22-rdf-syntax-ns#List]
   ///
-  /// For any resource, every item in the list given as the value of the skos:memberList property is also a value of the skos:member property.
+  /// For any resource, every item in the list given as the value of the
+  /// skos:memberList property is also a value of the skos:member property.
   ///
   /// Can be used on: http://www.w3.org/2004/02/skos/core#OrderedCollection
   ///

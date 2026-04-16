@@ -95,7 +95,7 @@ class SchemaHttpMenuItem {
   ///
   static const sameAs = IriTerm('http://schema.org/sameAs');
 
-  /// suitableForDiet [Expects: http://schema.org/RestrictedDiet]
+  /// suitableForDiet [Expects: http://schema.org/Diet, http://schema.org/RestrictedDiet]
   ///
   /// Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.
   ///

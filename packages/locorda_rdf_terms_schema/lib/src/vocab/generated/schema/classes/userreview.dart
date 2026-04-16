@@ -39,7 +39,7 @@ class SchemaUserReview {
 
   /// accessMode [Expects: https://schema.org/Text]
   ///
-  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
+  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive the intellectual content of a resource, not including any adaptations of the content (e.g., text alternatives for images). Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -47,7 +47,7 @@ class SchemaUserReview {
 
   /// accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
-  /// A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
+  /// A list of single or combined access modes that are sufficient to understand all the intellectual content of a resource, including any adaptations. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -170,7 +170,7 @@ class SchemaUserReview {
 
   /// associatedClaimReview [Expects: https://schema.org/Review]
   ///
-  /// An associated {[ClaimReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[relatedClaimReview]} would be used on {[MediaReview]}.
+  /// An associated {[ClaimReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[associatedClaimReview]} would be used on {[MediaReview]}.
   ///
   /// Can be used on: https://schema.org/Review
   ///
@@ -188,7 +188,7 @@ class SchemaUserReview {
 
   /// associatedMediaReview [Expects: https://schema.org/Review]
   ///
-  /// An associated {[MediaReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[relatedClaimReview]} would be used on {[MediaReview]}.
+  /// An associated {[MediaReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[associatedClaimReview]} would be used on {[MediaReview]}.
   ///
   /// Can be used on: https://schema.org/Review
   ///

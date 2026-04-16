@@ -16,3 +16,4 @@ export 'classes/pager.dart';
 export 'classes/person.dart';
 export 'classes/phone.dart';
 export 'classes/socialentity.dart';
+export 'contact_universal.dart';

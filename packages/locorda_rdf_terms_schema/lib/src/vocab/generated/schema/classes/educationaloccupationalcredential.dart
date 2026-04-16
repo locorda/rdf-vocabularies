@@ -13,6 +13,7 @@ import 'package:locorda_rdf_core/core.dart';
 ///
 /// Inherits from:
 /// - CreativeWork (https://schema.org/CreativeWork)
+/// - Credential (https://schema.org/Credential)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
 /// - Thing (https://schema.org/Thing)
 ///
@@ -40,7 +41,7 @@ class SchemaEducationalOccupationalCredential {
 
   /// accessMode [Expects: https://schema.org/Text]
   ///
-  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
+  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive the intellectual content of a resource, not including any adaptations of the content (e.g., text alternatives for images). Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -48,7 +49,7 @@ class SchemaEducationalOccupationalCredential {
 
   /// accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
-  /// A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
+  /// A list of single or combined access modes that are sufficient to understand all the intellectual content of a resource, including any adaptations. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -337,7 +338,7 @@ class SchemaEducationalOccupationalCredential {
   ///
   /// The category or type of credential being described, for example "degree”, “certificate”, “badge”, or more specific term.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential
+  /// Can be used on: https://schema.org/Credential
   ///
   static const credentialCategory = IriTerm(
     'https://schema.org/credentialCategory',
@@ -663,7 +664,7 @@ class SchemaEducationalOccupationalCredential {
   ///
   /// An organization that acknowledges the validity, value or utility of a credential. Note: recognition may include a process of quality assurance or accreditation.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential
+  /// Can be used on: https://schema.org/Credential
   ///
   static const recognizedBy = IriTerm('https://schema.org/recognizedBy');
 
@@ -829,7 +830,7 @@ class SchemaEducationalOccupationalCredential {
   ///
   /// The duration of validity of a permit or similar thing.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validFor = IriTerm('https://schema.org/validFor');
 
@@ -837,7 +838,7 @@ class SchemaEducationalOccupationalCredential {
   ///
   /// The geographic area where the item is valid. Applies for example to a {[Permit]}, a {[Certification]}, or an {[EducationalOccupationalCredential]}.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Certification, https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validIn = IriTerm('https://schema.org/validIn');
 

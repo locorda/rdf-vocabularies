@@ -9,7 +9,7 @@ import 'package:locorda_rdf_core/core.dart';
 
 /// VCard class from Vcard vocabulary
 ///
-/// The vCard class is equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)
+/// The vCard class is  equivalent to the new Kind class, which is the parent for the four explicit types of vCards (Individual, Organization, Location, Group)
 ///
 /// Inherits from:
 /// - Intangible (https://schema.org/Intangible)
@@ -168,7 +168,7 @@ class VcardVCard {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

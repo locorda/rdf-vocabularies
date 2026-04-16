@@ -9,7 +9,8 @@ import 'package:locorda_rdf_core/core.dart';
 
 /// SocialEntity class from Contact vocabulary
 ///
-/// The sort of thing which can have a phone number. Typically a person or an incorporated company, or unincorporated group.
+/// The sort of thing which can have a phone number.
+/// Typically a person or an incorporated company, or unincorporated group.
 ///
 /// Inherits from:
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
@@ -28,14 +29,67 @@ class ContactSocialEntity {
     'http://www.w3.org/2000/10/swap/pim/contact#SocialEntity',
   );
 
+  /// birthday [Expects: http://www.w3.org/2000/10/swap/pim/contact#Date]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
+  ///
+  static const birthday = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#birthday',
+  );
+
+  /// child
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const child = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#child',
+  );
+
+  /// description
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const description = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#description',
+  );
+
   /// emailAddress [Expects: http://www.w3.org/2000/10/swap/pim/contact#_EmailAddress]
   ///
-  /// emailAddress is a string. Use of this is discouraged. Use :mailbox instead
+  /// emailAddress is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const emailAddress = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#emailAddress',
+  );
+
+  /// fullName
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const fullName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#fullName',
+  );
+
+  /// knownAs
+  ///
+  /// A person may be known as various strings.
+  /// For example, an email friendly name string.
+  /// If you have an email from someone using a string as the human-readable phrase,
+  /// then it is reasonable to assume that there are :knownAs that.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const knownAs = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#knownAs',
   );
 
   /// mailbox [Expects: http://www.w3.org/2000/10/swap/pim/contact#Mailbox]
@@ -50,12 +104,82 @@ class ContactSocialEntity {
 
   /// mailboxURI [Expects: http://www.w3.org/2000/10/swap/pim/contact#_URI]
   ///
-  /// mailboxURI is a string. Use of this is discouraged. Use :mailbox instead
+  /// mailboxURI is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const mailboxURI = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#mailboxURI',
+  );
+
+  /// nearestAirport
+  ///
+  /// ?X nearestAirport ?Y locates ?X in an international
+  /// context; for example, for the purpose of organizing a face-to-face
+  /// meeting of a W3C working group. This property is intended to mitigate
+  /// privacy risks of giving out detailed contact info.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  /// [See also](http://lists.w3.org/Archives/Public/www-webont-wg/2001Nov/0006.html)
+  /// [See also](http://www.perceive.net/pages/page/articles/year/2002/month/12#9)
+  /// [See also](http://www.w3.org/2001/sw/Europe/200303/geo/intro.html)
+  /// [See also](http://www.w3.org/2001/sw/WebOnt/webont-airports.rdf)
+  /// [See also](http://www.w3.org/2001/tag/ilist#httpRange-14)
+  ///
+  static const nearestAirport = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#nearestAirport',
+  );
+
+  /// participant
+  ///
+  /// A person (or other agent) who  particpates in an event, meeting, etc.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const participant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#participant',
+  );
+
+  /// preferredURI
+  ///
+  /// A string which is the URI a person, organization, etc, prefers that people use for them.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const preferredURI = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#preferredURI',
+  );
+
+  /// region
+  ///
+  /// The sub-national unit such as state (us),
+  /// province (ca), county (uk), département (fr), and so on
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const region = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#region',
+  );
+
+  /// sortName
+  ///
+  /// re-arranged for lexicographic ordering; ala Doe, John
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const sortName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#sortName',
+  );
+
+  /// webPage
+  ///
+  /// A related web page
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const webPage = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#webPage',
   );
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]

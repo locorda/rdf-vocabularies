@@ -97,7 +97,7 @@ class SchemaMenuItem {
   ///
   static const sameAs = IriTerm('https://schema.org/sameAs');
 
-  /// suitableForDiet [Expects: https://schema.org/RestrictedDiet]
+  /// suitableForDiet [Expects: https://schema.org/Diet, https://schema.org/RestrictedDiet]
   ///
   /// Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.
   ///

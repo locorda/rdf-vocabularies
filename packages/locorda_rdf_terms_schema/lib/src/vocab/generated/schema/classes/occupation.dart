@@ -122,7 +122,7 @@ class SchemaOccupation {
   ///
   static const potentialAction = IriTerm('https://schema.org/potentialAction');
 
-  /// qualifications [Expects: https://schema.org/EducationalOccupationalCredential, https://schema.org/Text]
+  /// qualifications [Expects: https://schema.org/Credential, https://schema.org/Text]
   ///
   /// Specific qualifications required for this role or Occupation.
   ///

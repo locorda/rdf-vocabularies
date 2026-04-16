@@ -123,7 +123,7 @@ class VcardUniversalProperties {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   static const hasGender = IriTerm('http://www.w3.org/2006/vcard/ns#hasGender');
 

@@ -7,3 +7,4 @@
 
 export 'classes/point.dart';
 export 'classes/spatialthing.dart';
+export 'geo_universal.dart';

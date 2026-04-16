@@ -157,7 +157,7 @@ class VcardName {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

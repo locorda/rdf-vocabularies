@@ -171,7 +171,7 @@ class SchemaOfferShippingDetails {
 
   /// validForMemberTier [Expects: https://schema.org/MemberProgramTier]
   ///
-  /// The membership program tier an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
+  /// The membership program tier(s) an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/OfferShippingDetails, https://schema.org/PriceSpecification, https://schema.org/ShippingService
   ///

@@ -12,10 +12,8 @@ import 'package:locorda_rdf_core/core.dart';
 /// Properties that take Distances as values are of the form '&lt;Number&gt; &lt;Length unit of measure&gt;'. E.g., '7 ft'.
 ///
 /// Inherits from:
-/// - Intangible (https://schema.org/Intangible)
 /// - Quantity (https://schema.org/Quantity)
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
-/// - Thing (https://schema.org/Thing)
 ///
 /// This class provides access to all properties that can be used with Distance.
 /// [Class Reference](https://schema.org/Distance)
@@ -29,25 +27,6 @@ class SchemaDistance {
   /// Use this to specify that a resource is of this type.
   static const classIri = IriTerm('https://schema.org/Distance');
 
-  /// additionalType [Expects: https://schema.org/Text, https://schema.org/URL]
-  ///
-  /// An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
-  /// use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const additionalType = IriTerm('https://schema.org/additionalType');
-
-  /// disambiguatingDescription [Expects: https://schema.org/Text]
-  ///
-  /// A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const disambiguatingDescription = IriTerm(
-    'https://schema.org/disambiguatingDescription',
-  );
-
   /// interactionCount
   ///
   /// This property is deprecated, alongside the UserInteraction types on which it depended.
@@ -57,97 +36,6 @@ class SchemaDistance {
   static const interactionCount = IriTerm(
     'https://schema.org/interactionCount',
   );
-
-  /// name [Expects: https://schema.org/Text]
-  ///
-  /// The name of the item.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const name = IriTerm('https://schema.org/name');
-
-  /// potentialAction [Expects: https://schema.org/Action]
-  ///
-  /// Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const potentialAction = IriTerm('https://schema.org/potentialAction');
-
-  /// sameAs [Expects: https://schema.org/URL]
-  ///
-  /// URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const sameAs = IriTerm('https://schema.org/sameAs');
-
-  /// url [Expects: https://schema.org/URL]
-  ///
-  /// URL of the item.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const url = IriTerm('https://schema.org/url');
-
-  /// alternateName [Expects: https://schema.org/Text]
-  ///
-  /// An alias for the item.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const alternateName = IriTerm('https://schema.org/alternateName');
-
-  /// mainEntityOfPage [Expects: https://schema.org/CreativeWork, https://schema.org/URL]
-  ///
-  /// Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const mainEntityOfPage = IriTerm(
-    'https://schema.org/mainEntityOfPage',
-  );
-
-  /// owner [Expects: https://schema.org/Organization, https://schema.org/Person]
-  ///
-  /// A person or organization who owns this Thing.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const owner = IriTerm('https://schema.org/owner');
-
-  /// subjectOf [Expects: https://schema.org/CreativeWork, https://schema.org/Event]
-  ///
-  /// A CreativeWork or Event about this Thing.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const subjectOf = IriTerm('https://schema.org/subjectOf');
-
-  /// description [Expects: https://schema.org/Text, https://schema.org/TextObject]
-  ///
-  /// A description of the item.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const description = IriTerm('https://schema.org/description');
-
-  /// image [Expects: https://schema.org/ImageObject, https://schema.org/URL]
-  ///
-  /// An image of the item. This can be a {[URL]} or a fully described {[ImageObject]}.
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const image = IriTerm('https://schema.org/image');
-
-  /// identifier [Expects: https://schema.org/PropertyValue, https://schema.org/Text, https://schema.org/URL]
-  ///
-  /// The identifier property represents any kind of identifier for any kind of {[Thing]}, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
-  ///
-  ///
-  /// Can be used on: https://schema.org/Thing
-  ///
-  static const identifier = IriTerm('https://schema.org/identifier');
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
   ///

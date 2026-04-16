@@ -205,6 +205,14 @@ class SchemaHttpJobPosting {
   ///
   static const interactionCount = IriTerm('http://schema.org/interactionCount');
 
+  /// jobDuration [Expects: http://schema.org/Duration, http://schema.org/QuantitativeValue]
+  ///
+  /// The expected duration of an employment offer as advertised by the employer. Relevant for job postings that have a clearly defined period in mind such as seasonal work, substitutes for maternal leave or any other temporary employment.
+  ///
+  /// Can be used on: http://schema.org/JobPosting
+  ///
+  static const jobDuration = IriTerm('http://schema.org/jobDuration');
+
   /// jobImmediateStart [Expects: http://schema.org/Boolean]
   ///
   /// An indicator as to whether a position is available for an immediate start.
@@ -276,7 +284,7 @@ class SchemaHttpJobPosting {
   ///
   static const potentialAction = IriTerm('http://schema.org/potentialAction');
 
-  /// qualifications [Expects: http://schema.org/EducationalOccupationalCredential, http://schema.org/Text]
+  /// qualifications [Expects: http://schema.org/Credential, http://schema.org/Text]
   ///
   /// Specific qualifications required for this role or Occupation.
   ///

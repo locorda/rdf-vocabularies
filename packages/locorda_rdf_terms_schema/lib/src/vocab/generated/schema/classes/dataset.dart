@@ -45,7 +45,7 @@ class SchemaDataset {
 
   /// accessMode [Expects: https://schema.org/Text]
   ///
-  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
+  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive the intellectual content of a resource, not including any adaptations of the content (e.g., text alternatives for images). Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -53,7 +53,7 @@ class SchemaDataset {
 
   /// accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
-  /// A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
+  /// A list of single or combined access modes that are sufficient to understand all the intellectual content of a resource, including any adaptations. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -1036,7 +1036,7 @@ class SchemaDataset {
   ///
   /// For example, if {[variableMeasured]} is: molecule concentration, {[measurementTechnique]} could be: "mass spectrometry" or "nmr spectroscopy" or "colorimetry" or "immunofluorescence". If the {[variableMeasured]} is "depression rating", the {[measurementTechnique]} could be "Zung Scale" or "HAM-D" or "Beck Depression Inventory".
   ///
-  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMetholdEnumeration]}.
+  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMethodEnum]}.
   ///
   /// Can be used on: https://schema.org/DataCatalog, https://schema.org/DataDownload, https://schema.org/Dataset, https://schema.org/Observation, https://schema.org/PropertyValue, https://schema.org/StatisticalVariable
   ///

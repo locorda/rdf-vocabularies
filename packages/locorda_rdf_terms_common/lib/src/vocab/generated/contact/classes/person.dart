@@ -38,14 +38,97 @@ class ContactPerson {
     'http://www.w3.org/2000/10/swap/pim/contact#Person',
   );
 
+  /// assistant
+  ///
+  /// A person (or other agent) who is an assistant to the subject.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const assistant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#assistant',
+  );
+
+  /// birthday [Expects: http://www.w3.org/2000/10/swap/pim/contact#Date]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
+  ///
+  static const birthday = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#birthday',
+  );
+
+  /// child
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const child = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#child',
+  );
+
+  /// description
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const description = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#description',
+  );
+
   /// emailAddress [Expects: http://www.w3.org/2000/10/swap/pim/contact#_EmailAddress]
   ///
-  /// emailAddress is a string. Use of this is discouraged. Use :mailbox instead
+  /// emailAddress is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const emailAddress = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#emailAddress',
+  );
+
+  /// emergency [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const emergency = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#emergency',
+  );
+
+  /// fullName
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const fullName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#fullName',
+  );
+
+  /// home [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const home = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#home',
+  );
+
+  /// knownAs
+  ///
+  /// A person may be known as various strings.
+  /// For example, an email friendly name string.
+  /// If you have an email from someone using a string as the human-readable phrase,
+  /// then it is reasonable to assume that there are :knownAs that.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const knownAs = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#knownAs',
   );
 
   /// mailbox [Expects: http://www.w3.org/2000/10/swap/pim/contact#Mailbox]
@@ -60,12 +143,132 @@ class ContactPerson {
 
   /// mailboxURI [Expects: http://www.w3.org/2000/10/swap/pim/contact#_URI]
   ///
-  /// mailboxURI is a string. Use of this is discouraged. Use :mailbox instead
+  /// mailboxURI is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const mailboxURI = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#mailboxURI',
+  );
+
+  /// mobile [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const mobile = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#mobile',
+  );
+
+  /// motherTongue [Expects: http://www.w3.org/2000/10/swap/pim/contact#LanguageCode]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const motherTongue = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#motherTongue',
+  );
+
+  /// nearestAirport
+  ///
+  /// ?X nearestAirport ?Y locates ?X in an international
+  /// context; for example, for the purpose of organizing a face-to-face
+  /// meeting of a W3C working group. This property is intended to mitigate
+  /// privacy risks of giving out detailed contact info.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  /// [See also](http://lists.w3.org/Archives/Public/www-webont-wg/2001Nov/0006.html)
+  /// [See also](http://www.perceive.net/pages/page/articles/year/2002/month/12#9)
+  /// [See also](http://www.w3.org/2001/sw/Europe/200303/geo/intro.html)
+  /// [See also](http://www.w3.org/2001/sw/WebOnt/webont-airports.rdf)
+  /// [See also](http://www.w3.org/2001/tag/ilist#httpRange-14)
+  ///
+  static const nearestAirport = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#nearestAirport',
+  );
+
+  /// office [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const office = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#office',
+  );
+
+  /// participant
+  ///
+  /// A person (or other agent) who  particpates in an event, meeting, etc.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const participant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#participant',
+  );
+
+  /// partner [Expects: http://www.w3.org/2000/10/swap/pim/contact#Person]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const partner = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#partner',
+  );
+
+  /// preferredURI
+  ///
+  /// A string which is the URI a person, organization, etc, prefers that people use for them.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const preferredURI = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#preferredURI',
+  );
+
+  /// region
+  ///
+  /// The sub-national unit such as state (us),
+  /// province (ca), county (uk), département (fr), and so on
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const region = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#region',
+  );
+
+  /// sortName
+  ///
+  /// re-arranged for lexicographic ordering; ala Doe, John
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const sortName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#sortName',
+  );
+
+  /// vacationHome [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const vacationHome = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#vacationHome',
+  );
+
+  /// webPage
+  ///
+  /// A related web page
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const webPage = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#webPage',
   );
 
   /// type from rdf vocabulary [Expects: http://www.w3.org/2000/01/rdf-schema#Class]
@@ -1190,6 +1393,33 @@ class ContactPerson {
     'https://ref.gs1.org/voc/whatsInTheBox',
   );
 
+  /// lat from geo vocabulary
+  ///
+  /// The WGS84 latitude of a SpatialThing (decimal degrees).
+  ///
+  /// Can be used on: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+  ///
+  static const geoLat = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#lat');
+
+  /// long from geo vocabulary
+  ///
+  /// The WGS84 longitude of a SpatialThing (decimal degrees).
+  ///
+  /// Can be used on: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+  ///
+  static const geoLong = IriTerm(
+    'http://www.w3.org/2003/01/geo/wgs84_pos#long',
+  );
+
+  /// alt from geo vocabulary
+  ///
+  /// The WGS84 altitude of a SpatialThing (decimal meters
+  /// above the local reference ellipsoid).
+  ///
+  /// Can be used on: http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+  ///
+  static const geoAlt = IriTerm('http://www.w3.org/2003/01/geo/wgs84_pos#alt');
+
   /// masterWorkspace from pim vocabulary [Expects: http://www.w3.org/ns/pim/space#MasterWorkspace]
   ///
   ///
@@ -1433,7 +1663,7 @@ class ContactPerson {
     'http://schema.org/hasCertification',
   );
 
-  /// hasCredential from schema-http vocabulary [Expects: http://schema.org/EducationalOccupationalCredential]
+  /// hasCredential from schema-http vocabulary [Expects: http://schema.org/Credential]
   ///
   /// A credential awarded to the Person or Organization.
   ///
@@ -1702,7 +1932,7 @@ class ContactPerson {
 
   /// vatID from schema-http vocabulary [Expects: http://schema.org/Text]
   ///
-  /// The Value-added Tax ID of the organization or person.
+  /// The value-added Tax ID of the organization or person with national prefix (for example IT123456789). Can also be described as {[iso6523Code]} with proper prefix.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///

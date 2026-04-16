@@ -94,7 +94,7 @@ class SchemaHttpShippingRateSettings {
 
   /// orderPercentage [Expects: http://schema.org/Number]
   ///
-  /// Value in the range [0.0 ; 1.0] representing the fraction of the value of the order that is charged as shipping cost.
+  /// Value representing the fraction of the value of the order that is charged as shipping cost. Example: 0.10 would mean shipping rate is 10% of the total order value.
   ///
   /// Can be used on: http://schema.org/ShippingRateSettings
   ///
@@ -144,7 +144,7 @@ class SchemaHttpShippingRateSettings {
 
   /// weightPercentage [Expects: http://schema.org/Number]
   ///
-  /// Value in the range [0.0 ; 1.0] representing the fraction of the weight that is used to compute the shipping price.
+  /// Value representing the fraction of the weight that is used to compute the shipping price. Example: 0.10 and a shipping weight of 15kg would add $1.5 to the order price, where the $ is the currency of the order.
   ///
   /// Can be used on: http://schema.org/ShippingRateSettings
   ///

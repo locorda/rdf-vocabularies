@@ -117,7 +117,7 @@ class SchemaPermit {
   ///
   /// The duration of validity of a permit or similar thing.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validFor = IriTerm('https://schema.org/validFor');
 
@@ -133,7 +133,7 @@ class SchemaPermit {
   ///
   /// The geographic area where the item is valid. Applies for example to a {[Permit]}, a {[Certification]}, or an {[EducationalOccupationalCredential]}.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Certification, https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validIn = IriTerm('https://schema.org/validIn');
 

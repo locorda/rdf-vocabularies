@@ -9,7 +9,7 @@ import 'package:locorda_rdf_core/core.dart';
 
 /// Address class from Vcard vocabulary
 ///
-/// To specify the components of the delivery address for the object
+/// To specify the components of the delivery address for the  object
 ///
 /// Inherits from:
 /// - Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
@@ -157,7 +157,7 @@ class VcardAddress {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

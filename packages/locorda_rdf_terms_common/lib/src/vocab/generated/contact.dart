@@ -29,7 +29,14 @@ class Contact {
 
   /// IRI for contact:ContactLocation
   ///
-  /// A place, or mobile situation, with address, phone number, fax, etc. Related to a person by home, office, etc. Note one person's workplace may be another person's home. A person may have more than one home and more than one workplace. (In practice it sometimes maybe useful with restriucted datasets to assume that this is not the case, when extracting data from other ontologies with no concept of ContactLocation). Strongly related to a person: in some ways a role that a person can be in.
+  /// A place, or mobile situation, with address, phone number, fax, etc.
+  /// Related to a person by home, office, etc.
+  /// Note one person's workplace may be another person's home.
+  /// A person may have more than one home and more than one workplace.
+  /// (In practice it sometimes maybe useful with restriucted datasets to
+  /// assume that this is not the case, when extracting data from other ontologies
+  /// with no concept of ContactLocation).  Strongly related to a person:
+  /// in some ways a role that a person can be in.
   ///
   static const ContactLocation = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#ContactLocation',
@@ -91,7 +98,10 @@ class Contact {
 
   /// IRI for contact:Phone
   ///
-  /// An end-point in the public swiitched telephone system. Anything identified by a URI with tel: scheme is in this class.
+  ///
+  /// An end-point in the public swiitched telephone system.
+  /// Anything identified by a URI with tel: scheme is in this class.
+  ///
   ///
   static const Phone = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#Phone',
@@ -99,34 +109,11 @@ class Contact {
 
   /// IRI for contact:SocialEntity
   ///
-  /// The sort of thing which can have a phone number. Typically a person or an incorporated company, or unincorporated group.
+  /// The sort of thing which can have a phone number.
+  /// Typically a person or an incorporated company, or unincorporated group.
   ///
   static const SocialEntity = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#SocialEntity',
-  );
-
-  /// IRI for contact:address
-  ///
-  ///
-  ///
-  static const address = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#address',
-  );
-
-  /// IRI for contact:assistant
-  ///
-  /// A person (or other agent) who is an assistant to the subject.
-  ///
-  static const assistant = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#assistant',
-  );
-
-  /// IRI for contact:birthday
-  ///
-  ///
-  ///
-  static const birthday = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#birthday',
   );
 
   /// IRI for contact:city
@@ -153,14 +140,6 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#departmentName',
   );
 
-  /// IRI for contact:emergency
-  ///
-  ///
-  ///
-  static const emergency = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#emergency',
-  );
-
   /// IRI for contact:familyName
   ///
   ///
@@ -168,12 +147,6 @@ class Contact {
   static const familyName = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#familyName',
   );
-
-  /// IRI for contact:fax
-  ///
-  ///
-  ///
-  static const fax = IriTerm('http://www.w3.org/2000/10/swap/pim/contact#fax');
 
   /// IRI for contact:firstName
   ///
@@ -183,28 +156,12 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#firstName',
   );
 
-  /// IRI for contact:fullName
-  ///
-  ///
-  ///
-  static const fullName = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#fullName',
-  );
-
   /// IRI for contact:givenName
   ///
   ///
   ///
   static const givenName = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#givenName',
-  );
-
-  /// IRI for contact:home
-  ///
-  ///
-  ///
-  static const home = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#home',
   );
 
   /// IRI for contact:homePage
@@ -221,14 +178,6 @@ class Contact {
   ///
   static const homePageAddress = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#homePageAddress',
-  );
-
-  /// IRI for contact:knownAs
-  ///
-  /// A person may be known as various strings. For example, an email friendly name string. If you have an email from someone using a string as the human-readable phrase, then it is reasonable to assume that there are :knownAs that.
-  ///
-  static const knownAs = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#knownAs',
   );
 
   /// IRI for contact:lastName
@@ -255,66 +204,12 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#middleName',
   );
 
-  /// IRI for contact:mobile
-  ///
-  ///
-  ///
-  static const mobile = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#mobile',
-  );
-
-  /// IRI for contact:motherTongue
-  ///
-  ///
-  ///
-  static const motherTongue = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#motherTongue',
-  );
-
-  /// IRI for contact:nearestAirport
-  ///
-  /// ?X nearestAirport ?Y locates ?X in an international context; for example, for the purpose of organizing a face-to-face meeting of a W3C working group. This property is intended to mitigate privacy risks of giving out detailed contact info.
-  ///
-  /// [See also](http://lists.w3.org/Archives/Public/www-webont-wg/2001Nov/0006.html)
-  /// [See also](http://www.perceive.net/pages/page/articles/year/2002/month/12#9)
-  /// [See also](http://www.w3.org/2001/sw/Europe/200303/geo/intro.html)
-  /// [See also](http://www.w3.org/2001/sw/WebOnt/webont-airports.rdf)
-  /// [See also](http://www.w3.org/2001/tag/ilist#httpRange-14)
-  ///
-  static const nearestAirport = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#nearestAirport',
-  );
-
-  /// IRI for contact:office
-  ///
-  ///
-  ///
-  static const office = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#office',
-  );
-
   /// IRI for contact:organization
   ///
   ///
   ///
   static const organization = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#organization',
-  );
-
-  /// IRI for contact:participant
-  ///
-  /// A person (or other agent) who particpates in an event, meeting, etc.
-  ///
-  static const participant = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#participant',
-  );
-
-  /// IRI for contact:partner
-  ///
-  ///
-  ///
-  static const partner = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#partner',
   );
 
   /// IRI for contact:personalSuffix
@@ -333,14 +228,6 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#personalTitle',
   );
 
-  /// IRI for contact:phone
-  ///
-  ///
-  ///
-  static const phone = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#phone',
-  );
-
   /// IRI for contact:postalCode
   ///
   ///
@@ -349,36 +236,12 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#postalCode',
   );
 
-  /// IRI for contact:preferredURI
-  ///
-  /// A string which is the URI a person, organization, etc, prefers that people use for them.
-  ///
-  static const preferredURI = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#preferredURI',
-  );
-
   /// IRI for contact:publicHomePage
   ///
   ///
   ///
   static const publicHomePage = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#publicHomePage',
-  );
-
-  /// IRI for contact:region
-  ///
-  /// The sub-national unit such as state (us), province (ca), county (uk), département (fr), and so on
-  ///
-  static const region = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#region',
-  );
-
-  /// IRI for contact:sortName
-  ///
-  /// re-arranged for lexicographic ordering; ala Doe, John
-  ///
-  static const sortName = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#sortName',
   );
 
   /// IRI for contact:stateOrProvince
@@ -421,22 +284,6 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#title',
   );
 
-  /// IRI for contact:vacationHome
-  ///
-  ///
-  ///
-  static const vacationHome = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#vacationHome',
-  );
-
-  /// IRI for contact:webPage
-  ///
-  /// A related web page
-  ///
-  static const webPage = IriTerm(
-    'http://www.w3.org/2000/10/swap/pim/contact#webPage',
-  );
-
   /// IRI for contact:zip
   ///
   ///
@@ -459,14 +306,115 @@ class Contact {
     'http://www.w3.org/2000/10/swap/pim/contact#Mailbox',
   );
 
+  /// IRI for contact:address [Expects: http://www.w3.org/2000/10/swap/pim/contact#Address]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation
+  ///
+  static const address = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#address',
+  );
+
+  /// IRI for contact:assistant
+  ///
+  /// A person (or other agent) who is an assistant to the subject.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const assistant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#assistant',
+  );
+
+  /// IRI for contact:birthday [Expects: http://www.w3.org/2000/10/swap/pim/contact#Date]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
+  ///
+  static const birthday = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#birthday',
+  );
+
+  /// IRI for contact:child
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const child = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#child',
+  );
+
+  /// IRI for contact:description
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const description = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#description',
+  );
+
   /// IRI for contact:emailAddress [Expects: http://www.w3.org/2000/10/swap/pim/contact#_EmailAddress]
   ///
-  /// emailAddress is a string. Use of this is discouraged. Use :mailbox instead
+  /// emailAddress is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const emailAddress = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#emailAddress',
+  );
+
+  /// IRI for contact:emergency [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const emergency = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#emergency',
+  );
+
+  /// IRI for contact:fax [Expects: http://www.w3.org/2000/10/swap/pim/contact#Fax]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation
+  ///
+  static const fax = IriTerm('http://www.w3.org/2000/10/swap/pim/contact#fax');
+
+  /// IRI for contact:fullName
+  ///
+  ///
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const fullName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#fullName',
+  );
+
+  /// IRI for contact:home [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const home = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#home',
+  );
+
+  /// IRI for contact:knownAs
+  ///
+  /// A person may be known as various strings.
+  /// For example, an email friendly name string.
+  /// If you have an email from someone using a string as the human-readable phrase,
+  /// then it is reasonable to assume that there are :knownAs that.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const knownAs = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#knownAs',
   );
 
   /// IRI for contact:mailbox [Expects: http://www.w3.org/2000/10/swap/pim/contact#Mailbox]
@@ -481,11 +429,141 @@ class Contact {
 
   /// IRI for contact:mailboxURI [Expects: http://www.w3.org/2000/10/swap/pim/contact#_URI]
   ///
-  /// mailboxURI is a string. Use of this is discouraged. Use :mailbox instead
+  /// mailboxURI is a string.  Use of this is discouraged. Use :mailbox instead
   ///
   /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#SocialEntity
   ///
   static const mailboxURI = IriTerm(
     'http://www.w3.org/2000/10/swap/pim/contact#mailboxURI',
+  );
+
+  /// IRI for contact:mobile [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const mobile = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#mobile',
+  );
+
+  /// IRI for contact:motherTongue [Expects: http://www.w3.org/2000/10/swap/pim/contact#LanguageCode]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const motherTongue = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#motherTongue',
+  );
+
+  /// IRI for contact:nearestAirport
+  ///
+  /// ?X nearestAirport ?Y locates ?X in an international
+  /// context; for example, for the purpose of organizing a face-to-face
+  /// meeting of a W3C working group. This property is intended to mitigate
+  /// privacy risks of giving out detailed contact info.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  /// [See also](http://lists.w3.org/Archives/Public/www-webont-wg/2001Nov/0006.html)
+  /// [See also](http://www.perceive.net/pages/page/articles/year/2002/month/12#9)
+  /// [See also](http://www.w3.org/2001/sw/Europe/200303/geo/intro.html)
+  /// [See also](http://www.w3.org/2001/sw/WebOnt/webont-airports.rdf)
+  /// [See also](http://www.w3.org/2001/tag/ilist#httpRange-14)
+  ///
+  static const nearestAirport = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#nearestAirport',
+  );
+
+  /// IRI for contact:office [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const office = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#office',
+  );
+
+  /// IRI for contact:participant
+  ///
+  /// A person (or other agent) who  particpates in an event, meeting, etc.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const participant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#participant',
+  );
+
+  /// IRI for contact:partner [Expects: http://www.w3.org/2000/10/swap/pim/contact#Person]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const partner = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#partner',
+  );
+
+  /// IRI for contact:phone [Expects: http://www.w3.org/2000/10/swap/pim/contact#Phone]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation
+  ///
+  static const phone = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#phone',
+  );
+
+  /// IRI for contact:preferredURI
+  ///
+  /// A string which is the URI a person, organization, etc, prefers that people use for them.
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const preferredURI = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#preferredURI',
+  );
+
+  /// IRI for contact:region
+  ///
+  /// The sub-national unit such as state (us),
+  /// province (ca), county (uk), département (fr), and so on
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const region = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#region',
+  );
+
+  /// IRI for contact:sortName
+  ///
+  /// re-arranged for lexicographic ordering; ala Doe, John
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const sortName = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#sortName',
+  );
+
+  /// IRI for contact:vacationHome [Expects: http://www.w3.org/2000/10/swap/pim/contact#ContactLocation]
+  ///
+  ///
+  ///
+  /// Can be used on: http://www.w3.org/2000/10/swap/pim/contact#Person
+  ///
+  static const vacationHome = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#vacationHome',
+  );
+
+  /// IRI for contact:webPage
+  ///
+  /// A related web page
+  ///
+  /// Can be used on all classes in this vocabulary
+  ///
+  static const webPage = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#webPage',
   );
 }

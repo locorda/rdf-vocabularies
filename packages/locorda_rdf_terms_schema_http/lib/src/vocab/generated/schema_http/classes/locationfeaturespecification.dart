@@ -209,7 +209,7 @@ class SchemaHttpLocationFeatureSpecification {
   ///
   /// For example, if {[variableMeasured]} is: molecule concentration, {[measurementTechnique]} could be: "mass spectrometry" or "nmr spectroscopy" or "colorimetry" or "immunofluorescence". If the {[variableMeasured]} is "depression rating", the {[measurementTechnique]} could be "Zung Scale" or "HAM-D" or "Beck Depression Inventory".
   ///
-  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMetholdEnumeration]}.
+  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMethodEnum]}.
   ///
   /// Can be used on: http://schema.org/DataCatalog, http://schema.org/DataDownload, http://schema.org/Dataset, http://schema.org/Observation, http://schema.org/PropertyValue, http://schema.org/StatisticalVariable
   ///

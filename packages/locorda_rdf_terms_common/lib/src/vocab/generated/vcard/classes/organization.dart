@@ -9,7 +9,8 @@ import 'package:locorda_rdf_core/core.dart';
 
 /// Organization class from Vcard vocabulary
 ///
-/// An object representing an organization. An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+/// An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.
+///
 ///
 /// Inherits from:
 /// - Intangible (https://schema.org/Intangible)
@@ -163,7 +164,7 @@ class VcardOrganization {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

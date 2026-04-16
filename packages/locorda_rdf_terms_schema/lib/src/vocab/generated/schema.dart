@@ -1313,6 +1313,12 @@ class Schema {
     'https://schema.org/CreativeWorkSeries',
   );
 
+  /// IRI for schema:Credential
+  ///
+  /// A credential is a certificate that is used to verify the identity of a person or entity.
+  ///
+  static const Credential = IriTerm('https://schema.org/Credential');
+
   /// IRI for schema:CreditCard
   ///
   /// A card payment method of a particular brand or name.  Used to mark up a particular payment method and/or the financial product/service that supplies the card account.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#AmericanExpress\n* http://purl.org/goodrelations/v1#DinersClub\n* http://purl.org/goodrelations/v1#Discover\n* http://purl.org/goodrelations/v1#JCB\n* http://purl.org/goodrelations/v1#MasterCard\n* http://purl.org/goodrelations/v1#VISA
@@ -1351,6 +1357,12 @@ class Schema {
   /// An alternative, closely-related condition typically considered later in the differential diagnosis process along with the signs that are used to distinguish it.
   ///
   static const DDxElement = IriTerm('https://schema.org/DDxElement');
+
+  /// IRI for schema:DENonprofitType
+  ///
+  /// DENonprofitType: Non-profit organization type originating from Germany in accordance with article 52 of the German fiscal code (Abgabenverordnung or AO).
+  ///
+  static const DENonprofitType = IriTerm('https://schema.org/DENonprofitType');
 
   /// IRI for schema:DanceEvent
   ///
@@ -2636,6 +2648,12 @@ class Schema {
   static const IPTCDigitalSourceEnumeration = IriTerm(
     'https://schema.org/IPTCDigitalSourceEnumeration',
   );
+
+  /// IRI for schema:ITNonprofitType
+  ///
+  /// ITNonprofitType: Non-profit organization type originating from Italy.
+  ///
+  static const ITNonprofitType = IriTerm('https://schema.org/ITNonprofitType');
 
   /// IRI for schema:IceCreamShop
   ///
@@ -4739,7 +4757,7 @@ class Schema {
 
   /// IRI for schema:Quantity
   ///
-  /// Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 kg' or '4 milligrams'.
+  /// Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are strings like '3 kg' or '4 milligrams'.
   ///
   static const Quantity = IriTerm('https://schema.org/Quantity');
 
@@ -7004,6 +7022,60 @@ class Schema {
   ///
   static const CrossSectional = IriTerm('https://schema.org/CrossSectional');
 
+  /// IRI for schema:DECooperativeCharity
+  ///
+  /// DECooperativeCharity: Non-profit type referring to a charitable Cooperative (German Genossenschaft) that has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DECooperativeCharity = IriTerm(
+    'https://schema.org/DECooperativeCharity',
+  );
+
+  /// IRI for schema:DEFoundationCharity
+  ///
+  /// DEFoundationCharity: Non-profit type referring to a charitable Foundation (German Stiftung) that has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DEFoundationCharity = IriTerm(
+    'https://schema.org/DEFoundationCharity',
+  );
+
+  /// IRI for schema:DEJointStockCompanyCharity
+  ///
+  /// DEJointStockCompanyCharity: Non-profit type referring to a charitable Joint Stock Company (German gAG gemeinnützige Aktiengesellschaft) that has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DEJointStockCompanyCharity = IriTerm(
+    'https://schema.org/DEJointStockCompanyCharity',
+  );
+
+  /// IRI for schema:DELimitedLiabilityCharity
+  ///
+  /// DELimitedLiabilityCharity: Non-profit type referring to a charitable Common Stock Company (German gGmbH or gemeinnützige Gesellschaft mit beschränkter Haftung) that has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DELimitedLiabilityCharity = IriTerm(
+    'https://schema.org/DELimitedLiabilityCharity',
+  );
+
+  /// IRI for schema:DENotRegisteredAssociationCharity
+  ///
+  /// DENotRegisteredAssociationCharity: Non-profit type referring to a charitable association that is not registered with the German association register (gemeinnütziger Verein) and has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DENotRegisteredAssociationCharity = IriTerm(
+    'https://schema.org/DENotRegisteredAssociationCharity',
+  );
+
+  /// IRI for schema:DEPublicCharity
+  ///
+  /// DEPublicCharity: Non-profit type referring to a charitable government owned juridical person (German Körperschaft öffentlichen Rechts) that has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DEPublicCharity = IriTerm('https://schema.org/DEPublicCharity');
+
+  /// IRI for schema:DERegisteredAssociationCharity
+  ///
+  /// DERegisteredAssociationCharity: Non-profit type referring to a charitable association that is registered with the German association register (german gemeinnütziger e.v. or gemeinnütziger eingetragener Verein) and has been recognized by the tax authorities as a charitable non-profit.
+  ///
+  static const DERegisteredAssociationCharity = IriTerm(
+    'https://schema.org/DERegisteredAssociationCharity',
+  );
+
   /// IRI for schema:DJMixAlbum
   ///
   /// DJMixAlbum.
@@ -7694,6 +7766,54 @@ class Schema {
   /// Represents the broad notion of iOS-based operating systems.
   ///
   static const IOSPlatform = IriTerm('https://schema.org/IOSPlatform');
+
+  /// IRI for schema:ITCooperativeCharity
+  ///
+  /// ITCooperativeCharity: Non-profit type referring to Cooperatives with charitable missions (Ital. Cooperativa Sociale) according to Italian Law 112 of 2017.
+  ///
+  static const ITCooperativeCharity = IriTerm(
+    'https://schema.org/ITCooperativeCharity',
+  );
+
+  /// IRI for schema:ITMutualAidCharity
+  ///
+  /// ITMutualAidCharity: Non-profit type referring to associations providing financial aid to people need (Ital. Società di mutuo soccorso or SOMS) according to Italian Law 3818 of 1886.
+  ///
+  static const ITMutualAidCharity = IriTerm(
+    'https://schema.org/ITMutualAidCharity',
+  );
+
+  /// IRI for schema:ITSocialCompanyCharity
+  ///
+  /// ITSocialCompanyCharity: Non-profit type referring to companies with charitable missions (Ital. Imprese Sociali or IS) according to Italian Law 112 of 2017.
+  ///
+  static const ITSocialCompanyCharity = IriTerm(
+    'https://schema.org/ITSocialCompanyCharity',
+  );
+
+  /// IRI for schema:ITSocialPromotionCharity
+  ///
+  /// ITSocialPromotionCharity: Non-profit type referring to associations promoting charitable causes (Ital. Associazioni di promozione sociale or APS) according to Italian Law 383 of 2000.
+  ///
+  static const ITSocialPromotionCharity = IriTerm(
+    'https://schema.org/ITSocialPromotionCharity',
+  );
+
+  /// IRI for schema:ITSportCompanyCharity
+  ///
+  /// ITSportCompanyCharity: Non-profit type referring to Companies that organize sports activities for the public or inscribed members (Ital. Società Sportiva Dilettantistica or SSD) according to Italian Law 289 of 2002.
+  ///
+  static const ITSportCompanyCharity = IriTerm(
+    'https://schema.org/ITSportCompanyCharity',
+  );
+
+  /// IRI for schema:ITVolunteerAssociationCharity
+  ///
+  /// ITVolunteerAssociationCharity: Non-profit type referring to associations organising charitable volunteer activities (Ital. Organizzazioni di volontariato or ODV) according to Italian Law 266 of 1991.
+  ///
+  static const ITVolunteerAssociationCharity = IriTerm(
+    'https://schema.org/ITVolunteerAssociationCharity',
+  );
 
   /// IRI for schema:InForce
   ///
@@ -10308,7 +10428,7 @@ class Schema {
 
   /// IRI for schema:accessMode [Expects: https://schema.org/Text]
   ///
-  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
+  /// The human sensory perceptual system or cognitive faculty through which a person may process or perceive the intellectual content of a resource, not including any adaptations of the content (e.g., text alternatives for images). Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -10316,7 +10436,7 @@ class Schema {
 
   /// IRI for schema:accessModeSufficient [Expects: https://schema.org/ItemList]
   ///
-  /// A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
+  /// A list of single or combined access modes that are sufficient to understand all the intellectual content of a resource, including any adaptations. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary).
   ///
   /// Can be used on: https://schema.org/CreativeWork
   ///
@@ -10622,7 +10742,7 @@ class Schema {
 
   /// IRI for schema:addressRegion [Expects: https://schema.org/AdministrativeArea, https://schema.org/Text]
   ///
-  /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country).
+  /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country) such as the Province in Italy or Region in Germany.
   ///
   /// Can be used on: https://schema.org/DefinedRegion, https://schema.org/PostalAddress
   ///
@@ -11189,7 +11309,7 @@ class Schema {
 
   /// IRI for schema:associatedClaimReview [Expects: https://schema.org/Review]
   ///
-  /// An associated {[ClaimReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[relatedClaimReview]} would be used on {[MediaReview]}.
+  /// An associated {[ClaimReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[associatedClaimReview]} would be used on {[MediaReview]}.
   ///
   /// Can be used on: https://schema.org/Review
   ///
@@ -11217,7 +11337,7 @@ class Schema {
 
   /// IRI for schema:associatedMediaReview [Expects: https://schema.org/Review]
   ///
-  /// An associated {[MediaReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[relatedClaimReview]} would be used on {[MediaReview]}.
+  /// An associated {[MediaReview]}, related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case {[relatedMediaReview]} would commonly be used on a {[ClaimReview]}, while {[associatedClaimReview]} would be used on {[MediaReview]}.
   ///
   /// Can be used on: https://schema.org/Review
   ///
@@ -12379,7 +12499,7 @@ class Schema {
 
   /// IRI for schema:companyRegistration [Expects: https://schema.org/Certification]
   ///
-  /// The official registration number of a business including the organization that issued it such as Company House or Chamber of Commerce.
+  /// The official registration information of a business including the organization that issued it such as Company House or Chamber of Commerce in form of a Certification.
   ///
   /// Can be used on: https://schema.org/Organization
   ///
@@ -12777,7 +12897,7 @@ class Schema {
   ///
   /// The category or type of credential being described, for example "degree”, “certificate”, “badge”, or more specific term.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential
+  /// Can be used on: https://schema.org/Credential
   ///
   static const credentialCategory = IriTerm(
     'https://schema.org/credentialCategory',
@@ -14490,7 +14610,7 @@ class Schema {
   /// The floor level for an {[Accommodation]} in a multi-storey building. Since counting
   /// systems [vary internationally](https://en.wikipedia.org/wiki/Storey#Consecutive_number_floor_designations), the local system should be used where possible.
   ///
-  /// Can be used on: https://schema.org/Accommodation
+  /// Can be used on: https://schema.org/Accommodation, https://schema.org/LocalBusiness, https://schema.org/Residence
   ///
   static const floorLevel = IriTerm('https://schema.org/floorLevel');
 
@@ -15035,7 +15155,7 @@ class Schema {
     'https://schema.org/hasCourseInstance',
   );
 
-  /// IRI for schema:hasCredential [Expects: https://schema.org/EducationalOccupationalCredential]
+  /// IRI for schema:hasCredential [Expects: https://schema.org/Credential]
   ///
   /// A credential awarded to the Person or Organization.
   ///
@@ -15095,7 +15215,7 @@ class Schema {
 
   /// IRI for schema:hasGS1DigitalLink [Expects: https://schema.org/URL]
   ///
-  /// The <a href="https://www.gs1.org/standards/gs1-digital-link">GS1 digital link</a> associated with the object. This URL should conform to the particular requirements of digital links. The link should only contain the Application Identifiers (AIs) that are relevant for the entity being annotated, for instance a {[Product]} or an {[Organization]}, and for the correct granularity. In particular, for products:<ul><li>A Digital Link that contains a serial number (AI <code>21</code>) should only be present on instances of {[IndividualProduct]}</li><li>A Digital Link that contains a lot number (AI <code>10</code>) should be annotated as {[SomeProduct]} if only products from that lot are sold, or {[IndividualProduct]} if there is only a specific product.</li><li>A Digital Link that contains a global model number (AI <code>8013</code>)  should be attached to a {[Product]} or a {[ProductModel]}.</li></ul> Other item types should be adapted similarly.
+  /// The <a href="https://www.gs1.org/standards/gs1-digital-link">GS1 digital link</a> associated with the object. This URL should conform to the particular requirements of digital links. The link should only contain the Application Identifiers (AIs) that are relevant for the entity being annotated, for instance a {[Product]} or an {[Organization]}, and for the correct granularity. In particular, for products:<ul><li>A Digital Link that contains a serial number (AI <code>21</code>) should only be present on instances of {[IndividualProduct]}</li><li>A Digital Link that contains a lot number (AI <code>10</code>) should be annotated as {[SomeProducts]} if only products from that lot are sold, or {[IndividualProduct]} if there is only a specific product.</li><li>A Digital Link that contains a global model number (AI <code>8013</code>) should be attached to a {[Product]} or a {[ProductModel]}.</li></ul> Other item types should be adapted similarly.
   ///
   /// Can be used on: https://schema.org/Offer, https://schema.org/Organization, https://schema.org/Place, https://schema.org/Product
   ///
@@ -15628,7 +15748,7 @@ class Schema {
   /// “maxValue”: 7500,
   /// "unitCode": "USD"
   /// }
-  /// <p>{[QuantitivateValue]} can also be used for percentage amounts. In such cases, value is used to represent the incentive’s percentage, while maxValue represents a limit (if one exists) to that incentive. The unitCode should be 'P1' and the unitText should be '%', while valueReference should be used for holding the currency type. For example, "You can claim up to 30% of the total cost of installation, up to a maximum of $7,500" would be:</p>
+  /// <p>{[QuantitativeValue]} can also be used for percentage amounts. In such cases, value is used to represent the incentive’s percentage, while maxValue represents a limit (if one exists) to that incentive. The unitCode should be 'P1' and the unitText should be '%', while valueReference should be used for holding the currency type. For example, "You can claim up to 30% of the total cost of installation, up to a maximum of $7,500" would be:</p>
   /// {
   /// "@type": "QuantitativeValue",
   /// "value": 30,
@@ -16329,6 +16449,14 @@ class Schema {
   /// Can be used on: https://schema.org/MolecularEntity
   ///
   static const iupacName = IriTerm('https://schema.org/iupacName');
+
+  /// IRI for schema:jobDuration [Expects: https://schema.org/Duration, https://schema.org/QuantitativeValue]
+  ///
+  /// The expected duration of an employment offer as advertised by the employer. Relevant for job postings that have a clearly defined period in mind such as seasonal work, substitutes for maternal leave or any other temporary employment.
+  ///
+  /// Can be used on: https://schema.org/JobPosting
+  ///
+  static const jobDuration = IriTerm('https://schema.org/jobDuration');
 
   /// IRI for schema:jobImmediateStart [Expects: https://schema.org/Boolean]
   ///
@@ -18044,7 +18172,7 @@ class Schema {
 
   /// IRI for schema:orderPercentage [Expects: https://schema.org/Number]
   ///
-  /// Value in the range [0.0 ; 1.0] representing the fraction of the value of the order that is charged as shipping cost.
+  /// Value representing the fraction of the value of the order that is charged as shipping cost. Example: 0.10 would mean shipping rate is 10% of the total order value.
   ///
   /// Can be used on: https://schema.org/ShippingRateSettings
   ///
@@ -18748,7 +18876,7 @@ class Schema {
   ///
   static const previousItem = IriTerm('https://schema.org/previousItem');
 
-  /// IRI for schema:previousStartDate [Expects: https://schema.org/Date]
+  /// IRI for schema:previousStartDate [Expects: https://schema.org/Date, https://schema.org/DateTime]
   ///
   /// Used in conjunction with eventStatus for rescheduled or cancelled events. This property contains the previously scheduled start date. For rescheduled events, the startDate property should be used for the newly scheduled start date. In the (rare) case of an event that has been postponed and rescheduled multiple times, this field may be repeated.
   ///
@@ -19197,7 +19325,7 @@ class Schema {
   ///
   static const purchaseType = IriTerm('https://schema.org/purchaseType');
 
-  /// IRI for schema:qualifications [Expects: https://schema.org/EducationalOccupationalCredential, https://schema.org/Text]
+  /// IRI for schema:qualifications [Expects: https://schema.org/Credential, https://schema.org/Text]
   ///
   /// Specific qualifications required for this role or Occupation.
   ///
@@ -19353,7 +19481,7 @@ class Schema {
   ///
   /// An organization that acknowledges the validity, value or utility of a credential. Note: recognition may include a process of quality assurance or accreditation.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential
+  /// Can be used on: https://schema.org/Credential
   ///
   static const recognizedBy = IriTerm('https://schema.org/recognizedBy');
 
@@ -20951,7 +21079,7 @@ class Schema {
   ///
   static const suggestedMinAge = IriTerm('https://schema.org/suggestedMinAge');
 
-  /// IRI for schema:suitableForDiet [Expects: https://schema.org/RestrictedDiet]
+  /// IRI for schema:suitableForDiet [Expects: https://schema.org/Diet, https://schema.org/RestrictedDiet]
   ///
   /// Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.
   ///
@@ -21694,13 +21822,13 @@ class Schema {
   ///
   /// The duration of validity of a permit or similar thing.
   ///
-  /// Can be used on: https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validFor = IriTerm('https://schema.org/validFor');
 
   /// IRI for schema:validForMemberTier [Expects: https://schema.org/MemberProgramTier]
   ///
-  /// The membership program tier an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
+  /// The membership program tier(s) an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
   ///
   /// Can be used on: https://schema.org/MerchantReturnPolicy, https://schema.org/Offer, https://schema.org/OfferShippingDetails, https://schema.org/PriceSpecification, https://schema.org/ShippingService
   ///
@@ -21720,7 +21848,7 @@ class Schema {
   ///
   /// The geographic area where the item is valid. Applies for example to a {[Permit]}, a {[Certification]}, or an {[EducationalOccupationalCredential]}.
   ///
-  /// Can be used on: https://schema.org/Certification, https://schema.org/EducationalOccupationalCredential, https://schema.org/Permit
+  /// Can be used on: https://schema.org/Certification, https://schema.org/Credential, https://schema.org/Permit
   ///
   static const validIn = IriTerm('https://schema.org/validIn');
 
@@ -21836,7 +21964,7 @@ class Schema {
 
   /// IRI for schema:vatID [Expects: https://schema.org/Text]
   ///
-  /// The Value-added Tax ID of the organization or person.
+  /// The value-added Tax ID of the organization or person with national prefix (for example IT123456789). Can also be described as {[iso6523Code]} with proper prefix.
   ///
   /// Can be used on: https://schema.org/Organization, https://schema.org/Person
   ///
@@ -22046,7 +22174,7 @@ class Schema {
 
   /// IRI for schema:weightPercentage [Expects: https://schema.org/Number]
   ///
-  /// Value in the range [0.0 ; 1.0] representing the fraction of the weight that is used to compute the shipping price.
+  /// Value representing the fraction of the weight that is used to compute the shipping price. Example: 0.10 and a shipping weight of 15kg would add $1.5 to the order price, where the $ is the currency of the order.
   ///
   /// Can be used on: https://schema.org/ShippingRateSettings
   ///
@@ -22812,7 +22940,7 @@ class Schema {
   ///
   /// For example, if {[variableMeasured]} is: molecule concentration, {[measurementTechnique]} could be: "mass spectrometry" or "nmr spectroscopy" or "colorimetry" or "immunofluorescence". If the {[variableMeasured]} is "depression rating", the {[measurementTechnique]} could be "Zung Scale" or "HAM-D" or "Beck Depression Inventory".
   ///
-  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMetholdEnumeration]}.
+  /// If there are several {[variableMeasured]} properties recorded for some given data object, use a {[PropertyValue]} for each {[variableMeasured]} and attach the corresponding {[measurementTechnique]}. The value can also be from an enumeration, organized as a {[MeasurementMethodEnum]}.
   ///
   /// Can be used on: https://schema.org/DataCatalog, https://schema.org/DataDownload, https://schema.org/Dataset, https://schema.org/Observation, https://schema.org/PropertyValue, https://schema.org/StatisticalVariable
   ///

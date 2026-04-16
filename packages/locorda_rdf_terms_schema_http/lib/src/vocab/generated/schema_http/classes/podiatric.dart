@@ -141,7 +141,7 @@ class SchemaHttpPodiatric {
 
   /// companyRegistration [Expects: http://schema.org/Certification]
   ///
-  /// The official registration number of a business including the organization that issued it such as Company House or Chamber of Commerce.
+  /// The official registration information of a business including the organization that issued it such as Company House or Chamber of Commerce in form of a Certification.
   ///
   /// Can be used on: http://schema.org/Organization
   ///
@@ -276,6 +276,15 @@ class SchemaHttpPodiatric {
   /// Can be used on: http://schema.org/ContactPoint, http://schema.org/Organization, http://schema.org/Person, http://schema.org/Place
   ///
   static const faxNumber = IriTerm('http://schema.org/faxNumber');
+
+  /// floorLevel [Expects: http://schema.org/Text]
+  ///
+  /// The floor level for an {[Accommodation]} in a multi-storey building. Since counting
+  /// systems [vary internationally](https://en.wikipedia.org/wiki/Storey#Consecutive_number_floor_designations), the local system should be used where possible.
+  ///
+  /// Can be used on: http://schema.org/Accommodation, http://schema.org/LocalBusiness, http://schema.org/Residence
+  ///
+  static const floorLevel = IriTerm('http://schema.org/floorLevel');
 
   /// founders [Expects: http://schema.org/Person]
   ///
@@ -415,7 +424,7 @@ class SchemaHttpPodiatric {
   ///
   static const hasCertification = IriTerm('http://schema.org/hasCertification');
 
-  /// hasCredential [Expects: http://schema.org/EducationalOccupationalCredential]
+  /// hasCredential [Expects: http://schema.org/Credential]
   ///
   /// A credential awarded to the Person or Organization.
   ///
@@ -435,7 +444,7 @@ class SchemaHttpPodiatric {
 
   /// hasGS1DigitalLink [Expects: http://schema.org/URL]
   ///
-  /// The <a href="https://www.gs1.org/standards/gs1-digital-link">GS1 digital link</a> associated with the object. This URL should conform to the particular requirements of digital links. The link should only contain the Application Identifiers (AIs) that are relevant for the entity being annotated, for instance a {[Product]} or an {[Organization]}, and for the correct granularity. In particular, for products:<ul><li>A Digital Link that contains a serial number (AI <code>21</code>) should only be present on instances of {[IndividualProduct]}</li><li>A Digital Link that contains a lot number (AI <code>10</code>) should be annotated as {[SomeProduct]} if only products from that lot are sold, or {[IndividualProduct]} if there is only a specific product.</li><li>A Digital Link that contains a global model number (AI <code>8013</code>)  should be attached to a {[Product]} or a {[ProductModel]}.</li></ul> Other item types should be adapted similarly.
+  /// The <a href="https://www.gs1.org/standards/gs1-digital-link">GS1 digital link</a> associated with the object. This URL should conform to the particular requirements of digital links. The link should only contain the Application Identifiers (AIs) that are relevant for the entity being annotated, for instance a {[Product]} or an {[Organization]}, and for the correct granularity. In particular, for products:<ul><li>A Digital Link that contains a serial number (AI <code>21</code>) should only be present on instances of {[IndividualProduct]}</li><li>A Digital Link that contains a lot number (AI <code>10</code>) should be annotated as {[SomeProducts]} if only products from that lot are sold, or {[IndividualProduct]} if there is only a specific product.</li><li>A Digital Link that contains a global model number (AI <code>8013</code>) should be attached to a {[Product]} or a {[ProductModel]}.</li></ul> Other item types should be adapted similarly.
   ///
   /// Can be used on: http://schema.org/Offer, http://schema.org/Organization, http://schema.org/Place, http://schema.org/Product
   ///
@@ -832,7 +841,7 @@ class SchemaHttpPodiatric {
 
   /// vatID [Expects: http://schema.org/Text]
   ///
-  /// The Value-added Tax ID of the organization or person.
+  /// The value-added Tax ID of the organization or person with national prefix (for example IT123456789). Can also be described as {[iso6523Code]} with proper prefix.
   ///
   /// Can be used on: http://schema.org/Organization, http://schema.org/Person
   ///

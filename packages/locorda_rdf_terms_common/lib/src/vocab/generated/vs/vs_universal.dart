@@ -28,4 +28,20 @@ class VsUniversalProperties {
   static const term_status = IriTerm(
     'http://www.w3.org/2003/06/sw-vocab-status/ns#term_status',
   );
+
+  /// moreinfo
+  ///
+  /// more information about the status etc of a term, typically human oriented
+  ///
+  static const moreinfo = IriTerm(
+    'http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo',
+  );
+
+  /// userdocs
+  ///
+  /// human-oriented documentation, examples etc for use of this term
+  ///
+  static const userdocs = IriTerm(
+    'http://www.w3.org/2003/06/sw-vocab-status/ns#userdocs',
+  );
 }

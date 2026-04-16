@@ -72,7 +72,7 @@ class SchemaHttpPostalAddress {
 
   /// addressRegion [Expects: http://schema.org/AdministrativeArea, http://schema.org/Text]
   ///
-  /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country).
+  /// The region in which the locality is, and which is in the country. For example, California or another appropriate first-level [Administrative division](https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country) such as the Province in Italy or Region in Germany.
   ///
   /// Can be used on: http://schema.org/DefinedRegion, http://schema.org/PostalAddress
   ///

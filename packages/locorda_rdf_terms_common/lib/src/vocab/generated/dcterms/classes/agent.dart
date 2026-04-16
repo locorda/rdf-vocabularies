@@ -1430,6 +1430,16 @@ class DctermsAgent {
     'https://ref.gs1.org/voc/whatsInTheBox',
   );
 
+  /// assistant from contact vocabulary
+  ///
+  /// A person (or other agent) who is an assistant to the subject.
+  ///
+  /// Can be used on: http://xmlns.com/foaf/0.1/Agent
+  ///
+  static const contactAssistant = IriTerm(
+    'http://www.w3.org/2000/10/swap/pim/contact#assistant',
+  );
+
   /// masterWorkspace from pim vocabulary [Expects: http://www.w3.org/ns/pim/space#MasterWorkspace]
   ///
   ///

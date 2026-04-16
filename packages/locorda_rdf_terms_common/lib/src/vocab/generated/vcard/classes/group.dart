@@ -9,7 +9,7 @@ import 'package:locorda_rdf_core/core.dart';
 
 /// Group class from Vcard vocabulary
 ///
-/// Object representing a group of persons or entities. A group object will usually contain hasMember properties to specify the members of the group.
+/// Object representing a group of persons or entities.  A group object will usually contain hasMember properties to specify the members of the group.
 ///
 /// Inherits from:
 /// - Intangible (https://schema.org/Intangible)
@@ -161,7 +161,7 @@ class VcardGroup {
 
   /// hasGender
   ///
-  /// To specify the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
+  /// To specify  the sex or gender identity of the object. URIs are recommended to enable interoperable sex and gender codes to be used.
   ///
   /// Can be used on all classes in this vocabulary
   ///

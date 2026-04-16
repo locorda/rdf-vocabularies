@@ -290,7 +290,7 @@ class SchemaHttpMerchantReturnPolicy {
 
   /// validForMemberTier [Expects: http://schema.org/MemberProgramTier]
   ///
-  /// The membership program tier an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
+  /// The membership program tier(s) an Offer (or a PriceSpecification, OfferShippingDetails, or MerchantReturnPolicy under an Offer) is valid for.
   ///
   /// Can be used on: http://schema.org/MerchantReturnPolicy, http://schema.org/Offer, http://schema.org/OfferShippingDetails, http://schema.org/PriceSpecification, http://schema.org/ShippingService
   ///

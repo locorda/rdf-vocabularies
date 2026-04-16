@@ -184,6 +184,28 @@ class PimConfigurationFile {
     'http://www.w3.org/2002/07/owl#versionInfo',
   );
 
+  /// fixedResource from gen vocabulary [Expects: http://www.w3.org/2006/gen/ont#FixedResource]
+  ///
+  /// A relation between a generic resource and a fixedResource
+  /// which is an everything-specific version of it.
+  ///
+  /// Can be used on: http://www.w3.org/2006/gen/ont#InformationResource
+  ///
+  static const genFixedResource = IriTerm(
+    'http://www.w3.org/2006/gen/ont#fixedResource',
+  );
+
+  /// sameWorkAs from gen vocabulary [Expects: http://www.w3.org/2006/gen/ont#InformationResource]
+  ///
+  /// The equivalence relation linking all versions of a work,
+  /// specific or generic along various axes.
+  ///
+  /// Can be used on: http://www.w3.org/2006/gen/ont#InformationResource
+  ///
+  static const genSameWorkAs = IriTerm(
+    'http://www.w3.org/2006/gen/ont#sameWorkAs',
+  );
+
   /// accessControl from acl vocabulary [Expects: http://www.w3.org/2006/gen/ont#InformationResource]
   ///
   /// The Access Control file for this information resource.
