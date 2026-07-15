@@ -19,7 +19,7 @@ workspace:
   - packages/locorda_rdf_terms_schema_http
 
 dev_dependencies:
-  melos: ^7.3.0
+  melos: ^8.2.2
 
 melos:
   scripts:
